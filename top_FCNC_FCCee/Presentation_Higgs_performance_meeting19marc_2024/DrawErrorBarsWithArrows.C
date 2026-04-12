@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include "iostream"
+#include "TH1F.h"
+#include "TTree.h"
+#include "TROOT.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TBrowser.h"
+#include "TH2.h"
+#include "TRandom.h"
+#include "TLorentzVector.h"
+#include "TCanvas.h"
+#include "TF1.h"
+#include "TH1D.h"
+#include "TVirtualFitter.h"
+#include "TMath.h"
+#include "stdlib.h"
+#include "math.h"
+#include "TPaveText.h"
+#include <string>
+#include <vector>  
+#include "TVirtualFitter.h"
+#include "TBranch.h"
+#include <fstream>
+#include <iomanip>
+#include <algorithm>
+#include <cmath>
+#include"TGraph.h"
+#include "TFrame.h"
+#include "TAttFill.h"
+#include "TNamed.h"
+#include "TStyle.h"
+#include "TCanvas.h"
+#include "TROOT.h"
+#include "TRandom3.h"
+#include"THStack.h"
+#include "TLegend.h"
+#include "TGraphAsymmErrors.h"
+#include "TGraphErrors.h"
+#include "TLatex.h"
+#include <TCanvas.h>
+#include <TGraph.h>
+#include <TArrow.h>
+
+void DrawErrorBarsWithArrows() {
+    // Define the data points
+    const Int_t n = 7;
+    Double_t x[n] = {1, 2, 3, 4, 5, 6, 7};
+    Double_t y[n] = {2, 3, 4, 5, 6, 7, 8};
+
+    // Define the error values
+    Double_t low1dg[n] = {0.2, 0.3, 0.4, 0.3, 0.2, 0.4, 0.3};
+    Double_t up1dg[n] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+
+    // Create a canvas to draw the graph
+    TCanvas* canvas = new TCanvas("canvas", "Error Bars with Arrows", 800, 600);
+
+    // Create a TGraph to plot the data points
+    TGraph* gr1 = new TGraph(n, x, y);
+    gr1->SetMarkerStyle(20);  // Set marker style as desired
+    gr1->Draw("AP");          // Draw the graph with markers and axes
+
+    // Draw error bars with arrows
+    for (Int_t i = 0; i < n; i++) {
+        TArrow* arrow = new TArrow(x[i] - low1dg[i], y[i], x[i] + up1dg[i], y[i], 0.02, "<|");
+        arrow->SetLineWidth(1);
+        arrow->SetLineColor(kBlack);
+        arrow->Draw();
+    }
+
+    // Update the canvas
+    canvas->Update();
+}

@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {title}{Top quark FCNC anomalous couplings at the future collider FCC-ee}{1}{section*.2}%
+\contentsline {abstract}{Abstract}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{section*.3}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{2}{section*.4}%
+\contentsline {section}{\numberline {II}Theoretical framework}{4}{section*.7}%
+\contentsline {section}{\numberline {III}simulated samples}{5}{section*.8}%
+\contentsline {subsection}{\numberline {A}simulated signal samples}{6}{section*.9}%
+\contentsline {subsection}{\numberline {B}Simulated background samples}{6}{section*.10}%
+\contentsline {section}{\numberline {IV}Analysis strategy and event selection}{7}{section*.12}%
+\contentsline {subsection}{\numberline {A}Leptonic decay channel}{7}{section*.13}%
+\contentsline {subsection}{\numberline {B}Results for the leptonic analysis}{13}{section*.20}%
+\contentsline {subsection}{\numberline {C}Statistical combination of results in leptonic channel}{13}{section*.23}%
+\contentsline {subsection}{\numberline {D}Fully hadronic channel}{15}{section*.25}%
+\contentsline {subsection}{\numberline {E}Results for the fully hadronic analysis}{22}{section*.33}%
+\contentsline {subsection}{\numberline {F}Statistical combination of results in hadronic channel}{22}{section*.36}%
+\contentsline {section}{\numberline {V}Discussion and Conclusion}{23}{section*.38}%
+\contentsline {section}{\numberline {}Acknowledgments}{23}{section*.39}%
+\contentsline {section}{\numberline {}References}{24}{section*.40}%

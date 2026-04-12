@@ -1,0 +1,124 @@
+#include <stdio.h>
+#include "iostream"
+#include "TH1F.h"
+#include "TTree.h"
+#include "TROOT.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TBrowser.h"
+#include "TH2.h"
+#include "TRandom.h"
+#include "TLorentzVector.h"
+#include "TCanvas.h"
+#include "TF1.h"
+#include "TH1D.h"
+#include "TVirtualFitter.h"
+#include "TMath.h"
+#include "stdlib.h"
+#include "math.h"
+#include "TPaveText.h"
+#include <string>
+#include <vector>  
+#include "TVirtualFitter.h"
+#include "TBranch.h"
+#include <fstream>
+#include <iomanip>
+#include <algorithm>
+#include <cmath>
+#include"TGraph.h"
+#include "TFrame.h"
+#include "TAttFill.h"
+#include "TNamed.h"
+#include "TStyle.h"
+#include "TCanvas.h"
+#include "TROOT.h"
+#include "TRandom3.h"
+#include"THStack.h"
+#include "TLegend.h"
+#include "TGraphAsymmErrors.h"
+#include "TGraphErrors.h"
+#include "TLatex.h"
+void FCC_tqphoton()
+
+{
+
+   gStyle->SetOptStat(0);
+  //gROOT->Reset();
+ TCanvas  *c1 = new TCanvas("c1","gerrors2",200,10,700,500);
+ // c1->SetFillColor(42);
+ // c1->SetGridy();
+   // auto axis4 = new TGaxis(-7,-0.8,-7,0.8,1,10000,50510,"G");
+   // axis4->SetTitle("axis4");
+   // axis4->Draw();
+ 
+      // create a 2-d histogram to define the range
+   TH2F *hr = 
+     new TH2F("hr","Br(t#rightarrow q#gamma)",5,5e-16,1e-1,2,0,13);
+   hr->GetYaxis()->SetLabelOffset(1);
+   hr->GetYaxis()->SetNdivisions(10);
+   hr->SetXTitle("Br(t#rightarrow q#gamma) ");
+   hr->Draw();
+   c1->GetFrame()->SetFillColor(21);
+   c1->GetFrame()->SetBorderSize(12);
+   c1->SetLogx();
+      // create a graph with errors
+  const Int_t n = 6;
+  Double_t x[]  = {4.2e-5,1.3e-4/*,3.7e-5,9.86e-6*/,1.74e-3,1.98e-5,1.33e-4,6.14e-5};
+  Double_t y[]  = {1,3,5,7,9,11/*,13,15*/};
+   // Float_t up1dgv[]={0.19,0.15,0.033,0.0083,0.023};
+  Double_t low1dgv[]={x[0]-(5e-6),x[1]-(5e-6),x[2]-(5e-6),x[3]-(5e-6),x[4]-(1e-5),x[5]-(5e-7)/*,x[6]-(5e-6),x[7]-(5e-6)*/};
+  Double_t buf[] = {0,0,0,0,0,0,0/*,0,0*/};
+
+
+      const Int_t n2 = 1;
+  Double_t y3[] = {8};
+  Double_t x3[]={1e-1};
+  Double_t up3dgv[]={1e-1};
+  Double_t low3dgv[]={1e-16};
+
+   TGraphAsymmErrors *gr1 = new TGraphAsymmErrors(n,x,y,low1dgv,0,buf,buf);
+  // auto gr1 = new TGraphErrors(">", x, y, low1dgv, buf);
+ TGraphAsymmErrors *gr3 = new TGraphAsymmErrors(n2,x,y3,low3dgv,0,buf,buf);
+  
+   gr1->SetMarkerColor(4);
+   gr1->SetMarkerStyle(21);
+   gr1->Draw("P");
+   gr1->SetLineWidth(2);
+   gr1->SetLineColor(4);
+
+   gr3->SetMarkerColor(17);
+   gr3->SetMarkerStyle(0);
+   gr3->Draw("P,same");
+   gr3->SetLineWidth(1);
+   gr3->SetLineColor(17);
+
+     // Draw labels on the y axis
+  
+
+
+
+    TLatex *t = new TLatex();
+   t->SetTextAlign(32);
+   t->SetTextSize(0.04);
+   t->SetTextFont(72);
+   
+   char *labels[n] = {"13TeV 139 fb^{-1} ATLAS","8TeV 19.8 fb^{-1}CMS"/*,"240GeV 3 ab^{-1} FCC-ee","350GeV 3 ab^{-1} FCC-ee"*/,"100TeV 10 ab^{-1}FCC-hh","Combination","365GeV 1.5ab^{-1}FCC-ee"," 240GeV 5ab^{-1}FCC-ee "};
+   
+   // char *labels[n] = {"13TeV 139 fb^{-1} ATLAS","8TeV 19.7 fb^{-1}CMS"," 3 ab^{-1}ATLAS","FCC-ee 3 ab^{-1} ","HL-LHC","","",""};
+   for (Int_t i=0;i<n;i++) {
+      t->DrawLatex(1e-10,y[i],labels[i]);
+   }
+  
+
+  
+    c1->SaveAs("/home/user1/Dropbox/FCNC_FCCee_Full_Analysis/FCC_Physics_Workshop_Krakow_2023/PresentationKrakow_2023/tqa_compare2.pdf");
+     c1->SaveAs("/home/user1/Dropbox/FCNC_FCCee_Full_Analysis/FCC_Physics_Workshop_Krakow_2023/PresentationKrakow_2023/tqa_compare2.png");
+    
+    
+
+
+     
+    
+   
+
+}

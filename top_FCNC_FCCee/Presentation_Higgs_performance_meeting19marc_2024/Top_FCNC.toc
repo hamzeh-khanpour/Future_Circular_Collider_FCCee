@@ -1,0 +1,7 @@
+\beamer@sectionintoc {2}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {3}{Top-FCNC appearance at FCC-ee }{5}{0}{2}
+\beamer@sectionintoc {4}{Analysis strategy}{6}{0}{3}
+\beamer@subsectionintoc {4}{1}{signal selection and Background estimation}{9}{0}{3}
+\beamer@sectionintoc {5}{Results }{14}{0}{4}
+\beamer@subsectionintoc {5}{1}{Comparison with other experiments}{15}{0}{4}
+\beamer@sectionintoc {6}{Summary and Conclusion}{16}{0}{5}

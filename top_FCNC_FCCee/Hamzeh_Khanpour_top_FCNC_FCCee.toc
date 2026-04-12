@@ -1,0 +1,5 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{FCC context}{2}{0}{1}
+\beamer@sectionintoc {2}{FCNC motivation and theory}{11}{0}{2}
+\beamer@sectionintoc {3}{Signal process and analysis design}{17}{0}{3}
+\beamer@sectionintoc {4}{Results}{28}{0}{4}
