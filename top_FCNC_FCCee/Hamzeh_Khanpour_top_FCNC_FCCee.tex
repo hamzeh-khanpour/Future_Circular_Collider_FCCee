@@ -21,7 +21,12 @@
 \usepackage{xcolor}
 \usepackage{tcolorbox}
 
+\usepackage{array}
+\usepackage{booktabs}
 
+\usepackage{amsmath}
+
+\usetikzlibrary{arrows.meta,decorations.markings,decorations.pathmorphing,calc}
 \usetikzlibrary{positioning,arrows.meta,shapes.geometric,fit,calc}
 
 
@@ -138,27 +143,40 @@
 %----------------------------------------------------------------------------------------
 \begin{frame}{The FCC integrated vision: FCC-ee to FCC-hh}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.56\textwidth}
+\begin{column}{0.48\textwidth}
 \begin{itemize}
 \justifying
-\item \textbf{Stage 1: FCC-ee}: high-luminosity precision programme from the Z pole to the top threshold.
-\item \textbf{Stage 2: FCC-hh}: \(100\,\mathrm{TeV}\) hadron collider in the same civil infrastructure.
+\small
+\item Stage 1: FCC-ee: high-luminosity precision programme from the Z pole to the top threshold.
+\item Stage 2: FCC-hh: \(100\,\mathrm{TeV}\) hadron collider in the same civil infrastructure.
 \item The strength of the programme is \alert{complementarity}: absolute precision first, direct reach afterwards.
 \item FCC-ee delivers the clean benchmark measurements that calibrate and sharpen the FCC-hh physics reach.
 \end{itemize}
+
+%\takehome{
+%\justifying
+%\small
+%The FCNC study shown here is not an isolated analysis: it belongs to the %precision first stage of the wider FCC strategy.}
+\end{column}
+\begin{column}{0.48\textwidth}
+\centering
+\includegraphics[width=\linewidth]{FCC_ee_1.png}
+\end{column}
+\end{columns}
+%\begin{block}{Top-quark FCNC@FCC-ee}
+%\justifying
+%\small The FCNC study shown here is not an isolated analysis: it belongs to the precision first stage of the wider FCC strategy.
+%\end{block}
+%\refs{FCC Feasibility Study Vol.~1 (arXiv:2505.00272); local FCC image from previous FCC-ee presentation package.}
 \takehome{
 \justifying
+\small
 The FCNC study shown here is not an isolated analysis: it belongs to the precision first stage of the wider FCC strategy.}
-\end{column}
-
-\begin{column}{0.42\textwidth}
-\centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCC_image.jpg}
-\end{column}
-
-\end{columns}
-\refs{FCC Feasibility Study Vol.~1 (arXiv:2505.00272); local FCC image from previous FCC-ee presentation package.}
 \end{frame}
+
+
+
+
 
 
 
@@ -210,30 +228,56 @@ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{FCC-ee running points and physics programme overview}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.60\textwidth}
-\includegraphics[width=\linewidth]{Fig1_2505.00272.png}
+%\vspace{1.0cm}
+\begin{column}{0.40\textwidth}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{The_FCC_ee_baseline_design_luminosity}\\
+\includegraphics[width=\linewidth]{Baseline_operation_model_for_FCC_ee}
+\caption{\justifying \small FCC-ee baseline luminosity evolution and operating stages from the Z pole to the top threshold.}
+\end{figure}
 \end{column}
-\begin{column}{0.37\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{itemize}
 \justifying 
-\item The programme spans the \textbf{Z pole}, \textbf{WW threshold}, \textbf{ZH Higgs stage}, and the \textbf{top-threshold / above-threshold region}.
+\item The programme spans the Z pole, WW threshold, ZH Higgs stage, and the top-threshold \& above-threshold region. 
 \item The curve shown here is the \alert{baseline FCC-ee luminosity over 4 interaction points}.
+\vspace{1.0cm}
 \item For the FCNC study, the most relevant benchmarks are:
 \begin{itemize}
 \justifying 
 \item \(\sqrt{s}=240\,\mathrm{GeV}\): Higgs-factory stage,
-\item \(\sqrt{s}=365\,\mathrm{GeV}\): top / electroweak stage.
+\item \(\sqrt{s}=365\,\mathrm{GeV}\): top \& electroweak stage.
 \end{itemize}
 \justifying 
 \item Our analysis note uses the conservative internal benchmark \(5~\mathrm{ab}^{-1}\) at 240~GeV and \(1.5~\mathrm{ab}^{-1}\) at 365~GeV.
 \end{itemize}
 \end{column}
 \end{columns}
-\refs{Local screenshot of Fig.~1 from arXiv:2505.00272.}
+%\refs{Local screenshot of Fig.~1 from arXiv:2505.00272.}
 \end{frame}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{The FCC integrated vision: precision first, discovery next}
+\begin{center}
+\includegraphics[width=0.60\linewidth]{FCC_ee_2.png}
+\end{center}
+\vspace{-0.4em}
+\begin{itemize}
+\item \justifying \small The integrated FCC programme lays out a long-term post-LHC strategy for exploring fundamental interactions: its first stage, FCC-ee, provides an exceptionally clean precision environment to test the Standard Model with unprecedented accuracy and to probe subtle signs of new physics.
+\end{itemize}
+\end{frame}
+%----------------------------------------------------------------------------------------
+
 
 
 
@@ -270,6 +314,8 @@ The top-FCNC analysis presented later should be read in this broader setting: FC
 \end{tcolorbox}
 \refs{FCC PED 2025 overview; FCC Feasibility Study Vol.~1.}
 \end{frame}
+
+
 
 
 
@@ -391,16 +437,16 @@ In this logic, top FCNC is not an add-on to the FCC-ee physics case --- it is on
 \begin{itemize}
 \justifying 
 \item In the SM, top FCNC interactions are \alert{absent at tree level} and strongly suppressed at one loop by the GIM mechanism.
-\item Expected branching ratios are extraordinarily small --- many channels lie around \(10^{-12}\) or below.
+\item Expected branching ratios are extraordinarily small - many channels lie around \(10^{-12}\) or below.
 \item A measurable rate for \(t\to qV\) with \(V=\gamma,Z,H,g\) would therefore be a clear sign of physics beyond the Standard Model.
 \item Many BSM scenarios can enhance the top-FCNC rates to experimentally interesting levels.
 \end{itemize}
 \end{column}
 \begin{column}{0.43\textwidth}
 \centering
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png}\hfill
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png}\hfill
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png}
+\includegraphics[width=0.31\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png}\hfill
+\includegraphics[width=0.31\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png}\hfill
+\includegraphics[width=0.31\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png}
 \vspace{0.5em}
 \begin{tcolorbox}[colback=white,colframe=black!30]
 \small
@@ -427,18 +473,18 @@ BSM: potentially enhanced rates\\
 \item FCNC processes probe flavor, chirality and gauge structure simultaneously.
 \item At FCC-ee the signal process is especially clean because the initial state is known and the dominant hadronic clutter of hadron colliders is absent.
 \end{itemize}
+\end{column}
+\begin{column}{0.40\textwidth}
+\centering
+\includegraphics[width=\linewidth]{FCNC}
+\end{column}
+\end{columns}
+%\refs{Top-FCNC anomalous-coupling literature; internal presentation assets.}
 \begin{block}{Practical implication}
 \small 
 \justifying 
 A single-top FCNC search at FCC-ee can turn small anomalous \(tq\gamma\) and \(tqZ\) couplings into visible rate distortions with controllable backgrounds.
 \end{block}
-\end{column}
-\begin{column}{0.39\textwidth}
-\centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/FCNC_tt.png}
-\end{column}
-\end{columns}
-\refs{Top-FCNC anomalous-coupling literature; internal presentation assets.}
 \end{frame}
 
 
@@ -460,7 +506,7 @@ A single-top FCNC search at FCC-ee can turn small anomalous \(tq\gamma\) and \(t
 \includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png}
 \end{column}
 \end{columns}
-\refs{Local public-summary plot included in the analysis package (ATLAS+CMS topWG, Nov.~2023). Updateable with newer public summaries if desired.}
+%\refs{Local public-summary plot included in the analysis package (ATLAS+CMS topWG, Nov.~2023). Updateable with newer public summaries if desired.}
 \end{frame}
 
 
@@ -468,62 +514,68 @@ A single-top FCNC search at FCC-ee can turn small anomalous \(tq\gamma\) and \(t
 %----------------------------------------------------------------------------------------
 \begin{frame}{Which FCNC modes matter for FCC-ee?}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.52\textwidth}
+\begin{column}{0.55\textwidth}
 \begin{itemize}
 \justifying 
 \item In the general anomalous-coupling picture one can write vertices \(tqg\), \(tq\gamma\), \(tqZ\), and \(tqH\).
 \item For this talk we concentrate on \alert{\(tq\gamma\)} and \alert{\(tqZ\)} because they induce a clean single-top production channel in \(e^+e^-\) collisions.
 \item The light quark is taken as \(q=u,c\), but the quoted study-level results are presented in terms of the charm branching fractions \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
 \end{itemize}
+\end{column}
+\begin{column}{0.44\textwidth}
+\centering
+\includegraphics[width=0.60\linewidth]{tqgamma}
+\end{column}
+\end{columns}
+%\refs{Internal draft note and local theory figures.}
 \begin{block}{Working focus of the presentation}
 \small 
 \justifying 
 Production-level FCNC in \(e^+e^-\to tq\) followed by standard top decay, analysed in semileptonic and fully hadronic final states.
 \end{block}
-\end{column}
-\begin{column}{0.44\textwidth}
-\centering
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/vertex1.png}\hfill
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/vertex2.png}\hfill
-\includegraphics[width=0.30\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/vertex3.png}
-\vspace{0.4em}
-\includegraphics[width=0.95\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/lfcnc.png}
-\end{column}
-\end{columns}
-\refs{Internal draft note and local theory figures.}
 \end{frame}
 
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{Effective-field-theory / effective-Lagrangian framework}
+\begin{frame}{Effective-field-theory \& effective-Lagrangian framework}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.60\textwidth}
+\begin{column}{\textwidth}
 \small
 \justifying 
 The most general FCNC effective interaction used in the study can be written as
 \[
-\mathcal{L}_{\mathrm{FCNC}} = \sum_{q=u,c}\Bigg[\frac{g_s}{2m_t}\,\bar q\lambda^a\sigma^{\mu\nu}(\zeta^L_{qt}P_L+\zeta^R_{qt}P_R)tG^a_{\mu\nu}
--\frac{1}{\sqrt2}\bar q(\eta^L_{qt}P_L+\eta^R_{qt}P_R)tH
-\]
-\[
-\qquad\qquad -\frac{g_W}{2c_W}\bar q\gamma^\mu(X^L_{qt}P_L+X^R_{qt}P_R)tZ_\mu
-+\frac{g_W}{4c_Wm_Z}\bar q\sigma^{\mu\nu}(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R)tZ_{\mu\nu}
-+\frac{e}{2m_t}\bar q\sigma^{\mu\nu}(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R)tA_{\mu\nu}\Bigg]+\mathrm{h.c.}
+\begin{aligned}
+\mathcal{L}_{\mathrm{FCNC}}
+= \sum_{q=u,c}\Bigg[
+&\frac{g_s}{2m_t}\,\bar q \lambda^a \sigma^{\mu\nu}
+(\zeta^L_{qt}P_L+\zeta^R_{qt}P_R)tG^a_{\mu\nu} \\[0.3em]
+&-\frac{1}{\sqrt2}\,\bar q(\eta^L_{qt}P_L+\eta^R_{qt}P_R)tH
+\\[0.3em]
+&-\frac{g_W}{2c_W}\,\bar q\gamma^\mu
+(X^L_{qt}P_L+X^R_{qt}P_R)tZ_\mu \\[0.3em] 
+&+\frac{g_W}{4c_Wm_Z}\,\bar q\sigma^{\mu\nu}
+(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R)tZ_{\mu\nu}
+\\[0.3em]
+&+\frac{e}{2m_t}\,\bar q\sigma^{\mu\nu}
+(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R)tA_{\mu\nu}
+\Bigg]+\mathrm{h.c.}
+\end{aligned}
 \]
 \vspace{-0.6em}
 \begin{itemize}
 \justifying 
-\item In the main talk we only need the \alert{\(tq\gamma\)} and \alert{\(tqZ\)} pieces.
+%\item In the main talk we only need the \alert{\(tq\gamma\)} and \alert{\(tqZ\)} pieces.
 \item The analysis sets limits on couplings and then translates them into branching-ratio sensitivities.
 \end{itemize}
 \end{column}
-\begin{column}{0.36\textwidth}
+\hspace{-2.5cm}
+\begin{column}{0.30\textwidth}
 \centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/lfcnc.png}
+\includegraphics[width=\linewidth]{FCNC} 
 \end{column}
 \end{columns}
-\refs{Internal draft note Eq.~(1); Aguilar-Saavedra, Nucl. Phys. B812 (2009) 181.}
+\refs{Aguilar-Saavedra, Nucl. Phys. B812 (2009) 181.}
 \end{frame}
 
 
@@ -564,7 +616,7 @@ Final states analysed:\\[0.2em]
 \end{tcolorbox}
 \end{column}
 \end{columns}
-\refs{Internal draft note, theoretical framework and sample definition.}
+%\refs{Internal draft note, theoretical framework and sample definition.}
 \end{frame}
 
 
@@ -574,13 +626,13 @@ Final states analysed:\\[0.2em]
 
 \begin{frame}{Signal process at FCC-ee: single-top production from \texorpdfstring{$tq\gamma$ and $tqZ$}{tqgamma and tqZ}}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.48\textwidth}
-\centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/feyn1_SM_ee.png}
-\vspace{0.4em}
-\includegraphics[width=0.92\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/Feyn.png}
-\end{column}
-\begin{column}{0.48\textwidth}
+%\begin{column}{0.48\textwidth}
+%\centering
+%\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/feyn1_SM_ee.png}
+%\vspace{0.4em}
+%\includegraphics[width=0.92\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/Feyn.png}
+%\end{column}
+\begin{column}{\textwidth}
 \begin{itemize}
 \justifying 
 \item The FCNC interaction appears at the \alert{production level}: \(e^+e^-\to \gamma/Z \to tq\) and charge-conjugate channels.
@@ -596,7 +648,7 @@ Final states analysed:\\[0.2em]
 \end{itemize}
 \end{column}
 \end{columns}
-\refs{Internal note signal definition and local signal-process figures.}
+%\refs{Internal note signal definition and local signal-process figures.}
 \end{frame}
 
 
@@ -668,7 +720,7 @@ The same signal hypothesis is tested at both energies, but the optimal selection
 \end{itemize}
 \end{column}
 \end{columns}
-\refs{Internal draft note; local workflow concept adapted to AGH style.}
+%\refs{Internal draft note; local workflow concept adapted to AGH style.}
 \end{frame}
 
 
@@ -713,11 +765,86 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 %----------------------------------------------------------------------------------------
 \begin{frame}{Event topology: semileptonic channel}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.46\textwidth}
-\centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/Feyn.png}
+%\documentclass[tikz,border=2pt]{standalone}
+\begin{column}{0.40\textwidth}
+\begin{tikzpicture}[
+		x=0.40cm,
+		y=0.40cm,
+		line cap=round,
+		line join=round,
+		fermion/.style={
+			draw=black,
+			line width=0.85pt,
+			postaction={decorate},
+			decoration={
+				markings,
+				mark=at position 0.58 with {\arrow{Latex[length=4.0mm,width=3.2mm]}}
+			}
+		},
+		photon/.style={
+			draw=black,
+			line width=0.85pt,
+			decorate,
+			decoration={snake,amplitude=2.3pt,segment length=8.0pt}
+		}
+		]
+		
+		% background
+		\fill[gray!12] (-3.95,-4.95) rectangle (13.65,5.55);
+		
+		% key vertices
+		\coordinate (L)  at (0.00, 0.00);
+		\coordinate (C)  at (5.15, 0.03);
+		\coordinate (T)  at (8.18, 2.16);
+		\coordinate (Wv) at (10.55, 1.78);
+		
+		% external endpoints
+		\coordinate (em) at (-3.55, 4.35);
+		\coordinate (ep) at (-3.62,-4.15);
+		\coordinate (q)  at (8.03,-4.35);
+		\coordinate (b)  at (7.32, 5.32);
+		\coordinate (nu) at (13.08, 4.42);
+		\coordinate (lp) at (13.02,-0.78);
+		
+		% left incoming legs
+		\draw[fermion] (em) -- (L);
+		\draw[fermion] (L) -- (ep);
+		
+		% photon
+		\draw[photon] (L) -- (C);
+		
+		% anomalous FCNC vertex
+		\filldraw[fill=red,draw=blue,line width=1.25pt] (C) circle (0.19);
+		
+		% top and anti-u,c lines
+		\draw[fermion] (C) -- (T);
+		\draw[fermion] (q) -- (C);
+		
+		% top decay
+		\draw[fermion] (T) -- (b);
+		\draw[photon]  (T) -- (Wv);
+		
+		% W decay products
+		\draw[fermion] (Wv) -- (nu);
+		\draw[fermion] (lp) -- (Wv);
+		
+		% labels
+		\node at (-1.35, 3.35) {$e^{-}$};
+		\node at (-1.28,-3.48) {$e^{+}$};
+		
+		\node at (2.15, 0.95) {$\gamma$ ; Z};
+		
+		\node at (6.62, 1.98) {$t$};
+		\node at (6.95,-3.52) {$\bar u,\bar c$};
+		
+		\node at (7.85, 4.58) {$b$};
+		\node at (9.47, 2.92) {$W$};
+		
+		\node at (12.32, 4.08) {$\nu_l$};
+		\node at (11.96,-0.82) {$l^{+}$};
+\end{tikzpicture}
 \end{column}
-\begin{column}{0.50\textwidth}
+\begin{column}{0.40\textwidth}
 \begin{block}{Signal signature}
 \begin{itemize}
 \justifying 
@@ -727,14 +854,15 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 \item one b-tagged jet and one energetic light jet.
 \end{itemize}
 \end{block}
+\end{column}
+\end{columns}
+\vspace{0.5cm}
 \begin{itemize}
 \justifying 
 \item Electron and muon channels are analysed separately and later statistically combined.
 \item The reconstructed top mass, W mass, jet momenta, missing energy and angular observables provide the main discrimination power.
 \end{itemize}
-\end{column}
-\end{columns}
-\refs{Internal note, leptonic-channel definition; local semileptonic topology figure.}
+%\refs{Internal note, leptonic-channel definition; local semileptonic topology figure.}
 \end{frame}
 
 
@@ -742,11 +870,85 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 %----------------------------------------------------------------------------------------
 \begin{frame}{Event topology: fully hadronic channel}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.46\textwidth}
-\centering
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/had_tq.png}
+\begin{column}{0.40\textwidth}
+	\begin{tikzpicture}[
+		x=0.40cm,
+		y=0.40cm,
+		line cap=round,
+		line join=round,
+		fermion/.style={
+			draw=black,
+			line width=0.85pt,
+			postaction={decorate},
+			decoration={
+				markings,
+				mark=at position 0.58 with {\arrow{Latex[length=4.0mm,width=3.2mm]}}
+			}
+		},
+		photon/.style={
+			draw=black,
+			line width=0.85pt,
+			decorate,
+			decoration={snake,amplitude=2.3pt,segment length=8.0pt}
+		}
+		]
+		
+		% background
+		\fill[gray!12] (-3.95,-4.95) rectangle (13.65,5.55);
+		
+		% key vertices
+		\coordinate (L)  at (0.00, 0.00);
+		\coordinate (C)  at (5.15, 0.03);
+		\coordinate (T)  at (8.18, 2.16);
+		\coordinate (Wv) at (10.55, 1.78);
+		
+		% external endpoints
+		\coordinate (em) at (-3.55, 4.35);
+		\coordinate (ep) at (-3.62,-4.15);
+		\coordinate (q)  at (8.03,-4.35);
+		\coordinate (b)  at (7.32, 5.32);
+		\coordinate (nu) at (13.08, 4.42);
+		\coordinate (lp) at (13.02,-0.78);
+		
+		% left incoming legs
+		\draw[fermion] (em) -- (L);
+		\draw[fermion] (L) -- (ep);
+		
+		% photon
+		\draw[photon] (L) -- (C);
+		
+		% anomalous FCNC vertex
+		\filldraw[fill=red,draw=blue,line width=1.25pt] (C) circle (0.19);
+		
+		% top and anti-u,c lines
+		\draw[fermion] (C) -- (T);
+		\draw[fermion] (q) -- (C);
+		
+		% top decay
+		\draw[fermion] (T) -- (b);
+		\draw[photon]  (T) -- (Wv);
+		
+		% W decay products
+		\draw[fermion] (Wv) -- (nu);
+		\draw[fermion] (lp) -- (Wv);
+		
+		% labels
+		\node at (-1.35, 3.35) {$e^{-}$};
+		\node at (-1.28,-3.48) {$e^{+}$};
+		
+		\node at (2.15, 0.95) {$\gamma$ ; Z};
+		
+		\node at (6.62, 1.98) {$t$};
+		\node at (6.95,-3.52) {$\bar u,\bar c$};
+		
+		\node at (7.85, 4.58) {$b$};
+		\node at (9.47, 2.92) {$W$};
+		
+		\node at (12.32, 4.08) {$\bar q$};
+		\node at (11.96,-0.82) {$q$};
+	\end{tikzpicture}
 \end{column}
-\begin{column}{0.50\textwidth}
+\begin{column}{0.40\textwidth}
 \begin{block}{Signal signature}
 \begin{itemize}
 \justifying 
@@ -756,14 +958,15 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 \item low missing energy, since the final state is fully visible.
 \end{itemize}
 \end{block}
+\end{column}
+\end{columns}
+\vspace{0.5cm}
 \begin{itemize}
 \justifying 
 \item The price of larger branching fraction is stronger combinatorics and a much larger \(WW\)-like background.
 \item The analysis therefore uses dedicated category logic, \(\chi^2\)-based assignment and fake-W rejection.
 \end{itemize}
-\end{column}
-\end{columns}
-\refs{Internal note, fully hadronic analysis section; local hadronic topology figure.}
+%\refs{Internal note, fully hadronic analysis section; local hadronic topology figure.}
 \end{frame}
 
 
@@ -787,7 +990,7 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 \item Exclusive \(N_{\mathrm{jet}}=2\) and \(N_{\mathrm{jet}}=4\) modes are used for the semileptonic and hadronic analyses, respectively.
 \item The choice is driven by reconstructed-top stability and by the behaviour of the b-jet candidate momentum.
 \end{itemize}
-\refs{Internal jet-algorithm study and local comparison figures.}
+%\refs{Internal jet-algorithm study and local comparison figures.}
 \end{frame}
 
 
@@ -810,7 +1013,7 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 \item The strongest semileptonic discriminants are the reconstructed \(M_{\mathrm{top}}\), \(M_W\), \(p_b\), \(p_{\mathrm{light\,jet}}\), missing energy, \(\Delta R(\ell,b)\), and global activity variables such as \(H_T\).
 \item The plots shown are representative for the electron channel at 240~GeV; the same logic is applied at 365~GeV and in the muon channel.
 \end{itemize}
-\refs{Internal draft note, leptonic reconstruction figures and Plots-240 package.}
+%\refs{Internal draft note, leptonic reconstruction figures and Plots-240 package.}
 \end{frame}
 
 
@@ -833,7 +1036,7 @@ Process & 240 GeV [fb] & 365 GeV [fb] \\
 \item The hadronic analysis reconstructs the signal candidate with a \(\chi^2\)-type assignment to the \(W\) and top hypotheses.
 \item The \alert{fake-W mass}, missing energy, angular separations and light-jet / b-jet momentum ratios are crucial for suppressing the overwhelming \(WW\) background.
 \end{itemize}
-\refs{Internal draft note, fully hadronic reconstruction figures.}
+%\refs{Internal draft note, fully hadronic reconstruction figures.}
 \end{frame}
 
 
@@ -872,7 +1075,7 @@ Main message: the fully hadronic channel starts from a harsher background enviro
 \end{tcolorbox}
 \end{column}
 \end{columns}
-\refs{Signal and background cross sections after final selections extracted from the internal draft note.}
+%\refs{Signal and background cross sections after final selections extracted from the internal draft note.}
 \end{frame}
 
 
@@ -914,7 +1117,7 @@ CL_s = \frac{CL_{s+b}}{CL_b}
 \end{tikzpicture}
 \end{column}
 \end{columns}
-\refs{Internal draft note, results sections; Higgs Combine.}
+%\refs{Internal draft note, results sections; Higgs Combine.}
 \end{frame}
 
 
@@ -964,7 +1167,7 @@ Best single-channel sensitivity in the current study comes from the \alert{combi
 \end{tcolorbox}
 \end{column}
 \end{columns}
-\refs{Internal draft note Tables IV, V, IX and X.}
+%\refs{Internal draft note Tables IV, V, IX and X.}
 \end{frame}
 
 
@@ -972,39 +1175,42 @@ Best single-channel sensitivity in the current study comes from the \alert{combi
 %----------------------------------------------------------------------------------------
 \begin{frame}{Combined sensitivities and comparison with other experiments}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.36\textwidth}
+\begin{column}{0.85\textwidth}
 \begin{block}{Combined sensitivities}
 \centering
-\begin{tabular}{@{}lcc@{}}
+\footnotesize
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.56\linewidth}
+>{\centering\arraybackslash}p{0.18\linewidth}
+>{\centering\arraybackslash}p{0.18\linewidth}@{}}
 \toprule
-Combination & \(\mathrm{Br}(t\to c\gamma)\) & \(\mathrm{Br}(t\to cZ)\) \\
+Combination & $\mathrm{Br}(t\to c\gamma)$ & $\mathrm{Br}(t\to cZ)$ \\
 \midrule
 Leptonic: energies + channels & $1.99\times10^{-5}$ & $8.19\times10^{-6}$ \\
-Hadronic: energies combined & $7.65\times10^{-5}$ & $3.28\times10^{-5}$ \\
+Hadronic: energies combined   & $7.65\times10^{-5}$ & $3.28\times10^{-5}$ \\
 \bottomrule
 \end{tabular}
 \end{block}
+\end{column}
+%\begin{column}{0.62\textwidth}
+%\begin{columns}[T,totalwidth=\linewidth]
+%\begin{column}{0.49\linewidth}
+%\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/tqa_compare2.png}
+%\end{column}
+%\begin{column}{0.49\linewidth}
+%\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/tqz_compare2.pdf}
+%\end{column}
+%\end{columns}
+%\vspace{0.25em}
+%\tinyref{Local comparison figures from the analysis package. The public comparison points correspond to the public results included in the package (legacy CMS and ATLAS values) and can be refreshed for a final conference version if needed.}
+%\end{column}
+\end{columns}
+%\refs{Internal draft note Tables VI and XI; local comparison plots included in the presentation package.}
 \vspace{0.5em}
 \begin{tcolorbox}[colback=white,colframe=black!30]
 \small
 \justifying
-These limits are study-level FCC-ee projections obtained in the official framework for the benchmark luminosities used in the internal note.
+These limits are study-level FCC-ee projections obtained in the official framework for the benchmark luminosities: $240$\,GeV@5 $ab^{-1}$ and  $364$\,GeV@1.5 $ab^{-1}$.
 \end{tcolorbox}
-\end{column}
-\begin{column}{0.62\textwidth}
-\begin{columns}[T,totalwidth=\linewidth]
-\begin{column}{0.49\linewidth}
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/tqa_compare2.png}
-\end{column}
-\begin{column}{0.49\linewidth}
-\includegraphics[width=\linewidth]{Presentation_Higgs_performance_meeting19marc_2024/tqz_compare2.pdf}
-\end{column}
-\end{columns}
-\vspace{0.25em}
-\tinyref{Local comparison figures from the analysis package. The public comparison points correspond to the public results included in the package (legacy CMS and ATLAS values) and can be refreshed for a final conference version if needed.}
-\end{column}
-\end{columns}
-\refs{Internal draft note Tables VI and XI; local comparison plots included in the presentation package.}
 \end{frame}
 
 
@@ -1015,7 +1221,7 @@ These limits are study-level FCC-ee projections obtained in the official framewo
 \begin{column}{0.54\textwidth}
 \begin{itemize}
 \justifying
-\item FCC-ee is a precision \textbf{Higgs + electroweak + top} machine, not merely a single-purpose Higgs factory.
+\item FCC-ee is a precision Higgs + electroweak + top machine, not merely a single-purpose Higgs factory.
 \item Top FCNC is one of the cleanest BSM probes in the top sector because the SM expectation is tiny and any visible signal would be genuinely new physics.
 \item In the present FCC-ee study, single-top production driven by \(tq\gamma\) and \(tqZ\) couplings can be tested in both semileptonic and fully hadronic final states within the official analysis framework.
 \item The combined semileptonic benchmark sensitivities reach the \(10^{-5}\) to \(10^{-6}\) level in branching ratio.
@@ -1034,7 +1240,7 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 \end{block}
 \end{column}
 \end{columns}
-\refs{Internal draft note and FCC-ee physics-case context.}
+%\refs{Internal draft note and FCC-ee physics-case context.}
 \end{frame}
 
 
