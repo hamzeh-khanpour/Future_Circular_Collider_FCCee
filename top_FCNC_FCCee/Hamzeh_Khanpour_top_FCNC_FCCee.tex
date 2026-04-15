@@ -464,6 +464,7 @@ FCNC transitions in the top sector are essentially absent at tree level in the S
 %----------------------------------------------------------------------------------------
 \section{{\color{white}top-quark FCNC motivation and theory}}
 
+
 \begin{frame}{FCNC in the Standard Model and beyond}
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.54\textwidth}
@@ -471,7 +472,7 @@ FCNC transitions in the top sector are essentially absent at tree level in the S
 \justifying 
 \item In the SM, top FCNC interactions are \alert{absent at tree level} and strongly suppressed at one loop by the GIM mechanism.
 \item Expected branching ratios are extraordinarily small - many channels lie around \(10^{-12}\) or below.
-\item A measurable rate for \(t\to qV\) with \(V=\gamma,Z,H,g\) would therefore be a clear sign of physics beyond the Standard Model.
+\item A measurable rate for \(t\to qV\) with \(X=\gamma,Z,H,g\) would therefore be a clear sign of physics beyond the Standard Model.
 \item Many BSM scenarios can enhance the top-FCNC rates to experimentally interesting levels.
 \end{itemize}
 \end{column}
@@ -567,7 +568,7 @@ Several top-FCNC channels are constrained at the \(10^{-5}\)–\(10^{-4}\) level
 \justifying 
 \item In the general anomalous-coupling picture one can write vertices \(tqg\), \(tq\gamma\), \(tqZ\), and \(tqH\).
 \item For this talk we concentrate on \alert{\(tq\gamma\)} and \alert{\(tqZ\)} because they induce a clean single-top production channel in \(e^+e^-\) collisions.
-\item The light quark is taken as \(q=u,c\), and the quoted study-level results are presented in terms of the branching fractions \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
+\item The light quark is taken as \(q=u,c\), and the quoted study-level results are only presented in terms of the branching fractions \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
 \end{itemize}
 \end{column}
 \begin{column}{0.44\textwidth}
@@ -597,7 +598,7 @@ Production-level FCNC in \(e^+e^-\to tq\) followed by standard top decay, analys
 The most general FCNC effective interaction used in the study can be written as
 \[
 \begin{aligned}
-\mathcal{L}_{\mathrm{FCNC}}
+\mathcal{L}_{\mathrm{FCNC}}^{tqX}
 = \sum_{q=u,c}\Bigg[
 &\frac{g_s}{2m_t}\,\bar q \lambda^a \sigma^{\mu\nu}
 (\zeta^L_{qt}P_L+\zeta^R_{qt}P_R)tG^a_{\mu\nu} \\[0.3em]
@@ -605,11 +606,11 @@ The most general FCNC effective interaction used in the study can be written as
 \\[0.3em]
 &-\frac{g_W}{2c_W}\,\bar q\gamma^\mu
 (X^L_{qt}P_L+X^R_{qt}P_R)tZ_\mu \\[0.3em] 
-&+\frac{g_W}{4c_Wm_Z}\,\bar q\sigma^{\mu\nu}
-(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R)tZ_{\mu\nu}
+&+{\color{blue}\frac{g_W}{4c_Wm_Z}\,\bar q\sigma^{\mu\nu}
+(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R)tZ_{\mu\nu}}
 \\[0.3em]
-&+\frac{e}{2m_t}\,\bar q\sigma^{\mu\nu}
-(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R)tA_{\mu\nu}
+&+{\color{red}\frac{e}{2m_t}\,\bar q\sigma^{\mu\nu}
+(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R)tA_{\mu\nu}}
 \Bigg]+\mathrm{h.c.}
 \end{aligned}
 \]
@@ -813,17 +814,19 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 %----------------------------------------------------------------------------------------
 
 
+
+
 %----------------------------------------------------------------------------------------
-\begin{frame}{Detector and simulation framework: FCCSW / IDEA / samples / backgrounds}
+\begin{frame}{Detector and simulation framework: FCCSW / IDEA / signal samples}
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.56\textwidth}
 \begin{itemize}
 \justifying 
 \item The analysis is performed in the \alert{official FCC analysis framework} with Delphes-based IDEA detector response [{\color{blue}2502.21223 [physics.ins-det]}].
-\item Signal samples are generated with \texttt{MadGraph5\_aMC@NLO} using the FCNC effective model implemented through \texttt{FeynRules}/UFO.
+\item Official signal samples are generated with \texttt{MadGraph5\_aMC@NLO} using the FCNC effective model implemented through \texttt{FeynRules}/UFO.
 \end{itemize}
 \end{column}
-\begin{column}{0.40\textwidth}
+\begin{column}{0.39\textwidth}
 \includegraphics[width=\linewidth]{FCCanalysis.jpg}
 \footnotesize
 {\color{red}https://hep-fcc.github.io/FCCAnalyses/}
@@ -931,6 +934,7 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 \item missing energy from the neutrino,
 \item exactly two exclusive jets,
 \item one b-tagged jet and one energetic light jet.
+\item Baseline selection: \(p_{\ell,j}>15\,\mathrm{GeV}\), \(\theta_{\ell,j}>13^\circ\). 
 \end{itemize}
 \end{block}
 \end{column}
@@ -1037,6 +1041,7 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 \item one energetic light jet from the FCNC vertex,
 \item one or two b-tagged jets depending on category,
 \item low missing energy, since the final state is fully visible.
+\item Baseline selection: \(p_{j}>20\,\mathrm{GeV}\),  \(\theta_j>13^\circ\). 
 \end{itemize}
 \end{block}
 \end{column}
