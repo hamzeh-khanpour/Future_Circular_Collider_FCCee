@@ -567,7 +567,7 @@ Several top-FCNC channels are constrained at the \(10^{-5}\)–\(10^{-4}\) level
 \justifying 
 \item In the general anomalous-coupling picture one can write vertices \(tqg\), \(tq\gamma\), \(tqZ\), and \(tqH\).
 \item For this talk we concentrate on \alert{\(tq\gamma\)} and \alert{\(tqZ\)} because they induce a clean single-top production channel in \(e^+e^-\) collisions.
-\item The light quark is taken as \(q=u,c\), and the quoted study-level results are presented in terms of the branching fractions \(\mathrm{Br}(t\to q\gamma)\) and \(\mathrm{Br}(t\to qZ)\).
+\item The light quark is taken as \(q=u,c\), and the quoted study-level results are presented in terms of the branching fractions \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
 \end{itemize}
 \end{column}
 \begin{column}{0.44\textwidth}
@@ -616,15 +616,20 @@ The most general FCNC effective interaction used in the study can be written as
 \vspace{-0.6em}
 \begin{itemize}
 \justifying 
-%\item In the main talk we only need the \alert{\(tq\gamma\)} and \alert{\(tqZ\)} pieces.
 \item The analysis sets limits on couplings and then translates them into branching-ratio sensitivities.
 \end{itemize}
 \end{column}
-%\hspace{-2.5cm}
-%\begin{column}{0.30\textwidth}
-%\centering
-%\includegraphics[width=\linewidth]{FCNC} 
-%\end{column}
+\begin{tikzpicture}[remember picture,overlay]
+\node at ([xshift=4.35cm,yshift=1.65cm]current page.center)
+{\includegraphics[width=1.8cm]{fcnc1}};
+\node at ([xshift=5.95cm,yshift=1.65cm]current page.center)
+{\includegraphics[width=1.8cm]{fcnc2}};
+
+\node at ([xshift=4.35cm,yshift=0.10cm]current page.center)
+{\includegraphics[width=1.8cm]{fcnc3}};
+\node at ([xshift=5.95cm,yshift=0.10cm]current page.center)
+{\includegraphics[width=1.8cm]{fcnc4}};
+\end{tikzpicture}
 \end{columns}
 \refs{Aguilar-Saavedra, Nucl. Phys. B812 (2009) 181.}
 \end{frame}
@@ -682,40 +687,48 @@ Quoted sensitivities are obtained from benchmark signal samples at
 
 
 
-
 %----------------------------------------------------------------------------------------
-\begin{frame}{Why 240 GeV and 365 GeV?}
+\begin{frame}{FCC-ee working points for the top-FCNC study: 240 GeV and 365 GeV}
+\vspace{-0.30cm}	
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.49\textwidth}
+\begin{column}{0.48\textwidth}
 \begin{exampleblock}{\(\sqrt{s}=240\,\mathrm{GeV}\)}
 \begin{itemize}
-\justifying 
-\item Natural Higgs-factory stage.
-\item Clean single-top FCNC environment.
-\item Kinematics close to threshold: strong use of mass reconstruction and momentum-balance observables.
+\small
+\justifying
+\item FCC-ee Higgs-stage working point used in the study.
+\item Clean environment for single-top FCNC searches with low hadronic activity.
+\item Event kinematics remain closer to threshold, so reconstructed masses, missing energy, and momentum-balance observables provide strong discrimination.
+\item Particularly useful for controlling backgrounds and exploiting precise event reconstruction.
 \end{itemize}
 \end{exampleblock}
 \end{column}
-\begin{column}{0.49\textwidth}
-\begin{alertblock}{\(\sqrt{s}=365\,\mathrm{GeV}\)}
-\begin{itemize}
-\justifying 
-\item Natural top / electroweak stage.
-\item Harder light-jet and reconstructed-top spectra.
-\item Direct connection to the broader FCC-ee top programme.
-\end{itemize}
-\end{alertblock}
-\end{column}
-\end{columns}
-\vspace{0.5em}
-\begin{block}{Analysis strategy consequence}
+		
+\begin{column}{0.48\textwidth} 
+\begin{alertblock}{\(\sqrt{s}=365\,\mathrm{GeV}\)} 
+\begin{itemize} 
 \small 
 \justifying 
-The same signal hypothesis is tested at both energies, but the optimal selections differ because the event kinematics evolve substantially between the Higgs stage and the top stage.
+\item FCC-ee top / electroweak working point used in the study.
+\item Larger phase space for \(e^+e^- \to tq\), with harder light-jet and reconstructed-top spectra.
+\item Stronger kinematic separation between signal and background in several observables.
+\item Directly connected to the broader FCC-ee top programme and rare-top sensitivity.
+\end{itemize} 
+\end{alertblock} 
+\end{column} 
+		  
+\end{columns} 
+	
+%\vspace{0.1em} 
+
+\begin{block}{Analysis strategy consequence} 
+\small 
+\justifying 
+The same top-FCNC signal hypothesis is tested at both FCC-ee working points, but the optimal event selections differ because the signal and background kinematics evolve significantly from the 240 GeV Higgs stage to the 365 GeV top / electroweak stage.
 \end{block}
 %\refs{Internal draft benchmark choice and event-selection sections.}
 \end{frame}
-
+%----------------------------------------------------------------------------------------
 
 
 
@@ -1139,11 +1152,11 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{Wmass-240GeV-leptonic.pdf}
+\includegraphics[width=\linewidth]{Wmass-240GeV-leptonic.jpg}
 \end{column}
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{topmass-240GeV-leptonic.pdf}
+\includegraphics[width=\linewidth]{topmass-240GeV-leptonic.jpg}
 \end{column}
 \end{columns}
 \vspace{0.2em}
@@ -1165,11 +1178,11 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{Wmass-full-240GeV.pdf}
+\includegraphics[width=\linewidth]{Wmass-full-240GeV.jpg}
 \end{column}
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{topmass-full-240GeV.pdf}
+\includegraphics[width=\linewidth]{topmass-full-240GeV.jpg}
 \end{column}
 \end{columns}
 \vspace{0.2em}
@@ -1192,11 +1205,11 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{plightjet-240GeV-leptonic.pdf}
+\includegraphics[width=\linewidth]{plightjet-240GeV-leptonic.jpg}
 \end{column}
 \begin{column}{0.47\textwidth}
 \centering
-\includegraphics[width=\linewidth]{plightjet-full-240GeV.pdf}
+\includegraphics[width=\linewidth]{plightjet-full-240GeV.jpg}
 \end{column}
 \end{columns}
 \vspace{0.2em}
@@ -1406,7 +1419,7 @@ These limits are study-level FCC-ee projections obtained in the official framewo
 %----------------------------------------------------------------------------------------
 \begin{frame}{Main physics take-away}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.54\textwidth}
+\begin{column}{0.50\textwidth}
 \begin{itemize}
 \justifying
 \item FCC-ee is a precision Higgs + electroweak + top machine, not merely a single-purpose Higgs factory.
@@ -1415,20 +1428,27 @@ These limits are study-level FCC-ee projections obtained in the official framewo
 \item The combined semileptonic benchmark sensitivities reach the \(10^{-5}\) to \(10^{-6}\) level in branching ratio.
 \end{itemize}
 \end{column}
-\begin{column}{0.42\textwidth}
-\begin{alertblock}{Best benchmark numbers}
+\begin{column}{0.45\textwidth}
+\begin{alertblock}{Best FCCee benchmark numbers}
 \centering
 \(\mathrm{Br}(t\to c\gamma) < 1.99\times10^{-5}\)\\[0.4em]
 \(\mathrm{Br}(t\to cZ) < 8.19\times10^{-6}\)
 \end{alertblock}
+\begin{alertblock}{HL-LHC (\(14\,\mathrm{TeV},\,3\,\mathrm{ab}^{-1}\))}
+\centering
+\begin{tabular}{@{}lc@{}}
+\(\mathrm{Br}(t\to c\gamma)\) & \(7.4\times10^{-5}\) \\
+\(\mathrm{Br}(t\to cZ)\)      & \(5.5\times10^{-5}\) \\
+\end{tabular}
+\refs{CMS-CR-2018-094; ATL-PHYS-PUB-2019-001.}
+\end{alertblock}
 \begin{block}{Interpretation}
 \small
-\justifying
-This is exactly the type of rare-top study that demonstrates how FCC-ee precision can be turned into genuine new-physics reach.
+\justifying 
+This is the type of rare-top study that demonstrates how FCC-ee precision can be turned into genuine new-physics reach. 
 \end{block}
 \end{column}
 \end{columns}
-%\refs{Internal draft note and FCC-ee physics-case context.}
 \end{frame}
 
 
