@@ -1,17 +1,20 @@
+
 % Hamzeh Khanpour
-% Top FCNC search at FCC-ee 
+% Top FCNC search at FCC-ee
 % From the FCC-ee precision programme to rare top interactions
 
-\documentclass[aspectratio=169,10pt,english]{beamer}
+
+\documentclass[aspectratio=1610,10pt,english]{beamer}
 
 \usepackage{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+
 \usepackage{amsmath,amssymb,bm}
+\usepackage{array}
 \usepackage{booktabs}
 \usepackage{multirow}
-\usepackage{array}
 \usepackage{graphicx}
 \usepackage{ragged2e}
 \usepackage{etoolbox}
@@ -21,107 +24,142 @@
 \usepackage{xcolor}
 \usepackage{tcolorbox}
 
-\usepackage{array}
-\usepackage{booktabs}
-
-\usepackage{amsmath}
-
 \usetikzlibrary{arrows.meta,decorations.markings,decorations.pathmorphing,calc}
-\usetikzlibrary{positioning,arrows.meta,shapes.geometric,fit,calc}
-
+\usetikzlibrary{positioning,shapes.geometric,fit}
 
 \makeatletter
-
 \patchcmd{\itemize}{\raggedright}{\justifying}{}{}
 \patchcmd{\beamer@enum@}{\raggedright}{\justifying}{}{}
 \patchcmd{\@@description}{\raggedright}{\justifying}{}{}
 \makeatother
 
-
-
 \mode<beamer>{
-    \definecolor{links}{HTML}{2A1B81}
-    \hypersetup{pdfpagemode=UseNone,colorlinks=true,linkcolor=links,urlcolor=links,citecolor=links}
-    \usetheme[parttitle=rightfooter]{AGH}
+	\definecolor{links}{HTML}{2A1B81}
+	\hypersetup{
+		pdfpagemode=FullScreen,
+		colorlinks=true,
+		linkcolor=links,
+		urlcolor=links,
+		citecolor=links
+	}
+	\usetheme[parttitle=rightfooter]{AGH}
 }
 
 
+%\setbeamercolor{title in head/foot}{fg=white}
+%\setbeamercolor{author in head/foot}{fg=white}
+%\setbeamercolor{date in head/foot}{fg=white}
+%\setbeamercolor{part title}{fg=white}
 
-\graphicspath{{./}{Presentation_Higgs_performance_meeting19marc_2024/}{Presentation_Higgs_performance_meeting19marc_2024/240GeV-leptonic/}{Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/}{Presentation_Higgs_performance_meeting19marc_2024/365GeV-leptonic/}{Presentation_Higgs_performance_meeting19marc_2024/365GeV-fullhadronic/}{Presentation_Higgs_performance_meeting19marc_2024/Plots-240/}{Presentation_Higgs_performance_meeting19marc_2024/Plots-365/}{top_FCNC_FCCee_draft/}{top_FCNC_FCCee_draft/images/}{top_FCNC_FCCee_draft/Jet-Algorithm/}{top_FCNC_FCCee_draft/240GeV-leptonic/}{top_FCNC_FCCee_draft/240GeV-fullhadonic/}{top_FCNC_FCCee_draft/365GeV-leptonic/}{top_FCNC_FCCee_draft/365GeV-fullhadronic/}{PresentationKrakow_2023/}}
 
-
+\graphicspath{
+	{./}
+	{Presentation_Higgs_performance_meeting19marc_2024/}
+	{Presentation_Higgs_performance_meeting19marc_2024/240GeV-leptonic/}
+	{Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/}
+	{Presentation_Higgs_performance_meeting19marc_2024/365GeV-leptonic/}
+	{Presentation_Higgs_performance_meeting19marc_2024/365GeV-fullhadronic/}
+	{Presentation_Higgs_performance_meeting19marc_2024/Plots-240/}
+	{Presentation_Higgs_performance_meeting19marc_2024/Plots-365/}
+	{top_FCNC_FCCee_draft/}
+	{top_FCNC_FCCee_draft/images/}
+	{top_FCNC_FCCee_draft/Jet-Algorithm/}
+	{top_FCNC_FCCee_draft/240GeV-leptonic/}
+	{top_FCNC_FCCee_draft/240GeV-fullhadonic/}
+	{top_FCNC_FCCee_draft/365GeV-leptonic/}
+	{top_FCNC_FCCee_draft/365GeV-fullhadronic/}
+	{PresentationKrakow_2023/}
+}
 
 \setbeamertemplate{navigation symbols}{}
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.15}
 
-
-
 \newcommand{\placeholdergraphic}[2]{%
-\begin{center}
-\setlength{\fboxsep}{6pt}%
-\fbox{\begin{minipage}[c][#2][c]{0.94\linewidth}
-\centering\textbf{Placeholder for official screenshot}\\[0.5ex]
-\footnotesize #1
-\end{minipage}}
-\end{center}}
-
-
+	\begin{center}
+		\setlength{\fboxsep}{6pt}%
+		\fbox{%
+			\begin{minipage}[c][#2][c]{0.94\linewidth}
+				\centering\textbf{Placeholder for official screenshot}\\[0.5ex]
+				\footnotesize #1
+		\end{minipage}}
+	\end{center}
+}
 
 \newcommand{\refs}[1]{\vspace{0.35em}{\raggedleft\scriptsize\color{gray}Refs: #1\par}}
 \newcommand{\takehome}[1]{\begin{alertblock}{Take-home message}\small #1\end{alertblock}}
 \newcommand{\smaller}[1]{{\fontsize{8}{9.3}\selectfont #1}}
 \newcommand{\tinyref}[1]{{\raggedleft\tiny\color{gray}#1\par}}
 
-
-
-
 \title[Top FCNC at FCC-ee]{Top FCNC search at FCC-ee}
 \subtitle{From the FCC-ee precision programme to rare top interactions}
-\author[Hamzeh Khanpour]{Hamzeh Khanpour} 
-%[-0.2em]
-%\scriptsize AGH University of Krakow\\[0.2em]
-%\scriptsize on behalf of the top--FCNC analysis authorship team}
-\vspace{-2.0cm}
+\author[Hamzeh Khanpour]{Hamzeh Khanpour}
 \institute[AGH]{Faculty of Physics and Applied Computer Science\\AGH University of Krakow}
-\vspace{-2.0cm}
-\date[1st FCC Polish Workshop]{1st FCC Polish Workshop;  Krak\'ow, 16 April 2026}
-
-
+\date[1st FCC Polish Workshop]{1st FCC Polish Workshop; Krak\'ow, 16 April 2026}
 
 
 
 
 \begin{document}
-	
-	
+
+
 
 %----------------------------------------------------------------------------------------
 \begin{frame}[plain]
-
+		
 \begin{tikzpicture}[remember picture,overlay]
-\node[anchor=north east,xshift=-0.5cm,yshift=-1.0cm] at (current page.north east){\includegraphics[width=3.0cm]{FCC.jpg}};
-%  \node[anchor=north west,xshift=0.35cm,yshift=-0.35cm] at (current page.north west){\includegraphics[width=1.25cm]{Presentation_Higgs_performance_meeting19marc_2024/logo_AGH.png}};
-%  \node[anchor=north,yshift=-0.35cm] at (current page.north){\includegraphics[width=1.35cm]{Presentation_Higgs_performance_meeting19marc_2024/cern_logo.png}};
-%  \node[anchor=south west,xshift=0.45cm,yshift=0.18cm] at (current page.south west){\includegraphics[width=1.35cm]{Presentation_Higgs_performance_meeting19marc_2024/infn_logo.png}};
-%  \node[anchor=south east,xshift=-0.45cm,yshift=0.18cm] at (current page.south east){\includegraphics[width=1.35cm]{Presentation_Higgs_performance_meeting19marc_2024/ipmlogo.png}};
+			\node[
+			anchor=north east,
+			xshift=-0.55cm,
+			yshift=-0.95cm
+			] at (current page.north east)
+			{\includegraphics[width=3.05cm]{FCC.jpg}};
 \end{tikzpicture}
-
+		
 \titlepage
+		
 
-\vspace*{-2.0em}
+\vspace*{-1.2em}
+		
+% \begin{center}
+% \small Collaboration with S. Tizchang, P. Azzi, M. M. Najafabadi, E. Perez
+% \end{center}
+		
+\end{frame}
+%----------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+%----------------------------------------------------------------------------------------
+\begin{frame}{FCC-ee feasibility studies from our group}
+\begin{tcolorbox}[colback=white,colframe=blue!85!black,boxrule=0.8pt,arc=2mm]
+\small
+\justifying 
+\textbf{Bottom quark forward-backward asymmetry at the future electron-positron collider FCC-ee}\\
+Marina Cobal (Udine U.), Giovanni Guerrieri (Udine U.), Hamzeh Khanpour (AGH), Giancarlo Panizzo (Udine U.), Michele Pinamonti (ICTP), Laura Pintucci (ICTP), Leonardo Toffolin (University of Trieste)\\
+{\color{blue}To evaluate how FCC-ee can clarify the long-standing $A_{FB}^{0,b}$ anomaly with the huge Z-pole data sample and much improved precision.}
+\end{tcolorbox}
 
-%\begin{center}
-%\small Collaboration with S. Tizchang, P. Azzi, M. M. Najafabadi, E. Perez
-%\end{center}
+\vspace{-0.2cm}
 
+\begin{tcolorbox}[colback=white,colframe=red!85!black,boxrule=0.8pt,arc=2mm]
+\small
+\justifying 
+\textbf{Top quark FCNC anomalous couplings at the future collider FCC-ee}\\
+Seddigheh Tizchang (IPM), Hamzeh Khanpour (AGH), Mojtaba Mohammadi Najafabadi (CERN), Patrizia Azzi (INFN Padova), Emmanuel Francois Perez (CERN)\\
+{\color{blue}To determine the FCC-ee reach for rare top-FCNC interactions, especially $tq\gamma$ and $tqZ$, in single-top production.}
+\end{tcolorbox}
 \end{frame}
 
 
 
 
+
+
 %----------------------------------------------------------------------------------------
-\section{FCC context}
+\section{{\color{white}FCC programme and physics motivation}}
 
 \begin{frame}{Why a future collider programme after the LHC?}
 \begin{itemize}
@@ -138,6 +176,9 @@
 \refs{FCC Feasibility Study Vol.~1 [{\color{blue}Eur.Phys.J.C 85 (2025) 1468}]; \\ 
 FCC Physics Opportunities, FCC CDR [{\color{blue}Eur.Phys.J.C 79 (2019) 474}].}
 \end{frame}
+
+
+
 
 
 
@@ -174,6 +215,8 @@ FCC Physics Opportunities, FCC CDR [{\color{blue}Eur.Phys.J.C 79 (2019) 474}].}
 \small
 The FCNC study shown here is not an isolated analysis: it belongs to the precision first stage of the wider FCC strategy.}
 \end{frame}
+
+
 
 
 
@@ -229,6 +272,8 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{FCC-ee running points and physics programme overview}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -265,6 +310,8 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{The FCC integrated vision: precision first, discovery next}
 \begin{center}
@@ -276,6 +323,8 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 \end{itemize}
 \end{frame}
 %----------------------------------------------------------------------------------------
+
+
 
 
 
@@ -320,6 +369,9 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 \end{tcolorbox}
 %\refs{FCC PED 2025 overview; FCC Feasibility Study Vol.~1.}
 \end{frame}
+
+
+
 
 
 %----------------------------------------------------------------------------------------
@@ -369,6 +421,9 @@ The projected sensitivities show dramatic improvements in the determination of \
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Why top and Higgs precision sharpen indirect BSM sensitivity}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -403,8 +458,11 @@ FCNC transitions in the top sector are essentially absent at tree level in the S
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
-\section{FCNC motivation and theory}
+\section{{\color{white}top-quark FCNC motivation and theory}}
 
 \begin{frame}{FCNC in the Standard Model and beyond}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -437,6 +495,9 @@ BSM: potentially enhanced rates\\
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Why top FCNC is a powerful BSM probe}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -461,6 +522,9 @@ BSM: potentially enhanced rates\\
 A single-top FCNC search at FCC-ee can turn small anomalous \(tq\gamma\) and \(tqZ\) couplings into visible rate distortions with controllable backgrounds.
 \end{block}
 \end{frame}
+
+
+
 
 
 
@@ -493,6 +557,8 @@ Several top-FCNC channels are constrained at the \(10^{-5}\)–\(10^{-4}\) level
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Which FCNC modes matter for FCC-ee?}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -516,6 +582,9 @@ Several top-FCNC channels are constrained at the \(10^{-5}\)–\(10^{-4}\) level
 Production-level FCNC in \(e^+e^-\to tq\) followed by standard top decay, analysed in semileptonic and fully hadronic final states.
 \end{block}
 \end{frame}
+
+
+
 
 
 
@@ -559,6 +628,9 @@ The most general FCNC effective interaction used in the study can be written as
 \end{columns}
 \refs{Aguilar-Saavedra, Nucl. Phys. B812 (2009) 181.}
 \end{frame}
+
+
+
 
 
 
@@ -608,6 +680,9 @@ Quoted sensitivities are obtained from benchmark signal samples at
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Why 240 GeV and 365 GeV?}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -644,8 +719,11 @@ The same signal hypothesis is tested at both energies, but the optimal selection
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
-\section{Signal process and analysis design}
+\section{{\color{white}Signal process and analysis design}}
 
 
 \begin{frame}{Signal process at FCC-ee: single-top production from \texorpdfstring{$tq\gamma$ and $tqZ$}{tqgamma and tqZ}}
@@ -674,6 +752,9 @@ The same signal hypothesis is tested at both energies, but the optimal selection
 \end{columns}
 %\refs{Internal note signal definition and local signal-process figures.}
 \end{frame}
+
+
+
 
 
 
@@ -741,6 +822,9 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 \texttt{FCCAnalyses} is the standard FCC analysis environment for detector-level phenomenology studies. It allows one to process EDM4HEP samples, reconstruct physics objects, define observables and selections, and produce the histograms and reduced ntuples used in physics sensitivity projections.
 \end{block}
 \end{frame}
+
+
+
 
 
 
@@ -846,6 +930,8 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 \end{itemize}
 %\refs{Internal note, leptonic-channel definition; local semileptonic topology figure.}
 \end{frame}
+
+
 
 
 
@@ -958,6 +1044,8 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Main background processes at 240 and 365 GeV}
 \vspace{-0.4cm}
@@ -1016,6 +1104,8 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Jet clustering and reconstruction strategy}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1042,6 +1132,8 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Semileptonic reconstruction and discriminating observables}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1062,6 +1154,8 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 \end{itemize}
 %\refs{Internal draft note, leptonic reconstruction figures and Plots-240 package.}
 \end{frame}
+
+
 
 
 
@@ -1092,6 +1186,7 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 
 
 
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Light-jet momentum as a discriminating observable}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1112,6 +1207,7 @@ top backgrounds, especially \(t\bar t\) and single-top-like contributions above 
 \end{itemize}
 %\refs{Internal draft note, fully hadronic reconstruction figures.}
 \end{frame}
+
 
 
 
@@ -1159,6 +1255,9 @@ Main message: the fully hadronic channel starts from a harsher background enviro
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Statistical procedure and limit extraction}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1201,8 +1300,11 @@ CL_s = \frac{CL_{s+b}}{CL_b}
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
-\section{Results}
+\section{{\color{white}Sensitivity estimation}}
 
 \begin{frame}{Results at 240 GeV and 365 GeV}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1251,6 +1353,9 @@ Best single-channel sensitivity in the current study comes from the \alert{combi
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Combined sensitivities and comparison with other experiments}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1295,6 +1400,9 @@ These limits are study-level FCC-ee projections obtained in the official framewo
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{Main physics take-away}
 \begin{columns}[T,totalwidth=\textwidth]
@@ -1325,8 +1433,11 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 
 
 
+
+
+
 %----------------------------------------------------------------------------------------
-\begin{frame}{Summary, physics message, and workshop outlook}
+\begin{frame}{Summary, physics message, and outlook}
 \begin{itemize}
 \justifying
 \item We placed the FCNC study inside the broader FCC-ee programme: Higgs precision, electroweak precision, and top physics provide the natural context for rare top searches.	
@@ -1336,7 +1447,7 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 \item Immediate next steps for a polished final public version are straightforward: updated official comparison plots, luminosity-scenario refresh, inclusion of systematics, and potentially multivariate optimisation.
 %\item FCC-ee rare-top studies are a natural and visible part of the emerging Polish FCC physics agenda.
 \end{itemize}
-\refs{FCC Feasibility Study Vol.~1; internal draft note.}
+%\refs{FCC Feasibility Study Vol.~1; internal draft note.}
 \end{frame}
 
 
@@ -1346,9 +1457,11 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 %=====================================================
 \begin{frame}%[plain,noframenumbering]
 \centering
-\includegraphics[width=0.85\paperwidth,height=0.85\paperheight,keepaspectratio]{Thank_You.jpg}
+\includegraphics[width=0.85\paperwidth,height=0.85\paperheight,keepaspectratio]{Thank_You_2.jpg}
 \end{frame}
 %=====================================================
+
+
 
 
 
@@ -1360,28 +1473,31 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 
 
 
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{The Higgs programme at FCC-ee: key goals and flagship observables}
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.50\textwidth}
 \begin{itemize}
-				\justifying 
-				\item The cornerstone Higgs measurement at FCC-ee is \alert{associated production} \(e^+e^-\to ZH\).
-				\item The recoil technique provides a \textbf{model-independent} measurement of the inclusive \(ZH\) rate.
-				\item This anchors absolute Higgs couplings, the Higgs width extraction, and searches for invisible or exotic decays.
-				\item The 240~GeV run point is therefore not only relevant for Higgs precision; it also provides a clean benchmark stage for rare top searches in the same machine environment.
+\justifying 
+\item The cornerstone Higgs measurement at FCC-ee is \alert{associated production} \(e^+e^-\to ZH\).
+\item The recoil technique provides a \textbf{model-independent} measurement of the inclusive \(ZH\) rate.
+\item This anchors absolute Higgs couplings, the Higgs width extraction, and searches for invisible or exotic decays.
+\item The 240~GeV run point is therefore not only relevant for Higgs precision; it also provides a clean benchmark stage for rare top searches in the same machine environment.
 \end{itemize}
 \end{column}
 \begin{column}{0.46\textwidth}
-			% \includegraphics[width=\linewidth]{Fig_HiggsRecoil_FCCPED2025.png}
-			% TODO: add screenshot of an official Higgs recoil / ZH event-rate figure from
-			% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
-			% Verify exact figure number and page before adding the screenshot.
-			\placeholdergraphic{Official FCC-ee Higgs recoil or inclusive \(ZH\) illustration. Suggested source: FCC PED 2025 PDF (official Higgs section).}{0.49\textheight}
+% \includegraphics[width=\linewidth]{Fig_HiggsRecoil_FCCPED2025.png}
+% TODO: add screenshot of an official Higgs recoil / ZH event-rate figure from
+% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
+% Verify exact figure number and page before adding the screenshot.
+\placeholdergraphic{Official FCC-ee Higgs recoil or inclusive \(ZH\) illustration. Suggested source: FCC PED 2025 PDF (official Higgs section).}{0.49\textheight}
 \end{column}
 \end{columns}
 \refs{FCC PED 2025 Higgs section; FCC Feasibility Study Vol.~1.}
 \end{frame}
+
+
 
 
 
@@ -1390,19 +1506,19 @@ This is exactly the type of rare-top study that demonstrates how FCC-ee precisio
 \begin{columns}[T,totalwidth=\textwidth]
 \begin{column}{0.50\textwidth}
 \begin{itemize}
-				\justifying 
-				\item FCC-ee targets sub-percent and in several cases per-mille-level Higgs coupling precision.
-				\item The width is constrained through a combination of inclusive \(ZH\) and exclusive decay measurements.
-				\item Rare and invisible Higgs decays are natural observables at a machine with full-event reconstruction and low hadronic background.
-				\item This ``small-deviation sensitivity'' is exactly the environment in which rare-top probes such as FCNC become compelling.
+\justifying 
+\item FCC-ee targets sub-percent and in several cases per-mille-level Higgs coupling precision.
+\item The width is constrained through a combination of inclusive \(ZH\) and exclusive decay measurements.
+\item Rare and invisible Higgs decays are natural observables at a machine with full-event reconstruction and low hadronic background.
+\item This ``small-deviation sensitivity'' is exactly the environment in which rare-top probes such as FCNC become compelling.
 \end{itemize}
 \end{column}
 \begin{column}{0.46\textwidth}
-			% \includegraphics[width=\linewidth]{Fig_HiggsPrecisionSummary_FCCPED2025.png}
-			% TODO: add screenshot of the official FCC-ee Higgs precision summary plot from
-			% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
-			% Verify exact figure number and page before adding the screenshot.
-			\placeholdergraphic{Official FCC Higgs precision summary: couplings, width, and invisible / exotic reach.}{0.49\textheight}
+% \includegraphics[width=\linewidth]{Fig_HiggsPrecisionSummary_FCCPED2025.png}
+% TODO: add screenshot of the official FCC-ee Higgs precision summary plot from
+% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
+% Verify exact figure number and page before adding the screenshot.
+\placeholdergraphic{Official FCC Higgs precision summary: couplings, width, and invisible / exotic reach.}{0.49\textheight}
 \end{column}
 \end{columns}
 \refs{FCC PED 2025; FCC Higgs performance material.}
