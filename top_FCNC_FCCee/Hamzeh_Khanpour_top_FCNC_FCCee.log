@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  14 APR 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  14 APR 2026 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,81 +1197,81 @@ Package pdftex.def Info: FCC.jpg  used on input line 118.
 
  <./FCC.jpg>]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-139.
+140.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-39.
+40.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-139.
+140.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-139.
+140.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 139.
+(Font)              <10> on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 139.
+(Font)              <7> on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 139.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 139
+(Font)              <5> on input line 140.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 140
 .
 
 (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 139
+LaTeX Font Info:    Trying to load font information for U+msb on input line 140
 .
 
 (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-39.
+40.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 139.
+(Font)              <9> on input line 140.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 139.
+(Font)              <6> on input line 140.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 140.
 
 
 
@@ -1280,41 +1280,31 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
 {d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2025/texmf
 -dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 17
-5.
+6.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 5787) in paragraph at lines 175--175
+Underfull \hbox (badness 5787) in paragraph at lines 176--176
 []\T1/lmss/m/n/9 FCC-ee de-liv-ers the clean bench-
  []
 
 <FCC_ee_1.png, id=87, 1541.76pt x 1027.84pt>
 File: FCC_ee_1.png Graphic file (type png)
 <use FCC_ee_1.png>
-Package pdftex.def Info: FCC_ee_1.png  used on input line 175.
+Package pdftex.def Info: FCC_ee_1.png  used on input line 176.
 (pdftex.def)             Requested size: 170.52736pt x 113.67441pt.
 
 
 [3
 
  <./FCC_ee_1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-[]\T1/lmss/m/n/10 dedicated top-threshold and above-
+Underfull \hbox (badness 1259) in paragraph at lines 226--226
+\T1/lmss/m/n/9 it ex-cep-tion-ally pow-er-ful for
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 227--227
-\T1/lmss/m/n/9 FCC-ee a pre-mier Higgs
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 227--227
-\T1/lmss/m/n/9 er-ful for single-top FCNC
- []
-
-
-Overfull \vbox (72.34918pt too high) detected at line 227
+Overfull \vbox (9.87698pt too high) detected at line 226
  []
 
 
@@ -1326,16 +1316,16 @@ Overfull \vbox (72.34918pt too high) detected at line 227
 File: The_FCC_ee_baseline_design_luminosity.jpg Graphic file (type jpg)
 <use The_FCC_ee_baseline_design_luminosity.jpg>
 Package pdftex.def Info: The_FCC_ee_baseline_design_luminosity.jpg  used on inp
-ut line 263.
+ut line 262.
 (pdftex.def)             Requested size: 142.10522pt x 77.838pt.
 <Baseline_operation_model_for_FCC_ee.jpg, id=146, 629.35126pt x 301.55518pt>
 File: Baseline_operation_model_for_FCC_ee.jpg Graphic file (type jpg)
 <use Baseline_operation_model_for_FCC_ee.jpg>
 Package pdftex.def Info: Baseline_operation_model_for_FCC_ee.jpg  used on input
- line 263.
+ line 262.
 (pdftex.def)             Requested size: 142.10522pt x 68.08624pt.
 
-Overfull \vbox (5.77097pt too high) detected at line 263
+Overfull \vbox (5.77097pt too high) detected at line 262
  []
 
 
@@ -1347,35 +1337,34 @@ FCC_ee.jpg>]
 <FCC_ee_2.png, id=160, 1541.76pt x 1027.84pt>
 File: FCC_ee_2.png Graphic file (type png)
 <use FCC_ee_2.png>
-Package pdftex.def Info: FCC_ee_2.png  used on input line 278.
+Package pdftex.def Info: FCC_ee_2.png  used on input line 277.
 (pdftex.def)             Requested size: 213.16325pt x 142.10869pt.
 
 
 [6
 
  <./FCC_ee_2.png (PNG copy)>]
-Underfull \hbox (badness 1430) in paragraph at lines 316--316
-\T1/lmss/m/n/9 able pre-ci-sion tests of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
 []\T1/lmss/m/n/9 Threshold and above-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 1960) in paragraph at lines 322--322
 \T1/lmss/m/n/9 threshold run-ning pro-vide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+Underfull \hbox (badness 1975) in paragraph at lines 322--322
 \T1/lmss/m/n/9 mass, width, elec-troweak
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 316--316
-\T1/lmss/m/n/9 cou-plings and rare-top ob-
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+\T1/lmss/m/n/9 cou-plings and rare-top
+ []
+
+
+Overfull \vbox (7.2758pt too high) detected at line 322
  []
 
 
@@ -1383,48 +1372,12 @@ Underfull \hbox (badness 1681) in paragraph at lines 316--316
 [7
 
 ]
-Underfull \hbox (badness 6808) in paragraph at lines 343--343
-[]\T1/lmss/m/n/10 The re-coil tech-nique pro-vides a
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 343--343
-[]\T1/lmss/m/n/10 This an-chors ab-so-lute Higgs cou-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 343.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 343.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 343.
-
-
-Overfull \hbox (2.99483pt too wide) in paragraph at lines 343--343
- [] 
- []
-
-
 
 [8
 
 ]
-Underfull \hbox (badness 2790) in paragraph at lines 368--368
-\T1/lmss/m/n/10 nat-u-ral ob-serv-ables at a ma-chine
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 368--368
-[]\T1/lmss/m/n/10 This ``small-deviation sen-si-tiv-ity'' is
- []
-
-
-Overfull \hbox (2.99483pt too wide) in paragraph at lines 368--368
- [] 
- []
-
-
-Overfull \vbox (7.70787pt too high) detected at line 368
+Overfull \hbox (25.73378pt too wide) in paragraph at lines 402--402
+[][]  
  []
 
 
@@ -1432,185 +1385,192 @@ Overfull \vbox (7.70787pt too high) detected at line 368
 [9
 
 ]
-Underfull \hbox (badness 1354) in paragraph at lines 393--393
-\T1/lmss/m/n/10 cou-plings[] and to the []top Yukawa[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]\T1/lmss/m/n/10 Together, thresh-old and above-
- []
-
-
-Underfull \hbox (badness 6792) in paragraph at lines 393--393
-\T1/lmss/m/n/10 threshold mea-sure-ments cre-ate a
- []
-
-
-Overfull \hbox (2.99483pt too wide) in paragraph at lines 393--393
- [] 
- []
-
-
-Overfull \vbox (29.7634pt too high) detected at line 393
- []
-
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=275, 641.396
+26pt x 612.2875pt>
+File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png Graphic fil
+e (type png)
+<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png>
+Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
+_SM.png  used on input line 436.
+(pdftex.def)             Requested size: 47.35611pt x 45.20018pt.
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=276, 62
+9.35126pt x 592.2125pt>
+File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png Graphi
+c file (type png)
+<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png>
+Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
+_SM_loop.png  used on input line 436.
+(pdftex.def)             Requested size: 47.35611pt x 44.5586pt.
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=277, 551
+.05875pt x 575.14874pt>
+File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png Graphic
+ file (type png)
+<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png>
+Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
+_SM_pin.png  used on input line 436.
+(pdftex.def)             Requested size: 47.35611pt x 49.41794pt.
 
 
 [10
 
-]
-Overfull \hbox (35.40747pt too wide) in paragraph at lines 427--427
-[][]  
- []
+ <./Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png> <./Presentat
+ion_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png> <./Presentation_Higg
+s_performance_meeting19marc_2024/FCNC_SM_pin.png>]
+<FCNC.jpg, id=289, 334.24875pt x 281.33679pt>
+File: FCNC.jpg Graphic file (type jpg)
+<use FCNC.jpg>
+Package pdftex.def Info: FCNC.jpg  used on input line 463.
+(pdftex.def)             Requested size: 142.10522pt x 119.61162pt.
 
-
-Overfull \vbox (66.71037pt too high) detected at line 427
+Overfull \vbox (4.73753pt too high) detected at line 463
  []
 
 
 
 [11
 
-]
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=294, 641.396
-26pt x 612.2875pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png Graphic fil
-e (type png)
-<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM.png  used on input line 461.
-(pdftex.def)             Requested size: 47.35611pt x 45.20018pt.
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=295, 62
-9.35126pt x 592.2125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png Graphi
-c file (type png)
-<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_loop.png  used on input line 461.
-(pdftex.def)             Requested size: 47.35611pt x 44.5586pt.
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=296, 551
-.05875pt x 575.14874pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png Graphic
- file (type png)
-<use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_pin.png  used on input line 461.
-(pdftex.def)             Requested size: 47.35611pt x 49.41794pt.
-
-
-[12
-
- <./Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png> <./Presentat
-ion_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png> <./Presentation_Higg
-s_performance_meeting19marc_2024/FCNC_SM_pin.png>]
-<FCNC.jpg, id=306, 334.24875pt x 281.33679pt>
-File: FCNC.jpg Graphic file (type jpg)
-<use FCNC.jpg>
-Package pdftex.def Info: FCNC.jpg  used on input line 488.
-(pdftex.def)             Requested size: 142.10522pt x 119.61162pt.
-
-Overfull \vbox (4.73753pt too high) detected at line 488
- []
-
-
-
-[13
-
  <./FCNC.jpg>]
 <Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png, i
-d=326, 569.12625pt x 509.14215pt>
+d=308, 569.12625pt x 509.14215pt>
 File: Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.p
 ng Graphic file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.pn
 g>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/fcnc
-_summarybsm_nov23.png  used on input line 510.
+_summarybsm_nov23.png  used on input line 490.
 (pdftex.def)             Requested size: 166.97662pt x 149.3799pt.
+
+Underfull \hbox (badness 1337) in paragraph at lines 490--490
+[]\T1/lmss/m/n/10 Several top-FCNC chan-nels are con-
+ []
+
+
+Overfull \vbox (2.39555pt too high) detected at line 490
+ []
+
+
+
+[12
+
+ <./Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png
+>]
+<tqgamma.jpg, id=331, 166.90929pt x 175.08267pt>
+File: tqgamma.jpg Graphic file (type jpg)
+<use tqgamma.jpg>
+Package pdftex.def Info: tqgamma.jpg  used on input line 518.
+(pdftex.def)             Requested size: 93.79234pt x 98.3849pt.
+
+
+[13
+
+ <./tqgamma.jpg>]
+Overfull \vbox (3.48056pt too high) detected at line 561
+ []
+
 
 
 [14
 
- <./Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png
->]
-<tqgamma.jpg, id=337, 166.90929pt x 175.08267pt>
-File: tqgamma.jpg Graphic file (type jpg)
-<use tqgamma.jpg>
-Package pdftex.def Info: tqgamma.jpg  used on input line 536.
-(pdftex.def)             Requested size: 93.79234pt x 98.3849pt.
+{d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+Overfull \hbox (6.86754pt too wide) in paragraph at lines 605--605
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 605--605
+[]\T1/lmss/m/n/9 Quoted sen-si-tiv-i-ties are ob-
+ []
+
 
 
 [15
 
- <./tqgamma.jpg>]
-File: FCNC.jpg Graphic file (type jpg)
-<use FCNC.jpg>
-Package pdftex.def Info: FCNC.jpg  used on input line 579.
-(pdftex.def)             Requested size: 106.58162pt x 89.70764pt.
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 642.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 642.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 642.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 642.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 642.
 
-Overfull \hbox (37.67195pt too wide) detected at line 579
-[][][][][][][][][]  [][] [][][][][][][]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 642.
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 642--642
+\T1/lmss/m/n/10 use of mass re-con-struc-tion and
  []
 
 
-Overfull \vbox (3.48056pt too high) detected at line 579
+Underfull \hbox (badness 1776) in paragraph at lines 642--642
+[]\T1/lmss/m/n/10 Direct con-nec-tion to the broader
  []
 
 
 
 [16
 
-{d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (6.86754pt too wide) in paragraph at lines 620--620
- [][] 
- []
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 676.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 676.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 676.
 
 
 
 [17
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 652.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 652.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 652.
+Overfull \hbox (21.90207pt too wide) in paragraph at lines 718--718
+ []\T1/lmss/m/n/9 MadGraph5_aMC@NLO 
+ []
 
 
 
 [18
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 687.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 687.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 687.
+Underfull \hbox (badness 1590) in paragraph at lines 743--743
+[]\T1/lmss/m/n/10 The anal-y-sis is per-formed in the []of-fi-
+ []
 
-
-Underfull \hbox (badness 5008) in paragraph at lines 687--687
-\T1/lmss/m/n/10 use of mass re-con-struc-tion and
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+43.
+(d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 743--743
+[]\T1/lmss/m/n/10 Signal sam-ples are gen-er-ated with
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 687--687
-[]\T1/lmss/m/n/10 Direct con-nec-tion to the broader
+Underfull \hbox (badness 6063) in paragraph at lines 743--743
+\T1/lmtt/m/n/10 MadGraph5_aMC@NLO \T1/lmss/m/n/10 us-ing the FCNC
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--743
+\T1/lmss/m/n/10 ef-fec-tive model im-ple-mented through
+ []
+
+<FCCanalysis.jpg, id=477, 790.23804pt x 246.06215pt>
+File: FCCanalysis.jpg Graphic file (type jpg)
+<use FCCanalysis.jpg>
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 743.
+(pdftex.def)             Requested size: 142.10522pt x 44.24797pt.
 
 
 [19
 
-]
-Overfull \hbox (142.41837pt too wide) in paragraph at lines 724--724
- [][] 
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 724--724
-[]\T1/lmss/m/n/10 fully hadronic anal-y-sis: ex-clu-sive
+ <./FCCanalysis.jpg>]
+Overfull \hbox (58.19885pt too wide) in paragraph at lines 848--848
+[][]  
  []
 
 
@@ -1618,36 +1578,8 @@ Underfull \hbox (badness 1205) in paragraph at lines 724--724
 [20
 
 ]
-Underfull \hbox (badness 1590) in paragraph at lines 761--761
-[]\T1/lmss/m/n/10 The anal-y-sis is per-formed in the []of-fi-
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-61.
-(d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 761--761
-[]\T1/lmss/m/n/10 Signal sam-ples are gen-er-ated with
- []
-
-
-Underfull \hbox (badness 6063) in paragraph at lines 761--761
-\T1/lmtt/m/n/10 MadGraph5_aMC@NLO \T1/lmss/m/n/10 us-ing the FCNC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 761--761
-\T1/lmss/m/n/10 ef-fec-tive model im-ple-mented through
- []
-
-
-Overfull \hbox (4.27402pt too wide) in paragraph at lines 761--761
- [] 
- []
-
-
-Overfull \vbox (57.93779pt too high) detected at line 761
+Overfull \hbox (58.19885pt too wide) in paragraph at lines 952--952
+[][]  
  []
 
 
@@ -1655,8 +1587,12 @@ Overfull \vbox (57.93779pt too high) detected at line 761
 [21
 
 ]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 866--866
-[][]  
+Underfull \hbox (badness 1990) in paragraph at lines 1012--1012
+[]\T1/lmss/m/n/9 The dom-i-nant ir-re-ducible back-ground is
+ []
+
+
+Overfull \vbox (0.32867pt too high) detected at line 1012
  []
 
 
@@ -1664,151 +1600,91 @@ Overfull \hbox (58.19885pt too wide) in paragraph at lines 866--866
 [22
 
 ]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 970--970
-[][]  
- []
-
+<algorithms_1.jpg, id=595, 572.56767pt x 419.85428pt>
+File: algorithms_1.jpg Graphic file (type jpg)
+<use algorithms_1.jpg>
+Package pdftex.def Info: algorithms_1.jpg  used on input line 1039.
+(pdftex.def)             Requested size: 159.86974pt x 117.22525pt.
+<algorithms_2.jpg, id=596, 576.43929pt x 410.82054pt>
+File: algorithms_2.jpg Graphic file (type jpg)
+<use algorithms_2.jpg>
+Package pdftex.def Info: algorithms_2.jpg  used on input line 1039.
+(pdftex.def)             Requested size: 159.86974pt x 113.93195pt.
 
 
 [23
 
-]
-<Presentation_Higgs_performance_meeting19marc_2024/jet_Alg_mtop.png, id=520, 49
-1.58656pt x 318.43968pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/jet_Alg_mtop.png Graphi
-c file (type png)
-<use Presentation_Higgs_performance_meeting19marc_2024/jet_Alg_mtop.png>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/jet_
-Alg_mtop.png  used on input line 994.
-(pdftex.def)             Requested size: 170.52736pt x 110.46432pt.
-<Presentation_Higgs_performance_meeting19marc_2024/Rec_scheme.png, id=521, 525.
-46312pt x 358.33875pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/Rec_scheme.png Graphic 
-file (type png)
-<use Presentation_Higgs_performance_meeting19marc_2024/Rec_scheme.png>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/Rec_
-scheme.png  used on input line 994.
-(pdftex.def)             Requested size: 170.52736pt x 116.2892pt.
+ <./algorithms_1.jpg> <./algorithms_2.jpg>]
+<Wmass-240GeV-leptonic.pdf, id=607, 569.12625pt x 388.45125pt>
+File: Wmass-240GeV-leptonic.pdf Graphic file (type pdf)
+<use Wmass-240GeV-leptonic.pdf>
+Package pdftex.def Info: Wmass-240GeV-leptonic.pdf  used on input line 1064.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
+<topmass-240GeV-leptonic.pdf, id=608, 569.12625pt x 388.45125pt>
+File: topmass-240GeV-leptonic.pdf Graphic file (type pdf)
+<use topmass-240GeV-leptonic.pdf>
+Package pdftex.def Info: topmass-240GeV-leptonic.pdf  used on input line 1064.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
 
 
 [24
 
- <./Presentation_Higgs_performance_meeting19marc_2024/jet_Alg_mtop.png> <./Pres
-entation_Higgs_performance_meeting19marc_2024/Rec_scheme.png>]
-<Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mtop_electron_240.
-pdf, id=533, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mtop_electron
-_240.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mtop_electron_
-240.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/Plot
-s-240/mtop_electron_240.pdf  used on input line 1017.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mW_electron_240.pd
-f, id=534, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mW_electron_2
-40.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mW_electron_24
-0.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/Plot
-s-240/mW_electron_240.pdf  used on input line 1017.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/Plots-240/pb_electron_240.pd
-f, id=535, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/Plots-240/pb_electron_2
-40.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/Plots-240/pb_electron_24
-0.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/Plot
-s-240/pb_electron_240.pdf  used on input line 1017.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/Plots-240/met_electron_240.p
-df, id=536, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/Plots-240/met_electron_
-240.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/Plots-240/met_electron_2
-40.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/Plot
-s-240/met_electron_240.pdf  used on input line 1017.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
+ <./Wmass-240GeV-leptonic.pdf, page is rotated 90 degrees> <./topmass-240GeV-le
+ptonic.pdf, page is rotated 90 degrees>]
+<Wmass-full-240GeV.pdf, id=704, 569.12625pt x 388.45125pt>
+File: Wmass-full-240GeV.pdf Graphic file (type pdf)
+<use Wmass-full-240GeV.pdf>
+Package pdftex.def Info: Wmass-full-240GeV.pdf  used on input line 1088.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
+<topmass-full-240GeV.pdf, id=705, 569.12625pt x 388.45125pt>
+File: topmass-full-240GeV.pdf Graphic file (type pdf)
+<use topmass-full-240GeV.pdf>
+Package pdftex.def Info: topmass-full-240GeV.pdf  used on input line 1088.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
 
 
 [25
 
- <./Presentation_Higgs_performance_meeting19marc_2024/Plots-240/mtop_electron_2
-40.pdf, page is rotated 90 degrees> <./Presentation_Higgs_performance_meeting19
-marc_2024/Plots-240/mW_electron_240.pdf, page is rotated 90 degrees> <./Present
-ation_Higgs_performance_meeting19marc_2024/Plots-240/pb_electron_240.pdf, page 
-is rotated 90 degrees> <./Presentation_Higgs_performance_meeting19marc_2024/Plo
-ts-240/met_electron_240.pdf, page is rotated 90 degrees>]
-<Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/topmass-f
-ull-240GeV.pdf, id=720, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/topm
-ass-full-240GeV.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/topma
-ss-full-240GeV.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/240G
-eV-fullhadonic/topmass-full-240GeV.pdf  used on input line 1040.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Wmass-ful
-l-240GeV.pdf, id=721, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Wmas
-s-full-240GeV.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Wmass
--full-240GeV.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/240G
-eV-fullhadonic/Wmass-full-240GeV.pdf  used on input line 1040.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/FakeWmass
--full-240GeV.pdf, id=722, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Fake
-Wmass-full-240GeV.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/FakeW
-mass-full-240GeV.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/240G
-eV-fullhadonic/FakeWmass-full-240GeV.pdf  used on input line 1040.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
-<Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Missing-E
-nergy-full-240GeV.pdf, id=723, 569.12625pt x 388.45125pt>
-File: Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Miss
-ing-Energy-full-240GeV.pdf Graphic file (type pdf)
-<use Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/Missi
-ng-Energy-full-240GeV.pdf>
-Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/240G
-eV-fullhadonic/Missing-Energy-full-240GeV.pdf  used on input line 1040.
-(pdftex.def)             Requested size: 106.58162pt x 72.74551pt.
+ <./Wmass-full-240GeV.pdf, page is rotated 90 degrees> <./topmass-full-240GeV.p
+df, page is rotated 90 degrees>]
+<plightjet-240GeV-leptonic.pdf, id=802, 569.12625pt x 388.45125pt>
+File: plightjet-240GeV-leptonic.pdf Graphic file (type pdf)
+<use plightjet-240GeV-leptonic.pdf>
+Package pdftex.def Info: plightjet-240GeV-leptonic.pdf  used on input line 1114
+.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
+<plightjet-full-240GeV.pdf, id=803, 569.12625pt x 388.45125pt>
+File: plightjet-full-240GeV.pdf Graphic file (type pdf)
+<use plightjet-full-240GeV.pdf>
+Package pdftex.def Info: plightjet-full-240GeV.pdf  used on input line 1114.
+(pdftex.def)             Requested size: 166.97662pt x 113.96976pt.
 
 
 [26
 
- <./Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/topmas
-s-full-240GeV.pdf, page is rotated 90 degrees> <./Presentation_Higgs_performanc
-e_meeting19marc_2024/240GeV-fullhadonic/Wmass-full-240GeV.pdf, page is rotated 
-90 degrees> <./Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhad
-onic/FakeWmass-full-240GeV.pdf, page is rotated 90 degrees> <./Presentation_Hig
-gs_performance_meeting19marc_2024/240GeV-fullhadonic/Missing-Energy-full-240GeV
-.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 1226) in paragraph at lines 1079--1079
-[]\T1/lmss/bx/n/9 Hadronic: \T1/lmss/m/n/9 category-dependent cuts on
+ <./plightjet-240GeV-leptonic.pdf, page is rotated 90 degrees> <./plightjet-ful
+l-240GeV.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
+[]\T1/lmss/bx/n/9 Hadronic 240&365 GeV: \T1/lmss/m/n/9 category-
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1079--1079
+Underfull \hbox (badness 1675) in paragraph at lines 1158--1158
 \T1/lmss/m/n/9 chan-nel starts from a harsher
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 1079--1079
+Underfull \hbox (badness 4036) in paragraph at lines 1158--1158
 \T1/lmss/m/n/9 pro-vides use-ful com-ple-men-tary
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1079--1079
+Underfull \hbox (badness 1430) in paragraph at lines 1158--1158
 \T1/lmss/m/n/9 sen-si-tiv-ity once topology-driven
  []
 
 
-Overfull \hbox (9.41797pt too wide) in paragraph at lines 1079--1079
+Overfull \hbox (9.41797pt too wide) in paragraph at lines 1158--1158
 [][] 
  []
 
@@ -1817,7 +1693,7 @@ Overfull \hbox (9.41797pt too wide) in paragraph at lines 1079--1079
 [27
 
 ]
-Overfull \vbox (36.93987pt too high) detected at line 1121
+Overfull \vbox (1.6103pt too high) detected at line 1200
  []
 
 
@@ -1825,12 +1701,12 @@ Overfull \vbox (36.93987pt too high) detected at line 1121
 [28
 
 ]
-Underfull \hbox (badness 3078) in paragraph at lines 1171--1171
+Underfull \hbox (badness 3078) in paragraph at lines 1250--1250
 []\T1/lmss/m/n/9 Best single-channel sen-si-tiv-ity in
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 1171--1171
+Underfull \hbox (badness 6510) in paragraph at lines 1250--1250
 \T1/lmss/m/n/9 the cur-rent study comes from
  []
 
@@ -1839,7 +1715,7 @@ Underfull \hbox (badness 6510) in paragraph at lines 1171--1171
 [29
 
 ]
-Underfull \hbox (badness 10000) detected at line 1214
+Underfull \hbox (badness 10000) detected at line 1294
 [][][][][][][][][]
  []
 
@@ -1852,7 +1728,7 @@ Underfull \hbox (badness 10000) detected at line 1214
 [31
 
 ]
-Overfull \hbox (1.38077pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (1.38077pt too wide) in paragraph at lines 1340--1340
 []\T1/lmss/m/n/10 The clean $\T1/lmss/m/sl/10 e[]e[]$ \T1/lmss/m/n/10 en-vi-ron
 -ment makes FCC-ee highly com-pet-i-tive for prob-ing anoma-
  []
@@ -1862,10 +1738,10 @@ Overfull \hbox (1.38077pt too wide) in paragraph at lines 1260--1260
 [32
 
 ]
-<Thank_You.jpg, id=1037, 1445.4pt x 916.8654pt>
+<Thank_You.jpg, id=1028, 1445.4pt x 916.8654pt>
 File: Thank_You.jpg Graphic file (type jpg)
 <use Thank_You.jpg>
-Package pdftex.def Info: Thank_You.jpg  used on input line 1270.
+Package pdftex.def Info: Thank_You.jpg  used on input line 1350.
 (pdftex.def)             Requested size: 343.13168pt x 217.65987pt.
 
 
@@ -1891,39 +1767,38 @@ changed.
 (rerunfilecheck)             Checksum: AD603591CD189D860AD7176DD5B61D6C;586.
  ) 
 Here is how much of TeX's memory you used:
- 31747 strings out of 473190
- 660067 string characters out of 5719978
- 1384125 words of memory out of 5000000
- 54275 multiletter control sequences out of 15000+600000
- 721693 words of font info for 140 fonts, out of 8000000 for 9000
+ 31800 strings out of 473190
+ 657676 string characters out of 5719978
+ 1388125 words of memory out of 5000000
+ 54327 multiletter control sequences out of 15000+600000
+ 724780 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,14584b,1391s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/texlive/2025
 /texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/texlive/2025/texmf-dist/fonts/
 type1/public/lm/lmmi12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
-mi6.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><d:/texlive
-/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><d:/texlive/2025/texmf-dist/fo
-nts/type1/public/lm/lmr10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm
-/lmr12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb><d:/texli
-ve/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><d:/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmr8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm
-/lmr9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb><d:/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb><d:/texlive/2025/texmf-dis
-t/fonts/type1/public/lm/lmss8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/publi
-c/lm/lmss9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><
-d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><d:/texlive/2025/t
-exmf-dist/fonts/type1/public/lm/lmsso12.pfb><d:/texlive/2025/texmf-dist/fonts/t
-ype1/public/lm/lmsso8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lms
-so9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/texliv
-e/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><d:/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmsy7.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/l
-m/lmsy8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><d:/tex
-live/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (33 pages, 13208349 bytes)
+mi6.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><d:/texlive
+/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/texlive/2025/texmf-dist/fo
+nts/type1/public/lm/lmr12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmr5.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb><d:/texliv
+e/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><d:/texlive/2025/texmf-dist/fo
+nts/type1/public/lm/lmr9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/
+lmss10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb><d:/tex
+live/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb><d:/texlive/2025/texmf-dis
+t/fonts/type1/public/lm/lmss9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/publi
+c/lm/lmssbx10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
+><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><d:/texlive/2025
+/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><d:/texlive/2025/texmf-dist/fonts/
+type1/public/lm/lmsso9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
+sy10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><d:/texliv
+e/2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><d:/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmsy9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/l
+m/lmtt10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (33 pages, 13514862 bytes)
 .
 PDF statistics:
- 1187 PDF objects out of 1200 (max. 8388607)
- 633 compressed objects within 7 object streams
+ 1174 PDF objects out of 1200 (max. 8388607)
+ 634 compressed objects within 7 object streams
  71 named destinations out of 1000 (max. 500000)
- 1127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
