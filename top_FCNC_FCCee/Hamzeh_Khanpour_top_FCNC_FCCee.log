@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  15 APR 2026 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  15 APR 2026 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,7 +1387,7 @@ Overfull \hbox (25.73378pt too wide) in paragraph at lines 457--457
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\color' on input line 465.
 
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=283, 641.396
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=284, 641.396
 26pt x 612.2875pt>
 File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png Graphic fil
 e (type png)
@@ -1395,7 +1395,7 @@ e (type png)
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
 _SM.png  used on input line 495.
 (pdftex.def)             Requested size: 47.35611pt x 45.20018pt.
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=284, 62
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=285, 62
 9.35126pt x 592.2125pt>
 File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png Graphi
 c file (type png)
@@ -1403,7 +1403,7 @@ c file (type png)
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
 _SM_loop.png  used on input line 495.
 (pdftex.def)             Requested size: 47.35611pt x 44.5586pt.
-<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=285, 551
+<Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=286, 551
 .05875pt x 575.14874pt>
 File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png Graphic
  file (type png)
@@ -1418,7 +1418,7 @@ _SM_pin.png  used on input line 495.
  <./Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png> <./Presentat
 ion_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png> <./Presentation_Higg
 s_performance_meeting19marc_2024/FCNC_SM_pin.png>]
-<FCNC.jpg, id=297, 334.24875pt x 281.33679pt>
+<FCNC.jpg, id=298, 334.24875pt x 281.33679pt>
 File: FCNC.jpg Graphic file (type jpg)
 <use FCNC.jpg>
 Package pdftex.def Info: FCNC.jpg  used on input line 525.
@@ -1429,7 +1429,7 @@ Package pdftex.def Info: FCNC.jpg  used on input line 525.
 
  <./FCNC.jpg>]
 <Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png, i
-d=316, 569.12625pt x 509.14215pt>
+d=317, 569.12625pt x 509.14215pt>
 File: Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.p
 ng Graphic file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.pn
@@ -1448,7 +1448,7 @@ Underfull \hbox (badness 1337) in paragraph at lines 555--555
 
  <./Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.png
 >]
-<tqgamma.jpg, id=340, 166.90929pt x 175.08267pt>
+<tqgamma.jpg, id=341, 166.90929pt x 175.08267pt>
 File: tqgamma.jpg Graphic file (type jpg)
 <use tqgamma.jpg>
 Package pdftex.def Info: tqgamma.jpg  used on input line 585.
@@ -1458,22 +1458,22 @@ Package pdftex.def Info: tqgamma.jpg  used on input line 585.
 [14
 
  <./tqgamma.jpg>]
-<fcnc1.jpg, id=362, 197.02179pt x 221.11179pt>
+<fcnc1.jpg, id=363, 197.02179pt x 221.11179pt>
 File: fcnc1.jpg Graphic file (type jpg)
 <use fcnc1.jpg>
 Package pdftex.def Info: fcnc1.jpg  used on input line 636.
 (pdftex.def)             Requested size: 51.21504pt x 57.47758pt.
-<fcnc2.jpg, id=363, 199.17268pt x 212.07803pt>
+<fcnc2.jpg, id=364, 199.17268pt x 212.07803pt>
 File: fcnc2.jpg Graphic file (type jpg)
 <use fcnc2.jpg>
 Package pdftex.def Info: fcnc2.jpg  used on input line 636.
 (pdftex.def)             Requested size: 51.21504pt x 54.5306pt.
-<fcnc3.jpg, id=364, 204.765pt x 217.24017pt>
+<fcnc3.jpg, id=365, 204.765pt x 217.24017pt>
 File: fcnc3.jpg Graphic file (type jpg)
 <use fcnc3.jpg>
 Package pdftex.def Info: fcnc3.jpg  used on input line 636.
 (pdftex.def)             Requested size: 51.21504pt x 54.3331pt.
-<fcnc4.jpg, id=365, 204.765pt x 217.24017pt>
+<fcnc4.jpg, id=366, 204.765pt x 217.24017pt>
 File: fcnc4.jpg Graphic file (type jpg)
 <use fcnc4.jpg>
 Package pdftex.def Info: fcnc4.jpg  used on input line 636.
@@ -1580,7 +1580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--840
 \T1/lmss/m/n/10 ef-fec-tive model im-ple-mented through
  []
 
-<FCCanalysis.jpg, id=489, 790.23804pt x 246.06215pt>
+<FCCanalysis.jpg, id=490, 790.23804pt x 246.06215pt>
 File: FCCanalysis.jpg Graphic file (type jpg)
 <use FCCanalysis.jpg>
 Package pdftex.def Info: FCCanalysis.jpg  used on input line 840.
@@ -1629,12 +1629,12 @@ Underfull \hbox (badness 1990) in paragraph at lines 1118--1118
 [23
 
 ]
-<algorithms_1.jpg, id=608, 572.56767pt x 419.85428pt>
+<algorithms_1.jpg, id=609, 572.56767pt x 419.85428pt>
 File: algorithms_1.jpg Graphic file (type jpg)
 <use algorithms_1.jpg>
 Package pdftex.def Info: algorithms_1.jpg  used on input line 1147.
 (pdftex.def)             Requested size: 159.86974pt x 117.22525pt.
-<algorithms_2.jpg, id=609, 576.43929pt x 410.82054pt>
+<algorithms_2.jpg, id=610, 576.43929pt x 410.82054pt>
 File: algorithms_2.jpg Graphic file (type jpg)
 <use algorithms_2.jpg>
 Package pdftex.def Info: algorithms_2.jpg  used on input line 1147.
@@ -1644,12 +1644,12 @@ Package pdftex.def Info: algorithms_2.jpg  used on input line 1147.
 [24
 
  <./algorithms_1.jpg> <./algorithms_2.jpg>]
-<Wmass-240GeV-leptonic.jpg, id=619, 647.84892pt x 461.15143pt>
+<Wmass-240GeV-leptonic.jpg, id=620, 647.84892pt x 461.15143pt>
 File: Wmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use Wmass-240GeV-leptonic.jpg>
 Package pdftex.def Info: Wmass-240GeV-leptonic.jpg  used on input line 1174.
 (pdftex.def)             Requested size: 166.97662pt x 118.85512pt.
-<topmass-240GeV-leptonic.jpg, id=620, 646.5584pt x 464.16267pt>
+<topmass-240GeV-leptonic.jpg, id=621, 646.5584pt x 464.16267pt>
 File: topmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use topmass-240GeV-leptonic.jpg>
 Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 1174.
@@ -1659,12 +1659,12 @@ Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 1174.
 [25
 
  <./Wmass-240GeV-leptonic.jpg> <./topmass-240GeV-leptonic.jpg>]
-<Wmass-full-240GeV.jpg, id=631, 646.5584pt x 465.02304pt>
+<Wmass-full-240GeV.jpg, id=632, 646.5584pt x 465.02304pt>
 File: Wmass-full-240GeV.jpg Graphic file (type jpg)
 <use Wmass-full-240GeV.jpg>
 Package pdftex.def Info: Wmass-full-240GeV.jpg  used on input line 1200.
 (pdftex.def)             Requested size: 166.97662pt x 120.09422pt.
-<topmass-full-240GeV.jpg, id=632, 644.83768pt x 456.84964pt>
+<topmass-full-240GeV.jpg, id=633, 644.83768pt x 456.84964pt>
 File: topmass-full-240GeV.jpg Graphic file (type jpg)
 <use topmass-full-240GeV.jpg>
 Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 1200.
@@ -1674,13 +1674,13 @@ Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 1200.
 [26
 
  <./Wmass-full-240GeV.jpg> <./topmass-full-240GeV.jpg>]
-<plightjet-240GeV-leptonic.jpg, id=642, 638.81519pt x 467.17393pt>
+<plightjet-240GeV-leptonic.jpg, id=643, 638.81519pt x 467.17393pt>
 File: plightjet-240GeV-leptonic.jpg Graphic file (type jpg)
 <use plightjet-240GeV-leptonic.jpg>
 Package pdftex.def Info: plightjet-240GeV-leptonic.jpg  used on input line 1227
 .
 (pdftex.def)             Requested size: 166.97662pt x 122.11104pt.
-<plightjet-full-240GeV.jpg, id=643, 640.53589pt x 468.03429pt>
+<plightjet-full-240GeV.jpg, id=644, 640.53589pt x 468.03429pt>
 File: plightjet-full-240GeV.jpg Graphic file (type jpg)
 <use plightjet-full-240GeV.jpg>
 Package pdftex.def Info: plightjet-full-240GeV.jpg  used on input line 1227.
@@ -1770,7 +1770,7 @@ Overfull \hbox (1.38077pt too wide) in paragraph at lines 1476--1476
 [33
 
 ]
-<Thank_You_2.jpg, id=794, 911.54839pt x 577.29964pt>
+<Thank_You_2.jpg, id=795, 911.54839pt x 577.29964pt>
 File: Thank_You_2.jpg Graphic file (type jpg)
 <use Thank_You_2.jpg>
 Package pdftex.def Info: Thank_You_2.jpg  used on input line 1486.
@@ -1828,16 +1828,17 @@ d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><d:/texlive/2025/t
 exmf-dist/fonts/type1/public/lm/lmsso12.pfb><d:/texlive/2025/texmf-dist/fonts/t
 ype1/public/lm/lmsso8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lms
 so9.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/texliv
-e/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><d:/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmsy7.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/l
-m/lmsy8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><d:/tex
-live/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><d:/texlive/2025/texmf-di
-st/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (34 pages, 5444344 bytes).
+e/2025/texmf-dist/fonts/type1/public/lm/lmsy5.pfb><d:/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmsy6.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/l
+m/lmsy7.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><d:/tex
+live/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><d:/texlive/2025/texmf-dis
+t/fonts/type1/public/lm/lmtt10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/publ
+ic/lm/lmtt9.pfb>
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (34 pages, 5449481 bytes).
 
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
+ 955 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
  73 named destinations out of 1000 (max. 500000)
  1424 words of extra memory for PDF output out of 10000 (max. 10000000)
 
