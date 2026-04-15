@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  15 APR 2026 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.27)  15 APR 2026 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,7 +994,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 Package: beamercolorthemeAGH 2024/02/02
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-03.
+13.
  (d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (d:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -1005,24 +1005,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./Hamzeh_Khanpour_top_FCNC_FCCee.aux)
 \openout1 = `Hamzeh_Khanpour_top_FCNC_FCCee.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1080,82 +1080,82 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 103.
+Package hyperref Info: Link coloring ON on input line 113.
 
 (./Hamzeh_Khanpour_top_FCNC_FCCee.out) (./Hamzeh_Khanpour_top_FCNC_FCCee.out)
 \@outlinefile=\write5
 \openout5 = `Hamzeh_Khanpour_top_FCNC_FCCee.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 103.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 103.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 103.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 103.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 113.
 \symnumbers=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 103.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 113.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 10
+(Font)              `pureletters' in the math version `normal' on input line 11
 3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> T1/lmss/m/it on input line 10
+(Font)                  OT1/mathkerncmss/m/sl --> T1/lmss/m/it on input line 11
 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 103.
+(Font)              `pureletters' in the math version `bold' on input line 113.
 
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/m/it on input line 1
-03.
+13.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 103.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 113.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 113.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 103.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 103.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 113.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 103.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 103.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 103.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 113.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 103.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 103.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 103.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 103.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 103.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 103.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 103.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 103.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 103.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 103
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 113
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `normal' on input lin
-e 103.
+e 113.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-103.
+113.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
 (Font)              `boldpureletters' in the math version `bold' on input line 
-103.
+113.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> T1/lmss/bx/it on input line 
-103.
+113.
 
 (d:/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1189,76 +1189,90 @@ Version: 1.6.1, Feb 2024
 <FCC.jpg, id=31, 637.38126pt x 282.05376pt>
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 128.
+Package pdftex.def Info: FCC.jpg  used on input line 138.
 (pdftex.def)             Requested size: 86.78099pt x 38.39839pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+138.
+
+(d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+38.
+
+(d:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+138.
+
+(d:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+138.
+
+(d:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 138.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 138.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 138.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 138
+.
+
+(d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 138
+.
+
+(d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 138.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+38.
+
+(d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 138.
+
 
 
 [1{d:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/texlive/202
 5/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 
  <./FCC.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-154.
-
-(d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-54.
-
-(d:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-154.
-
-(d:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-154.
-
-(d:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 154.
+(Font)              <9> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 154.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 154.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 154
-.
-
-(d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 154
-.
-
-(d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(Font)              <6> on input line 164.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 154.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 164.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 154.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 154.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-54.
-
-(d:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 164.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 154.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 164.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 154.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 154.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 164.
 
 
 
@@ -1267,21 +1281,7 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
 {d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 162.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 178.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 178.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 178.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 178.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 178.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 178.
+(hyperref)                removing `\color' on input line 172.
 
 
 
@@ -1289,27 +1289,27 @@ LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7> not available
 
 {d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{d:/texlive/2025/texmf
 -dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 21
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 22
 7.
 
 (d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 5787) in paragraph at lines 217--217
+Underfull \hbox (badness 5787) in paragraph at lines 227--227
 []\T1/lmss/m/n/9 FCC-ee de-liv-ers the clean bench-
  []
 
 <FCC_ee_1.png, id=97, 1541.76pt x 1027.84pt>
 File: FCC_ee_1.png Graphic file (type png)
 <use FCC_ee_1.png>
-Package pdftex.def Info: FCC_ee_1.png  used on input line 217.
+Package pdftex.def Info: FCC_ee_1.png  used on input line 227.
 (pdftex.def)             Requested size: 170.52736pt x 113.67441pt.
 
 
 [4
 
  <./FCC_ee_1.png (PNG copy)>]
-Underfull \hbox (badness 1259) in paragraph at lines 269--269
+Underfull \hbox (badness 1259) in paragraph at lines 279--279
 \T1/lmss/m/n/9 it ex-cep-tion-ally pow-er-ful for
  []
 
@@ -1322,13 +1322,13 @@ Underfull \hbox (badness 1259) in paragraph at lines 269--269
 File: The_FCC_ee_baseline_design_luminosity.jpg Graphic file (type jpg)
 <use The_FCC_ee_baseline_design_luminosity.jpg>
 Package pdftex.def Info: The_FCC_ee_baseline_design_luminosity.jpg  used on inp
-ut line 307.
+ut line 317.
 (pdftex.def)             Requested size: 142.10522pt x 77.838pt.
 <Baseline_operation_model_for_FCC_ee.jpg, id=155, 629.35126pt x 301.55518pt>
 File: Baseline_operation_model_for_FCC_ee.jpg Graphic file (type jpg)
 <use Baseline_operation_model_for_FCC_ee.jpg>
 Package pdftex.def Info: Baseline_operation_model_for_FCC_ee.jpg  used on input
- line 307.
+ line 317.
 (pdftex.def)             Requested size: 142.10522pt x 68.08624pt.
 
 
@@ -1339,29 +1339,29 @@ FCC_ee.jpg>]
 <FCC_ee_2.png, id=169, 1541.76pt x 1027.84pt>
 File: FCC_ee_2.png Graphic file (type png)
 <use FCC_ee_2.png>
-Package pdftex.def Info: FCC_ee_2.png  used on input line 324.
+Package pdftex.def Info: FCC_ee_2.png  used on input line 334.
 (pdftex.def)             Requested size: 213.16325pt x 142.10869pt.
 
 
 [7
 
  <./FCC_ee_2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\T1/lmss/m/n/9 Threshold and above-
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 371--371
+Underfull \hbox (badness 1960) in paragraph at lines 381--381
 \T1/lmss/m/n/9 threshold run-ning pro-vide
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 371--371
+Underfull \hbox (badness 1975) in paragraph at lines 381--381
 \T1/lmss/m/n/9 mass, width, elec-troweak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 \T1/lmss/m/n/9 cou-plings and rare-top
  []
 
@@ -1374,7 +1374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 371--371
 [9
 
 ]
-Overfull \hbox (25.73378pt too wide) in paragraph at lines 457--457
+Overfull \hbox (25.73378pt too wide) in paragraph at lines 467--467
 [][]  
  []
 
@@ -1385,7 +1385,7 @@ Overfull \hbox (25.73378pt too wide) in paragraph at lines 457--457
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 465.
+(hyperref)                removing `\color' on input line 475.
 
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=284, 641.396
 26pt x 612.2875pt>
@@ -1393,7 +1393,7 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png Graphic fil
 e (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM.png  used on input line 495.
+_SM.png  used on input line 505.
 (pdftex.def)             Requested size: 47.35611pt x 45.20018pt.
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=285, 62
 9.35126pt x 592.2125pt>
@@ -1401,7 +1401,7 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png Graphi
 c file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_loop.png  used on input line 495.
+_SM_loop.png  used on input line 505.
 (pdftex.def)             Requested size: 47.35611pt x 44.5586pt.
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=286, 551
 .05875pt x 575.14874pt>
@@ -1409,7 +1409,7 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png Graphic
  file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_pin.png  used on input line 495.
+_SM_pin.png  used on input line 505.
 (pdftex.def)             Requested size: 47.35611pt x 49.41794pt.
 
 
@@ -1421,7 +1421,7 @@ s_performance_meeting19marc_2024/FCNC_SM_pin.png>]
 <FCNC.jpg, id=298, 334.24875pt x 281.33679pt>
 File: FCNC.jpg Graphic file (type jpg)
 <use FCNC.jpg>
-Package pdftex.def Info: FCNC.jpg  used on input line 525.
+Package pdftex.def Info: FCNC.jpg  used on input line 535.
 (pdftex.def)             Requested size: 142.10522pt x 119.61162pt.
 
 
@@ -1435,10 +1435,10 @@ ng Graphic file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.pn
 g>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/fcnc
-_summarybsm_nov23.png  used on input line 555.
+_summarybsm_nov23.png  used on input line 565.
 (pdftex.def)             Requested size: 166.97662pt x 149.3799pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 555--555
+Underfull \hbox (badness 1337) in paragraph at lines 565--565
 []\T1/lmss/m/n/10 Several top-FCNC chan-nels are con-
  []
 
@@ -1451,7 +1451,7 @@ Underfull \hbox (badness 1337) in paragraph at lines 555--555
 <tqgamma.jpg, id=341, 166.90929pt x 175.08267pt>
 File: tqgamma.jpg Graphic file (type jpg)
 <use tqgamma.jpg>
-Package pdftex.def Info: tqgamma.jpg  used on input line 585.
+Package pdftex.def Info: tqgamma.jpg  used on input line 595.
 (pdftex.def)             Requested size: 93.79234pt x 98.3849pt.
 
 
@@ -1461,22 +1461,22 @@ Package pdftex.def Info: tqgamma.jpg  used on input line 585.
 <fcnc1.jpg, id=363, 197.02179pt x 221.11179pt>
 File: fcnc1.jpg Graphic file (type jpg)
 <use fcnc1.jpg>
-Package pdftex.def Info: fcnc1.jpg  used on input line 636.
+Package pdftex.def Info: fcnc1.jpg  used on input line 646.
 (pdftex.def)             Requested size: 51.21504pt x 57.47758pt.
 <fcnc2.jpg, id=364, 199.17268pt x 212.07803pt>
 File: fcnc2.jpg Graphic file (type jpg)
 <use fcnc2.jpg>
-Package pdftex.def Info: fcnc2.jpg  used on input line 636.
+Package pdftex.def Info: fcnc2.jpg  used on input line 646.
 (pdftex.def)             Requested size: 51.21504pt x 54.5306pt.
 <fcnc3.jpg, id=365, 204.765pt x 217.24017pt>
 File: fcnc3.jpg Graphic file (type jpg)
 <use fcnc3.jpg>
-Package pdftex.def Info: fcnc3.jpg  used on input line 636.
+Package pdftex.def Info: fcnc3.jpg  used on input line 646.
 (pdftex.def)             Requested size: 51.21504pt x 54.3331pt.
 <fcnc4.jpg, id=366, 204.765pt x 217.24017pt>
 File: fcnc4.jpg Graphic file (type jpg)
 <use fcnc4.jpg>
-Package pdftex.def Info: fcnc4.jpg  used on input line 636.
+Package pdftex.def Info: fcnc4.jpg  used on input line 646.
 (pdftex.def)             Requested size: 51.21504pt x 54.3331pt.
 
 
@@ -1484,12 +1484,12 @@ Package pdftex.def Info: fcnc4.jpg  used on input line 636.
 
 {d:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./fcnc1.jpg> <./
 fcnc2.jpg> <./fcnc3.jpg> <./fcnc4.jpg>]
-Overfull \hbox (6.86754pt too wide) in paragraph at lines 683--683
+Overfull \hbox (6.86754pt too wide) in paragraph at lines 693--693
  [][] 
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 683--683
+Underfull \hbox (badness 2134) in paragraph at lines 693--693
 []\T1/lmss/m/n/9 Quoted sen-si-tiv-i-ties are ob-
  []
 
@@ -1499,36 +1499,36 @@ Underfull \hbox (badness 2134) in paragraph at lines 683--683
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 731.
+(Font)              <12> on input line 741.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 731.
+(Font)              <8> on input line 741.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 731.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 741.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 731.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 741.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 731.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 741.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 731.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 741.
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 731--731
+Underfull \hbox (badness 3281) in paragraph at lines 741--741
 []\T1/lmss/m/n/9 Event kine-mat-ics re-main closer to
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 731--731
+Underfull \hbox (badness 2253) in paragraph at lines 741--741
 \T1/lmss/m/n/9 thresh-old, so re-con-structed masses,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--731
+Underfull \hbox (badness 10000) in paragraph at lines 741--741
 \T1/lmss/m/n/9 miss-ing en-ergy, and momentum-
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 731--731
+Underfull \hbox (badness 5036) in paragraph at lines 741--741
 \T1/lmss/m/n/9 balance ob-serv-ables pro-vide strong
  []
 
@@ -1539,21 +1539,21 @@ Underfull \hbox (badness 5036) in paragraph at lines 731--731
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 740.
+(hyperref)                removing `\color' on input line 750.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 768.
+(Font)              <14.4> on input line 778.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 768.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 778.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 768.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 778.
 
 
 
 [18
 
 ]
-Overfull \hbox (21.90207pt too wide) in paragraph at lines 813--813
+Overfull \hbox (21.90207pt too wide) in paragraph at lines 823--823
  []\T1/lmss/m/n/9 MadGraph5_aMC@NLO 
  []
 
@@ -1562,40 +1562,45 @@ Overfull \hbox (21.90207pt too wide) in paragraph at lines 813--813
 [19
 
 ]
-Underfull \hbox (badness 1590) in paragraph at lines 840--840
+Underfull \hbox (badness 1590) in paragraph at lines 852--852
 []\T1/lmss/m/n/10 The anal-y-sis is per-formed in the []of-fi-
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-40.
+52.
 (d:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 6063) in paragraph at lines 840--840
+Underfull \hbox (badness 6063) in paragraph at lines 852--852
 \T1/lmtt/m/n/10 MadGraph5_aMC@NLO \T1/lmss/m/n/10 us-ing the FCNC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--840
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
 \T1/lmss/m/n/10 ef-fec-tive model im-ple-mented through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--852
+[]\T1/lmss/m/n/10 Jet re-con-struc-tion al-go-rithm: ee-kT
  []
 
 <FCCanalysis.jpg, id=490, 790.23804pt x 246.06215pt>
 File: FCCanalysis.jpg Graphic file (type jpg)
 <use FCCanalysis.jpg>
-Package pdftex.def Info: FCCanalysis.jpg  used on input line 840.
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 852.
 (pdftex.def)             Requested size: 138.55449pt x 43.14037pt.
 
 
 [20
 
  <./FCCanalysis.jpg>]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 949--949
+Overfull \hbox (58.19885pt too wide) in paragraph at lines 961--961
 [][]  
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 949--949
+Underfull \hbox (badness 1077) in paragraph at lines 961--961
 []\T1/lmss/m/n/10 Baseline se-lec-tion: $\T1/lmss/m/sl/10 p[] \OML/lmm/m/it/10 
 >
  []
@@ -1605,12 +1610,12 @@ Underfull \hbox (badness 1077) in paragraph at lines 949--949
 [21
 
 ]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 1056--1056
+Overfull \hbox (58.19885pt too wide) in paragraph at lines 1068--1068
 [][]  
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 1056--1056
+Underfull \hbox (badness 2547) in paragraph at lines 1068--1068
 []\T1/lmss/m/n/10 Baseline se-lec-tion: $\T1/lmss/m/sl/10 p[] \OML/lmm/m/it/10 
 >
  []
@@ -1620,7 +1625,7 @@ Underfull \hbox (badness 2547) in paragraph at lines 1056--1056
 [22
 
 ]
-Underfull \hbox (badness 1990) in paragraph at lines 1118--1118
+Underfull \hbox (badness 1990) in paragraph at lines 1130--1130
 []\T1/lmss/m/n/9 The dom-i-nant ir-re-ducible back-ground is
  []
 
@@ -1632,12 +1637,12 @@ Underfull \hbox (badness 1990) in paragraph at lines 1118--1118
 <algorithms_1.jpg, id=609, 572.56767pt x 419.85428pt>
 File: algorithms_1.jpg Graphic file (type jpg)
 <use algorithms_1.jpg>
-Package pdftex.def Info: algorithms_1.jpg  used on input line 1147.
+Package pdftex.def Info: algorithms_1.jpg  used on input line 1159.
 (pdftex.def)             Requested size: 159.86974pt x 117.22525pt.
 <algorithms_2.jpg, id=610, 576.43929pt x 410.82054pt>
 File: algorithms_2.jpg Graphic file (type jpg)
 <use algorithms_2.jpg>
-Package pdftex.def Info: algorithms_2.jpg  used on input line 1147.
+Package pdftex.def Info: algorithms_2.jpg  used on input line 1159.
 (pdftex.def)             Requested size: 159.86974pt x 113.93195pt.
 
 
@@ -1647,12 +1652,12 @@ Package pdftex.def Info: algorithms_2.jpg  used on input line 1147.
 <Wmass-240GeV-leptonic.jpg, id=620, 647.84892pt x 461.15143pt>
 File: Wmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use Wmass-240GeV-leptonic.jpg>
-Package pdftex.def Info: Wmass-240GeV-leptonic.jpg  used on input line 1174.
+Package pdftex.def Info: Wmass-240GeV-leptonic.jpg  used on input line 1186.
 (pdftex.def)             Requested size: 166.97662pt x 118.85512pt.
 <topmass-240GeV-leptonic.jpg, id=621, 646.5584pt x 464.16267pt>
 File: topmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use topmass-240GeV-leptonic.jpg>
-Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 1174.
+Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 1186.
 (pdftex.def)             Requested size: 166.97662pt x 119.87204pt.
 
 
@@ -1662,12 +1667,12 @@ Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 1174.
 <Wmass-full-240GeV.jpg, id=632, 646.5584pt x 465.02304pt>
 File: Wmass-full-240GeV.jpg Graphic file (type jpg)
 <use Wmass-full-240GeV.jpg>
-Package pdftex.def Info: Wmass-full-240GeV.jpg  used on input line 1200.
+Package pdftex.def Info: Wmass-full-240GeV.jpg  used on input line 1212.
 (pdftex.def)             Requested size: 166.97662pt x 120.09422pt.
 <topmass-full-240GeV.jpg, id=633, 644.83768pt x 456.84964pt>
 File: topmass-full-240GeV.jpg Graphic file (type jpg)
 <use topmass-full-240GeV.jpg>
-Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 1200.
+Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 1212.
 (pdftex.def)             Requested size: 166.97662pt x 118.2971pt.
 
 
@@ -1677,40 +1682,40 @@ Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 1200.
 <plightjet-240GeV-leptonic.jpg, id=643, 638.81519pt x 467.17393pt>
 File: plightjet-240GeV-leptonic.jpg Graphic file (type jpg)
 <use plightjet-240GeV-leptonic.jpg>
-Package pdftex.def Info: plightjet-240GeV-leptonic.jpg  used on input line 1227
+Package pdftex.def Info: plightjet-240GeV-leptonic.jpg  used on input line 1239
 .
 (pdftex.def)             Requested size: 166.97662pt x 122.11104pt.
 <plightjet-full-240GeV.jpg, id=644, 640.53589pt x 468.03429pt>
 File: plightjet-full-240GeV.jpg Graphic file (type jpg)
 <use plightjet-full-240GeV.jpg>
-Package pdftex.def Info: plightjet-full-240GeV.jpg  used on input line 1227.
+Package pdftex.def Info: plightjet-full-240GeV.jpg  used on input line 1239.
 (pdftex.def)             Requested size: 166.97662pt x 122.00742pt.
 
 
 [27
 
  <./plightjet-240GeV-leptonic.jpg> <./plightjet-full-240GeV.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1284
 []\T1/lmss/bx/n/9 Hadronic 240&365 GeV: \T1/lmss/m/n/9 category-
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 1272--1272
+Underfull \hbox (badness 1675) in paragraph at lines 1284--1284
 \T1/lmss/m/n/9 chan-nel starts from a harsher
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 1272--1272
+Underfull \hbox (badness 4036) in paragraph at lines 1284--1284
 \T1/lmss/m/n/9 pro-vides use-ful com-ple-men-tary
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1272--1272
+Underfull \hbox (badness 1430) in paragraph at lines 1284--1284
 \T1/lmss/m/n/9 sen-si-tiv-ity once topology-driven
  []
 
 
-Overfull \hbox (9.41797pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (9.41797pt too wide) in paragraph at lines 1284--1284
 [][] 
  []
 
@@ -1725,15 +1730,15 @@ Overfull \hbox (9.41797pt too wide) in paragraph at lines 1272--1272
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 1325.
+(hyperref)                removing `\color' on input line 1337.
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 1370--1370
+Underfull \hbox (badness 3078) in paragraph at lines 1382--1382
 []\T1/lmss/m/n/9 Best single-channel sen-si-tiv-ity in
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 1370--1370
+Underfull \hbox (badness 6510) in paragraph at lines 1382--1382
 \T1/lmss/m/n/9 the cur-rent study comes from
  []
 
@@ -1742,7 +1747,7 @@ Underfull \hbox (badness 6510) in paragraph at lines 1370--1370
 [30
 
 ]
-Underfull \hbox (badness 10000) detected at line 1417
+Underfull \hbox (badness 10000) detected at line 1429
 [][][][][][][][][]
  []
 
@@ -1751,7 +1756,7 @@ Underfull \hbox (badness 10000) detected at line 1417
 [31
 
 ]
-Underfull \hbox (badness 1472) in paragraph at lines 1457--1457
+Underfull \hbox (badness 1472) in paragraph at lines 1469--1469
 []\T1/lmss/m/n/10 The com-bined semilep-tonic bench-
  []
 
@@ -1760,7 +1765,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 1457--1457
 [32
 
 ]
-Overfull \hbox (1.38077pt too wide) in paragraph at lines 1476--1476
+Overfull \hbox (1.38077pt too wide) in paragraph at lines 1488--1488
 []\T1/lmss/m/n/10 The clean $\T1/lmss/m/sl/10 e[]e[]$ \T1/lmss/m/n/10 en-vi-ron
 -ment makes FCC-ee highly com-pet-i-tive for prob-ing anoma-
  []
@@ -1773,10 +1778,10 @@ Overfull \hbox (1.38077pt too wide) in paragraph at lines 1476--1476
 <Thank_You_2.jpg, id=795, 911.54839pt x 577.29964pt>
 File: Thank_You_2.jpg Graphic file (type jpg)
 <use Thank_You_2.jpg>
-Package pdftex.def Info: Thank_You_2.jpg  used on input line 1486.
+Package pdftex.def Info: Thank_You_2.jpg  used on input line 1498.
 (pdftex.def)             Requested size: 381.87407pt x 241.84756pt.
 
-Overfull \hbox (26.60558pt too wide) in paragraph at lines 1486--1486
+Overfull \hbox (26.60558pt too wide) in paragraph at lines 1498--1498
  [][] 
  []
 
@@ -1804,10 +1809,10 @@ changed.
 (rerunfilecheck)             Checksum: 3CEEF9E651E466823199B67DE42677E3;951.
  ) 
 Here is how much of TeX's memory you used:
- 31880 strings out of 473190
- 659014 string characters out of 5719978
+ 31882 strings out of 473190
+ 659048 string characters out of 5719978
  1389154 words of memory out of 5000000
- 54405 multiletter control sequences out of 15000+600000
+ 54407 multiletter control sequences out of 15000+600000
  724780 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,14584b,1391s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1834,7 +1839,7 @@ m/lmsy7.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><d:/tex
 live/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><d:/texlive/2025/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/publ
 ic/lm/lmtt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (34 pages, 5449182 bytes).
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (34 pages, 5449723 bytes).
 
 PDF statistics:
  955 PDF objects out of 1000 (max. 8388607)

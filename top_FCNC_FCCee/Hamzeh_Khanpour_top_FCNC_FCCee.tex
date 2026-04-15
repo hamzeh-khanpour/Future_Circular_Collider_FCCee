@@ -95,8 +95,18 @@
 \subtitle{From the FCC-ee precision programme to rare top interactions}
 \author[Hamzeh Khanpour]{Hamzeh Khanpour}
 \institute[AGH]{Faculty of Physics and Applied Computer Science\\AGH University of Krakow}
-\date[1st FCC Polish Workshop]{1st FCC Polish Workshop; Krak\'ow, 16 April 2026}
 
+\date[1st FCC Polish Workshop]{%
+  \begingroup
+\setlength{\fboxsep}{5pt}%
+\fcolorbox{red!70!black}{green!12}{%
+\parbox{0.62\linewidth}{\centering
+1st FCC Polish Workshop; Krak\'ow, 16 April 2026}
+}%
+  \endgroup
+}
+
+% \date[1st FCC Polish Workshop]{1st FCC Polish Workshop; Krak\'ow, 16 April 2026}
 
 
 
@@ -138,7 +148,7 @@
 \small
 \justifying 
 \textbf{Bottom quark forward-backward asymmetry at the future electron-positron collider FCC-ee}\\
-Marina Cobal (Udine U.), Giovanni Guerrieri (Udine U.), Hamzeh Khanpour (AGH), Giancarlo Panizzo (Udine U.), Michele Pinamonti (ICTP), Laura Pintucci (ICTP), Leonardo Toffolin (University of Trieste)\\
+Marina Cobal (Udine U.), Giovanni Guerrieri (Udine U.), Hamzeh Khanpour ({\color{magenta}AGH}), Giancarlo Panizzo (Udine U.), Michele Pinamonti (ICTP), Laura Pintucci (ICTP), Leonardo Toffolin (University of Trieste)\\
 {\color{blue}To evaluate how FCC-ee can clarify the long-standing $A_{FB}^{0,b}$ anomaly with the huge Z-pole data sample and much improved precision.}
 \end{tcolorbox}
 
@@ -148,7 +158,7 @@ Marina Cobal (Udine U.), Giovanni Guerrieri (Udine U.), Hamzeh Khanpour (AGH), G
 \small
 \justifying 
 \textbf{Top quark FCNC anomalous couplings at the future collider FCC-ee}\\
-Seddigheh Tizchang (IPM), Hamzeh Khanpour (AGH), Mojtaba Mohammadi Najafabadi (CERN), Patrizia Azzi (INFN Padova), Emmanuel Francois Perez (CERN)\\
+Patrizia Azzi (INFN Padova), Hamzeh Khanpour ({\color{magenta}AGH}), Mojtaba Mohammadi Najafabadi (CERN), Emmanuel Francois Perez (CERN), Seddigheh Tizchang (IPM)\\
 {\color{blue}To determine the FCC-ee reach for rare top-FCNC interactions, especially $tq\gamma$ and $tqZ$, in single-top production.}
 \end{tcolorbox}
 \end{frame}
@@ -824,6 +834,8 @@ Production-level FCNC signal samples are propagated through the official FCC sof
 \justifying 
 \item The analysis is performed in the \alert{official FCC analysis framework} with Delphes-based IDEA detector response [{\color{blue}2502.21223 [physics.ins-det]}].
 \item Official signal samples are generated with \texttt{MadGraph5\_aMC@NLO} using the FCNC effective model implemented through \texttt{FeynRules}/UFO.
+\item Flavour-tagging WP: \(\epsilon_b=80\%\), \(\epsilon_c=10\%\).
+\item Jet reconstruction algorithm: ee-kT Durham + E-scheme recombination.
 \end{itemize}
 \end{column}
 \begin{column}{0.39\textwidth}
@@ -1469,7 +1481,7 @@ This is the type of rare-top study that demonstrates how FCC-ee precision can be
 \item The present analysis uses the official FCC framework, realistic detector response, and both semileptonic and fully hadronic signal channels.
 \item The clean \(e^+e^-\) environment makes FCC-ee highly competitive for probing anomalous \(tq\gamma\) and \(tqZ\) interactions through single-top production.
 \item The projected sensitivities show that FCC-ee can provide a strong and complementary probe of top FCNC interactions within its wider precision programme.
-\item Immediate next steps for a polished final public version are straightforward: updated official comparison plots, luminosity-scenario refresh, inclusion of systematics, and potentially multivariate optimisation.
+\item Immediate next steps are straightforward: luminosity-scenario refresh, flavour-tagging assumptions, inclusion of systematic uncertainties, and potentially multivariate optimisation \& advanced machine-learning techniques.  
 %\item FCC-ee rare-top studies are a natural and visible part of the emerging Polish FCC physics agenda.
 \end{itemize}
 %\refs{FCC Feasibility Study Vol.~1; internal draft note.}
