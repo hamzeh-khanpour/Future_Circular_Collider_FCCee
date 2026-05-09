@@ -69,6 +69,11 @@
 	{top_FCNC_FCCee_draft/365GeV-leptonic/}
 	{top_FCNC_FCCee_draft/365GeV-fullhadronic/}
 	{PresentationKrakow_2023/}
+{Figs/}
+{arXiv-2505.00272v1/Physics/Overview/Figs/}
+{arXiv-2505.00272v1/Physics/PhysicsCase/Figs/}
+{arXiv-2505.00272v1/Physics/DetectorRequirements/Figs/}
+{arXiv-2505.00272v1/Physics/DetectorConcepts/Figs/}
 }
 
 \setbeamertemplate{navigation symbols}{}
@@ -396,27 +401,259 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{The Higgs programme at FCC-ee: key goals and flagship observables}
+\begin{frame}{Tera-$Z$: the electroweak precision anchor}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.50\textwidth}
+\begin{column}{0.54\textwidth}
 \begin{itemize}
-\justifying 
-\item The cornerstone Higgs measurement at FCC-ee is \alert{associated production} \(e^+e^-\to ZH\).
-\item The recoil technique provides a \textbf{model-independent} measurement of the inclusive \(ZH\) rate.
-\item This anchors absolute Higgs couplings, the Higgs width extraction, and searches for invisible or exotic decays.
-\item The 240~GeV run point is therefore not only relevant for Higgs precision; it also provides a clean benchmark stage for rare top searches in the same machine environment.
+\justifying
+\small
+\item The $Z$ line-shape scan and $6\times10^{12}$ $Z$ bosons provide an EW precision programme far beyond LEP/SLC.
+\item Central observables include $m_Z$, $\Gamma_Z$, $\sin^2\theta_{\rm eff}^W$, $R_\ell^Z$, $\sigma^0_{\rm had}$, $N_\nu$, $R_b$, heavy-flavour asymmetries and $\tau$ observables.
+\item Off-peak running around the $Z$ pole also gives direct handles on $\alpha_{\rm QED}(m_Z)$ and $\alpha_s(m_Z)$.
 \end{itemize}
 \end{column}
-\begin{column}{0.46\textwidth}
-% \includegraphics[width=\linewidth]{Fig_HiggsRecoil_FCCPED2025.png}
-% TODO: add screenshot of an official Higgs recoil / ZH event-rate figure from
-% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
-% Verify exact figure number and page before adding the screenshot.
-\placeholdergraphic{Official FCC-ee Higgs recoil or inclusive \(ZH\) illustration. Suggested source: FCC PED 2025 PDF (official Higgs section).}{0.49\textheight}
+\begin{column}{0.43\textwidth}
+\centering
+\scriptsize
+\begin{tabular}{lcc}
+\toprule
+Observable & FCC-ee stat. & FCC-ee syst. \\
+\midrule
+$m_Z$ & $4~\mathrm{keV}$ & $100~\mathrm{keV}$ \\
+$\Gamma_Z$ & $4~\mathrm{keV}$ & $12~\mathrm{keV}$ \\
+$\sin^2\theta_{\rm eff}^W$ & $1.2\times10^{-6}$ & $1.2\times10^{-6}$ \\
+$N_\nu$ & $0.09\times10^{-3}$ & $0.12\times10^{-3}$ \\
+$R_b$ & $0.25\times10^{-6}$ & $0.3\times10^{-6}$ \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{block}{Message}
+\small
+The $Z$ pole is both a discovery programme and the EW calibration layer for Higgs physics.
+\end{block}
 \end{column}
 \end{columns}
-\refs{FCC PED 2025 Higgs section; FCC Feasibility Study Vol.~1.}
+\refs{FCC Feasibility Study Report Vol.~1, Table~2.}
 \end{frame}
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{From $Z$ observables to electroweak couplings}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.55\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item FCC-ee determines left- and right-handed $Zf\bar f$ couplings from partial widths, cross-section ratios and asymmetries.
+\item For electrons, this is especially important because the $Zee$ vertex also enters $e^+e^-\to ZH$.
+\item In SMEFT, new-physics effects in $Zee$ and $HZee$ are correlated by electroweak gauge invariance.
+\end{itemize}
+\vspace{0.2cm}
+\begin{block}{Extraction logic}
+\centering
+$g_{Zf}^{L,R}\ \longleftarrow\ \Gamma(Z\to f\bar f),\ A_f,\ A_{\rm FB}^f,\ R_f,\ P_\tau$
+\end{block}
+\end{column}
+\begin{column}{0.42\textwidth}
+\begin{block}{Why chirality matters}
+\small
+\begin{itemize}
+\justifying
+\item $g_L$ and $g_R$ enter different combinations in rates and asymmetries;
+\item BSM effects often appear as chiral shifts;
+\item Higgs fits need EW vertices known at comparable precision.
+\end{itemize}
+\end{block}
+\begin{alertblock}{Practical consequence}
+\small
+Without FCC-ee $Z$-pole precision, uncertainties in EW vertices would contaminate the extraction of Higgs couplings.
+\end{alertblock}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Sec.~2.2.1.}
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{WW threshold: precision W physics and gauge structure}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.52\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item A scan near the $W^+W^-$ threshold gives a sub-MeV determination of $m_W$ and $\Gamma_W$.
+\item Above threshold, $e^+e^-\to W^+W^-$ probes the gauge-boson self-interactions and diboson angular structure.
+\item In SMEFT, anomalous triple-gauge couplings such as $\delta g_{1,Z}$ and $\delta\kappa_\gamma$ are correlated with $HVV$ interactions.
+\end{itemize}
+\end{column}
+\begin{column}{0.45\textwidth}
+\centering
+\scriptsize
+\begin{tabular}{lcc}
+\toprule
+Observable & FCC-ee stat. & FCC-ee syst. \\
+\midrule
+$m_W$ & $0.18~\mathrm{MeV}$ & $0.16~\mathrm{MeV}$ \\
+$\Gamma_W$ & $0.27~\mathrm{MeV}$ & $0.20~\mathrm{MeV}$ \\
+$\alpha_s(m_W^2)$ & $2\times10^{-4}$ & $2\times10^{-4}$ \\
+$N_\nu$ & $0.5\times10^{-3}$ & small \\
+\bottomrule
+\end{tabular}
+\vspace{0.25cm}
+\begin{block}{Message}
+\small
+The $WW$ programme constrains the gauge structure that also controls Higgs-sector interpretation.
+\end{block}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Table~2 and Sec.~2.2.2.}
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{Why $Z$ and $WW$ precision sharpen Higgs coupling extraction}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.54\textwidth}
+\centering
+\includegraphics[width=0.98\linewidth]{circos_FCCee_nomargin_newFSR.pdf}
+\end{column}
+\begin{column}{0.43\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item The same SMEFT operators can affect EW vertices, aTGCs and Higgs production.
+\item $Z$-pole data reduce correlations between the Higgs and EW sectors.
+\item With only LEP/SLC-level EW information, some 240~GeV Higgs-coupling precisions would deteriorate by up to about a factor of two.
+\item Diboson data constrain aTGC directions correlated with $HZZ$ and $HWW$.
+\end{itemize}
+\begin{alertblock}{Message}
+\small
+The $Z$ and $WW$ runs are not pre-Higgs extras; they are part of the Higgs measurement.
+\end{alertblock}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Fig.~4 and Secs.~2.2.1--2.2.2.}
+\end{frame}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{The $ZH$ stage at 240 GeV: the Higgs standard candle}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.52\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item At $\sqrt{s}\simeq240~\mathrm{GeV}$, $e^+e^-\to ZH$ is near its cross-section maximum.
+\item Reconstructing the $Z$ gives the Higgs recoil mass independently of the Higgs decay mode:
+\[
+m_{\rm recoil}^2=s+m_Z^2-2\sqrt{s}\,E_Z .
+\]
+\item The inclusive $\sigma(ZH)$ measurement anchors $\kappa_Z$ and the absolute normalisation of Higgs couplings.
+\item The recoil method also enables invisible and exotic Higgs-decay searches.
+\end{itemize}
+\end{column}
+\begin{column}{0.45\textwidth}
+\centering
+\includegraphics[width=0.93\linewidth]{HiggsRecoil_IDEA_IDEAL_2T_3T_CLD_mumu_mrec.pdf}
+\vspace{0.1cm}
+\begin{block}{Foundation}
+\centering\small
+$\sigma(ZH)$ is measured inclusively: no assumption on the Higgs decay is required.
+\end{block}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Secs.~1.1, 2.2 and Detector Requirements.}
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{Higgs coupling and width extraction: the logic}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.53\textwidth}
+\begin{block}{Measured rates}
+\small
+				\[
+				\sigma(ZH),\qquad \sigma(ZH)\times {\rm BR}(H\to X),
+				\]
+				\[
+				\sigma(\nu\bar\nu H)\times {\rm BR}(H\to X) \quad (\text{higher }\sqrt{s}).
+				\]
+\end{block}
+\begin{block}{Coupling scaling}
+\small
+				\[
+				\sigma(ZH)\propto \kappa_Z^2,
+				\qquad
+				\sigma(ZH){\rm BR}(H\to b\bar b)
+				\propto \frac{\kappa_Z^2\kappa_b^2}{\Gamma_H}.
+				\]
+\end{block}
+\end{column}
+\begin{column}{0.44\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item Inclusive $ZH$ fixes the absolute production normalisation.
+\item Exclusive decays map partial widths: $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$, $\mu\mu$.
+\item Combining $ZH$ and vector-boson-fusion information gives model-independent access to $\Gamma_H$.
+\item Invisible and untagged modes are constrained by recoil and global fits.
+\end{itemize}
+\end{column}
+\end{columns}
+\takehome{FCC-ee turns Higgs rates into absolute couplings because $\sigma(ZH)$ is measured inclusively.}
+\refs{FCC Feasibility Study Report Vol.~1, Sec.~1.1 and Table~3.}
+\end{frame}
+
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{Projected Higgs precision and HL-LHC comparison}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.52\textwidth}
+\centering
+\scriptsize
+\begin{tabular}{lccc}
+\toprule
+Quantity & HL-LHC & FCC-ee & FCC-ee+FCC-hh \\
+\midrule
+$\kappa_Z$ & $1.3\%^{*}$ & $0.10\%$ & $0.10\%$ \\
+$\kappa_W$ & $1.5\%^{*}$ & $0.29\%$ & $0.25\%$ \\
+$\kappa_b$ & $2.5\%^{*}$ & $0.38/0.49\%$ & $0.33/0.45\%$ \\
+$\kappa_c$ & -- & $0.70/0.87\%$ & $0.68/0.85\%$ \\
+$\kappa_\tau$ & $1.6\%^{*}$ & $0.46\%$ & $0.40\%$ \\
+$\Gamma_H$ & -- & $0.78\%$ & $0.69\%$ \\
+$B_{\rm inv}$ 95\% CL & $1.9\times10^{-2*}$ & $5\times10^{-4}$ & $2.3\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\vspace{0.1cm}
+\scriptsize $^{*}$HL-LHC coupling interpretation uses assumptions such as $|\kappa_V|\leq1$.
+\end{column}
+\begin{column}{0.45\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item FCC-ee provides absolute coupling normalisation through inclusive $ZH$.
+\item Key vector couplings enter the per-mille regime.
+\item FCC-hh later adds rare modes, top Yukawa and double-Higgs sensitivity.
+\item The programme is complementary to HL-LHC, not a replacement for it.
+\end{itemize}
+\begin{alertblock}{Message}
+\small
+FCC-ee moves central Higgs observables from percent-level to sub-percent or per-mille precision.
+\end{alertblock}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Table~3.}
+\end{frame}
+
 
 
 
@@ -425,26 +662,29 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{The Higgs programme: model-independent couplings, width, exotic/invisible reach}
+\begin{frame}{Why the 365 GeV/top stage matters for Higgs precision}
 \begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.50\textwidth}
+\begin{column}{0.52\textwidth}
 \begin{itemize}
-\justifying 
-\item FCC-ee targets sub-percent and in several cases per-mille-level Higgs coupling precision.
-\item The width is constrained through a combination of inclusive \(ZH\) and exclusive decay measurements.
-\item Rare and invisible Higgs decays are natural observables at a machine with full-event reconstruction and low hadronic background.
-\item This ``small-deviation sensitivity'' is exactly the environment in which rare-top probes such as FCNC become compelling.
+\justifying
+\small
+\item Higher-energy running increases the importance of $WW$ fusion, improving $\kappa_W$ and $\Gamma_H$ constraints.
+\item The $ZH$ cross-section dependence on $\sqrt{s}$ provides indirect sensitivity to the Higgs self-coupling in global fits.
+\item A $t\bar t$ threshold scan gives precise $m_t$ and $\Gamma_t$, reducing parametric limitations in EW predictions.
+\item Above threshold, $t\bar t Z$ couplings can be measured at the $0.5$--$1.5\%$ level.
 \end{itemize}
 \end{column}
-\begin{column}{0.46\textwidth}
-% \includegraphics[width=\linewidth]{Fig_HiggsPrecisionSummary_FCCPED2025.png}
-% TODO: add screenshot of the official FCC-ee Higgs precision summary plot from
-% https://indico.cern.ch/event/1530285/contributions/6438766/attachments/3037338/5372477/FCC_PED_ESPPU_HEWT_v4.pdf
-% Verify exact figure number and page before adding the screenshot.
-\placeholdergraphic{Official FCC Higgs precision summary: couplings, width, and invisible / exotic reach.}{0.49\textheight}
+\begin{column}{0.45\textwidth}
+\centering
+\includegraphics[width=0.88\linewidth]{Hselfcoupling-precision-1b.pdf}
+\vspace{0.1cm}
+\begin{block}{Message}
+\small
+The 365~GeV stage is not only a top run; it sharpens the global Higgs/EW interpretation.
+\end{block}
 \end{column}
 \end{columns}
-\refs{FCC PED 2025; FCC Higgs performance material.}
+\refs{FCC Feasibility Study Report Vol.~1, Table~2 and Secs.~2.2.3--2.2.4.}
 \end{frame}
 
 
@@ -454,6 +694,31 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 
 
 
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{SMEFT view: precision as a high-scale microscope}
+\begin{columns}[T,totalwidth=\textwidth]
+\begin{column}{0.56\textwidth}
+\centering
+\includegraphics[width=0.98\linewidth]{barplotsnow-xo1-smpar_newFSR-CL.pdf}
+\end{column}
+\begin{column}{0.40\textwidth}
+\begin{itemize}
+\justifying
+\small
+\item SMEFT parameterises heavy new physics through dimension-6 operators and Wilson coefficients.
+\item Gauge invariance correlates deviations across $Zf\bar f$, $WW$, $ZH$, $\nu\bar\nu H$ and $t\bar t$ observables.
+\item FCC-ee precision tests \alert{patterns of deviations}, not only individual signal strengths.
+\item A null result still strongly constrains broad classes of BSM scenarios.
+\end{itemize}
+\begin{block}{Fit ingredients}
+\small EWPOs + light-fermion pairs + Higgs + diboson + top data.
+\end{block}
+\end{column}
+\end{columns}
+\refs{FCC Feasibility Study Report Vol.~1, Fig.~3 and Sec.~2.2.}
+\end{frame}
 
 
 

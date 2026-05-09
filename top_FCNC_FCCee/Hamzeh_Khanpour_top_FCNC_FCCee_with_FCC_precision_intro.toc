@@ -1,0 +1,6 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{{\color {white}FCC-ee precision physics: EW, Z and Higgs}}{2}{0}{1}
+\beamer@sectionintoc {2}{{\color {white}FCC programme and physics motivation}}{18}{0}{2}
+\beamer@sectionintoc {3}{{\color {white}top-quark FCNC motivation and theory}}{28}{0}{3}
+\beamer@sectionintoc {4}{{\color {white}Signal process and analysis design}}{35}{0}{4}
+\beamer@sectionintoc {5}{{\color {white}Sensitivity estimation}}{47}{0}{5}

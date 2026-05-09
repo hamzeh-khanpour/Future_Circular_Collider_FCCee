@@ -1,0 +1,150 @@
+\documentclass[11pt,twoside,a4paper]{cernyrep}
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+
+\usepackage{placeins}
+
+\usepackage{subfiles}%
+\usepackage{textgreek}
+
+\usepackage{comment}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+\usepackage{tikz} 
+\usepackage{physics}
+
+\usepackage{tabularx}      
+\usepackage{makecell}     
+
+\usepackage{pdflscape}
+\usepackage{booktabs} 
+\usepackage{amsmath} 
+\usepackage{makecell}
+\usepackage{siunitx}
+\usepackage{multirow} 
+
+\usepackage{tcolorbox}
+
+\usepackage[normalem]{ulem}
+
+\usepackage[normalem]{ulem}
+\usepackage{cancel}
+
+\usepackage{hyperref}
+\hypersetup{%
+        colorlinks,
+        breaklinks=true,
+        plainpages=false,%
+        citecolor=blue,
+        linkcolor=blue,
+        urlcolor=blue,
+        bookmarksopen=true,%
+        bookmarksnumbered=false,%
+        bookmarksdepth=5%
+}
+\def\figureautorefname~#1\null{Fig.~#1\null}
+
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage{wasysym}   
+
+\def\UrlBreaks{\do-\do/}
+
+\def\bibfiles{biblio}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\bf}
+
+\setlength{\cftsecindent}{0em}
+\setlength{\cftbeforesecskip}{.8em}
+\setlength{\cftsubsecindent}{0em}
+\setlength{\cftbeforesubsecskip}{.3em}
+\setlength{\cftsubsubsecindent}{0em}
+\setlength{\cftbeforesubsubsecskip}{.1em}
+
+\input{./frontmatter/PED_macros}
+
+\begin{document}
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\title{Future Circular Collider}
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\newcommand{\main}{.}
+\def\biblio{}
+
+\subfile{frontmatter/main_Vol1_final}
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begingroup
+\raggedright %
+
+\section*{List of Editors at 31 March 2025}
+\input{./frontmatter/FullListEditors}
+\section*{List of Chief Editors of Volume 1 Chapters at 31 March 2025}
+\input{./frontmatter/FullListWPcoord}
+\section*{List of Contributors at 31 March 2025}
+\input{./frontmatter/FullListAuthors}
+\begin{itemize}
+\input{./frontmatter/FullListAddresses}
+\end{itemize}
+
+\endgroup
+
+\clearpage
+
+\section*{Abstract}
+\subfile{./frontmatter/PED-Abstract}
+
+\clearpage
+
+\section*{Preface from CERN's Director-General}
+
+\input{./frontmatter/prefaceGianotti}
+
+\clearpage
+
+\section*{Preface from the FCC Collaboration Board Chair}
+
+\input{./frontmatter/prefaceChomaz}
+
+\clearpage
+
+
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\tableofcontents
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\subfile{./Physics/PED}
+
+\clearpage
+
+\bibliographystyle{cms_unsrt}
+
+\bibliography{biblio}%
+
+\addcontentsline{toc}{section}{References}
+
+\end{document}

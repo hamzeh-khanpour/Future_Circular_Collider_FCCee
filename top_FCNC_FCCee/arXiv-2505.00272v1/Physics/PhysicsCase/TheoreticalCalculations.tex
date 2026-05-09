@@ -1,0 +1,637 @@
+To fully leverage the significantly improved experimental precision in \PZ-pole observables, \PW boson and top quark masses, \PQb and \PGt decays, 
+as well as a broad array of Higgs observables, 
+it is essential to obtain Standard Model predictions with an accuracy that matches the anticipated statistical uncertainties of FCC-ee. 
+The expectation that most systematic experimental uncertainties can be reduced to the level of the statistical precision further underscores this requirement.
+Such theoretical predictions are necessary for both inclusive and exclusive processes, 
+with the latter requiring integration with Monte Carlo generators. 
+They encompass a wide range of technical aspects, including fixed-order perturbative corrections, resummation calculations, 
+improved parton showers, non-perturbative hadronization effects, and lattice QCD. 
+Any discrepancies between experimental data and Standard Model predictions (anomalies) could provide crucial insights, potentially guiding the way towards new discoveries.
+In addition, detailed precision analyses of BSM effects within concrete models and effective theories will open up a broad spectrum of new prospects.
+
+On top of that, FCC-hh has unique capabilities for testing SM phenomena at ultra-high energies, 
+particularly the mechanism of electroweak symmetry breaking and broad coverage for direct particle discovery. 
+Theory calculations are needed to evaluate (often large) backgrounds, expected signal rates, and to optimise the experimental search strategies. 
+The high precision reached by the LHC, due to further improve in the HL-LHC era, 
+has been and remains a powerful stimulus for the theory community to enhance the calculation reliability. 
+This progress is fully aligned with the future needs of FCC-hh.
+
+A very active effort (in lattice and in perturbative calculations) is ongoing worldwide to improve the theoretical control of flavour observables, 
+in view of the current and forthcoming experimental progress made by LHCb and Belle~II. 
+This effort will continue alongside the experimental advances made by these experiments in the next decades, 
+undertaking the required steps towards the ultimate precision goals required by FCC. 
+Suitably refined precision calculations for flavour observables should also be identified and relevant actions must be planned accordingly. 
+Present and future work focuses on 
+(a)~calculating higher-order perturbative QCD and EW corrections (including, for the latter, their matching at the weak scale), 
+and (b)~understanding an order-of-magnitude better than before the separation and interplay between 
+perturbative and non-perturbative contributions with the goal of constraining the latter from data as much as possible.
+Improved lattice calculations, from algorithmic progress and hardware developments, are a further essential ingredient. 
+
+For all the measurement areas where theoretical improvements are needed to match the FCC precision goals --- EW, QCD, flavour, BSM --- 
+the large interplay between the development of EW and QCD calculations, 
+in terms of impact on the total theoretical systematic uncertainties and of computational challenges and tools, is remarkable.
+Two-loop QCD corrections are often of comparable size to one-loop EW corrections, 
+and they both play a critical role at the required level of precision. 
+Their interplay is thus essential, and often it is the source of added complexity when both EW and QCD corrections are mixed 
+(e.g., in the presence of off-shell decays of weak bosons to quarks). 
+On the formal side, progress towards the understanding of multi-scale multi-loop diagrams is of common value to both EW and QCD, as well as to BSM studies. 
+Techniques inspired by effective field theory (EFT) are becoming ubiquitous, 
+and tools initially developed for flavour physics (soft-collinear effective theory, or SCET) 
+are now relevant to describe QCD event shapes, resummations, jet-vetoed final states, and much more. 
+This global synergy of developments in different specific areas opens a whole new dimension for future coordinated theoretical efforts. 
+
+If any deviation from the SM expectations were observed at FCC-ee/hh, 
+the interpretation would require calculations to the requisite precision in BSM models 
+or models with higher-dimensional EFT operators to the requisite precision.
+These higher-order corrections can be straightforwardly achieved by adapting 
+the techniques developed for standard model (QED, EW, and QCD) calculations. 
+Therefore, improving the accuracy of SM predictions at large currently remains the main priority of the community of experts on radiative corrections. 
+This chapter focuses on a brief review of the status, future needs and prospects for theoretical improvements of relevance to EW, Higgs, jets, and top quark measurements, 
+including the MC event-generator perspective, and the actions under way to support and coordinate such efforts.
+
+\subsection{Electroweak corrections}
+\label{sec:theocalc}
+
+To meet the precision goals of FCC-ee, 
+significant advances in calculations of higher-order radiative corrections and in MC generators will be needed~\cite{Freitas:2019bre,Blondel:2018mad,EWPrecisionWshop}. 
+For instance, electroweak NNLO corrections for various pair production processes 
+($\epem \to \Pf\bar{\Pf}$, $\epem \to \PGg\PGg$, $\epem \to \PWp\PWm$, $\epem \to \PZ\PH$) 
+are needed, as well as MC tools for the simulation of multiple photon radiation beyond leading-logarithmic (LL) approximation. 
+Even higher perturbative orders, including three-loop corrections in the full SM and leading four-loop corrections, 
+are required to interpret precision measurements at the \PZ pole.
+Table~\ref{tab:obs1} provides a few illustrative examples of precision quantities and the theory calculations required to extract them from data.
+
+\setlength{\tabcolsep}{6pt}
+\begin{table}[ht]
+\caption{A few sample precision quantities of interest for the FCC-ee programme, 
+their current and projected experimental uncertainties, 
+and the required theory input for their \emph{extraction} from the data. 
+The last two columns show the current state of the art for calculations of this theory input
+and higher-order calculations needed to reach the FCC-ee precision target.
+More details can be found in Ref.~\cite{Freitas:2019bre}.}
+\label{tab:obs1}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{p{1.8cm}p{1.6cm}p{2.8cm}p{2.7cm}p{2.5cm}p{2.5cm}@{}p{0cm}}
+\toprule
+Quantity & Current precision & \raggedright FCC-ee stat.\ (syst.)~precision 
+& \raggedright Required\newline theory input & \raggedright Theory status\newline as of today & \raggedright Needed theory improvement$^\dagger$ & \\
+\midrule
+$m_{\PZ}$~(MeV) & 2.0 & 0.004 (0.1) 
+& \multirow{3}{2.7cm}{non-resonant $\epem \to \Pf\bar{\Pf}$, initial-state radiation (ISR)} 
+& \multirow{3}{2.5cm}{NLO,\newline ISR logarithms up to 6$^\text{th}$ order} & \multirow{3}{2.8cm}{NNLO for $\epem \to \Pf\bar{\Pf}$ } \\[.7ex]
+\cmidrule(r){1-3}
+$\Gamma_{\PZ}$~(MeV) & 2.3 & 0.004 (0.012) & & & \\[.7ex]
+\cmidrule(r){1-3} 
+$\sin^2\theta_\text{eff}^\ell$ & $1.6\times 10^{-4}$ & 1.2 $(1.2) \times 10^{-6}$ & & & \\[1ex]
+\midrule
+$m_{\PW}$~(MeV) & 9.9 & 0.18 (0.16) 
+& \raggedright lineshape of $\epem \to \PW\PW$ near threshold 
+& \raggedright NLO ($\epem \to 4\Pf$\newline or EFT framework) 
+& \raggedright NNLO for $\epem \to \PW\PW$, $\PW \to \Pf\bar{\Pf}'$\newline in EFT setup & \\
+\midrule
+\raggedright $\PH\PZ\PZ$ coupling & \raggedright -- $^\ast$  & 0.1\% 
+& \raggedright cross section for $\epem \to \PZ\PH$ & \raggedright NLO EW plus partial NNLO QCD/EW & \raggedright full NNLO EW & \\
+\midrule
+$m_\text{top}$~(MeV) & 290 & 4.2 (4.9) & \raggedright threshold scan $\epem \to \PQt \PAQt$ 
+& \raggedright N$^3$LO QCD, NNLO EW, resummations up to NNLL, $\mathcal{O}$(30\,MeV) scale uncert.\ 
+& \raggedright Matching fixed orders with resum\-mations, merging with MC, $\as$ (input) & \\
+\bottomrule
+\end{tabular}\\
+\footnotesize{$^\dagger$\,The necessary theory calculations mentioned are a minimum baseline; 
+additional partial higher-order contributions may also be required.}\\
+\footnotesize{$^\ast$ No absolute value for the HZZ coupling can be extracted from the LHC data without additional assumptions.}
+\end{table}
+
+\setlength{\tabcolsep}{6pt}
+
+\begin{table}[ht]
+\centering
+\caption{Required theory calculations for the \emph{prediction} of the listed precision quantities within the SM. 
+These predictions are needed for comparison with the quantities extracted from data (Table~\ref{tab:obs1}), 
+for the purpose of testing the validity of the SM and probing BSM physics.
+More details in Ref.~\cite{Freitas:2019bre}.}
+\label{tab:obs2}
+\begin{tabular}{p{1.2cm}p{3.5cm}p{3cm}p{3.5cm}@{}p{0cm}}
+\toprule
+Quantity & \raggedright Required theory input & \raggedright Theory status\newline as of today & \raggedright Needed theory improvement$^\ddagger$ & \\
+\midrule
+$\Gamma_{\PZ}$ & \multirow{3}{3.5cm}{vertex corrections for $\PZ \to \Pf\bar{\Pf}$} & \multirow{3}{3cm}{NNLO + partial higher orders} & \multirow{3}{3.5cm}{N$^3$LO EW + partial higher orders} & \\[1ex]
+\cmidrule(r){1-1} 
+$\sin^2\theta_\text{eff}^\ell$ &&& \\[.7ex]
+\midrule
+$m_{\PW}$ & \raggedright SM corrections to the muon decay rate & \raggedright NNLO + partial higher orders & \raggedright N$^3$LO EW + partial higher orders & \\
+\bottomrule
+\end{tabular}\\
+\footnotesize{$^\ddagger$\,The mentioned needed theory calculations are a minimum baseline; \\
+additional partial higher-order contributions may also be required.}
+\end{table}
+
+Additional theory input is necessary for the interpretation of the experimentally determined values of these quantities, 
+i.e., to test the validity of the SM and probe possible physics beyond the SM, as illustrated in Table~\ref{tab:obs2} for some of the same examples as above.
+In this context, the three-loop $\as^3$ corrections to the semileptonic $\PQb \to \PQc$ decay~\cite{Fael:2020tow} 
+and the three-loop QED corrections to the muon decay~\cite{Fael:2020tow,Czakon:2021ybq} were recently calculated in the Fermi approximation. 
+These results are a milestone in perturbative calculations and an important step towards precision calculations for FCC-ee. 
+In particular, the $\alpha^3$ QED contribution translates to a shift of the muon lifetime of $(-9 \pm 1) \times 10^{-8}$\,$\mu$s.
+With the current measurement of $\tau_{\PGm} = 2.1969811 \pm 0.0000022$\,$\mu$s, 
+the new correction terms are almost two orders of magnitude smaller than the experimental uncertainty. 
+Thus, an updated value of $G_\mathrm{F}$ can only be extracted once the latter has been improved.
+
+The Fermi constant $G_\mathrm{F}$ is one of several fundamental parameters that need to be precisely determined 
+in order to make quantitative predictions for electroweak precision observables (\mbox{EWPOs}) 
+within the SM or concrete BSM realisations through data-theory comparisons. 
+Other examples of such quantities include the strong coupling $\as$ and the top-quark mass $m_\text{top}$. 
+Many of these parameters can be obtained from FCC-ee data with much reduced uncertainty compared to today (Table~\ref{tab:EWPO}), 
+but their extraction from the experimental measurements requires significant theory input 
+(as shown in Section~\ref{sec:qcdcalc} for $\as$ and in the last row of Table~\ref{tab:obs1} for $m_\text{top}$).
+
+Similarly, the interpretation of cross section measurements requires the precise determination of the luminosity 
+through measurements of small-angle Bhabha scattering and/or large-angle photon-pair production (Section~\ref{sec:lumi}). 
+For this purpose, the rates for these processes need to be computed at least with NNLO QED corrections, 
+logarithmically enhanced higher-order effects, and a careful treatment of virtual hadronic corrections 
+(which appear at NLO for Bhabha scattering and NNLO for two-photon production)~\cite{deBlas:2024bmz,Jadach:2018jjo}.
+
+To achieve the precision goals outlined in Tables~\ref{tab:obs1} and~\ref{tab:obs2}, 
+significant improvements in calculation techniques for higher-order radiative corrections are required, 
+including full two-loop corrections for $2\to 2$ scattering processes, 
+as well as decay processes with full three-loop corrections and approximate four-loop contributions in a large-mass expansion.
+
+Recently, significant progress has been achieved in semi-numerical multi-loop calculation techniques based on dispersion relations~\cite{Song:2021vru,Freitas:2022hyp} 
+and on series solutions of differential equations~\cite{Dubovyk:2022frj,Liu:2021wks,Liu:2022mfb,Liu:2022chg,Hidding:2022ycg,Armadillo:2022ugh}. 
+These techniques have enabled the first calculations of electroweak two-loop corrections for the main Higgs boson production process at FCC-ee, 
+$\epem \to \PZ\PH$~\cite{Freitas:2022hyp,Chen:2022mre}, 
+and they are expected to be useful for calculations of NNLO corrections for other pair production processes as well.
+
+The approach of Refs.~\cite{Song:2021vru,Freitas:2022hyp} exploits dispersion relations and Feynman parameters 
+to express one subloop of a two-loop diagram in terms of integrals with up to three variables. 
+Then the second subloop becomes a simple one-loop integral, with well-known analytical results. 
+For divergent diagrams, the singularities can be removed with systematically constructed subtraction terms, which can also be evaluated analytically. 
+These procedures lead to two- or three-dimensional finite numerical integrals that can be evaluated with good precision 
+within minutes on a single CPU core for a single diagram class. 
+The method does not use any reduction to master integrals, which saves computing resources.
+
+Another powerful method for multi-loop integrals is the method of differential equations~\cite{Kotikov:1990kg,Kotikov:1991hm,Kotikov:1991pm,Remiddi:1997ny,Henn:2013pwa}. 
+While it can be difficult to find analytical solutions to these equations, it was recently realised that solutions can be efficiently obtained 
+to arbitrarily high precision, using deep series expansions~\cite{Dubovyk:2022frj,Liu:2021wks,Liu:2022chg,Hidding:2022ycg,Armadillo:2022ugh}. 
+By matching series about different expansion points, solutions can be constructed that consistently extend across thresholds and other singular points. 
+To fully determine the differential equation solutions, boundary values are also needed, and can be evaluated analytically or numerically for special kinematic points 
+(such as zero momentum or unphysical Euclidean momentum). 
+This step is made particularly simple with the auxiliary flow method, 
+which uses boundary conditions at infinity of an unphysical (auxiliary) variable, 
+where they can be evaluated in terms of algebraic recurrence relations~\cite{Liu:2022mfb}.
+
+The series expansion approach is not only restricted to two-loop integrals, but is also a promising tool for three-loop SM corrections. 
+It requires a reduction to master integrals, which is the computational bottleneck for this method. 
+Recent developments in integral reduction methods~\cite{Klappert:2020nbg,Chestnov:2022alh,Fontana:2023amt} can help to push the envelope on this front. 
+In addition, the integral reduction can be performed numerically with much lower computing resources, 
+and the functional dependence on kinematic variables can be reconstructed with suitable expansions or interpolations. 
+Progress was also made towards analytical solutions of differential equations for Feynman integrals, using functions beyond multiple polylogarithms~\cite{Bourjaily:2022bwx,Pogel:2022ken}.
+
+For a reliable phenomenological description of $\epem \to \PZ\PH$, 
+one of the next steps is to combine the NNLO result with a calculation of the process $\epem \to \PH \Pf\bar{\Pf}$, 
+where the fermion pair may be off the \PZ resonance. 
+These off-shell contributions are important because of the relatively large decay width of the \PZ boson. 
+For the projected FCC-ee precision, it is sufficient to compute $\epem \to \PH \Pf\bar{\Pf}$ at NLO, 
+which can be straightforwardly accomplished with existing automated tools.
+
+\subsection{QCD precision calculations}
+\label{sec:qcdcalc}
+
+This section addresses some of the main theoretical challenges regarding Quantum Chromodynamics (QCD) calculations on the path towards FCC-ee.
+The considerations below are inspired by previous reviews~\cite{Monni:2021rcz} 
+and largely by discussions that took place at topical FCC-ee workshops~\cite{EWPrecisionWshop,QCDPrecisionWshop}.
+
+\subsubsection{QCD studies in \texorpdfstring{$\PZ/\PGg^*\to \text{jets}$}{Z/gamma* to jets}}
+\label{sec:QCDZdec}
+
+The very large FCC-ee integrated luminosities at the \PZ boson pole and at higher energies 
+provide an excellent opportunity to expand the
+knowledge of strong interactions in QCD final states, 
+both in the area of jet physics and for the extraction of the strong coupling constant, $\as(m^2_{\PZ})$, 
+from hadronic observables in $\PZ/\PGg^* \to \text{jets}$ events.
+
+\paragraph{Jet physics and shape observables}
+\label{sec:evshp}
+
+Fine details of QCD final states can be investigated through a range of jet observables 
+such as event shapes (designed to describe the geometric properties of hadronic events), 
+jet rates, and jet substructure observables.
+
+Owing to their sensitivity to QCD radiation, 
+these observables are widely used to extract $\as$~\cite{dEnterria:2022hzv}, 
+calibrate non-perturbative hadronisation models~\cite{Dasgupta:2003iq},  
+or study QCD dynamics within jets~\cite{Marzani:2019hun}. 
+Fully differential calculations for the process $\epem \to \PZ/\PGg^*\to \PQq\PAQq + {\rm X}$ at N$^3$LO in QCD ($\as^{3}$)
+for massless partons in the final state can be derived starting from the results of
+Refs.~\cite{Gehrmann-DeRidder:2007vsv,Gehrmann-DeRidder:2008qsl,Weinzierl:2008iv,Weinzierl:2009ms,DelDuca:2016ily}
+with the inclusive cross section at N$^3$LO~\cite{Gorishnii:1990vf}. 
+Similarly, the production of heavy (notably bottom) quarks, 
+$\epem \to \PZ/\PGg^* \to \mathrm{Q}\bar{\mathrm{Q}} + X$, can be described at NNLO in QCD 
+using the predictions of Refs.~\cite{Bernreuther:1997jn,Nason:1997tz,Nason:1997nw,Chetyrkin:2000zk}.
+For higher jet multiplicities, 
+the computation of QCD radiative corrections with massless final-state partons has been extended to NLO
+for $\epem \to \PZ/\PGg^* \to n ~ \text{jets}$ with $n=5$~\cite{Frederix:2010ne} and $n=6$, 7~\cite{Becker:2011vg}.
+
+The essential NNLO QCD calculations for final states with four or five jets are beyond the current state of the art. With the recent progress in the calculation of the necessary two-loop scattering amplitudes (see, e.g., Refs.~\cite{Hartanto:2019uvl,Badger:2021nhg,Abreu:2021asb} for the five-point case), these NNLO predictions will arguably become available in the coming years.
+Future developments in the computation of such multi-scale amplitudes may benefit from novel computational techniques 
+discussed in Section~\ref{sec:theocalc} and in 
+Refs.~\cite{Bierenbaum:2010cy,Badger:2013gxa,vonManteuffel:2014ixa,Ita:2015tya,Buchta:2015wna,Peraro:2016wsq,Liu:2017jxz,
+Abreu:2017xsl,Capatti:2019ypt,Capatti:2020xjc,Liu:2021wks,Bobadilla:2021pvr}. 
+A recent review of modern computational methods can be found in Refs.~\cite{Heinrich:2020ybq,EWPrecisionWshop}.
+
+The perturbative description of kinematic regimes that require the all-order resummation of radiative corrections 
+has also improved substantially in the past decade, 
+and the state-of-the-art calculations for standard global event shapes and jet rates in
+$\epem \to \PZ/\PGg^* \to \PQq\PAQq + X$ have reached NNLL order and
+beyond~\cite{Becher:2008cf,Abbate:2010xh,Chien:2010kc,Monni:2011gb,
+Becher:2012qc,Mateu:2013gya,Hoang:2014wka,deFlorian:2004mp,Banfi:2014sua,
+Banfi:2016zlc,Tulipant:2017ybb,Moult:2018jzp,Banfi:2018mcq,Bell:2018gce,
+Procura:2018zpn,Ebert:2020sfi,Bris:2020uyb,Moult:2022xzt,Duhr:2022yyp}. 
+Resummations for multijet final states are desirable for QCD phenomenology at FCC-ee, 
+while currently only a limited number of predictions is available beyond the NLL order for
+$\epem \to \PZ/\PGg^* \to \PQq\PAQq \Pg + {\rm X}$ 
+observables~\cite{Catani:1991hj,Larkoski:2018cke,Chen:2019bpb,Arpino:2019ozn}.
+Further progress is therefore necessary in this area, 
+requiring dedicated analytical and numerical resummation techniques.
+%
+Furthermore, the computation of non-global observables~\cite{Dasgupta:2001sh,Banfi:2002hw}, 
+sensitive to the geometric pattern of soft QCD radiation, 
+has recently been pushed to the NNLL order~\cite{Banfi:2021owj,Banfi:2021xzn,FerrarioRavasio:2023kyg,Becher:2023vrh}, 
+and a number of dedicated phenomenological applications to $\epem$ collisions are becoming 
+available~\cite{Dasgupta:2002bw,Banfi:2002hw,Weigert:2003mm,Hatta:2013iba,Becher:2015hka,
+Larkoski:2015zka,Becher:2016mmh,Balsiger:2019tne,Banfi:2021xzn,Becher:2023vrh}.
+Computational techniques for jet substructure observables have also witnessed outstanding progress in the last decade, 
+resulting in an array of applications at lepton colliders to the study of observables measured 
+on groomed jets~\cite{Frye:2016okc,Baron:2018nfz,Kardos:2020gty,Dasgupta:2022fim}
+or the study of fragmentation and spin correlations 
+in jet physics~\cite{Jain:2011xz,Chen:2020adz,Neill:2020bwv,Karlberg:2021kwr,Chen:2022muj,Chen:2023zlx,vanBeekveld:2023lsa}.
+
+\paragraph{Measurements of the strong coupling constant}
+
+Among the main challenges to match FCC-ee experimental accuracy is
+the reduction of the uncertainties of the QCD parameters,
+and notably the strong coupling constant, $\as(m^2_{\PZ})$~\cite{dEnterria:2022hzv}.
+The current world average~\cite{ParticleDataGroup:2024cfk}, 
+which reaches a $\sim$\,0.8\% uncertainty ($\as(m^2_{\PZ}) = 0.1180 \pm 0.0009$), 
+is mainly constrained by the precision of lattice calculations~\cite{FlavourLatticeAveragingGroupFLAG:2021npn}, 
+expected to be improved by a factor of two in the next decade~\cite{DallaBrida:2019wur,DelDebbio:2021ryq}.
+
+At FCC-ee, a precision of 0.1\% on $\as(m^2_{\PZ})$ can be contemplated (Table~\ref{tab:EWPO}). 
+The most precise determination comes from a combined fit of three EW pseudo-observables at the Z pole: 
+the \PZ boson hadronic partial width,
+the total hadronic cross section at the resonance peak, 
+and the ratio of hadronic to leptonic branching fractions.
+These inclusive quantities are particularly suitable to extract $\as$ 
+given the small non-perturbative hadronisation corrections,
+which scale with the centre-of-mass energy $Q$ as $(\Lambda_\text{QCD} / Q)^6$~\cite{Dokshitzer:1995qm}.
+With the $6 \times 10^{12}$ \PZ bosons produced at FCC-ee, 
+the total experimental uncertainty in $\as$ extractions from fits of the above quantities 
+is of the order of 0.1\%~\cite{dEnterria:2020cpv}, 
+hence requiring a substantial reduction of the corresponding theoretical uncertainties.
+The status of theory computations for these observables is well-advanced:
+QCD corrections are known up to N$^4$LO~\cite{Baikov:2008jh,Baikov:2012er,Herzog:2017dtz} 
+and N$^3$LO corrections for massive bottom quarks are also known in a power series in $m_{\PQb}^2 / Q^2$~\cite{Chetyrkin:2000zk}.
+On the other hand, EW and mixed QCD-EW corrections are available at least up to two loops 
+(see, e.g., Refs.~\cite{Dubovyk:2018rlg,Dubovyk:2019szj,Chen:2020xot} and references therein), 
+as discussed in Section~\ref{sec:theocalc} of this report.
+
+Other very accurate extractions of $\as$ at FCC-ee can be derived from 
+\PGt~\cite{Pich:2016bdg,Boito:2016oam} and \PW~\cite{dEnterria:2016rbf,dEnterria:2020cpv} hadronic and leptonic decays, 
+using high-order perturbative QCD computations. 
+Existing studies on the $\as$ extraction from the decay of EW bosons indicate that 
+the calculation of higher-order corrections\footnote{State-of-the-art calculations can be found in, e.g., 
+Refs.~\cite{Baikov:2008jh, Baikov:2012er, Freitas:2014hra, Freitas:2013dpa, Chen:2020xzx, Dubovyk:2019szj}.}
+up to $\mathcal{O}(\as^5)$, $\mathcal{O}(\alpha^3)$, and $\mathcal{O}(\as,\alpha^3)$ or $\mathcal{O}(\as^2,\alpha^2)$ 
+for QCD, EW, and QCD$\,\oplus\,$EW, respectively,
+are needed to match the expected statistical experimental precision on inclusive \PW and \PZ hadronic observables~\cite{dEnterria:2020cpv}.
+In the case of \PGt decays, 
+open theoretical questions are related to the treatment of non-perturbative effects~\cite{Pich:2013lsa,Davier:2013sfa,Boito:2014sta}, 
+as well as to the difference between extractions relying on contour-improved (CIPT)~\cite{Pivovarov:1991rh,LeDiberder:1992jjr} 
+and fixed-order (FOPT) perturbative calculations adopted in the fits~\cite{Hoang:2021nlz,Benitez-Rathgeb:2021gvw}.
+Recent investigations indicate that CIPT calculations might require a more robust estimate of 
+non-perturbative corrections~\cite{Hoang:2020mkw,Hoang:2021nlz,Golterman:2023oml}, 
+with potential ways forward discussed in Refs.~\cite{Benitez-Rathgeb:2022hfj,Benitez-Rathgeb:2022yqb}. 
+Given these open questions, $\as$ fits based on CIPT have been excluded from the latest world average~\cite{ParticleDataGroup:2024cfk}.
+A deeper understanding of these aspects is necessary for robust determinations of $\as$ from \PGt decays at FCC-ee.
+
+The sensitivity to $\as$ of differential observables, e.g., in the final states discussed in the previous section, 
+makes them also suitable for precise extractions of the strong coupling.
+Currently, different $\as$ determinations from these observables are included 
+in the world average~\cite{Jones:2003yv,Dissertori:2007xa,Bethke:2009ehn,Becher:2008cf,Davison:2009wzs,
+Dissertori:2009ik,Gehrmann:2010uax,Chien:2010kc,Abbate:2010xh,OPAL:2011aa,Gehrmann:2012sc,Abbate:2012jh,
+Hoang:2015hka,Kardos:2018kqj,Dissertori:2009qa,Schieck:2012mp,Verbytskyi:2019zhh,Kardos:2020igb},
+and can differ from each other by up to a few standard deviations.
+Besides the high-accuracy perturbative ingredients described above,
+such fits require input on hadronisation effects. 
+Non-perturbative radiation induces ${\cal O}(\Lambda_\text{QCD}^p / Q^p)$ changes in the observables 
+(with typically $p = 1$) that must be estimated to achieve the desired precision.
+Aside from the different observables considered in the fit, 
+a central difference between these different $\as$ determinations 
+lies in how hadronisation corrections are evaluated 
+(with either Monte Carlo models or analytic techniques)~\cite{Korchemsky:1994is,Dokshitzer:1995qm,Dokshitzer:1997iz,Beneke:1997sr,Dokshitzer:1998pt,
+Gardi:1999dq,Korchemsky:1999kt,Dasgupta:1999mb,Salam:2001bd,Gardi:2001di,Gardi:2003iv,Mateu:2012nk,Agarwal:2020uxi}. 
+The yet suboptimal internal consistency of $\as$ determinations in $\epem$ jet observables 
+hints at unsatisfactory modelling of non-perturbative QCD dynamics, which poses a major bottleneck for precision phenomenology at FCC-ee 
+and requires substantial improvements in our understanding of this kinematic regime. 
+First innovative steps towards this ambitious goal are being taken within a dispersive model of the QCD coupling, 
+which has recently been used to extract the leading non-perturbative scaling in three-jet 
+final states~\cite{Luisoni:2020efy,Caola:2021kzt,Caola:2022vea,Nason:2023asn}.
+
+Data from FCC-ee will be very beneficial for deepening the understanding of hadronisation corrections. 
+On the one hand, energies higher than those of previous lepton colliders would arguably justify 
+the further development of analytic models based on a power expansion in $\Lambda_\text{QCD}/Q$.
+On the other hand, 
+the energy span and experimental accuracy of FCC-ee are instrumental in gaining better control of non-perturbative dynamics in MC generators, 
+which will be beneficial in all measurements expected at FCC-ee, 
+such as $\epem \to \PQt\PAQt$, $\epem \to \PWp\PWm$, and $\epem \to \PZ \PH$.
+A complementary approach is given by the design of observables with reduced sensitivity to hadronisation, 
+e.g., through jet-substructure techniques~\cite{Frye:2016okc,Baron:2018nfz,Kardos:2020gty,Dasgupta:2022fim},
+which open promising avenues for complementary extractions of $\as$~\cite{Marzani:2019evv}.
+An in-depth study of the effectiveness of these techniques at FCC-ee energies, 
+as well as the estimate of the remaining hadronisation corrections, 
+are highly desirable in the coming years~\cite{Marzani:2019evv,Hoang:2019ceu}.
+
+\subsubsection{QCD aspects of Higgs physics}
+
+Reaching theoretical uncertainties aligned with the projections of Table~\ref{tab:HiggsKappa3} for Higgs precision studies 
+requires dedicated developments in different areas of both QCD and EW calculations. 
+While EW corrections are discussed in Section~\ref{sec:theocalc}, 
+this section focuses on QCD aspects.
+The clean experimental conditions at FCC-ee allow a detailed and exclusive study of the hadronic decays of the Higgs boson. 
+Partial widths are currently theoretically known at the per-cent level, 
+with a  parametric uncertainty on $\as(m^2_{\PZ})$ that will be significantly reduced at FCC-ee with the expected 0.1\% precision achieved in this parameter. 
+More specifically, in the case of $\PH \to \PQb\PAQb$, 
+N$^4$LO QCD corrections are known in the limit of massless bottom quarks~\cite{Baikov:2005rw,Davies:2017xsp,Herzog:2017dtz}, 
+and N$^4$LO QCD corrections to $\PH \to \Pg\Pg$ have been computed in the heavy-top-mass limit~\cite{Herzog:2017dtz}.
+The simulation of Higgs decays is paramount both for correcting the fiducial acceptance of the experiments
+and for studying kinematic distributions of the decay products and jet observables.
+These distributions are sensitive to quark Yukawa couplings~\cite{Gao:2016jcm,Bi:2020frc} or 
+to new physics states~\cite{Kaplan:2009qt,Curtin:2013fra,Liu:2016zki,Liu:2016ahc,Gao:2019ypl}.
+The sensitivity to light-quark Yukawa couplings can be enhanced by means of modern quark and gluon tagging techniques~\cite{Bedeschi:2022rnj}.
+
+A key application is the extraction of the strange-quark Yukawa coupling, 
+for which preliminary studies have shown promising results (Section~\ref{sec:PhysPerf_strangeTagging}).
+Among the challenges in the realisation of this measurement, 
+a relevant theory bottleneck is the separation of the $\PH \to \PQs\PAQs$ decay from 
+the Dalitz decay of a Higgs to a pair of either gluons (QCD mediated) or photons (EW mediated) 
+followed by a gluon/photon splitting into strange quarks. 
+Initial investigations~\cite{QCD4Higgs-SalamSoyez} indicate that 
+this background can be drastically suppressed by a cut in the invariant mass of the pair of jets 
+originating from the fragmentation of the two strange quarks, $m_{j_1 j_2} \gtrsim 100$\,GeV.
+A robust theoretical control of the $\PH \to \PQs\PAQs$ signal in this region 
+requires accurate perturbative calculations as well as the resummation of logarithmic corrections 
+stemming from soft-gluon radiation off the final-state strange quarks near the Higgs mass threshold, $m_{j_1 j_2} \sim m_{\PH}$.
+Together with advances in perturbative calculations, 
+a second essential element in this endeavour is the development of improved hadronisation models 
+to distinguish the non-perturbative fragmentation of (strange) quarks from that of gluons. 
+Such models are instrumental for the reliable training of jet taggers,
+and their calibration within future Monte Carlo generators will highly benefit from the precise QCD data collected at FCC-ee.
+
+Recently, considerable steps have been taken in the calculation of theoretical predictions for Higgs decays, 
+which are essential for the implementation of the above ideas. 
+The predicted kinematic distributions of the $\PH \to \PQb\PAQb$ decay products are 
+known up to N$^3$LO in the limit of 
+massless \PQb quarks~\cite{Anastasiou:2011qx,DelDuca:2015zqa,Caola:2017xuq,Ferrera:2017zex,Mondini:2019gid,Gauld:2019yng}
+and NNLO (and partially beyond) mass corrections are
+available~\cite{Chetyrkin:1995pd,Larin:1995sq,Harlander:1997xa,Bernreuther:2018ynm,Primo:2018zby,Behring:2019oci,Mondini:2020uyy,Behring:2020uzq}. 
+Similarly, differential QCD predictions for $\PH \to \Pg\Pg$ are now available up to N$^3$LO in the large-top-mass limit~\cite{Chen:2023fba}.
+Finite quark mass corrections to $\PH \to \Pg\Pg$ are relevant at the level of precision foreseen at FCC-ee
+and could be included up to NNLO in QCD in the near future with state-of-the-art 
+calculations~\cite{Djouadi:1995gt,Spira:1995rr,Larin:1995sq,Schreck:2007um,Melnikov:2016qoc,Melnikov:2017pgf,Kudashkin:2017skd,Frellesvig:2019byn}.
+Calculations of hadronic event shapes and jet resolutions at NLO~\cite{Gao:2019mlt,Luo:2019nig,Gao:2020vyx} and
+NNLO~\cite{Mondini:2019vub} in QCD have also been performed in recent years, 
+including the treatment of mass logarithms in the relevant virtual
+amplitudes~\cite{Banfi:2013eda,Grazzini:2013mca,Melnikov:2016emg,Liu:2017vkm,Liu:2018czl,Liu:2020tzd,Anastasiou:2020vkr,Liu:2021chn,Liu:2022ajh}
+and of Sudakov logarithms in event-shape distributions~\cite{Ju:2023dfa}.
+Similar to \PZ boson decays, 
+the relatively low-energy scale involved in the Higgs boson decays ($\sim m_{\PH}$) 
+implies that non-perturbative QCD effects have a sizeable impact on most differential distributions of hadronic Higgs decay products.
+Therefore, the considerations made in Section~\ref{sec:QCDZdec} apply here as well. 
+The FCC-ee Higgs programme will benefit enormously from future developments in the modelling of hadronisation effects.
+
+\subsubsection{QCD modelling of the top-quark threshold}
+\label{sec:QCDtop}
+
+The properties of top quark, 
+such as its mass, width, and EW couplings (Table~\ref{tab:EWPO}) are scheduled to be measured at FCC-ee
+with runs at centre-of-mass energies between 340 and 365\,GeV.
+The top mass can be extracted with high precision at FCC-ee through a threshold scan, 
+where the top-quark pair is non-relativistic.
+Suitable definitions of short-distance top-mass schemes unaffected by ambiguities related to infrared physics 
+are available~\cite{Bigi:1997fj,Hoang:1998hm,Hoang:1998ng,Beneke:1998rk,Pineda:2001zq},
+and can be exploited for precise predictions of the  $\sigma_{\ttbar}$ vs.\ $\sqrt{s}$ lineshape.
+Although NNLO and N$^3$LO fixed-order QCD calculations are available~\cite{Chen:2016zbz,Chen:2022vzo}, 
+$\sigma_{\ttbar}$ receives a substantial contribution from Coulomb-type interactions in this non-relativistic kinematic regime.
+These effects can be accurately described in the context of effective field theories 
+derived from non-relativistic QCD~\cite{Thacker:1990bm,Lepage:1992tx,Bodwin:1994jh}, 
+valid when the top quark velocity is of order $\as$. 
+A lot of effort has been devoted to computing predictions in this framework, 
+including QCD effects up to N$^3$LO~\cite{Beneke:2015kwa} 
+(see also Refs.~\cite{Hoang:2000yr,Beneke:2013jia} and references therein),
+approximate NNLL renormalisation-group improved corrections~\cite{Hoang:2013uda}, 
+and the inclusion of EW effects within an analogous EFT framework~\cite{Beneke:2017rdn}.
+
+The description of the final state $\PWp\PWm \PQb\PAQb + \mathrm{X}$
+requires the inclusion of non-resonant channels that do not involve the creation of a pair of on-shell top quarks. 
+These non-resonant channels critically demand embedding the aforementioned non-relativistic EFT
+into the unstable particle EFT~\cite{Beneke:2003xh,Beneke:2004km},
+where current predictions reach NNLO accuracy for the non-resonant part~\cite{Beneke:2017rdn}.
+Projections for FCC-ee quote an expected theoretical accuracy for the top mass of ${\cal O}$(50)\,MeV~\cite{Beneke:2017rdn} 
+in the potential-subtracted top-mass scheme~\cite{Beneke:1998rk} 
+(see also Refs.~\cite{Vos:2016til,Abramowicz:2018rjq}), 
+with ${\cal O}$(30)\,MeV scale uncertainties~\cite{Beneke:2024sfa,defranchis_2024_cqd16-xhk71}. 
+%
+Improving further on these results represents a formidable challenge for the field of precision calculations, 
+far beyond the current state of the art. 
+The main steps include the computation of N$^4$LO corrections in the non-relativistic EFT framework, 
+as well as the description of QED effects at NNLL both in the collinear limit 
+(e.g., ISR~\cite{Bertone:2019hks,Frixione:2019lga}) and in the soft limit 
+(as discussed in Ref.~\cite{BenekeEWPrecisionWshop}).
+Moreover, the optimal exploitation of the FCC-ee measurements might also require the N$^3$LO calculation for the non-resonant channels.
+
+The theoretical description of differential distributions is less accurate than that of the inclusive quantities just discussed, 
+and reaches either NLO or NNLO accuracy only for specific observables~\cite{Hoang:1999zc,Bach:2017ggt}.
+Further progress is needed in these computations, which are central to controlling precisely the effect of experimental cuts. 
+Some aspects of these calculations pose considerable theoretical challenges, 
+for instance, concerning the differential calculations in the non-relativistic limit, 
+or the assessment of non-factorisable radiative corrections to the decays of the two top quarks~\cite{Melnikov:1995fx}.
+
+\subsection{Monte Carlo event generators}
+
+Among the theoretical developments necessary for the FCC-ee physics programme, 
+the area of Monte Carlo (MC) event generators 
+(see, e.g., Ref.~\cite{Campbell:2022qmc} for a review of the current state of the art) 
+plays a pivotal role.
+These tools are instrumental not only for the accurate simulation of QCD and QED effects,
+but also for the calibration of the detectors as well as the training of analysis tools.
+The precision expected at FCC-ee requires a significant improvement in MC generators, with respect to their previous generation,
+far exceeding the current state of the art.
+The following paragraphs summarise some of the corresponding challenges, regarding QCD and EW (notably QED) aspects.
+
+\subsubsection{QCD aspects}
+\label{sec:QCDmc}
+
+Monte Carlo generators simulate QCD corrections in three stages:
+the hard scattering at high momentum transfer; 
+the parton shower stage, in which the system evolves towards low momentum scales; 
+and the non-perturbative stage, which implements the transition of final state partons into hadrons.
+A first area where substantial improvement is necessary concerns the formulation of parton shower algorithms, 
+given that current public tools are generally limited to leading logarithmic (LL) accuracy. 
+The precision goals of FCC-ee arguably demand NNLL accuracy or beyond, 
+which is currently the subject of widespread investigations within the community. 
+Specifically, state-of-the-art algorithms achieving NLL accuracy for broad ranges of observables have recently been 
+formulated~\cite{Dasgupta:2018nvj,Bewick:2019rbu,Dasgupta:2020fwr,Forshaw:2020wrq,Hamilton:2020rcu,Nagy:2020rmk,
+Nagy:2020dvz,Hamilton:2021dyz,Karlberg:2021kwr,Herren:2022jej,vanBeekveld:2022zhl,vanBeekveld:2022ukn,vanBeekveld:2023lfu,Assi:2023rbu} 
+with novel techniques that help bridge the field of parton showers with 
+QCD resummations~\cite{Dasgupta:2018nvj,Bewick:2019rbu,Dasgupta:2020fwr,Forshaw:2020wrq,Nagy:2020rmk,Nagy:2020dvz,Herren:2022jej}.
+Significant progress has also been made in the formulation of amplitude-level evolution~\cite{AngelesMartinez:2018cfz,Forshaw:2019ver}, 
+which would ultimately allow a systematic treatment of soft quantum interference effects in parton showers.
+Beyond NLL, several conceptual and technical problems become relevant, 
+spanning from the inclusion of higher-order matrix elements~\cite{Jadach:2011kc,Li:2016yez,Hoche:2017hno,Dulat:2018vuy,Ravasio:2023anp,vanBeekveld:2024qxs}, 
+to the formulation of consistent schemes for the treatment of virtual corrections in the soft and 
+collinear limits~\cite{Catani:1990rr,Banfi:2018mcq,Catani:2019rvy,Dasgupta:2021hbh,vanBeekveld:2023lsa,vanBeekveld:2024qxs}, 
+and to the realisation of matching schemes to NLO matrix element corrections that preserve the shower accuracy~\cite{Hamilton:2023dwb}.
+The significant progress in the understanding of these aspects has recently resulted in the first class of NNLL parton-shower algorithms~\cite{vanBeekveld:2024wws} 
+capable of achieving this perturbative accuracy for event-shape observables at lepton colliders. 
+This progress suggests that fully general NNLL parton showers may become available for phenomenology applications in the coming years.
+
+A second aspect with much scope for improvement is the matching of parton showers to higher-order calculations for the hard scattering. 
+Presently, an array of techniques allows NLO~\cite{Frixione:2002ik,Nason:2004rx,Frixione:2007vw,Hamilton:2012rf,Jadach:2015mza,Nason:2021xke} 
+or NNLO~\cite{Hamilton:2013fea,Alioli:2013hqa,Hoche:2014uhw,Monni:2019whf,Monni:2020nks} 
+QCD calculations (and possibly beyond~\cite{Prestel:2021vww}) 
+to be matched to LL parton showers.
+These techniques have been applied to the differential simulation of Higgs boson decays~\cite{Bizon:2019tfo,Hu:2021rkt}, 
+but will arguably need to be revisited in light of the recent progress in advancing the accuracy of parton showers~\cite{Hamilton:2023dwb}.
+
+Further necessary developments concern the accurate production of particle pairs at threshold 
+(e.g., $\ttbar$ or $\PWp\PWm$), 
+for which significant challenges arise from the inclusion of effects related to non-relativistic dynamics 
+and unstable particle decay (Section~\ref{sec:QCDtop}) within event generators.
+Notable progress in the development of resonance-aware matching has been made for top-pair production in 
+hadronic collisions~\cite{Jezo:2015aia,Frederix:2016rdc,Bach:2017ggt}. 
+However, a full description of the hierarchy of scales involved in the process
+(top-quark velocity $v$, $m_\text{top}$, and width $\Gamma_\text{top}$) 
+is not available in existing generators and requires significant conceptual advances.
+
+A final area that requires significant improvement in view of the precision required at FCC-ee is the modelling of non-perturbative corrections,
+especially in the fragmentation of light partons and heavy quarks, 
+central in the simulated performance of flavour tagging algorithms.
+Possible advances may come from a combination of generators with higher perturbative accuracy, as discussed above, 
+and more versatile parametrisations and tuning of non-perturbative effects, 
+for which the use of machine learning technology offers a promising alternative to current models~\cite{Ilten:2022jfm,Ghosh:2022zdz,Chan:2023ume}.
+The tuning of these models benefit from the ability to select large high-purity data samples enriched with specific flavours
+(such as gluons and \PQb quarks), essential for the direct training of jet taggers on experimental data.
+Valuable experimental data for the calibration and testing of non-perturbative corrections could be collected 
+from measurements of observables performed with hadronic invariant masses below the \PZ-boson resonance. 
+Such measurements are accessible either via dedicated runs at lower $\sqrt{s}$ 
+or from hard initial-state radiation away from the \PZ-pole run. 
+Preliminary feasibility studies~\cite{verbytskyi24,verbytskyi25} indicate that $\mathcal{O}(10^9)$ events 
+can be collected at various energy points over the 20--80\,GeV hadronic mass range, 
+enabling a variety of measurements useful for the development and testing of non-perturbative models.
+
+Finally, the experimental accuracy expected in resonance production,
+such as $\epem \to \PWp\PWm \to \PQq\PAQq^\prime \PQq^{\prime\prime}\PAQq^{\prime\prime\prime}$ or $\epem \to \ttbar$, 
+will likely demand improved models of colour reconnection~\cite{Christiansen:2015yca}, 
+which will be calibrated with the accurate data available for these processes.
+
+\subsubsection{QED aspects}
+\label{sec:EWmc}
+
+The tools based on Yennie, Frautschi, and Suura (YFS) exponentiation~\cite{Yennie:1961ad} 
+provide a promising framework for systematically improving the precision of QED (and QCD) radiative processes in MC generators. 
+While the soft logarithms, arising from the real and virtual enhanced regions of phase space, 
+are resummed to infinite order in the YFS formalism, the remaining collinear logarithms are not. 
+These algorithms can be incorporated order by order, 
+and the associated divergences can be regularised by including masses for all leptons. 
+The YFS treatment is completely exclusive for multiple photon emission.
+
+The \textsc{kkmc} event generator uses a variant of YFS exponentiation called Coherent Exclusive Exponentiation (CEEX). 
+The most recent version, 5.00.2, of the \textsc{kkmc} package~\cite{Arbuzov:2020coe} includes improvements for the simulation of fermion pair production. 
+Work is ongoing to include additional collinear contributions in the YFS framework~\cite{Jadach:2023pka}, 
+beam spread parametrisations, and better descriptions of tau decays~\cite{Banerjee:2019mle}.
+
+YFS resummation has been implemented in the {\textsc{Sherpa}}-3 series in an automatic framework~\cite{Krauss:2022ajk} 
+for both the initial (ISR) and final (FSR) state QED radiation. 
+Initial-final state interference (IFI) QED effects within the YFS framework are currently  implemented in \textsc{kkmc} but not in \textsc{Sherpa}, 
+for which they remain an essential target for future improvements,
+especially for the prediction of  forward-backward asymmetries at FCC-ee.
+Using {\textsc{Sherpa}}'s automated matrix element generators, the ISR resummation can be applied to any $\epem$ process, 
+while final state radiation is currently restricted to leptonic states only. 
+The matching of this resummation to higher-order perturbative corrections is also automated within {\textsc{Sherpa}}, 
+including the effects of collinear logarithms. 
+The procedure renders finite the higher-order corrections, which by themselves can be infrared divergent. 
+One-loop electroweak corrections are provided by automated tools such as \textsc{Recola}~\cite{Actis:2016mpe}, 
+while {\textsc{Sherpa}} automatically creates the YFS subtraction term such that the end result is infrared finite. 
+The real corrections can also be included in a similar fashion using internal automated tools. 
+Since the subtraction has been automated within the \textsc{Sherpa} framework, 
+the current limitation on the perturbative accuracy is missing higher-order corrections, in particular multiloop calculations. 
+However, as these calculations become available, it is relatively simple to include them within the YFS resummation framework.
+
+These higher-order corrections can be provided by external electroweak libraries, 
+which contain process-dependent multi-loop matrix elements 
+and that can be interfaced with MC tools. 
+The \textsc{Dizet~6.45}~\cite{Arbuzov:2023afc} package contains most of the currently known higher-order corrections for \PZ-pole physics. 
+For systematic extensions to higher levels of precision, however, a flexible object-oriented code library would be more suitable, 
+which is the goal of the new \textsc{Griffin} project~\cite{Chen:2022dow}. 
+Its object-oriented structure also simplifies the interfacing with MC generators, fitting tools, and other external programs.
+
+The study of aspects related to ISR has been the subject of recent work~\cite{Frixione:2022ofv}.
+An alternative approach to YFS factorisation for the description of ISR is based on collinear factorisation, 
+as in Refs.~\cite{Frixione:2012wtz,Frixione:2021zdp,Bertone:2022ktl}. 
+Unlike what happens in the YFS framework, a systematic resummation of collinear logarithms is implemented, 
+while soft corrections are only approximately described. 
+Recent work has expanded this formulation to the NLL order~\cite{Frixione:2019lga,Bertone:2019hks}, 
+which is relevant for the precision targets of FCC-ee~\cite{Bertone:2022ktl}. 
+Such a formalism also offers a promising avenue for an alternative and independent simulation of QED radiation in parton showers.
+
+\subsection{Organisation and support of future activities to improve theoretical precision}
+
+As discussed in Section~\ref{sec:theocalc}, the important targets for FCC precision physics have been defined. 
+Theoretical progress is limited by several factors, 
+ranging from the analytic control and classification of the integral structures due to appear at higher-loop order 
+to the numerical challenges of integration or event generation. 
+A rather diverse expertise is needed to address all the different aspects of the problem. 
+Most calculations to improve the precision of EW and QCD observables at FCC-ee are therefore currently ongoing as part of efforts by individual groups, 
+historically engaged in this activity. 
+The physics groups of the FCC Feasibility Study are overseeing the coordination of the different efforts, via their regular meetings and dedicated workshops. 
+The workshops are an opportunity to discuss and share information on the progress of the various groups, 
+as well as to refine the definition of the precision targets and milestones. 
+Recent examples of these workshops include 
+`Precision EW and QCD Calculations for the FCC Studies: methods and tools'~\cite{Blondel:2018mad}, 
+`Precision calculations for future $\epem$ colliders: targets and tools'~\cite{EWPrecisionWshop},
+`Parton Showers for future $\epem$ colliders'~\cite{QCDPrecisionWshop}, and, in 2024,
+`Frontiers in precision phenomenology: resummation, amplitudes, and subtraction'~\cite{QCDFrontiersWshop}.
+
+The Future Colliders Unit at CERN has made resources available to host researchers engaged in FCC studies and, in particular, precision studies, 
+either as long-term Scientific Associates (SASS) or as short-term visitors (STV). 
+These visitors interact with the current CERN Theory Group staff and fellows, 
+providing a constant presence of world experts on EW and QCD precision calculations. 
+
+Activities related to HL-LHC and its precision goals are intimately connected with FCC studies: 
+the LHC precision needs are pushing both the fields of QCD, EW, and mixed QCD$\,\oplus\,$EW calculations. 
+On the QCD side, higher-order perturbative calculations develop technology that can be adapted to EW higher-loop cases, 
+in  addition to pushing the precision of QCD predictions for FCC-ee at the \PZ peak. 
+A more profound understanding of non-perturbative effects of interest to the LHC 
+(e.g., the study of leading and subleading power corrections) 
+directly impacts the leading theoretical uncertainties ultimately affecting the precision of, for example, the extraction of $\as$ at FCC-ee. 
+The sensitivity of LHC measurements to EW effects, furthermore, is pushing the development of higher-order EW calculations, 
+with direct benefit for the pure EW programme of FCC-ee. 
+As a consequence, all the efforts of CERN and of the wider community, dedicated to precision physics at the LHC must be seen as 
+milestones towards the achievement of the FCC-ee precision goals. 
+
+In this context, a new initiative is being undertaken by the LHC Physics Centre at CERN (LPCC), 
+with the creation of a global effort dedicated to coordinate and support studies in the domain of event generators and multi-loop calculations, 
+also building on the success of the former MCnet network~\cite{mcnet}. 
+This activity, in addition to continuing the coordinated Monte Carlo development work established by MCnet 
+--- opening it to MC codes not covered by MCnet so far and preserving the student mentoring and educational activities --- 
+will support research to improve the projected computing performance of event generators and of multi-loop codes, 
+exploring the opportunities offered by new hardware high-performance computing architectures (e.g., GPUs). 
+The numerical complexity and CPU cost are recognised as a limiting factor in implementing the highest-available theoretical precision in event generators 
+that can be used for realistic studies of the experimental data. 
+These improvements are, therefore, a critical step towards the realistic study of FCC-ee detector performance in the context of precision observables. 
+
+To summarise: the theoretical field of precision studies for FCC-ee is multifaceted, 
+touching on diverse challenges in both the formal and numerical fields and thus calling on diverse expertise. 
+The structures that have been put in place during the FCC feasibility study allow these developments to be addressed and coordinated, 
+engaging the most qualified and experienced researchers in the community. 
+These steps towards the goal of matching theoretical and experimental uncertainties are important and promising, 
+in order to optimally exploit the data from FCC-ee and, later, from FCC-hh. While it will be years before the necessary precision goals are attained, the efforts initiated during the period of the FCC feasibility study have began defining a clear roadmap. The approval of the FCC project will catalyse the engagement of the theory community. The past and ongoing successes in enhancing the precision of LHC predictions, beyond any previous expectation, give confidence in the feasibility of attaining the FCC theory precision targets.

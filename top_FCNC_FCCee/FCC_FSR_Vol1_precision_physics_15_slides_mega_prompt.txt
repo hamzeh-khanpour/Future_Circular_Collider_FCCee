@@ -1,0 +1,433 @@
+MEGA PROMPT FOR CREATING 15 INTRODUCTORY FCC-ee PRECISION-PHYSICS SLIDES
+================================================================================
+
+You are acting as a senior FCC-ee precision-physics phenomenologist, electroweak/Higgs global-fit expert, SMEFT interpreter, and LaTeX Beamer slide editor. You also act as a careful scientific reviewer who checks every number, figure, equation, and statement against the official FCC Feasibility Study Report before writing slides.
+
+TASK SUMMARY
+------------
+I have uploaded my existing seminar presentation:
+
+  - Hamzeh_Khanpour_top_FCNC_FCCee.tex
+  - Hamzeh_Khanpour_top_FCNC_FCCee.pdf
+
+I have also uploaded the official FCC Feasibility Study Report source/PDF material:
+
+  - Future Circular Collider Feasibility Study Report, Volume 1: Physics, Experiments, Detectors
+  - PDF file: 2505.00272v1.pdf
+  - Source/archive material: arXiv-2505.00272v1.tar.gz
+  - Local figure folders are available in the working directory, especially Figs/ and related folders shown in the screenshots.
+
+Your task is to create a new compile-ready LaTeX Beamer file by adding exactly 15 new detailed introductory slides at the beginning of my existing seminar presentation. These 15 slides must give a clear, rigorous, and pedagogically strong overview of FCC-ee precision physics, focused on electroweak, Z-pole, WW, and Higgs physics, and must prepare the audience for the later top-FCNC part of my talk.
+
+CRITICAL FILE-HANDLING CONSTRAINTS
+----------------------------------
+1. Do NOT rewrite my whole presentation.
+2. Do NOT change the AGH Beamer theme, style files, colours, logos, footline, headline, fonts, or global formatting.
+3. Do NOT modify the existing FCNC analysis slides except for the unavoidable slide-number shift caused by inserting new slides.
+4. Preserve all existing packages, custom commands, image paths, author/title metadata, section structure, and visual style unless a tiny compatibility fix is strictly necessary.
+5. Insert the 15 new slides near the beginning of the presentation, preferably immediately after the title slide and before the current FCC programme / FCNC motivation slides.
+6. The original talk must remain intact after the new 15-slide introduction.
+7. Produce a new output file with a clear name, for example:
+
+   Hamzeh_Khanpour_top_FCNC_FCCee_with_FCC_precision_intro.tex
+
+8. The final `.tex` must compile locally in the same folder as the original presentation.
+9. Use only relative paths for figures, for example:
+
+   \includegraphics[width=...]{Figs/filename.pdf}
+
+   Never use absolute paths such as /home/... unless explicitly required.
+10. If a desired official plot is not found, do not invent it. Instead, insert a clean placeholder comment in the LaTeX source, for example:
+
+   % TODO: insert official FCC Feasibility Study Vol. 1 Fig. X here once the file is located.
+
+READING AND SOURCE REQUIREMENTS
+-------------------------------
+Before writing any slide, read the following parts of the FCC Feasibility Study Report Volume 1 very carefully:
+
+1. Abstract and contents, to understand the official scope of the report.
+2. Section 1, especially Section 1.1: “FCC-ee: a great Higgs factory, and so much more”.
+3. The first ~50 pages of the report, with special attention to all text, figures, tables, captions, and discussion on:
+   - FCC-ee run stages,
+   - Z pole,
+   - WW threshold,
+   - ZH / Higgs factory stage,
+   - top threshold and above-threshold run,
+   - Higgs coupling extraction,
+   - electroweak precision observables,
+   - Z and WW impact on Higgs physics,
+   - SMEFT/global-fit interpretation,
+   - comparison with HL-LHC.
+4. Section 2.1: “The impact of FCC in particle physics”.
+5. Section 2.2: “Characterisation of the Higgs boson: role of EW measurements and of FCC-hh”.
+6. Section 2.2.1: “Impact of Z-pole measurements in Higgs couplings determination”.
+7. Section 2.2.2: “Impact of diboson measurements in Higgs couplings determination”.
+8. Section 2.2.3: “Complementarity between Z-pole and higher-energy runs”.
+9. Section 2.2.4: “Complementarity and synergy between FCC-ee and FCC-hh”.
+10. Relevant parts of Section 3 on theoretical calculations and precision requirements.
+11. Relevant parts of Section 4 on detector requirements, especially flavour tagging, vertexing, tracking, calorimetry, and luminosity/acceptance issues relevant to precision EW and Higgs observables.
+12. Section 9 on energy calibration, polarisation, monochromatisation, and their relevance to precision observables.
+
+You must actively use the figures and tables from the report, not only the prose. Pay special attention to the official figures/tables in the first ~50 pages, especially:
+
+- Fig. 1: FCC-ee baseline luminosity versus centre-of-mass energy.
+- Fig. 2: Baseline operation model and integrated luminosity evolution.
+- Table 1: FCC-ee baseline operation model with four interaction points.
+- Table 2: Expected experimental precision for key FCC-ee measurements.
+- Table 3: Expected precision of Higgs κ parameters and total width; comparison with HL-LHC and FCC integrated programme.
+- Fig. 3: Global SMEFT fit to HL-LHC and FCC-ee data, interpreted as sensitivity to Higgs and electroweak effective couplings.
+- Fig. 4: Correlations between EW/aTGC/Higgs interactions and the role of FCC-ee Z-pole measurements.
+- Fig. 5: Impact of quadratic dimension-6 contributions in the SMEFT fit.
+- Fig. 6: Impact of Z-pole measurements on Higgs coupling, Higgs width, and aTGC precision.
+- Fig. 7: Deterioration of HZZ and Hbb precision as a function of the number of Z bosons.
+- Fig. 8: Impact of WW/diboson selection efficiency on Higgs couplings and aTGCs.
+
+Also inspect the local figure folders carefully. Use the official extracted plot files if they exist locally. Based on the folder screenshots, likely useful files may include items such as:
+
+- circo_FCCee_nomargin_newFSR.pdf
+- barplotsnow_NZ_hbb_newFSR.pdf
+- barplotsnow_NZ_hZZ_newFSR.pdf
+- CqmodelEFT.pdf
+- CQplot.pdf
+- H3Httplot_FCCee_noHL.pdf
+- leftCompSummary.pdf
+- mixedCompSummary.pdf
+- Hselfcoupling-precision-1b.pdf
+- and other official Figs/ files corresponding to the report figures.
+
+Do not assume these filenames are correct; inspect the actual directory and select the best matching official figures.
+
+OVERALL SCIENTIFIC GOAL OF THE 15 SLIDES
+----------------------------------------
+The 15 slides must answer, in a coherent story, the following physics questions:
+
+1. Why is FCC-ee a precision machine rather than only a Higgs factory?
+2. Why does the FCC programme begin with e+e− before going to FCC-hh?
+3. What are the FCC-ee running stages: Z pole, WW threshold, ZH Higgs stage, and top threshold/365 GeV?
+4. Why does FCC-ee provide exceptional precision?
+   - clean e+e− initial state,
+   - known centre-of-mass energy,
+   - very large luminosity,
+   - four interaction points,
+   - low pile-up,
+   - full-event reconstruction,
+   - resonant depolarisation and beam-energy calibration,
+   - high-quality detector environment.
+5. What does the Z-pole programme measure?
+   - Z mass and width,
+   - line shape,
+   - forward-backward asymmetries,
+   - effective weak mixing angle,
+   - Rb, Rc, heavy-flavour EW observables,
+   - tau observables,
+   - αQED(mZ), αS(mZ), Nν,
+   - rare and forbidden Z decays.
+6. What does the WW-threshold programme measure?
+   - W mass,
+   - W width,
+   - WW cross section,
+   - diboson dynamics,
+   - anomalous triple-gauge couplings,
+   - constraints relevant to SMEFT fits.
+7. Why are precision Z and WW measurements essential for precision Higgs physics?
+   - Z-pole data determine Zee and other electroweak couplings.
+   - The Zee vertex enters e+e− → ZH.
+   - Without improved EW inputs, uncertainties in EW couplings would contaminate Higgs coupling extraction.
+   - In SMEFT, gauge invariance links modifications in Higgs couplings, electroweak vertices, and triple gauge couplings.
+   - Z-pole data reduce correlations between Higgs and EW sectors.
+   - Diboson/WW data constrain aTGCs such as δg1,Z and δκγ, which are correlated with HVV interactions.
+8. Why is the ZH stage at √s ≈ 240 GeV central?
+   - It is near the maximum of the ZH production cross section.
+   - It enables the recoil-mass method.
+   - The inclusive ZH cross section provides a model-independent anchor for κZ.
+   - It provides absolute normalisation for other Higgs couplings.
+   - It enables searches for invisible and exotic Higgs decays.
+9. How are Higgs couplings extracted?
+   - Through inclusive σ(ZH), exclusive σ×BR channels, H→bb, cc, gg, ττ, WW*, ZZ*, γγ, Zγ, μμ, invisible, untagged modes.
+   - Through global κ fits and SMEFT fits.
+   - Through combination of 240 GeV ZH and higher-energy WW-fusion / ννH information.
+   - Through total width extraction using absolute production normalisation and branching-ratio information.
+10. Why is this competitive with HL-LHC?
+   - FCC-ee provides model-independent absolute coupling measurements; hadron colliders often need assumptions such as |κV|≤1 for width-related fits.
+   - FCC-ee reaches sub-percent and per-mille-level precision in key couplings such as κZ and κW.
+   - FCC-ee provides strong invisible/exotic sensitivity through recoil and full-event reconstruction.
+   - HL-LHC is powerful but systematics/theory/backgrounds and lack of direct width access limit some measurements.
+11. Why is the 365 GeV/top stage important for Higgs and EW physics?
+   - Adds WW-fusion sensitivity to κW and ΓH.
+   - Improves Higgs coupling correlations.
+   - Provides access to top mass, top width, top electroweak couplings, and indirect top Yukawa sensitivity.
+   - The ZH cross-section dependence on √s adds sensitivity to the Higgs self-coupling in global fits.
+12. How does FCC-ee precision connect to FCC-hh?
+   - FCC-ee supplies absolute normalisation, clean electroweak inputs, and model-independent Higgs constraints.
+   - FCC-hh adds enormous Higgs yield, rare Higgs modes, top Yukawa, double-Higgs production, and direct high-mass reach.
+   - The two stages are complementary: precision first, energy frontier next.
+13. How does this precision programme motivate the later top-FCNC seminar?
+   - Rare top interactions are another example of tiny SM effects magnified by clean conditions and precision reconstruction.
+   - The FCNC study should be presented as part of the broader FCC-ee precision and rare-process programme, not as an isolated analysis.
+
+NUMERICAL VALUES TO CHECK AND USE
+---------------------------------
+Use the official report values. Do not rely on memory. At minimum, check and include the following where appropriate:
+
+From Table 1 / Section 1.1:
+- FCC-ee centre-of-mass stages: around 88, 91, 94 GeV for Z; 157/163 GeV for WW; 240 GeV for ZH; 340–350 and 365 GeV for top/top-EW.
+- Baseline with four interaction points.
+- Integrated luminosity and event yields roughly:
+  - 6 × 10^12 Z bosons,
+  - 2.4 × 10^8 WW events,
+  - about 2.2 × 10^6 ZH at 240 GeV plus additional ZH at higher energy,
+  - about 2 × 10^6 t\bar{t} events.
+- Mention that FCC-ee is expected to produce almost 3 million Higgs bosons in total in the baseline programme.
+
+From Table 2:
+- mZ precision target/order: keV-level statistical precision and ~100 keV systematic/energy-calibration scale.
+- ΓZ target/order: keV-level statistical precision and O(10 keV) systematic.
+- sin^2 θ_eff^W target: O(10^-6).
+- mW target: sub-MeV precision, around 0.18 MeV statistical and 0.16 MeV systematic in the table.
+- mtop threshold precision: few MeV statistical and systematic components.
+- ttZ couplings at 365 GeV: O(0.5–1.5%) precision.
+
+From Table 3:
+- HL-LHC versus FCC-ee/FCC integrated κ precisions. Include the important caveat that HL-LHC uses assumptions such as |κV|≤1 for width-related interpretations.
+- Representative values to check:
+  - κZ: HL-LHC ~1.3%, FCC-ee ~0.10%.
+  - κW: HL-LHC ~1.5%, FCC-ee ~0.29%, FCC integrated ~0.25%.
+  - κb: FCC-ee sub-percent, with parametric-uncertainty caveat.
+  - κc: FCC-ee around the percent/sub-percent level, depending on parametric uncertainties.
+  - κτ: FCC-ee ~0.46%.
+  - κγ and κZγ improved strongly by FCC-hh combination.
+  - κt and κμ improved by FCC-hh combination.
+  - ΓH: FCC-ee below 1%.
+  - Binv limit at FCC-ee: O(5 × 10^-4).
+
+IMPORTANT SCIENTIFIC NUANCE
+---------------------------
+Be careful with the following statements:
+
+1. Do not say that FCC-ee “directly discovers” heavy new physics through precision measurements. Say it can indirectly probe or constrain high scales, and that deviations would point to new physics.
+2. Do not overstate model independence. The inclusive ZH recoil measurement is model-independent with respect to Higgs decay assumptions; global κ/SMEFT fits still have assumptions.
+3. Do not say HL-LHC is weak or unimportant. Say FCC-ee is complementary and provides cleaner absolute normalisation and width access; HL-LHC remains powerful for rare channels and high-pT/top-associated processes.
+4. Do not imply that all Higgs couplings are measured at the same precision. Distinguish κZ/κW/per-mille-level from rarer channels such as κγ, κZγ, κμ, κt.
+5. Do not confuse ZH with WW-fusion. ZH dominates the 240 GeV Higgs factory stage; WW-fusion becomes increasingly important at higher √s and helps κW/width extraction.
+6. Do not imply the Z-pole run is needed only for Higgs. It is also an enormous programme for EW, QCD, flavour, tau, rare Z decays, dark sectors, and detector/theory calibration.
+7. When explaining SMEFT, say that if electroweak symmetry is linearly realised, gauge invariance correlates Higgs, EW, and diboson observables.
+8. If using the phrase “standard candle,” apply it to the inclusive ZH recoil measurement / κZ anchor carefully.
+9. Avoid vague words such as “very precise” without numbers when a number is available.
+10. Avoid too much jargon on slides; use equations and short explanatory phrases instead.
+
+SLIDE STYLE REQUIREMENTS
+------------------------
+The slides must be detailed but readable. Use the style of the existing presentation:
+
+- Use clear titles.
+- Use two-column layouts where useful.
+- Use short bullet points, not paragraphs.
+- Use small but legible tables.
+- Use official plots from the report whenever possible.
+- Use a small “Message” or “Take-home message” box at the bottom for some slides, consistent with the current presentation style.
+- Use red/green emphasis only if already consistent with the AGH theme.
+- Use equations sparingly but meaningfully.
+- Use `\small`, `\footnotesize`, or `\scriptsize` to control density.
+- Do not make slides text-only if an official plot/table can carry the story.
+- Avoid overcrowding. It is better to have one strong plot and 3–5 bullets than 10 bullets.
+- Each slide should contain a short reference line, for example:
+
+  {\tiny Ref: FCC Feasibility Study Report Vol. 1, Eur. Phys. J. C 85 (2025) 1468, Fig. X / Table Y.}
+
+- Use accurate English spelling and grammar: precision, feasibility, Higgs, electroweak, couplings, sensitivity, threshold, luminosity, comparison, competitive.
+
+RECOMMENDED 15-SLIDE STRUCTURE
+------------------------------
+Create exactly 15 new slides with a coherent narrative. A recommended structure is:
+
+Slide 1 — Why FCC-ee precision physics?
+- Start from the post-LHC situation: Higgs discovered, SM completed, but open questions remain.
+- Explain “precision first, energy frontier next”.
+- Connect precision deviations and rare processes.
+- Figure suggestion: FCC integrated programme / circular FCC-ee to FCC-hh diagram.
+- Message: FCC-ee is not only a Higgs factory; it is an EW, Higgs, flavour, QCD, top, and BSM precision facility.
+
+Slide 2 — FCC-ee running stages and baseline programme
+- Show Fig. 1 and/or Fig. 2 from the report.
+- Include the stages: Z pole, WW threshold, ZH, top threshold/365 GeV.
+- Include event-yield headline numbers.
+- Message: one machine, several precision laboratories.
+
+Slide 3 — Why FCC-ee can reach unprecedented precision
+- Explain clean e+e− initial state, known √s, low pile-up, full-event reconstruction, four IPs, energy calibration.
+- Mention resonant depolarisation for Z and WW energy control.
+- Connect to detector/theory precision requirements.
+- Figure suggestion: luminosity curve or detector/concept schematic.
+
+Slide 4 — Tera-Z: the electroweak precision anchor
+- Explain Z line-shape scan and huge Z statistics.
+- Include mZ, ΓZ, sin^2θ_eff, Rl, Rb/Rc, A_FB, Nν, αQED(mZ), αS(mZ).
+- Use a compact mini-table based on Table 2.
+- Message: Z pole gives both a physics programme and the EW input needed for Higgs interpretation.
+
+Slide 5 — From Z observables to Z couplings
+- Explain Zee and Zff coupling extraction: partial widths, asymmetries, forward-backward asymmetries, tau polarisation.
+- Include schematic equation:
+
+  g_{Zf}^{L,R}  ←  Γ(Z→f\bar f), A_f, A_FB^f, R_f
+
+- Explain why left- and right-handed couplings matter.
+- Message: precision Higgs fits require precision electroweak vertices.
+
+Slide 6 — WW threshold: precision W physics and gauge structure
+- Show WW-threshold role and mW/ΓW precision from Table 2.
+- Explain W mass, W width, WW cross section, diboson kinematics.
+- Mention aTGCs: δg_{1,Z}, δκ_γ, λ_γ if relevant.
+- Message: WW data constrain the same gauge structure that enters Higgs-sector interpretation.
+
+Slide 7 — Why Z and WW precision sharpen Higgs coupling extraction
+- Explain the SMEFT correlation between Zee, HZee, HZZ, HWW, and aTGCs.
+- Use Fig. 4 or Fig. 6 if available.
+- State that FCC-ee Z-pole measurements reduce the Higgs–EW correlations; LEP/SLC precision would lead to a deterioration of Higgs precision, up to about a factor of two in some cases.
+- Message: Z and WW runs are not “pre-Higgs extras”; they are part of the Higgs measurement itself.
+
+Slide 8 — The ZH stage at 240 GeV: the Higgs standard candle
+- Explain e+e− → ZH at the production maximum.
+- Include recoil-mass formula:
+
+  m^2_{\rm recoil} = s + m_Z^2 - 2\sqrt{s}\,E_Z
+
+- Explain inclusive σ(ZH) independent of Higgs decay.
+- Explain κZ anchor and Higgs mass from recoil peak.
+- Use an official recoil or ZH illustration if available.
+- Message: ZH recoil is the foundation of model-independent FCC-ee Higgs physics.
+
+Slide 9 — Higgs coupling and width extraction: the logic
+- Explain observables:
+
+  σ(ZH),   σ(ZH) × BR(H→X),   σ(ν\barνH) × BR(H→X)
+
+- Explain coupling scaling, for example:
+
+  σ(ZH) ∝ κ_Z^2,
+  σ(ZH)×BR(H→bb) ∝ κ_Z^2 κ_b^2 / Γ_H.
+
+- Explain total width extraction from absolute production and branching information.
+- Mention invisible and untagged branching-ratio limits.
+- Message: FCC-ee turns rates into absolute couplings because σ(ZH) is measured inclusively.
+
+Slide 10 — Projected Higgs precision and HL-LHC comparison
+- Use Table 3 or an official coupling bar plot.
+- Compare HL-LHC, FCC-ee, FCC-ee+FCC-hh.
+- Mention κZ ~0.10%, κW ~0.29%, ΓH <1%, Binv O(5×10^-4), with exact checked values.
+- Mention HL-LHC assumptions for width/coupling fits.
+- Message: FCC-ee moves Higgs physics from percent-level to sub-percent/per-mille-level in key channels.
+
+Slide 11 — Why the 365 GeV/top stage matters for Higgs precision
+- Explain higher-energy ZH and WW-fusion complementarity.
+- Mention improved κW and ΓH information.
+- Explain top threshold / above-threshold role: mtop, Γtop, ttZ couplings, indirect top-Yukawa constraints.
+- Mention ZH energy dependence and sensitivity to Higgs self-coupling in global fits, carefully and without overclaiming.
+- Message: 365 GeV is not just “top”; it improves the global Higgs/EW interpretation.
+
+Slide 12 — SMEFT view: precision as a high-scale microscope
+- Use Fig. 3 or another official SMEFT fit figure.
+- Explain dimension-6 operators, Wilson coefficients, and global fit logic in simple terms.
+- Show how FCC-ee EW + Higgs + diboson + top data constrain correlated directions.
+- Message: FCC-ee precision tests patterns of deviations, not only individual rates.
+
+Slide 13 — Detector and theory requirements for precision
+- Summarise why detector and theory precision are central:
+  - luminosity measurement,
+  - beam energy calibration,
+  - tracking momentum scale,
+  - vertexing/flavour tagging,
+  - lepton identification,
+  - jet energy/flavour performance,
+  - QED/EW/QCD higher-order calculations and generators.
+- Use a detector concept figure if helpful.
+- Message: the FCC-ee physics case is as much about controlling systematics as collecting huge event samples.
+
+Slide 14 — FCC-ee and FCC-hh synergy
+- Explain FCC-ee provides absolute couplings and clean EW inputs.
+- FCC-hh provides 100 TeV reach, rare Higgs modes, top Yukawa, Higgs self-coupling, high-mass discoveries.
+- Explain why the programme is stronger than either stage alone.
+- Use integrated FCC diagram or coupling comparison plot.
+- Message: FCC-ee calibrates the Higgs/EW picture; FCC-hh extends it to the energy frontier.
+
+Slide 15 — Bridge to the present top-FCNC seminar
+- Transition smoothly to my existing FCNC slides.
+- Explain that rare top interactions are a natural continuation of the FCC-ee precision strategy.
+- Mention: clean initial state, known √s, precise reconstruction, rare/forbidden interactions, tqγ and tqZ.
+- End with a clear transition sentence:
+
+  “With this precision context in mind, we now turn to one concrete rare-top benchmark: single-top FCNC production e+e−→tq at FCC-ee.”
+
+- This slide must connect naturally to the original first FCNC-motivation slide.
+
+LATEX IMPLEMENTATION REQUIREMENTS
+---------------------------------
+1. Use the existing Beamer class and theme exactly as in Hamzeh_Khanpour_top_FCNC_FCCee.tex.
+2. Insert the 15 frames into the existing source.
+3. If useful, add a new section before them:
+
+   \section{FCC-ee precision physics: EW, Z and Higgs}
+
+4. Do not remove the original sections.
+5. Maintain existing figure scaling conventions.
+6. Use `columns` environments where helpful.
+7. Use `block`, `alertblock`, or the existing custom box style only if already used in the original file.
+8. Ensure every `\includegraphics` file exists. If not, comment it out and use a visible placeholder box instead.
+9. Avoid fragile commands unless necessary.
+10. Avoid adding many new packages. If a package is already loaded, use it. If a package is missing and truly needed, explain why before adding it.
+11. Keep equations simple and Beamer-safe.
+12. Make sure special characters are escaped correctly: %, _, &, #.
+13. Use correct LaTeX for units:
+
+   $\sqrt{s}=240~\mathrm{GeV}$,
+   $10.8~\mathrm{ab}^{-1}$,
+   $6\times10^{12}$,
+   $m_W$,
+   $\Gamma_H$.
+
+14. Use `\bar{t}`, `\bar{\nu}`, `\kappa_Z`, `\delta g_{1,Z}`, `\delta\kappa_\gamma`, etc., consistently.
+
+OUTPUT REQUIREMENTS
+-------------------
+At the end, provide:
+
+1. The complete modified `.tex` file as a downloadable artifact.
+2. A short summary of what was inserted and where.
+3. A list of official FCC report figures/tables used in the new slides, including filenames if local files were used.
+4. A brief note on any placeholders or missing figures.
+5. A brief compile note: whether the file was syntax-checked or compiled successfully.
+
+Do not provide only fragments unless explicitly asked. The output must be a full compile-ready TeX file that I can download and compile in the local folder.
+
+QUALITY-CONTROL CHECKLIST BEFORE FINAL ANSWER
+---------------------------------------------
+Before finalising the `.tex`, perform the following checks:
+
+1. The new file preserves the original AGH style.
+2. Exactly 15 new slides have been added.
+3. The original FCNC slides remain unchanged.
+4. All numerical values are checked against the FCC Feasibility Study Report Volume 1.
+5. All figure references correspond to the correct report figures/tables.
+6. The Z, WW, and Higgs interdependence is clearly explained.
+7. The HZ / recoil method is explained correctly.
+8. The Higgs width and coupling-extraction logic is correct.
+9. The HL-LHC comparison is fair and not overstated.
+10. The 365 GeV/top-stage role is explained carefully.
+11. The final slide transitions naturally to the top-FCNC study.
+12. The language is polished and suitable for a HEP seminar audience.
+13. There are no obvious spelling mistakes: precision, feasibility, Higgs, electroweak, coupling, threshold, luminosity.
+14. There are no overfull or unreadably dense slides.
+15. The final source can be compiled locally.
+
+TONE AND LEVEL
+--------------
+The audience is a HEP seminar audience. The slides should be scientifically correct and detailed enough for experts, but still pedagogical. Assume the audience knows the Standard Model, Higgs physics, and collider basics, but may not know the detailed FCC-ee precision programme. Explain the logic, not only the numbers.
+
+The desired tone is:
+
+- official and rigorous,
+- clear and pedagogical,
+- concise on each slide,
+- precise with terminology,
+- directly connected to my later top-FCNC analysis.
+
