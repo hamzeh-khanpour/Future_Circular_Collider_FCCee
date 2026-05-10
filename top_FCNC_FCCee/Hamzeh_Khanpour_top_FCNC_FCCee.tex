@@ -101,7 +101,8 @@
 \author[Hamzeh Khanpour]{Hamzeh Khanpour}
 \institute[AGH]{Faculty of Physics and Applied Computer Science\\AGH University of Krakow}
 
-\date[1st FCC Polish Workshop]{%
+
+\date[Seminarium HEP Białasówk]{%
   \begingroup
 \setlength{\fboxsep}{5pt}%
 \fcolorbox{red!70!black}{green!12}{%
@@ -110,9 +111,6 @@ Seminarium HEP Białasówk; 15 May 2026}
 }%
   \endgroup
 }
-
-% \date[1st FCC Polish Workshop]{1st FCC Polish Workshop; Krak\'ow, 16 April 2026}
-
 
 
 \begin{document}
@@ -123,23 +121,17 @@ Seminarium HEP Białasówk; 15 May 2026}
 \begin{frame}[plain]
 		
 \begin{tikzpicture}[remember picture,overlay]
-			\node[
-			anchor=north east,
-			xshift=-0.55cm,
-			yshift=-0.95cm
-			] at (current page.north east)
-			{\includegraphics[width=3.05cm]{FCC.jpg}};
+\node[
+anchor=north east,
+xshift=-0.55cm,
+yshift=-0.95cm
+] at (current page.north east)
+{\includegraphics[width=3.05cm]{FCC.jpg}};
 \end{tikzpicture}
 		
 \titlepage
 		
 
-\vspace*{-1.2em}
-		
-% \begin{center}
-% \small Collaboration with S. Tizchang, P. Azzi, M. M. Najafabadi, E. Perez
-% \end{center}
-		
 \end{frame}
 %----------------------------------------------------------------------------------------
 	
@@ -172,6 +164,19 @@ Patrizia Azzi (INFN Padova), Hamzeh Khanpour ({\color{magenta}AGH}), Mojtaba Moh
 \end{tcolorbox}
 \vspace{-0.1cm}
 \refs{{\color{red}Top FCNC analysis note: FCC Physics and Experiments:  https://repository.cern/records/avxy7-mtz86}.}
+
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+
 \end{frame}
 
 
@@ -190,15 +195,42 @@ Patrizia Azzi (INFN Padova), Hamzeh Khanpour ({\color{magenta}AGH}), Mojtaba Moh
 \justifying
 \item The LHC has completed the Standard-Model particle spectrum, but not the \alert{origin of electroweak symmetry breaking}, the flavor puzzle, or the scale of new dynamics.
 \item If new physics is heavy or weakly coupled, the most sensitive handles can be \alert{precision measurements} and \alert{rare\&forbidden processes} rather than direct production.
-\item A next collider programme therefore needs both: \textbf{(i)} a precision stage to expose small deviations and \textbf{(ii)} an energy-frontier stage to map the underlying dynamics.
+\item A next collider programme therefore needs both: \textbf{({\color{magenta}i})} a precision stage to expose small deviations and \textbf{({\color{magenta}ii})} an energy-frontier stage to map the underlying dynamics.
 \item This is exactly the logic of the integrated FCC programme: exploit the clean \(e^+e^-\) environment first, then extend to the 100~TeV hadron frontier.
 \end{itemize}
-\begin{block}{Physics angle for this talk}
+
+
+%\begin{alertblock}{Physics angle for this talk}
+%\justifying
+%\small Top FCNC is a textbook example of a \emph{rare, symmetry-suppressed observable} whose discovery potential is magnified by a precision \(e^+e^-\) environment.
+%\end{alertblock}
+
+
+
+\begin{exampleblock}{Key official FCC sources}
 \justifying
-\small Top FCNC is a textbook example of a \emph{rare, symmetry-suppressed observable} whose discovery potential is magnified by a precision \(e^+e^-\) environment.
-\end{block}
-\refs{FCC Feasibility Study Vol.~1 [{\color{blue}Eur.Phys.J.C 85 (2025) 1468}]; \\ 
-FCC Physics Opportunities, FCC CDR [{\color{blue}Eur.Phys.J.C 79 (2019) 474}].}
+\small
+{\color{magenta}FCC Feasibility Study Report}: Physics, Experiments, Detectors,
+{\color{blue}Eur.~Phys.~J.~C 85 (2025) 1468}. \\
+{\color{magenta}FCC Physics Opportunities, FCC CDR}: physics case and benchmark programme,
+{\color{blue}Eur.~Phys.~J.~C 79 (2019) 474}. \\
+{\color{magenta}Physics Briefing Book}: Input for the 2026 update of the European Strategy for Particle Physics,
+{\color{blue}2511.03883 [hep-ex]}. 
+\end{exampleblock}
+
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+
+
 \end{frame}
 
 
@@ -209,35 +241,41 @@ FCC Physics Opportunities, FCC CDR [{\color{blue}Eur.Phys.J.C 79 (2019) 474}].}
 %----------------------------------------------------------------------------------------
 \begin{frame}{The FCC integrated vision: FCC-ee to FCC-hh}
 \begin{columns}[T]%[T,totalwidth=\textwidth]
-\begin{column}{0.50\textwidth}
+	
+\begin{column}{0.58\textwidth}
+	
 \begin{itemize}
 \justifying
-\small
-\item Stage 1: FCC-ee: high-luminosity precision programme from the Z pole to the top threshold.
-\item Stage 2: FCC-hh: \(100\,\mathrm{TeV}\) hadron collider in the same civil infrastructure.
-\item The strength of the programme is \alert{complementarity}: absolute precision first, direct reach afterwards.
-\item FCC-ee delivers the clean benchmark measurements that calibrate and sharpen the FCC-hh physics reach.
+\item {\color{magenta}Stage 1:} FCC-ee: high-luminosity precision programme from the $Z$ pole to the top threshold.
+\item {\color{magenta}Stage 2:} FCC-hh: $\sim 100~\mathrm{TeV}$ proton-proton collider in the same civil infrastructure.
+\item The strength of the programme is {\color{blue}complementarity}: absolute precision first, direct reach afterwards.
+\item FCC-ee provides clean reference measurements of Higgs couplings, EW observables and top properties that sharpen the FCC-hh physics interpretation.
 \end{itemize}
 
-%\takehome{
-%\justifying
-%\small
-%The FCNC study shown here is not an isolated analysis: it belongs to the %precision first stage of the wider FCC strategy.}
 \end{column}
-\begin{column}{0.50\textwidth}
+
+\begin{column}{0.50\textwidth} 
 \centering
-\includegraphics[width=\linewidth]{FCC_ee_1.png}
-\end{column}
-\end{columns}
-%\begin{block}{Top-quark FCNC@FCC-ee}
-%\justifying
-%\small The FCNC study shown here is not an isolated analysis: it belongs to the precision first stage of the wider FCC strategy.
-%\end{block}
-%\refs{FCC Feasibility Study Vol.~1 (arXiv:2505.00272); local FCC image from previous FCC-ee presentation package.}
-\takehome{
+\includegraphics[width=\linewidth]{FCC_ee_1.png} 
+\end{column} 
+\end{columns} 
+
+\takehome{ 
 \justifying
 \small
-The FCNC study shown here is not an isolated analysis: it belongs to the precision first stage of the wider FCC strategy.}
+FCC-ee would establish the precision reference frame of the programme: per-mille-level Higgs normalisation, ultra-precise $Z/W$ observables, and threshold top measurements. FCC-hh then uses this foundation to explore rare Higgs processes, the Higgs self-coupling and direct high-mass new physics.} 
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+
 \end{frame}
 
 
@@ -246,12 +284,114 @@ The FCNC study shown here is not an isolated analysis: it belongs to the precisi
 
 
 
+%----------------------------------------------------------------------------------------
+\begin{frame}{FCC-ee running points: one collider, several precision laboratories}
+\small
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+\begin{column}{0.50\textwidth}
+\centering
+\includegraphics[width=\linewidth]{The_FCC_ee_baseline_design_luminosity}
+
+%\vspace{0.25em}
+			
+{\scriptsize\justifying FCC-ee baseline design luminosity, summed over four interaction points, from the $Z$ pole to the $t\bar t$ threshold and beyond.\par}
+\end{column}
+		
+\begin{column}{0.60\textwidth}
+\scriptsize
+\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\linewidth}{p{0.19\linewidth}p{0.22\linewidth}X}
+\toprule
+\textbf{Stage} & \textbf{$\sqrt{s}$} & \textbf{Main physics role}\\
+\midrule
+{\color{magenta}$Z$ pole} & 88, 91, 94~GeV & Tera-$Z$ programme: line shape, EW precision observables, heavy flavour, $\tau$ physics, QCD, rare $Z$ decays and dark-sector searches.\\
+{\color{magenta}$WW$ threshold} & 157, 163~GeV & $m_W$, $\Gamma_W$, $W^+W^-$ threshold scan, diboson dynamics and inputs to EW/SMEFT fits.\\
+{\color{magenta}$ZH$ Higgs stage} & 240~GeV & $e^+e^-\to ZH$ near the cross-section maximum: recoil method, $\kappa_Z$ anchor, absolute Higgs normalisation, invisible/exotic searches.\\
+{\color{magenta}Top threshold and above} & 340-350, 365~GeV & $t\bar t$ threshold scan, $m_t$, $\Gamma_t$, $t\bar t Z$ couplings, $WW$-fusion input to Higgs fits, rare-top benchmarks.\\
+\bottomrule
+\end{tabularx}
+\end{column}
+\end{columns}
+\vspace{0.35em}
+\takehome{\justifying
+The FCC-ee programme is not a single-energy Higgs factory: it is a sequence of precision laboratories for $Z$, $W$, Higgs and top physics, operated in the baseline scenario with four interaction points.}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+\end{frame}
+
+
+
+
+
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{What is FCC-ee? Machine concept and precision mission}
-\begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.55\textwidth}
+\begin{frame}{FCC-ee baseline operation model: luminosity, and event yields}
+\small
+\begin{columns}[]%[T,totalwidth=\textwidth]
+\begin{column}{0.50\textwidth}
+\centering
+\includegraphics[width=\linewidth]{Baseline_operation_model_for_FCC_ee}
+\vspace{0.25em}
+			
+{\scriptsize\justifying Example baseline luminosity evolution over about 15 years with four IPs. The shown order is illustrative; below the $t\bar t$ threshold the programme has quasi-total order flexibility.\par}
+\end{column}
+		
+\begin{column}{0.60\textwidth}
+\scriptsize
+\renewcommand{\arraystretch}{1.16}
+\begin{tabularx}{\linewidth}{p{0.27\linewidth}p{0.23\linewidth}X}
+\toprule
+\textbf{Working point} & \textbf{Integrated lumi.} & \textbf{Baseline event sample}\\
+\midrule
+{\color{magenta}$Z$ pole} & $205~\mathrm{ab}^{-1}$ & $6\times10^{12}$ $Z$ bosons\\
+{\color{magenta}$WW$ threshold} & $19.2~\mathrm{ab}^{-1}$ & $2.4\times10^8$ $WW$ events \\
+{\color{magenta}$ZH$ stage} & $10.8~\mathrm{ab}^{-1}$ & $2.2\times10^6$ $ZH$ $+65\mathrm{k}$ $WW\to H$\\
+{\color{magenta}$t\bar t$/365~GeV} & $0.42+2.70~\mathrm{ab}^{-1}$ & $2\times10^6$ $t\bar t$ $+370\mathrm{k}$ $ZH$ $+92\mathrm{k}$ $WW\to H$\\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.35em}
+
+\begin{block}{Run-plan logic}
+\scriptsize
+\justifying
+Four IPs give luminosity, detector diversity and redundancy against hidden systematics. Short early $Z/WW$ runs can commission the collider, detectors and resonant-depolarisation energy calibration; the high-statistics $Z$ programme remains the most demanding stage in accelerator, detector, theory and energy-control precision.
+\end{block}
+\end{column}
+\end{columns}
+\vspace{0.2em}
+\takehome{\justifying
+The baseline plan delivers a complete minimal FCC-ee physics programme within about 15 years, while keeping flexibility to optimise the order and duration of the $Z$, $WW$ and $ZH$ stages.}
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+\end{frame}
+
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{FCC-ee precision mission: why the clean $e^+e^-$ stage matters}
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+\begin{column}{0.50\textwidth}
 \begin{block}{Machine-level advantages}
 \begin{itemize}
 \justifying 
@@ -262,75 +402,68 @@ The FCNC study shown here is not an isolated analysis: it belongs to the precisi
 \item full-event reconstruction with excellent flavor tagging potential.
 \end{itemize}
 \end{block}
+			
 \begin{block}{Physics mission}
 \begin{itemize}
 \justifying 
 \small 
 \item precision Z and W programme,
-%\item model-independent Higgs characterisation,
+\item model-independent Higgs characterisation,
 \item dedicated top-threshold and above-threshold measurements,
 \item strong sensitivity to rare decays and forbidden interactions.
 \end{itemize}
 \end{block}
 \end{column}
-\begin{column}{0.42\textwidth}
-\begin{tcolorbox}[colback=green!4,colframe=green!45!black,title=Why it matters for FCNC]
-\small
-\justifying 
-The same features that make FCC-ee a premier Higgs and electroweak factory also make it exceptionally powerful for single-top FCNC searches:\\[0.5ex]
-\centering
-\textbf{clean environment + known initial state + precise reconstruction.}
-\end{tcolorbox}
-\begin{tcolorbox}[colback=white,colframe=black!30]
-\small
-\justifying 
-In this talk we exploit precisely these advantages in the channels
-$e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
-\end{tcolorbox}
-\end{column}
-\end{columns}
-%\refs{FCC-ee overview and status documents; FCC Feasibility Study Vol.~1.}
-\end{frame}
-
-
-
-
-
-
-
-%----------------------------------------------------------------------------------------
-\begin{frame}{FCC-ee running points and physics programme overview}
-\begin{columns}[T]%[T,totalwidth=\textwidth]
-%\vspace{1.0cm}
-\begin{column}{0.50\textwidth}
-\begin{figure}
-\centering
-\includegraphics[width=\linewidth]{The_FCC_ee_baseline_design_luminosity}\\
-\includegraphics[width=\linewidth]{Baseline_operation_model_for_FCC_ee}
-\justifying \scriptsize FCC-ee baseline luminosity evolution and operating stages from the Z pole to the top threshold.
-\end{figure}
-\end{column}
-
+		
 \begin{column}{0.55\textwidth}
-\begin{itemize}
-\justifying 
-\item The programme spans the Z pole, WW threshold, ZH Higgs stage, and the top-threshold \& above-threshold region. 
-\item The curve shown here is the \alert{baseline FCC-ee luminosity over 4 interaction points}.
-\vspace{1.0cm}
-\item For the FCNC study, the most relevant benchmarks are:
-\begin{itemize}
-\justifying 
-\item \(\sqrt{s}=240\,\mathrm{GeV}\): Higgs-factory stage,
-\item \(\sqrt{s}=365\,\mathrm{GeV}\): top \& electroweak stage.
+\begin{tcolorbox}[colback=green!4,colframe=green!45!black,title=What makes FCC-ee special?]
+\small
+\justifying
+FCC-ee combines \textbf{huge statistics}, \textbf{clean event reconstruction}, and 
+\textbf{precise beam-energy control}.  With four interaction points, the programme gains 
+luminosity, detector redundancy, and stronger control of hidden systematic biases.
+\end{tcolorbox}
+	
+\begin{tcolorbox}[colback=white,colframe=black!30,title=Flagship precision goals]
+\scriptsize
+\justifying
+\begin{itemize}\setlength\itemsep{0.25em}
+\item \textbf{Tera-Z:} $6\times10^{12}$ $Z$ bosons for EW precision, flavour, QCD and rare-$Z$ searches.
+\item \textbf{WW threshold:} sub-MeV access to $m_W$ and $\Gamma_W$, with gauge-sector constraints.
+\item \textbf{ZH at 240~GeV:} recoil method and absolute normalisation of Higgs couplings through $\sigma(ZH)$.
+\item \textbf{Top/365~GeV:} $m_t$, $\Gamma_t$, $t\bar t Z$ couplings and improved Higgs/EW global fits.
 \end{itemize}
-\justifying 
-\item Our top FCNC feasibility study uses the conservative internal benchmark \(5~\mathrm{ab}^{-1}\) at 240~GeV and \(1.5~\mathrm{ab}^{-1}\) at 365~GeV.
-\end{itemize}
+\end{tcolorbox}
+
 \end{column}
 \end{columns}
-%\refs{Local screenshot of Fig.~1 from arXiv:2505.00272.}
-\end{frame}
 
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+
+%\item For the FCNC study, the most relevant benchmarks are:
+%\begin{itemize}
+%	\justifying 
+%	\item \(\sqrt{s}=240\,\mathrm{GeV}\): Higgs-factory stage,
+%	\item \(\sqrt{s}=365\,\mathrm{GeV}\): top \& electroweak stage.
+%\end{itemize}
+%\justifying 
+%\item Our top FCNC feasibility study uses the conservative internal benchmark \(5~\mathrm{ab}^{-1}\) at 240~GeV and \(1.5~\mathrm{ab}^{-1}\) at 365~GeV.
 
 
 
@@ -340,12 +473,23 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 %----------------------------------------------------------------------------------------
 \begin{frame}{The FCC integrated vision: precision first, discovery next}
 \begin{center}
-\includegraphics[width=0.60\linewidth]{FCC_ee_2.png}
+\includegraphics[width=0.70\linewidth]{FCC_ee_2.png}
 \end{center}
 \vspace{-0.4em}
 \begin{itemize}
 \item \justifying \small The integrated FCC programme lays out a long-term post-LHC strategy for exploring fundamental interactions: its first stage, FCC-ee, provides an exceptionally clean precision environment to test the Standard Model with unprecedented accuracy and to probe subtle signs of new physics.
 \end{itemize}
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
+
 \end{frame}
 %----------------------------------------------------------------------------------------
 
@@ -355,9 +499,10 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{Why FCC-ee is a unique Higgs / EW / top factory / BSM}
+\begin{frame}{Why FCC-ee is a unique: Higgs factory, EW, top, BSM search}
 \vspace{-0.4cm}
-\begin{columns}[T,totalwidth=\textwidth]
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+	
 \begin{column}{0.30\textwidth}
 \begin{exampleblock}{Higgs}
 \small
@@ -365,6 +510,7 @@ $e^+e^-\to tq\,, (q=u,c)$ with anomalous \(tq\gamma\) and \(tqZ\) interactions.
 Model-independent \(ZH\) recoil measurements, absolute coupling extraction, width and invisible-decay sensitivity.
 \end{exampleblock}
 \end{column}
+
 \begin{column}{0.30\textwidth}
 \begin{block}{Electroweak}
 \small
@@ -372,6 +518,7 @@ Model-independent \(ZH\) recoil measurements, absolute coupling extraction, widt
 Ultra-high statistics at the Z pole and WW threshold enable precision tests of the gauge sector and flavour observables.
 \end{block}
 \end{column}
+
 \begin{column}{0.30\textwidth}
 \begin{alertblock}{Top}
 \small
@@ -379,24 +526,28 @@ Ultra-high statistics at the Z pole and WW threshold enable precision tests of t
 Threshold and above-threshold running provide precision access to the top mass, width, electroweak couplings and rare-top observables.
 \end{alertblock}
 \end{column}
+
 \end{columns}
+
 \vspace{-0.1cm}
+
 \begin{tcolorbox}[colback=white,colframe=blue!50!black,boxrule=0.8pt,arc=2mm]
 \small
 \justifying
 FCC-ee BSM programme: The same clean \(e^+e^-\) environment and precision strategy make FCC-ee a powerful machine for indirect and rare-process searches beyond the Standard Model, including EFT deviations, precision electroweak anomalies, and forbidden top interactions.
 \end{tcolorbox}
+
 \vspace{-0.3cm}
+
 \begin{tcolorbox}[colback=white,colframe=red!30]
 \small
 \justifying 
-The top-FCNC should be read in this broader setting: FCC-ee is designed to expose tiny deviations in the Higgs, electroweak and top sectors, {\color{red}not just to produce large event samples}.
+The key FCC-ee idea is \textbf{precision with interpretation}: huge $Z$, $W$, Higgs and top samples 
+are combined with clean kinematics, beam-energy control and full-event reconstruction to extract 
+absolute couplings, widths and electroweak vertices, and to test correlated SMEFT deviations.
 \end{tcolorbox}
-%\refs{FCC PED 2025 overview; FCC Feasibility Study Vol.~1.}
+
 \end{frame}
-
-
-
 
 
 
@@ -406,8 +557,10 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 
 %----------------------------------------------------------------------------------------
 \begin{frame}{Tera-$Z$: the electroweak precision anchor}
-\begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.54\textwidth}
+	
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+	
+\begin{column}{0.60\textwidth}
 \begin{itemize}
 \justifying
 \small
@@ -416,7 +569,9 @@ The top-FCNC should be read in this broader setting: FCC-ee is designed to expos
 \item Off-peak running around the $Z$ pole also gives direct handles on $\alpha_{\rm QED}(m_Z)$ and $\alpha_s(m_Z)$.
 \end{itemize}
 \end{column}
-\begin{column}{0.43\textwidth}
+
+
+\begin{column}{0.50\textwidth}
 \centering
 \scriptsize
 \begin{tabular}{lcc}
@@ -431,13 +586,17 @@ $R_b$ & $0.25\times10^{-6}$ & $0.3\times10^{-6}$ \\
 \bottomrule
 \end{tabular}
 \vspace{0.25cm}
+
 \begin{block}{Message}
 \small
 The $Z$ pole is both a discovery programme and the EW calibration layer for Higgs physics.
 \end{block}
 \end{column}
+
+
 \end{columns}
-\refs{FCC Feasibility Study Report Vol.~1, Table~2.}
+
+
 \end{frame}
 
 
