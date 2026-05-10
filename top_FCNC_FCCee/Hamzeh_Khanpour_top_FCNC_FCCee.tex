@@ -184,7 +184,6 @@ yshift=-0.3cm
 
 
 
-
 %----------------------------------------------------------------------------------------
 \section{{\color{white}FCC programme and physics motivation}}
 
@@ -566,69 +565,95 @@ yshift=-0.3cm
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{Tera-$Z$: the electroweak precision anchor}
-	
+\begin{frame}{Tera-$Z$: the electroweak precision machine} 
+
+\vspace{-0.2cm}
+
 \begin{columns}[T]%[T,totalwidth=\textwidth]
 	
-\begin{column}{0.60\textwidth}
+\begin{column}{0.50\textwidth}
 \begin{itemize}
 \justifying
 \small
 \item The $Z$ line-shape scan and $6\times10^{12}$ $Z$ bosons provide an EW precision programme far beyond LEP/SLC.
 \item Central observables include $m_Z$, $\Gamma_Z$, $\sin^2\theta_{\rm eff}^W$, $R_\ell^Z$, $\sigma^0_{\rm had}$, $N_\nu$, $R_b$, heavy-flavour asymmetries and $\tau$ observables.
 \item Off-peak running around the $Z$ pole also gives direct handles on $\alpha_{\rm QED}(m_Z)$ and $\alpha_s(m_Z)$.
+\item The Tera-$Z$ dataset also enables precision flavour physics, rare/forbidden $Z$ decays, $\tau$ observables and dark-sector searches.
 \end{itemize}
 \end{column}
 
 
-\begin{column}{0.50\textwidth}
+\begin{column}{0.55\textwidth}
+
 \centering
 \scriptsize
-\begin{tabular}{lcc}
+\begin{tabularx}{\linewidth}{p{0.26\linewidth}p{0.21\linewidth}p{0.24\linewidth}X}
 \toprule
-Observable & FCC-ee stat. & FCC-ee syst. \\
+Observable & Present unc. & FCC-ee target & Gain \\
 \midrule
-$m_Z$ & $4~\mathrm{keV}$ & $100~\mathrm{keV}$ \\
-$\Gamma_Z$ & $4~\mathrm{keV}$ & $12~\mathrm{keV}$ \\
-$\sin^2\theta_{\rm eff}^W$ & $1.2\times10^{-6}$ & $1.2\times10^{-6}$ \\
-$N_\nu$ & $0.09\times10^{-3}$ & $0.12\times10^{-3}$ \\
-$R_b$ & $0.25\times10^{-6}$ & $0.3\times10^{-6}$ \\
+$m_Z$ & $2.0~\mathrm{MeV}$ & stat. 4~keV, syst. 100~keV & $\sim20\times$ syst. \\
+$\Gamma_Z$ & $2.3~\mathrm{MeV}$ & stat. 4~keV, syst. 12~keV & $\sim190\times$ syst. \\
+$\sin^2\theta^{\ell}_{\rm eff}$ & $160\times10^{-6}$ & $1.2\times10^{-6}$ stat./syst. & $\sim100\times$ \\
+$R_b$ & $660\times10^{-6}$ & $0.25/0.3\times10^{-6}$ & $>10^3\times$ \\
+$N_\nu$ & $7.4\times10^{-3}$ & $0.09/0.12\times10^{-3}$ & $\sim50\times$ \\
+$A_{\rm FB}^{b,0}$ & $16\times10^{-4}$ & stat.\ $0.04\times10^{-4}$, syst.\ $0.04\times10^{-4}$ & $\sim 2\times10^{2}$\\
+$\alpha_s(m_Z^2)$ & $30\times10^{-4}$ & stat. $0.1\times10^{-4}$, syst. $1\times10^{-4}$ & $\sim 30\times$\\
 \bottomrule
-\end{tabular}
-\vspace{0.25cm}
+\end{tabularx}
 
-\begin{block}{Message}
-\small
-The $Z$ pole is both a discovery programme and the EW calibration layer for Higgs physics.
-\end{block}
+\vspace{-0.15cm}
+
 \end{column}
-
-
 \end{columns}
 
+\begin{alertblock}{Main message from Tera-$Z$}
+\small
+\justifying
+The Tera-$Z$ programme combines ultra-high statistics with ppm-level electroweak precision, enabling both direct rare-process searches and global SMEFT constraints far beyond the LEP/SLC era.
+\end{alertblock} 
+
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
 
 \end{frame}
 
 
 
+
+
 %----------------------------------------------------------------------------------------
 \begin{frame}{From $Z$ observables to electroweak couplings}
-\begin{columns}[T,totalwidth=\textwidth]
-\begin{column}{0.55\textwidth}
+	
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+	
+\begin{column}{0.50\textwidth}
 \begin{itemize}
 \justifying
 \small
 \item FCC-ee determines left- and right-handed $Zf\bar f$ couplings from partial widths, cross-section ratios and asymmetries.
 \item For electrons, this is especially important because the $Zee$ vertex also enters $e^+e^-\to ZH$.
-\item In SMEFT, new-physics effects in $Zee$ and $HZee$ are correlated by electroweak gauge invariance.
+\item In SMEFT, corrections to $Zee$, $HZZ$ and contact $HZee$ interactions arise from common gauge-invariant operators.
 \end{itemize}
+
 \vspace{0.2cm}
-\begin{block}{Extraction logic}
-\centering
-$g_{Zf}^{L,R}\ \longleftarrow\ \Gamma(Z\to f\bar f),\ A_f,\ A_{\rm FB}^f,\ R_f,\ P_\tau$
-\end{block}
+
+
+\begin{alertblock}{Practical consequence}
+\small
+\justifying
+Precision Higgs measurements require equally precise electroweak inputs: otherwise uncertainties in $Zee$ and related EW vertices propagate directly into the extraction of $HZZ$, $HWW$ and SMEFT Higgs couplings.
+\end{alertblock}
+
 \end{column}
-\begin{column}{0.42\textwidth}
+
+\begin{column}{0.55\textwidth}
 \begin{block}{Why chirality matters}
 \small
 \begin{itemize}
@@ -638,14 +663,48 @@ $g_{Zf}^{L,R}\ \longleftarrow\ \Gamma(Z\to f\bar f),\ A_f,\ A_{\rm FB}^f,\ R_f,\
 \item Higgs fits need EW vertices known at comparable precision.
 \end{itemize}
 \end{block}
-\begin{alertblock}{Practical consequence}
+
+\begin{exampleblock}{Extraction logic}
 \small
-Without FCC-ee $Z$-pole precision, uncertainties in EW vertices would contaminate the extraction of Higgs couplings.
-\end{alertblock}
+\centering
+\[
+\Gamma_f \propto (g_L^f)^2+(g_R^f)^2
+\,\,; 
+A_f=\frac{(g_L^f)^2-(g_R^f)^2}
+{(g_L^f)^2+(g_R^f)^2}
+\]
+\vspace{-0.2cm}
+\[
+A_{\rm FB}^f \simeq \frac{3}{4}A_eA_f
+\]
+\vspace{-0.2cm}
+\[
+g_L^f = T_3^f - Q_f\sin^2\theta_{\rm eff}^{f},
+\qquad
+g_R^f = -Q_f\sin^2\theta_{\rm eff}^{f}
+\]	
+\vspace{0.05cm}
+\scriptsize
+line shape + asymmetries + polarisation
+$\Longrightarrow$
+precision EW vertices and SMEFT constraints
+\end{exampleblock}
+
 \end{column}
 \end{columns}
-\refs{FCC Feasibility Study Report Vol.~1, Sec.~2.2.1.}
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
+
 \end{frame}
+
+
 
 
 
