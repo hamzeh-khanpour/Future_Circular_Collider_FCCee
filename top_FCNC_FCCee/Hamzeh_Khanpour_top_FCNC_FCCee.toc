@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{{\color {white}FCC programme and physics motivation}}{3}{0}{1}
-\beamer@sectionintoc {2}{{\color {white}top-quark FCNC motivation and theory}}{21}{0}{2}
-\beamer@sectionintoc {3}{{\color {white}Signal process and analysis design}}{28}{0}{3}
-\beamer@sectionintoc {4}{{\color {white}Sensitivity estimation}}{40}{0}{4}
+\beamer@sectionintoc {2}{{\color {white}top-quark FCNC motivation and theory}}{20}{0}{2}
+\beamer@sectionintoc {3}{{\color {white}Signal process and analysis design}}{27}{0}{3}
+\beamer@sectionintoc {4}{{\color {white}Sensitivity estimation}}{39}{0}{4}
