@@ -1,0 +1,461 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
+x)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
+))) (/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.4.1'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.4.1'
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
+)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd)
+(./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 177.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
+(./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.out)
+(./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.out)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtt.fd)
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+(./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.toc
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1minntx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd)
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 ....1}Z-pole observables}{36}{subsection.5.1}
+                                                  % [1]
+[2])
+[3] (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd)
+[4{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
+Overfull \hbox (136.51295pt too wide) detected at line 257
+[][][][] [][]\LMS/ntxsy/m/n/10.95 ! [] [][]! [] [][]! []\OML/ntxmi/m/it/10.95 :
+
+
+[5]
+[6]
+[7 <./Figs/FCC-ee_RunSequence_2024_09_26.pdf, page is rotated 90 degrees>]
+[8 <./Figs/circos_FCCee_nomargin_newFSR.pdf>]
+[9]
+[10 <./Figs/FCC-runs.pdf>]
+[11 <./Figs/FCCeeLumis2024.png> <./Figs/FCCtunnel.png (PNG copy)>]
+[12]
+[13]
+[14]
+[15 <./Figs/Global_Interpretations/coefficient_bar_final.pdf>]
+[16 <./Figs/Global_Interpretations/barplotsnow-xo1-smpar.pdf>]
+[17 <./Figs/Global_Interpretations/spider_plot_Quad_Effects.pdf>]
+[18 <./Figs/Global_Interpretations/spider_plot_uv.pdf>]
+[19 <./Figs/Global_Interpretations/newscalars.pdf>]
+[20 <./Figs/Global_Interpretations/newfermions.pdf>]
+[21 <./Figs/Global_Interpretations/newvectorslog.pdf>]
+[22]
+[23 <./Figs/Higgs/higgsstrahlung.jpg>]
+[24]
+[25 <./Figs/Higgs/recoil.pdf, page is rotated 90 degrees>]
+[26 <./Figs/Higgs/RecoZ_mass.pdf, page is rotated 90 degrees>]
+[27]
+[28 <./Figs/Higgs/ATLAS_CMS_Higgs_couplings.pdf>]
+[29 <./Figs/Higgs_to_fermion_effective_couplings.pdf>]
+[30 <./Figs/Higgs_to_vector_boson_effective_couplings.pdf>]
+[31 <./Figs/kappa2025/k_universal.pdf>]
+[32 <./Figs/Hself/HH-Feynman-all_v2.pdf>]
+[33 <./Figs/Hself/CrossSectionPlot.pdf, page is rotated 90 degrees>]
+[34 <./Figs/Hself/KappaLambdaHEFT_FCCee.pdf>]
+[35 <./Figs/Hself/HHH_ECM_Combined_new.pdf, page is rotated 90 degrees>]
+[36]
+[37 <./Figs/commontools/Z_mass_pole.pdf>]
+[38 <./Figs/EWfit/MWmtplot_FCCee.pdf>]
+[39 <./Figs/EWfit/mt_mW_uncert.pdf>]
+[40 <./Figs/MWmtplot_FCCee_New.png (PNG copy)>]
+[41 <./Figs/Effective_couplings_of_the_W_boson.pdf>]
+[42 <./Figs/Electroweak_left-handed_effective_couplings.pdf> <./Figs/Electrowea
+k_right-handed_effective_couplings.pdf>]
+[43]
+[44]
+[45 <./Figs/scan/plot_PS.pdf>]
+[46 <./Figs/scan/ISR_comparison_N3LO.pdf>]
+[47 <./Figs/scan/plot_N3LO_PS_yukawa_alphaS_ratio.pdf>]
+[48 <./Figs/scan/chi2_scan_mass_width.pdf>]
+[49 <./Figs/scan/uncert_mass_width_vs_alphas.pdf>]
+[50 <./Figs/reco/njgt1_effp9_twob_njets_R5_had_345_log.pdf, page is rotated 90 
+degrees>]
+[51 <./Figs/Global_Interpretations/top-higgs-interplay-fcc.pdf>]
+[52]
+[53]
+[54]
+[55]
+[56]
+[57]
+[58]
+[59]
+[60]
+[61]
+[62]
+[63]
+[64 <./Figs/rarezdecays-crop.pdf>]
+[65 <./Figs/Tau_LFV.png>]
+[66 <./Figs/tau_LFU_exp.png>]
+[67]
+[68 <./Figs/TypeISeesaw_FSR.pdf>]
+[69 <./Figs/alp_final_FCCeehh_col_FSR.png>]
+[70 <./Figs/fcc_lines_LLP_FSR.pdf>]
+[71 <./Figs/ExoticHiggsLLP_FSR.pdf>]
+[72 <./Figs/HtoSS/h2ss_dia.pdf>]
+[73 <./Figs/HtoSS/h2ss_weak.pdf>]
+[74]
+[75]
+pdfTeX warning (ext1): too large image resolution ignored
+
+[76 <./Figs/VacuumPolarization.png>]
+[77 <./Figs/LbL_diphoton_diag.png> <./Figs/gg_lbl.png (PNG copy)>]
+[78]
+[79]
+[80 <./Figs/commontools/CLD_iso_View.pdf>]
+[81 <./Figs/commontools/allegro-compressed.pdf>]
+[82 <./Figs/commontools/dp_vs_p.pdf>]
+[83 <./Figs/commontools/edm4hep_diagram_v99.pdf>]
+[84 <./Figs/commontools/key4hep_chain_gaudi.png>]
+[85]
+[86]
+[87 <./Figs/FCCHHschannelreach.png>]
+[88 <./Figs/PairComp.pdf>]
+[89 <./Figs/ResonanceComp.pdf>]
+[90 <./Figs/Hselfcoupling-precision-1b.pdf> <./Figs/NeutrinoSpectra.pdf>]
+[91]
+[92]
+Overfull \hbox (20.0617pt too wide) in paragraph at lines 1799--1799
+[]|$\OML/ntxmi/m/it/10.95 m[]; \U/ntxmia/m/it/10.95 ^^@[]\OML/ntxmi/m/it/10.95 
+; ^^[[]; [][] ^^R[]; m[]$| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1799
+[]|$\OML/ntxmi/m/it/10.95 m[]; \U/ntxmia/m/it/10.95 ^^@[]\OML/ntxmi/m/it/10.95 
+; y[]; t[]Z$ \T1/ntxtlf/m/n/10.95 (+20) cou-
+
+Underfull \hbox (badness 2277) in paragraph at lines 1799--1799
+[]|\T1/ntxtlf/m/n/10.95 (+20) Rare $\OML/ntxmi/m/it/10.95 b; c; ^^\$ \T1/ntxtlf
+/m/n/10.95 (+20) de-cays,
+
+Underfull \hbox (badness 1275) in paragraph at lines 1799--1799
+\T1/ntxtlf/m/n/10.95 (+20) duc-tion, $\OML/ntxmi/m/it/10.95 HH$\T1/ntxtlf/m/n/1
+0.95 (+20) , high-
+
+[93 <./Figs/PED_e-groups.pdf>]
+[94]
+[95]
+[96]
+[97]
+[98]
+[99]
+[100]
+[101] (./Lecture_Note_on_Precision_Physics_at_the_FCC_updated.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/newtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/stix/STIXGeneral-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcmss8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/t
+exmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmia
+X.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/z
+tmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on Lecture_Note_on_Precision_Physics_at_the_FCC_updated.pdf (102
+ pages, 11345020 bytes).
+Transcript written on Lecture_Note_on_Precision_Physics_at_the_FCC_updated.log.
+
