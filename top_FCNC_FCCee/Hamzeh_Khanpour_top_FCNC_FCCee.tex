@@ -25,24 +25,27 @@
 \usepackage{tcolorbox}
 
 \usetikzlibrary{arrows.meta,decorations.markings,decorations.pathmorphing,calc}
+
 \usetikzlibrary{positioning,shapes.geometric,fit}
 
 \makeatletter
+
 \patchcmd{\itemize}{\raggedright}{\justifying}{}{}
 \patchcmd{\beamer@enum@}{\raggedright}{\justifying}{}{}
 \patchcmd{\@@description}{\raggedright}{\justifying}{}{}
 \makeatother
 
+
 \mode<beamer>{
-	\definecolor{links}{HTML}{2A1B81}
-	\hypersetup{
-		pdfpagemode=FullScreen,
-		colorlinks=true,
-		linkcolor=links,
-		urlcolor=links,
-		citecolor=links
-	}
-	\usetheme[parttitle=rightfooter]{AGH}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{
+pdfpagemode=FullScreen,
+colorlinks=true,
+linkcolor=links,
+urlcolor=links,
+citecolor=links
+}
+\usetheme[parttitle=rightfooter]{AGH}
 }
 
 
@@ -53,22 +56,22 @@
 
 
 \graphicspath{
-	{./}
-	{Presentation_Higgs_performance_meeting19marc_2024/}
-	{Presentation_Higgs_performance_meeting19marc_2024/240GeV-leptonic/}
-	{Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/}
-	{Presentation_Higgs_performance_meeting19marc_2024/365GeV-leptonic/}
-	{Presentation_Higgs_performance_meeting19marc_2024/365GeV-fullhadronic/}
-	{Presentation_Higgs_performance_meeting19marc_2024/Plots-240/}
-	{Presentation_Higgs_performance_meeting19marc_2024/Plots-365/}
-	{top_FCNC_FCCee_draft/}
-	{top_FCNC_FCCee_draft/images/}
-	{top_FCNC_FCCee_draft/Jet-Algorithm/}
-	{top_FCNC_FCCee_draft/240GeV-leptonic/}
-	{top_FCNC_FCCee_draft/240GeV-fullhadonic/}
-	{top_FCNC_FCCee_draft/365GeV-leptonic/}
-	{top_FCNC_FCCee_draft/365GeV-fullhadronic/}
-	{PresentationKrakow_2023/}
+{./}
+{Presentation_Higgs_performance_meeting19marc_2024/}
+{Presentation_Higgs_performance_meeting19marc_2024/240GeV-leptonic/}
+{Presentation_Higgs_performance_meeting19marc_2024/240GeV-fullhadonic/}
+{Presentation_Higgs_performance_meeting19marc_2024/365GeV-leptonic/}
+{Presentation_Higgs_performance_meeting19marc_2024/365GeV-fullhadronic/}
+{Presentation_Higgs_performance_meeting19marc_2024/Plots-240/}
+{Presentation_Higgs_performance_meeting19marc_2024/Plots-365/}
+{top_FCNC_FCCee_draft/}
+{top_FCNC_FCCee_draft/images/}
+{top_FCNC_FCCee_draft/Jet-Algorithm/}
+{top_FCNC_FCCee_draft/240GeV-leptonic/}
+{top_FCNC_FCCee_draft/240GeV-fullhadonic/}
+{top_FCNC_FCCee_draft/365GeV-leptonic/}
+{top_FCNC_FCCee_draft/365GeV-fullhadronic/}
+{PresentationKrakow_2023/}
 {Figs/}
 {arXiv-2505.00272v1/Physics/Overview/Figs/}
 {arXiv-2505.00272v1/Physics/PhysicsCase/Figs/}
@@ -76,25 +79,29 @@
 {arXiv-2505.00272v1/Physics/DetectorConcepts/Figs/}
 }
 
+
 \setbeamertemplate{navigation symbols}{}
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.15}
 
 \newcommand{\placeholdergraphic}[2]{%
-	\begin{center}
-		\setlength{\fboxsep}{6pt}%
-		\fbox{%
-			\begin{minipage}[c][#2][c]{0.94\linewidth}
-				\centering\textbf{Placeholder for official screenshot}\\[0.5ex]
-				\footnotesize #1
-		\end{minipage}}
-	\end{center}
+\begin{center}
+\setlength{\fboxsep}{6pt}%
+\fbox{%
+\begin{minipage}[c][#2][c]{0.94\linewidth}
+\centering\textbf{Placeholder for official screenshot}\\[0.5ex]
+\footnotesize #1
+\end{minipage}}
+\end{center}
 }
+
+
 
 \newcommand{\refs}[1]{\vspace{0.35em}{\raggedleft\scriptsize\color{gray}Refs: #1\par}}
 \newcommand{\takehome}[1]{\begin{alertblock}{Take-home message}\small #1\end{alertblock}}
 \newcommand{\smaller}[1]{{\fontsize{8}{9.3}\selectfont #1}}
 \newcommand{\tinyref}[1]{{\raggedleft\tiny\color{gray}#1\par}}
+
 
 \title[{\color{white}Top FCNC search at the FCC-ee}]{{\color{white}Top FCNC search at the FCC-ee}}
 \subtitle{From precision physics at the FCC-ee to rare top interactions}
@@ -102,24 +109,30 @@
 \institute[AGH]{Faculty of Physics and Applied Computer Science\\AGH University of Krakow}
 
 
+
+
 \date[Seminarium HEP Białasówk]{%
-  \begingroup
+\begingroup
 \setlength{\fboxsep}{5pt}%
 \fcolorbox{red!70!black}{green!12}{%
 \parbox{0.50\linewidth}{\centering
 Seminarium HEP Białasówk; 15 May 2026}
 }%
-  \endgroup
+\endgroup
 }
+
+
 
 
 \begin{document}
 
 
 
+
 %----------------------------------------------------------------------------------------
+
 \begin{frame}[plain]
-		
+
 \begin{tikzpicture}[remember picture,overlay]
 \node[
 anchor=north east,
@@ -128,11 +141,11 @@ yshift=-0.95cm
 ] at (current page.north east)
 {\includegraphics[width=3.05cm]{FCC.jpg}};
 \end{tikzpicture}
-		
+
 \titlepage
-		
 
 \end{frame}
+
 %----------------------------------------------------------------------------------------
 	
 	
@@ -335,13 +348,21 @@ yshift=-0.3cm
 
 %----------------------------------------------------------------------------------------
 \begin{frame}{FCC-ee baseline operation model: luminosity, and event yields}
+	
+\vspace{-0.1cm}	
+	
 \small
 \begin{columns}[]%[T,totalwidth=\textwidth]
+	
 \begin{column}{0.50\textwidth}
 \centering
-\includegraphics[width=\linewidth]{Baseline_operation_model_for_FCC_ee}
-		
-\scriptsize\justifying Example baseline luminosity evolution over about 15 years with four IPs. The shown order is illustrative; below the $t\bar t$ threshold the programme has quasi-total order flexibility.\par
+\includegraphics[width=\linewidth]{The_FCC_ee_baseline_design_luminosity.jpg} 
+\scriptsize \centering The luminosity evolution over about 15 years.\par
+
+\centering
+\includegraphics[width=\linewidth]{FCC_program.jpg} 
+\scriptsize \centering Potential physics programme at  FCC-ee.\par
+
 \end{column}
 		
 \begin{column}{0.60\textwidth}
@@ -358,7 +379,7 @@ yshift=-0.3cm
 \bottomrule
 \end{tabularx}
 
-\vspace{0.35em}
+\vspace{0.25em}
 
 \begin{block}{Run-plan logic}
 \scriptsize
