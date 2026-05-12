@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  12 MAY 2026 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  12 MAY 2026 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2011,7 +2011,7 @@ Package pdftex.def Info: FCC.jpg  used on input line 1879.
 [29
 
  <./FCCanalysis.jpg>]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 2002--2002
+Overfull \hbox (22.66983pt too wide) in paragraph at lines 2002--2002
 [][]  
  []
 
@@ -2028,7 +2028,7 @@ Package pdftex.def Info: FCC.jpg  used on input line 2002.
 [30
 
 ]
-Overfull \hbox (58.19885pt too wide) in paragraph at lines 2124--2124
+Overfull \hbox (22.66983pt too wide) in paragraph at lines 2124--2124
 [][]  
  []
 
@@ -2277,7 +2277,7 @@ s/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
 public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmtt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (43 pages, 6972809 bytes).
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (43 pages, 6972801 bytes).
 
 PDF statistics:
  1303 PDF objects out of 1440 (max. 8388607)
