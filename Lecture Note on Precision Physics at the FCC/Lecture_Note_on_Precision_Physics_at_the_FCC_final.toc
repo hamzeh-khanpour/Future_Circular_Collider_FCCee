@@ -1,0 +1,85 @@
+\contentsline {section}{Preface}{4}{Doc-Start}%
+\contentsline {section}{Conventions and notation}{4}{Doc-Start}%
+\contentsline {section}{\numberline {1}Motivation and physics landscape}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Learning goals and key questions}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}From direct discovery to precision discovery}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}The FCC as an integrated programme}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}A map of the lecture note}{9}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Exercises}{9}{subsection.1.5}%
+\contentsline {section}{\numberline {2}FCC machine concept and run plan}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Learning goals and run-plan logic}{10}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Baseline working points and target samples}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Four interaction points and redundancy}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Collider process map}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Exercises}{13}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Precision as an indirect discovery tool}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The EFT expansion}{14}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Why global fits are necessary}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}From Wilson coefficients to mass reach}{18}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Exercises}{22}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Higgs precision physics at FCC-ee}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Processes and learning goals}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The recoil-mass method}{24}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}From rates to couplings}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The total Higgs width}{30}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}The kappa framework}{31}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Higgs self-coupling}{32}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Exercises}{35}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Electroweak precision physics}{36}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Z-pole observables}{36}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Asymmetries and effective weak mixing angle}{38}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}WW threshold}{40}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Beam-energy calibration and resonant depolarisation}{41}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Exercises}{44}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Top-quark precision physics}{45}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Processes and observables}{45}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Why the threshold is special}{49}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Top electroweak couplings at higher energy}{51}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Top FCNC as a rare-process case study}{54}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Exercises}{54}{subsection.6.5}%
+\contentsline {section}{\numberline {7}SMEFT and global interpretations}{55}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Operator classes}{55}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Observable expansion and fit logic}{58}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Effective couplings and pseudo-observables}{59}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}UV matching and model interpretation}{61}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Exercises}{64}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Flavour and tau physics at the Z pole}{65}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Heavy flavour at the Z pole}{65}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Tau physics}{67}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Exercises}{68}{subsection.8.3}%
+\contentsline {section}{\numberline {9}BSM searches enabled by precision and luminosity}{69}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Heavy neutral leptons}{69}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Axion-like particles and dark sectors}{70}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Exotic Higgs decays}{71}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Exercises}{75}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Theory precision requirements}{76}{section.10}%
+\contentsline {subsection}{\numberline {10.1}The precision budget}{76}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Running electromagnetic coupling}{79}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}QCD and non-perturbative effects}{79}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Monte Carlo generators and radiation}{79}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Exercises}{80}{subsection.10.5}%
+\contentsline {section}{\numberline {11}Detector and reconstruction requirements}{81}{section.11}%
+\contentsline {subsection}{\numberline {11.1}From physics goals to detector requirements}{81}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Tracking, vertexing and particle identification}{84}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Calorimetry and particle flow}{85}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Software: Key4hep and EDM4hep}{86}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Exercises}{87}{subsection.11.5}%
+\contentsline {section}{\numberline {12}FCC-hh and the integrated programme}{88}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Direct search reach}{88}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Higgs self-coupling at FCC-hh}{91}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}High-energy precision and SMEFT tails}{93}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Exercises}{93}{subsection.12.4}%
+\contentsline {section}{\numberline {13}Summary and outlook}{94}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Core messages}{94}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Summary table of physics pillars}{95}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Open research directions for students}{96}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Final exercises}{96}{subsection.13.4}%
+\contentsline {section}{\numberline {A}Formula compendium}{97}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Collider kinematics}{97}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Higgs rates and coupling modifiers}{97}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Electroweak pseudo-observables}{98}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}SMEFT expansions}{98}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Uncertainty bookkeeping}{98}{subsection.A.5}%
+\contentsline {section}{\numberline {B}Extended guided problem set}{99}{appendix.B}%
+\contentsline {section}{\numberline {C}Figure-reading guide}{100}{appendix.C}%
+\contentsline {section}{References}{101}{Item.101}%

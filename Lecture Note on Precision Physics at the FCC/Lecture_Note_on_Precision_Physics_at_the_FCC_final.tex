@@ -45,8 +45,8 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\itshape Lecture Note on Precision Physics at the FCC}
-\fancyhead[R]{\small Future Circular Collider}
+\fancyhead[L]{\small\itshape Lecture Note on Precision Physics at the}
+\fancyhead[R]{\small Future Circular Collider (FCC)}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 
@@ -91,6 +91,7 @@
 \newtcbtheorem[number within=section]{examplebox}{Example}{enhanced,colback=white,colframe=accentred!55,
   fonttitle=\bfseries,coltitle=black,colbacktitle=accentred!10,boxrule=0.8pt,sharp corners,
   attach boxed title to top left={xshift=0.5em,yshift*=-2mm},boxed title style={sharp corners,colframe=accentred!55,colback=accentred!10}}{ex}
+
 
 \newcommand{\Lag}{\mathcal{L}}
 \newcommand{\ii}{\mathrm{i}}
@@ -195,13 +196,17 @@
 {\large Higgs, electroweak, top, flavour, SMEFT and BSM precision physics\par}
 \vspace{1.2cm}
 
+
+
 \begin{guidelinebox}
 \vspace{0.25cm}
 \itshape
 These notes provide a polished teaching draft for a graduate lecture note on precision physics at the Future Circular Collider. The emphasis is on the FCC-ee precision programme as a Higgs, electroweak, top, flavour and BSM search machine, and on the way FCC-hh completes the programme at the energy frontier. The text combines formulas, process definitions, figures, guided checks, examples and exercises. Numerical projections are quoted as baseline or illustrative projections and are source-attributed to the FCC Feasibility Study, FCC CDR, ESPPU-era documents, or dedicated studies as indicated.
 \end{guidelinebox}
 
+
 \vfill
+
 {\normalsize Prepared for advanced MSc/PhD teaching and FCC study preparation\par}
 {\textbf{Hamzeh Khanpour}\par}
 {\normalsize \texttt{hamzeh.khanpour@fis.agh.edu.pl}\par}
@@ -209,7 +214,11 @@ These notes provide a polished teaching draft for a graduate lecture note on pre
 {\normalsize \today\par}
 \end{titlepage}
 
+
+
+
 \tableofcontents
+
 \newpage
 
 \section*{Preface}
@@ -217,6 +226,8 @@ These notes provide a polished teaching draft for a graduate lecture note on pre
 This lecture note is a compile-ready graduate teaching draft designed to support a course or advanced seminar on precision physics at the Future Circular Collider, using the FCC Feasibility Study Report as the main baseline and the FCC Conceptual Design Report for historical context~\cite{FCCFSRVol1,FCCFSRVol2,FCCFSRVol3,FCCCDRVol1,FCCCDRVol2,FCCCDRVol3}. It is based on the FCC Feasibility Study Report, the FCC Conceptual Design Report, the FCC integrated-programme manifesto, recent ECFA Higgs/electroweak/top factory material, top-threshold studies, SMEFT interpretation papers, and curated figures from the local \texttt{Figs/} directory.
 
 The note is deliberately pedagogical. Each major topic is introduced through the physical process, the observable, the leading formula, the uncertainty logic and the interpretation framework. The boxes labelled Definition, Remark, Example, Guided checks and Take-home message are intended to make the material usable in lectures and self-study. The text distinguishes projections from measurements and avoids treating any future precision number as guaranteed.
+
+
 
 \section*{Conventions and notation}
 \addcontentsline{toc}{section}{Conventions and notation}
@@ -228,6 +239,7 @@ The note is deliberately pedagogical. Each major topic is introduced through the
 \item SMEFT Wilson coefficients are denoted by \(C_i\), with scale \(\Lambda\) written explicitly unless stated otherwise.
 \item Projected FCC-ee numbers are treated as scenario-dependent estimates, not as measured results.
 \end{itemize}
+
 
 
 \newpage
@@ -317,10 +329,15 @@ Throughout these notes, projected FCC precisions are not treated as measurements
 \end{enumerate}
 \end{guidedchecksbox}
 
+
+
 \subsection{A map of the lecture note}
 The note proceeds from machine concept to physics interpretation. Chapter~2 describes the run plan. Chapter~3 introduces precision as an indirect discovery tool and sets up the EFT language. Chapters~4--6 treat the core FCC-ee precision pillars: Higgs, electroweak and top physics. Chapter~7 explains how these measurements are combined in global interpretations. Chapters~8 and 9 broaden the programme to flavour, tau and BSM searches. Chapters~10 and 11 discuss the theory and detector requirements that make the precision claims credible. Chapter~12 explains the FCC-hh stage, and Chapter~13 gives a synthesis.
 
+
+
 \subsection{Exercises}
+
 \begin{enumerate}[leftmargin=1.6em]
 \item Derive the scaling \(\Lambda\sim v/\sqrt{\delta}\) for an observable whose fractional deviation is \(\delta=Cv^2/\Lambda^2\).
 \item Explain why precision measurements can probe new physics even if the collider energy is below the mass of the new particle.
