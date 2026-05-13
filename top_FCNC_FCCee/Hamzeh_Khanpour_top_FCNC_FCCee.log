@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.19)  13 MAY 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.19)  13 MAY 2026 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2342,82 +2342,82 @@ File: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf Graphic file (type pd
 f)
 <use Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>
 Package pdftex.def Info: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf  u
-sed on input line 3064.
+sed on input line 3080.
 (pdftex.def)             Requested size: 193.44582pt x 147.93054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3064--3064
+Underfull \hbox (badness 10000) in paragraph at lines 3080--3080
 [][]
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3064.
+Package pdftex.def Info: FCC.jpg  used on input line 3080.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (14.03796pt too high) detected at line 3064
+Overfull \vbox (18.06943pt too high) detected at line 3080
  []
 
 [46
 
  <./Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>]
-Underfull \hbox (badness 1297) in paragraph at lines 3148--3148
+Underfull \hbox (badness 1297) in paragraph at lines 3164--3164
 []\T1/lmss/m/n/9 Study-level re-con-struc-tion choices: $\OML/lmm/m/it/9 ^^O[] 
 \OT1/lmss/m/n/9 =
  []
 
 File: FCCanalysis.jpg Graphic file (type jpg)
 <use FCCanalysis.jpg>
-Package pdftex.def Info: FCCanalysis.jpg  used on input line 3148.
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 3164.
 (pdftex.def)             Requested size: 156.31958pt x 48.67088pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3148.
+Package pdftex.def Info: FCC.jpg  used on input line 3164.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [47
 
 ]
-<FCC_plan.jpg, id=2591, 2292.565pt x 917.4275pt>
+<FCC_plan.jpg, id=2604, 2292.565pt x 917.4275pt>
 File: FCC_plan.jpg Graphic file (type jpg)
 <use FCC_plan.jpg>
-Package pdftex.def Info: FCC_plan.jpg  used on input line 3217.
+Package pdftex.def Info: FCC_plan.jpg  used on input line 3233.
 (pdftex.def)             Requested size: 355.2685pt x 142.15779pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3217.
+Package pdftex.def Info: FCC.jpg  used on input line 3233.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (29.2722pt too high) detected at line 3217
+Overfull \vbox (29.2722pt too high) detected at line 3233
  []
 
 [48
 
  <./FCC_plan.jpg>]
-<FCC_Poland.jpg, id=2627, 2467.2175pt x 790.955pt>
+<FCC_Poland.jpg, id=2640, 2467.2175pt x 790.955pt>
 File: FCC_Poland.jpg Graphic file (type jpg)
 <use FCC_Poland.jpg>
-Package pdftex.def Info: FCC_Poland.jpg  used on input line 3301.
+Package pdftex.def Info: FCC_Poland.jpg  used on input line 3317.
 (pdftex.def)             Requested size: 187.58409pt x 60.12769pt.
-<AGH_FCC.jpg, id=2628, 2549.525pt x 1266.7325pt>
+<AGH_FCC.jpg, id=2641, 2549.525pt x 1266.7325pt>
 File: AGH_FCC.jpg Graphic file (type jpg)
 <use AGH_FCC.jpg>
-Package pdftex.def Info: AGH_FCC.jpg  used on input line 3301.
+Package pdftex.def Info: AGH_FCC.jpg  used on input line 3317.
 (pdftex.def)             Requested size: 187.58409pt x 93.18393pt.
-<AGH_FCC_2.jpg, id=2629, 1925.1925pt x 1092.08pt>
+<AGH_FCC_2.jpg, id=2642, 1925.1925pt x 1092.08pt>
 File: AGH_FCC_2.jpg Graphic file (type jpg)
 <use AGH_FCC_2.jpg>
-Package pdftex.def Info: AGH_FCC_2.jpg  used on input line 3301.
+Package pdftex.def Info: AGH_FCC_2.jpg  used on input line 3317.
 (pdftex.def)             Requested size: 187.58409pt x 106.39821pt.
 
-Underfull \hbox (badness 1490) in paragraph at lines 3301--3301
+Underfull \hbox (badness 1490) in paragraph at lines 3317--3317
 []\T1/lmss/m/n/9 AGH Uni-ver-sity of Krakow ap-pears pub-licly
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3301.
+Package pdftex.def Info: FCC.jpg  used on input line 3317.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (36.35335pt too high) detected at line 3301
+Overfull \vbox (36.35335pt too high) detected at line 3317
  []
 
 [49
@@ -2443,10 +2443,10 @@ changed.
 (rerunfilecheck)             Checksum: 2E8026A256C552620FD7F7423E2CFE00;1344.
  ) 
 Here is how much of TeX's memory you used:
- 32492 strings out of 467525
- 676274 string characters out of 5423209
+ 32501 strings out of 467525
+ 676665 string characters out of 5423209
  1411097 words of memory out of 5000000
- 60644 multiletter control sequences out of 15000+600000
+ 60653 multiletter control sequences out of 15000+600000
  793664 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,123p,14584b,1396s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2480,11 +2480,11 @@ pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/202
 6/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2026/texmf-dist/fonts/
 type1/public/lm/lmtt10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lm
 tt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (49 pages, 8904834 bytes).
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (49 pages, 8906591 bytes).
 
 PDF statistics:
- 2836 PDF objects out of 2984 (max. 8388607)
- 1560 compressed objects within 16 object streams
+ 2849 PDF objects out of 2984 (max. 8388607)
+ 1567 compressed objects within 16 object streams
  106 named destinations out of 1000 (max. 500000)
- 2483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2519 words of extra memory for PDF output out of 10000 (max. 10000000)
 

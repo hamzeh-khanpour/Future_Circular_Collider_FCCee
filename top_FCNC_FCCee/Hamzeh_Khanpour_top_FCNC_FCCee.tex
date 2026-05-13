@@ -1669,7 +1669,7 @@ yshift=-0.3cm
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{Effective-field-theory \& effective-Lagrangian framework}
+\begin{frame}{Effective-Lagrangian framework}
 	
 \begin{columns}[T]%[T,totalwidth=\textwidth]
 	
@@ -1944,7 +1944,7 @@ yshift=-0.3cm
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{Detector and simulation framework: FCCSW / IDEA / signal samples}
+\begin{frame}{Detector and simulation framework: FCCSW/IDEA/signal samples}
 	
 \begin{columns}[T]%[T,totalwidth=\textwidth]
 	
@@ -3040,11 +3040,27 @@ calorimetry, magnet, return-yoke and muon-system regions [2502.21223 [physics.in
 \end{itemize}
 \end{block}
 
+\begin{center}
+\setbeamercolor{talkrefbox}{fg=black,bg=magenta!20}
+\begin{beamercolorbox}[
+rounded=true,
+shadow=true,
+wd=0.8\linewidth,
+sep=0.07cm,
+center
+]{talkrefbox}
+{\scriptsize
+\href{https://indico.in2p3.fr/event/33627/contributions/155254/}
+{See talk by Armin Ilg, EPS-HEP 2025}
+}
+\end{beamercolorbox}
+\end{center}
+
 \end{column}
 		
 \end{columns}
 	
-\vspace{-0.08cm}
+\vspace{-0.15cm}
 	
 \begin{exampleblock}{Detector logic}
 \small \justifying
@@ -3101,7 +3117,7 @@ production vertex.
 \item Key observables include \(M_W\), \(M_{\rm top}\), light-jet momentum,
 missing energy, angular separations and global event activity.
 
-\item Study-level reconstruction choices: $\epsilon_b = 80\%, \qquad \epsilon_c = 10\%,$ ee-\(k_T\) Durham clustering with E-scheme recombination, using the official
+\item Study-level reconstruction choices: $\epsilon_b = 80\% \,, \epsilon_c = 10\%,$ ee-\(k_T\) Durham clustering with E-scheme recombination, using the official
 FCC analysis framework with Delphes-based IDEA detector response.
 \end{itemize}
 
@@ -3304,11 +3320,194 @@ MoU-status documentation.
 
 
 
-
-
-
-
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}{Coupling-to-branching-ratio translation}
+	
+	\vspace{-0.15cm}
+	
+	\begin{columns}[T]%[T,totalwidth=\textwidth]
+		
+		%------------------------------------------------
+		\begin{column}{0.55\textwidth}
+			\begin{block}{Conventions used in the study}
+				\scriptsize
+				\justifying
+				For the relevant dipole interactions:
+				\[
+				\mathcal{L} \supset
+				\frac{g_W}{4c_W m_Z}\,
+				\bar q\,\sigma^{\mu\nu}
+				\left(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R\right)t\,Z_{\mu\nu}
+				+
+				\frac{e}{2m_t}\,
+				\bar q\,\sigma^{\mu\nu}
+				\left(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R\right)t\,A_{\mu\nu}
+				+\text{h.c.}
+				\]
+				
+				\vspace{-0.10cm}
+				
+				\[
+				q=u,c,\qquad
+				r_Z=\frac{m_Z^2}{m_t^2},\qquad
+				s_W=\sin\theta_W,\quad c_W=\cos\theta_W .
+				\]
+				
+				\vspace{-0.05cm}
+				
+				In the benchmark generation:
+				\[
+				\lambda^L_{qt}=\lambda^R_{qt}\equiv\lambda_{qt},
+				\qquad
+				\kappa^L_{qt}=\kappa^R_{qt}\equiv\kappa_{qt}.
+				\]
+				
+			\end{block}
+			
+			\vspace{-0.05cm}
+			
+			\begin{block}{Branching-ratio definition}
+				\scriptsize
+				\[
+				{\rm Br}(t\to qX)
+				=
+				\frac{\Gamma(t\to qX)}
+				{\Gamma_t^{\rm SM}+\sum_X\Gamma(t\to qX)}
+				\simeq
+				\frac{\Gamma(t\to qX)}{\Gamma_t^{\rm SM}},
+				\]
+				because the extracted FCNC limits correspond to very small branching ratios.
+				
+				\vspace{-0.05cm}
+				
+				\[
+				\Gamma_t^{\rm SM}\simeq \Gamma(t\to Wb)\simeq 1.33~{\rm GeV}.
+				\]
+			\end{block}
+			
+		\end{column}
+		
+		%------------------------------------------------
+		\begin{column}{0.55\textwidth}
+			\begin{block}{Partial widths for one structure at a time}
+				\scriptsize
+				\justifying
+				
+				Photon dipole:
+				\[
+				\Gamma(t\to q\gamma)
+				=
+				\frac{\alpha}{4}\,m_t
+				\left(
+				|\lambda^L_{qt}|^2+|\lambda^R_{qt}|^2
+				\right).
+				\]
+				
+				\vspace{-0.05cm}
+				
+				\(Z\)-dipole:
+				\[
+				\Gamma(t\to qZ)_{\kappa}
+				=
+				\frac{\alpha}{32s_W^2c_W^2}
+				\frac{m_t^3}{m_Z^2}
+				(1-r_Z)^2(2+r_Z)
+				\left(
+				|\kappa^L_{qt}|^2+|\kappa^R_{qt}|^2
+				\right).
+				\]
+				
+				\vspace{-0.05cm}
+				
+				If the vector \(tqZ\) coupling \(X_{qt}\) is switched on instead:
+				\[
+				\Gamma(t\to qZ)_{X}
+				=
+				\frac{\alpha}{32s_W^2c_W^2}
+				\frac{m_t^3}{m_Z^2}
+				(1-r_Z)^2(1+2r_Z)
+				\left(
+				|X^L_{qt}|^2+|X^R_{qt}|^2
+				\right).
+				\]
+				
+			\end{block}
+			
+			\vspace{-0.05cm}
+			
+			\begin{exampleblock}{Practical translation}
+				\scriptsize
+				For the benchmark choice
+				\(\lambda^L=\lambda^R=\lambda\) and
+				\(\kappa^L=\kappa^R=\kappa\),
+				\[
+				{\rm Br}(t\to q\gamma)
+				\simeq
+				\frac{\alpha m_t}{2\Gamma_t^{\rm SM}}|\lambda_{qt}|^2,
+				\]
+				\[
+				{\rm Br}(t\to qZ)_{\kappa}
+				\simeq
+				\frac{\alpha}{16s_W^2c_W^2}
+				\frac{m_t^3}{m_Z^2\Gamma_t^{\rm SM}}
+				(1-r_Z)^2(2+r_Z)|\kappa_{qt}|^2.
+				\]
+			\end{exampleblock}
+			
+		\end{column}
+		
+	\end{columns}
+	
+	\vspace{-0.08cm}
+	
+	\begin{center}
+		\setbeamercolor{refbox}{fg=black,bg=magenta!12}
+		\begin{beamercolorbox}[
+			rounded=true,
+			shadow=true,
+			wd=0.78\linewidth,
+			sep=0.06cm,
+			center
+			]{refbox}
+			{\scriptsize
+				Formulae follow the coupling normalisation of
+				Aguilar-Saavedra, \textit{Nucl. Phys. B} 812 (2009) 181.
+			}
+		\end{beamercolorbox}
+	\end{center}
+	
+\end{frame}
+%----------------------------------------------------------------------------------------
+
+
+
+
 
 
 
