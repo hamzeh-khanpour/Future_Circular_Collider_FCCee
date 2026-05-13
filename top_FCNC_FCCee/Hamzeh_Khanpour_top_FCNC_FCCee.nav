@@ -83,23 +83,25 @@
 \headcommand {\beamer@framepages {37}{37}}
 \headcommand {\slideentry {3}{0}{11}{38/38}{}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {3}{0}{12}{39/39}{}{0}}
+\headcommand {\beamer@sectionpages {28}{38}}
+\headcommand {\beamer@subsectionpages {28}{38}}
+\headcommand {\sectionentry {4}{{\color {white}Sensitivity estimation}}{39}{{\color {white}Sensitivity estimation}}{0}}
+\headcommand {\slideentry {4}{0}{1}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\beamer@sectionpages {28}{39}}
-\headcommand {\beamer@subsectionpages {28}{39}}
-\headcommand {\sectionentry {4}{{\color {white}Sensitivity estimation}}{40}{{\color {white}Sensitivity estimation}}{0}}
-\headcommand {\slideentry {4}{0}{1}{40/40}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {4}{0}{2}{41/41}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {4}{0}{3}{42/42}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {4}{0}{4}{43/43}{}{0}}
+\headcommand {\slideentry {4}{0}{5}{43/43}{}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {4}{0}{5}{44/44}{}{0}}
+\headcommand {\slideentry {4}{0}{6}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {1}{44}}
-\headcommand {\beamer@subsectionpages {40}{44}}
-\headcommand {\beamer@sectionpages {40}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\gdef \inserttotalframenumber {44}}
+\headcommand {\slideentry {4}{0}{7}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {39}{45}}
+\headcommand {\beamer@sectionpages {39}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\gdef \inserttotalframenumber {45}}
