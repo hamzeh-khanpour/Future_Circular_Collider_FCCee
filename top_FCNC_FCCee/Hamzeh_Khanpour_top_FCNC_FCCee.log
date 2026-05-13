@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  13 MAY 2026 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  13 MAY 2026 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2288,13 +2288,17 @@ Package pdftex.def Info: FCC.jpg  used on input line 2910.
 File: Figs/Hselfcoupling-precision-1b.pdf Graphic file (type pdf)
 <use Figs/Hselfcoupling-precision-1b.pdf>
 Package pdftex.def Info: Figs/Hselfcoupling-precision-1b.pdf  used on input lin
-e 2960.
+e 2953.
 (pdftex.def)             Requested size: 175.85768pt x 98.85503pt.
 
-Overfull \hbox (15.98795pt too wide) in paragraph at lines 2960--2960
+Overfull \hbox (15.98795pt too wide) in paragraph at lines 2953--2953
  [][] 
  []
 
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 2953.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [44
 
  <./Figs/Hselfcoupling-precision-1b.pdf>]
@@ -2306,21 +2310,116 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf Graphic file (type pdf)
 <use Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf>
 Package pdftex.def Info: Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf  used on inpu
-t line 2992.
+t line 2994.
 (pdftex.def)             Requested size: 234.48087pt x 182.0755pt.
 
-Overfull \hbox (21.31761pt too wide) in paragraph at lines 2992--2992
+Overfull \hbox (21.31761pt too wide) in paragraph at lines 2994--2994
  [][] 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 2992--2992
+Underfull \hbox (badness 1383) in paragraph at lines 2994--2994
 []\T1/lmss/m/n/9 SMEFT pa-ram-e-terises heavy new
  []
 
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 2994.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [45
 
  <./Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf>]
+<FCC_plan.jpg, id=2489, 2292.565pt x 917.4275pt>
+File: FCC_plan.jpg Graphic file (type jpg)
+<use FCC_plan.jpg>
+Package pdftex.def Info: FCC_plan.jpg  used on input line 3060.
+(pdftex.def)             Requested size: 355.2685pt x 142.15779pt.
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 3060.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
+
+Overfull \vbox (29.2722pt too high) detected at line 3060
+ []
+
+[46
+
+ <./FCC_plan.jpg>]
+<FCC_Poland.jpg, id=2526, 2467.2175pt x 790.955pt>
+File: FCC_Poland.jpg Graphic file (type jpg)
+<use FCC_Poland.jpg>
+Package pdftex.def Info: FCC_Poland.jpg  used on input line 3142.
+(pdftex.def)             Requested size: 187.58409pt x 60.12769pt.
+<AGH_FCC.jpg, id=2527, 2549.525pt x 1266.7325pt>
+File: AGH_FCC.jpg Graphic file (type jpg)
+<use AGH_FCC.jpg>
+Package pdftex.def Info: AGH_FCC.jpg  used on input line 3142.
+(pdftex.def)             Requested size: 187.58409pt x 93.18393pt.
+<AGH_FCC_2.jpg, id=2528, 1925.1925pt x 1092.08pt>
+File: AGH_FCC_2.jpg Graphic file (type jpg)
+<use AGH_FCC_2.jpg>
+Package pdftex.def Info: AGH_FCC_2.jpg  used on input line 3142.
+(pdftex.def)             Requested size: 187.58409pt x 106.39821pt.
+
+Underfull \hbox (badness 1490) in paragraph at lines 3142--3142
+[]\T1/lmss/m/n/9 AGH Uni-ver-sity of Krakow ap-pears pub-licly
+ []
+
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 3142.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
+
+Overfull \vbox (36.35335pt too high) detected at line 3142
+ []
+
+[47
+
+ <./FCC_Poland.jpg> <./AGH_FCC.jpg> <./AGH_FCC_2.jpg>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figs/IDEA_baseline_radial_evelope_07_
+01_2025-v2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf, id=2566, 1066.19325pt x 8
+15.37424pt>
+File: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf Graphic file (type pd
+f)
+<use Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>
+Package pdftex.def Info: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf  u
+sed on input line 3207.
+(pdftex.def)             Requested size: 193.44582pt x 147.93054pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3207--3207
+[][]
+ []
+
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 3207.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
+
+Overfull \vbox (14.03796pt too high) detected at line 3207
+ []
+
+[48
+
+ <./Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>]
+Underfull \hbox (badness 1297) in paragraph at lines 3291--3291
+[]\T1/lmss/m/n/9 Study-level re-con-struc-tion choices: $\OML/lmm/m/it/9 ^^O[] 
+\OT1/lmss/m/n/9 =
+ []
+
+File: FCCanalysis.jpg Graphic file (type jpg)
+<use FCCanalysis.jpg>
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 3291.
+(pdftex.def)             Requested size: 156.31958pt x 48.67088pt.
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 3291.
+(pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
+[49
+
+]
 \tf@nav=\write6
 \openout6 = `Hamzeh_Khanpour_top_FCNC_FCCee.nav'.
 
@@ -2330,8 +2429,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 2992--2992
 \tf@snm=\write8
 \openout8 = `Hamzeh_Khanpour_top_FCNC_FCCee.snm'.
 
-
-(./Hamzeh_Khanpour_top_FCNC_FCCee.aux)
+ (./Hamzeh_Khanpour_top_FCNC_FCCee.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -2341,10 +2439,10 @@ changed.
 (rerunfilecheck)             Checksum: 3CEEF9E651E466823199B67DE42677E3;951.
  ) 
 Here is how much of TeX's memory you used:
- 32049 strings out of 474222
- 666577 string characters out of 5748732
+ 32186 strings out of 474222
+ 670715 string characters out of 5748732
  1963975 words of memory out of 5000000
- 53553 multiletter control sequences out of 15000+600000
+ 53682 multiletter control sequences out of 15000+600000
  724012 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,123p,14584b,1391s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2374,11 +2472,11 @@ onts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (45 pages, 8011849 bytes).
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (49 pages, 8906766 bytes).
 
 PDF statistics:
- 2656 PDF objects out of 2984 (max. 8388607)
- 1453 compressed objects within 15 object streams
- 95 named destinations out of 1000 (max. 500000)
- 2146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2823 PDF objects out of 2984 (max. 8388607)
+ 1547 compressed objects within 16 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 2459 words of extra memory for PDF output out of 10000 (max. 10000000)
 
