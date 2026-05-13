@@ -1114,7 +1114,6 @@ $^{*}$ HL-LHC Higgs-coupling interpretations typically require assumptions such 
 				\delta\kappa_Z \sim 0.1\%,\qquad
 				\delta\kappa_W \sim 0.25\%.
 				\]
-				
 \item FCC-ee gives direct sensitivity to the total Higgs width through the combination of recoil and vector-boson-fusion observables.
 				
 \item Rare and loop-induced modes ($H\to Z\gamma$, $\gamma\gamma$, $\mu\mu$) benefit strongly from the later FCC-hh stage.
@@ -1137,8 +1136,6 @@ $^{*}$ HL-LHC Higgs-coupling interpretations typically require assumptions such 
 FCC-ee transforms Higgs physics from relative rate measurements into an absolute precision programme.
 \end{alertblock}
 
-
-
 \begin{tikzpicture}[remember picture,overlay]
 \node[
 anchor=north east,
@@ -1148,14 +1145,76 @@ yshift=-0.3cm
 {\includegraphics[width=1.8cm]{FCC.jpg}};
 \end{tikzpicture}
 
-
 \end{frame}
 
 
 
 
+%----------------------------------------------------------------------------------------
+\begin{frame}{Higgs precision in the \(\kappa\)-3 framework}
+\vspace{-0.35cm}
+	
+\begin{columns}[T]%[T,totalwidth=\textwidth]
+		
+%------------------------------------------------
+\begin{column}{0.40\textwidth}
+\centering
+			
+\includegraphics[height=0.4\textheight]{fermionmodifierHLLHC.pdf}
+			
+\vspace{-0.10cm}
+			
+\begin{alertblock}{\scriptsize Coupling-modifier interpretation}
+\vspace{-0.1cm}
+\tiny
+\begin{align*}
+(\sigma \!\cdot\! {\rm Br})(i\!\to\! H\!\to\! f)
+&=
+\frac{
+\left(\sigma_i^{\rm SM}\kappa_i^2\right)
+\left(\Gamma_f^{\rm SM}\kappa_f^2\right)}
+{\Gamma_H^{\rm SM}\,\bar{\kappa}_H^2},
+\\[-0.05cm]
+\mu_i^f
+&\equiv
+\frac{(\sigma\!\cdot\!{\rm Br})}
+{(\sigma\!\cdot\!{\rm Br})_{\rm SM}}
+=
+\frac{\kappa_i^2\kappa_f^2}{\bar{\kappa}_H^2},
+\\[-0.05cm]
+\bar{\kappa}_H^2
+&=
+\frac{\kappa_H^2}
+{1-{\rm Br}_{\rm inv}-{\rm Br}_{\rm und}} .
+\end{align*}
+\vspace{-0.1cm}
+\[
+\kappa_V \leq 1\quad (V=W,Z),
+\qquad
+\{\kappa_i,\ {\rm Br}_{\rm inv},\ {\rm Br}_{\rm und}\}.
+\]
+\vspace{-0.1cm}
+\end{alertblock}
+
+\end{column}
 
 
+%------------------------------------------------
+\begin{column}{0.55\textwidth}
+\centering	
+\includegraphics[height=0.4\textheight]{vectormodifierHLLHC.pdf}	
+\vspace{-0.05cm}	
+\includegraphics[height=0.4\textheight]{loopmodifierHLLHC.pdf}
+
+\scriptsize \justifying
+Projected uncertainties in the \(\kappa\)-3 framework with a common HL-LHC baseline.
+The condition \(\kappa_V \leq 1\) is imposed to stabilise the fit, [{\color{magenta}2604.16596 [hep-ph]}].			
+\end{column}
+		
+\end{columns}
+
+\end{frame}
+%----------------------------------------------------------------------------------------
 
 
 
