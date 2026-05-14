@@ -1,0 +1,2604 @@
+
+
+%  Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes 
+
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[a4paper,margin=2.25cm]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs,longtable,array,tabularx,multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+\graphicspath{{./}{Figs/}{Presentation_Higgs_performance_meeting19marc_2024/}}
+
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!60!black}
+\definecolor{aghgreen}{RGB}{0,100,60}
+\definecolor{aghred}{RGB}{168,20,55}
+\definecolor{aghgray}{RGB}{70,70,70}
+\definecolor{softgreen}{RGB}{235,248,240}
+\definecolor{softred}{RGB}{255,238,242}
+\definecolor{softblue}{RGB}{235,242,255}
+\definecolor{softgray}{RGB}{246,246,246}
+
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.25em,topsep=0.25em}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.25em,topsep=0.25em}
+\newtcolorbox{keymessagebox}[1][]{enhanced,breakable,colback=softgreen,colframe=aghgreen,title={Key message},fonttitle=\bfseries,#1}
+\newtcolorbox{definitionbox}[1][]{enhanced,breakable,colback=softblue,colframe=blue!55!black,title={Definition},fonttitle=\bfseries,#1}
+\newtcolorbox{warningbox}[1][]{enhanced,breakable,colback=softred,colframe=aghred,title={Caution},fonttitle=\bfseries,#1}
+\newtcolorbox{talknotebox}[1][]{enhanced,breakable,colback=softgray,colframe=aghgray,title={Talk note},fonttitle=\bfseries,#1}
+\newtcolorbox{questionbox}[1][]{enhanced,breakable,colback=white,colframe=orange!80!black,title={Likely question},fonttitle=\bfseries,#1}
+
+\newcommand{\ee}{e^+e^-}
+\newcommand{\pp}{pp}
+\newcommand{\ttbar}{t\bar t}
+\newcommand{\br}{\mathrm{Br}}
+\newcommand{\CLs}{\mathrm{CL}_s}
+\newcommand{\GeV}{\,\mathrm{GeV}}
+\newcommand{\abinv}{\,\mathrm{ab}^{-1}}
+\newcommand{\fb}{\,\mathrm{fb}}
+\newcommand{\ord}{\mathcal{O}}
+
+
+\setlength{\headheight}{14pt}
+
+\pagestyle{fancy}
+
+
+\fancyhf{}
+
+\lhead{Precision Physics at the FCC-ee}
+
+\rhead{Hamzeh Khanpour}
+
+\cfoot{\thepage}
+
+\title{\bfseries Precision Physics at the FCC-ee\\[0.4em] Top FCNC Search at the FCC-ee}
+
+\author{Hamzeh Khanpour\\Faculty of Physics and Applied Computer Science\\AGH University of Krakow}
+
+\date{Seminarium HEP Bialasowka; 15 May 2026}
+
+
+\begin{document}
+	
+	
+\maketitle
+
+\begin{abstract}
+	
+This document is a technical companion to the presentation ``Top FCNC search at the FCC-ee: From precision physics at the FCC-ee to rare top interactions''.  It reviews the scientific logic of the slide deck, expands the physics formulae and coupling conventions, explains the analysis strategy, and provides slide-by-slide speaking notes.  It is intended for private speaker preparation and for technical follow-up discussions with a particle-physics audience.
+
+\end{abstract}
+
+\tableofcontents
+\clearpage
+
+
+
+\part{Executive slide review}
+
+\chapter{Overview, timing and review of the talk}
+
+\begin{keymessagebox}
+	
+The presentation has a clear two-step narrative.  First, it explains why FCC-ee is a multi-purpose precision laboratory for Z, W, Higgs and top physics.  Second, it uses rare single-top production through anomalous $tq\gamma$ and $tqZ$ interactions as a concrete example of how precision reconstruction and clean $\ee$ kinematics can be converted into BSM sensitivity.
+\end{keymessagebox}
+
+
+\section{Talk strategy}
+
+The strongest way to present the deck is to make the rare-top analysis appear as the natural endpoint of the FCC-ee precision programme, rather than as an isolated search.  The opening slides should therefore be used to establish three ideas: FCC-ee has several precision stages; the Z and WW programmes are not background material but inputs to Higgs and SMEFT interpretation; and the top programme provides both precision measurements and rare-process tests.  Once this frame is established, the top-FCNC section becomes a physics case study in exploiting the clean $\ee$ environment.
+
+\begin{talknotebox}
+	
+For a 45-minute seminar, spend roughly half the time on the FCC-ee precision context and half on the FCNC analysis.  For a 60-minute seminar, use the backup slides on SMEFT, detector performance and the 365 GeV stage more actively.  The most technical slides are Slides 10--17 and 25--38; they need careful spoken guidance because they contain most of the coupling conventions, tables and analysis choices.
+\end{talknotebox}
+
+
+\section{Slide-range timing plan}
+
+\begin{longtable}{p{0.16\textwidth}p{0.23\textwidth}p{0.30\textwidth}p{0.14\textwidth}p{0.10\textwidth}}
+\toprule
+Slide range & Purpose & Main message & Technical risk & 45/60 min \\
+\midrule
+1--2 & Opening and group context & The speaker and group are contributing to FCC-ee feasibility studies in $A_{\rm FB}^b$ and top FCNC. & Avoid spending too long on institutional details. & 2/3 min \\
+3--9 & FCC programme motivation & FCC-ee is a sequence of Z, WW, Higgs and top precision laboratories. & Avoid presenting FCC-ee as only a Higgs factory. & 7/10 min \\
+10--13 & Z, WW and SMEFT/Higgs interplay & EW precision determines vertices that enter Higgs and SMEFT fits. & Coupling notation and circos plot require explanation. & 8/11 min \\
+14--17 & Higgs recoil and $\kappa$ framework & Inclusive $ZH$ recoil turns Higgs physics into an absolute coupling programme. & $\Gamma_H$, $B_{\rm inv}$ and $\kappa$ assumptions need care. & 7/10 min \\
+18--20 & Top precision and rare-top bridge & Top threshold and 365 GeV data link precision top physics to rare FCNC probes. & Do not mix top-threshold projections with FCNC limits. & 5/7 min \\
+21--27 & FCNC theory and benchmark setup & The anomalous-coupling Lagrangian defines the signal hypotheses and BR interpretation. & Coupling-to-BR normalisation is convention-dependent. & 7/10 min \\
+28--38 & Analysis strategy & Official FCC tools, reconstruction, cuts and CL$_s$ inference produce the projected limits. & Need to explain variables, categories and backgrounds. & 8/12 min \\
+39--42 & Sensitivities and outlook & FCC-ee reaches strong study-level limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$. & State that systematics and optimisation are next steps. & 4/6 min \\
+43--49 & Thank-you and backup & Backup slides support Q\&A on Higgs synergy, SMEFT, detector and Polish participation. & Use only if asked or if extra time. & optional \\
+\bottomrule
+\end{longtable}
+
+\section{Key conventions to keep consistent}
+\begin{itemize}
+\item $\sqrt{s}$ denotes the centre-of-mass energy of the $\ee$ collision.
+\item $\kappa_i$ denotes a Higgs coupling modifier, usually normalised to the SM coupling or rate contribution.
+\item $g_L^f$ and $g_R^f$ denote chiral $Zf\bar f$ couplings in the convention $g_L^f=T_3^f-Q_f\sin^2\theta_{\rm eff}^f$ and $g_R^f=-Q_f\sin^2\theta_{\rm eff}^f$.
+\item $\delta g_{1,Z}$, $\delta\kappa_\gamma$ and $\lambda_Z$ are anomalous triple-gauge-coupling parameters.
+\item The top-FCNC benchmark uses one anomalous coupling at a time, with symmetric chiral choices $\lambda^L=\lambda^R$ or $\kappa^L=\kappa^R$.
+\item Missing energy in an $\ee$ analysis is often better described as missing momentum or missing four-momentum.  If $E_T^{\rm miss}$ is used, clarify the convention.
+\end{itemize}
+
+
+\section{Suggested slide corrections for a future version}
+\begin{warningbox}
+The current slides are scientifically coherent.  The following items are not fatal, but they are worth checking before a public archival version.
+\end{warningbox}
+\begin{enumerate}
+\item When referring to FCC-hh, distinguish the older shorthand ``100 TeV'' from the most recent FSR baseline around the mid-80 TeV range, unless the slide intentionally uses the historical target.
+\item Keep $B_{\rm unt}$ and $B_{\rm und}$ notation uniform.  Use one label, explain it as untagged/undetected Higgs branching fraction, and avoid switching notation between slides and notes.
+\item In $Zf\bar f$ couplings, specify whether $g_V,g_A$ include a factor of two relative to $g_L,g_R$.  The slide formula is correct in one common convention, but the spoken explanation should explicitly state the convention.
+\item In the vector $tqZ$ partial-width formula, check the mass dimension and normalisation before using it in public notes.  The dipole formulas in the slide convention are the safer benchmark for the presented limits.
+\item For $H_T$ and $E_T^{\rm miss}$ in $\ee$ studies, define exactly how these variables were implemented in the FCC analysis code.
+\item The phrase ``any signal implies new physics'' is acceptable as seminar shorthand, but for precision wording say: ``any observable rate far above the tiny SM expectation would strongly indicate BSM dynamics.''
+\end{enumerate}
+
+
+
+
+
+\part{Supporting lecture note}
+
+\chapter{Physics background and Precision Physics at the FCC-ee}
+
+
+\section{FCC-ee as a precision machine}
+
+The Future Circular Collider programme is designed as an integrated precision-plus-energy-frontier strategy.  The electron--positron stage, FCC-ee, would operate at several centre-of-mass energies chosen to maximise sensitivity to different sectors of the Standard Model: the Z pole, the WW threshold, the $ZH$ Higgs stage, the $\ttbar$ threshold and a high-energy 365 GeV stage.  The hadron stage, FCC-hh, then uses the same infrastructure to extend direct reach and high-energy precision.  The relevant point for this talk is that rare top searches at FCC-ee are not disconnected from the rest of the programme: they exploit the same clean event reconstruction, vertexing, flavour tagging and global interpretation logic that define the Higgs and electroweak programmes \cite{FCCFSR,FCCManifesto,FCCCDR}.
+
+\begin{definitionbox}
+	
+A precision observable is an experimentally measurable quantity whose Standard-Model prediction and experimental uncertainty can be controlled well enough that small deviations become meaningful.  Examples include $m_Z$, $\Gamma_Z$, $\sin^2\theta_{\rm eff}^\ell$, $\sigma(ZH)$, $m_W$, $m_t$ and rare branching fractions such as $\br(t\to q\gamma)$.
+
+\end{definitionbox}
+
+In an effective-field-theory picture, the sensitivity of a precision observable to heavy new physics can be estimated schematically as
+\begin{equation}
+  \frac{\delta\mathcal O}{\mathcal O_{\rm SM}}
+  \sim C_i\frac{v^2}{\Lambda^2},
+  \label{eq:v2scale}
+\end{equation}
+for observables controlled by electroweak symmetry breaking, or as
+\begin{equation}
+  \frac{\delta\mathcal O}{\mathcal O_{\rm SM}}
+  \sim C_i\frac{E^2}{\Lambda^2},
+  \label{eq:e2scale}
+\end{equation}
+for high-energy amplitudes whose deviations grow with the scattering energy $E$.  Here $C_i$ is a dimensionless Wilson coefficient, $v\simeq246\GeV$ is the Higgs vacuum expectation value and $\Lambda$ is the characteristic new-physics scale.  A per-mille measurement therefore probes multi-TeV scales for order-one Wilson coefficients.  This simple estimate is only a guide; real interpretations require correlations, theory uncertainties, detector effects and EFT validity checks.
+
+\begin{keymessagebox}
+The first scientific message of the talk is that precision measurements and rare processes are complementary discovery tools.  Precision Higgs, electroweak and top measurements test correlated deviations, while top-FCNC searches test interactions that are essentially absent in the SM.
+\end{keymessagebox}
+
+\section{Why Z, WW, Higgs and top measurements are correlated}
+The FCC-ee programme is best understood as a network of measurements.  The Z pole fixes electroweak vertices and pseudo-observables.  The WW threshold tests the charged-current gauge sector and the W mass.  The Higgs stage measures $\sigma(ZH)$ inclusively and exclusive Higgs decay rates.  The top threshold and 365 GeV stage constrain $m_t$, $\Gamma_t$ and top electroweak couplings.  In the Standard Model Effective Field Theory (SMEFT), the same gauge-invariant operators can contribute to several of these sectors simultaneously:
+\begin{equation}
+  \mathcal L_{\rm SMEFT}=\mathcal L_{\rm SM}+
+  \sum_i\frac{C_i^{(6)}}{\Lambda^2}\mathcal O_i^{(6)}+
+  \sum_i\frac{C_i^{(8)}}{\Lambda^4}\mathcal O_i^{(8)}+\cdots .
+\end{equation}
+A single-operator interpretation of one Higgs rate is usually too naive, because electroweak data may constrain the same direction.  Conversely, Higgs rates can help interpret electroweak and top deviations.  This is the reason for Slide 13: Higgs precision needs the Z and WW programmes.
+
+\section{Electroweak pseudo-observables and $Zf\bar f$ couplings}
+At the Z pole, the collider scans the resonance line shape and measures partial widths and asymmetries.  The most important pseudo-observables include
+\begin{equation}
+  m_Z,\quad \Gamma_Z,\quad \sigma^0_{\rm had},\quad R_\ell,\quad R_b,\quad R_c,
+  \quad A_{\rm FB}^{0,f},\quad \sin^2\theta_{\rm eff}^\ell,\quad N_\nu.
+\end{equation}
+The hadronic pole cross section is
+\begin{equation}
+  \sigma^0_{\rm had}=\frac{12\pi}{m_Z^2}\frac{\Gamma_e\Gamma_{\rm had}}{\Gamma_Z^2}.
+\end{equation}
+The ratios
+\begin{equation}
+  R_\ell=\frac{\Gamma_{\rm had}}{\Gamma_{\ell\ell}},\qquad
+  R_b=\frac{\Gamma_{b\bar b}}{\Gamma_{\rm had}},\qquad
+  R_c=\frac{\Gamma_{c\bar c}}{\Gamma_{\rm had}}
+\end{equation}
+remove some common systematics and isolate flavour-dependent electroweak couplings.  The effective number of light neutrinos can be expressed schematically as
+\begin{equation}
+  N_\nu=\frac{\Gamma_{\rm inv}}{\Gamma_{\nu}^{\rm SM}},
+\end{equation}
+where $\Gamma_{\rm inv}$ is the invisible Z width after subtracting the visible partial widths.  Deviations in $N_\nu$ may arise from new invisible particles or modified neutrino couplings, but precision interpretation requires careful control of the full Z-width fit.
+
+\subsection{Chiral couplings}
+The Z boson couples differently to left- and right-handed fermions.  Define the chirality projectors
+\begin{equation}
+  P_L=\frac{1-\gamma_5}{2},\qquad P_R=\frac{1+\gamma_5}{2},
+  \qquad f_L=P_L f,\quad f_R=P_R f.
+\end{equation}
+A useful convention is
+\begin{equation}
+  \mathcal L_{Zff}=\frac{g}{c_W}Z_\mu\bar f\gamma^\mu
+  \left(g_L^fP_L+g_R^fP_R\right)f,
+\end{equation}
+with
+\begin{equation}
+  g_L^f=T_3^f-Q_f\sin^2\theta_{\rm eff}^f,
+  \qquad
+  g_R^f=-Q_f\sin^2\theta_{\rm eff}^f.
+\end{equation}
+Right-handed SM fermions are singlets under $SU(2)_L$, so $T_3=0$ for their weak isospin.  Left-handed fermions sit in $SU(2)_L$ doublets and have $T_3=\pm 1/2$.  The vector and axial combinations are conventionally related by
+\begin{equation}
+  g_V^f=g_L^f+g_R^f,
+  \qquad
+  g_A^f=g_L^f-g_R^f,
+\end{equation}
+up to global normalisation conventions.  Partial widths and asymmetries probe different combinations:
+\begin{equation}
+  \Gamma_f\propto (g_L^f)^2+(g_R^f)^2,
+  \qquad
+  A_f=\frac{(g_L^f)^2-(g_R^f)^2}{(g_L^f)^2+(g_R^f)^2},
+\end{equation}
+\begin{equation}
+  A_{\rm FB}^{0,f}=\frac{3}{4}A_eA_f.
+\end{equation}
+This is why rates, line-shape information and asymmetries together separate left- and right-handed shifts.
+
+\section{WW threshold, gauge structure and aTGCs}
+Near the WW threshold the cross section $\ee\to W^+W^-$ is very sensitive to $m_W$ and $\Gamma_W$.  Above threshold, differential angular distributions are sensitive to the non-Abelian electroweak gauge structure.  A common anomalous triple-gauge-coupling parameterisation is
+\begin{align}
+  \mathcal L_{WWV}=&-i g_{WWV}\Big[
+  g_1^V\left(W^+_{\mu\nu}W^{-\mu}V^\nu-W^-_{\mu\nu}W^{+\mu}V^\nu\right)
+  +\kappa_V W^+_\mu W^-_\nu V^{\mu\nu} \\
+  &\hspace{3.0cm}
+  +\frac{\lambda_V}{m_W^2}W^+_{\mu\nu}W^{-\nu\rho}V_{\rho}^{\ \mu}\Big],
+  \qquad V=\gamma,Z.
+\end{align}
+At tree level in the SM,
+\begin{equation}
+  g_1^\gamma=g_1^Z=\kappa_\gamma=\kappa_Z=1,
+  \qquad
+  \lambda_\gamma=\lambda_Z=0.
+\end{equation}
+The slide uses $\delta g_{1,Z}$, $\delta\kappa_\gamma$ and $\lambda_Z$ as the key deviations.  Here $\delta g_{1,Z}$ modifies the overall $WWZ$ structure, $\delta\kappa_\gamma$ acts like an anomalous magnetic-dipole contribution to $WW\gamma$, and $\lambda_Z$ is a momentum-dependent higher-derivative interaction.  In SMEFT, these parameters are correlated with Higgs-gauge interactions such as $HZZ$ and $HWW$.
+
+\section{Higgs recoil method and absolute coupling extraction}
+At $\sqrt{s}\simeq240\GeV$, the process
+\begin{equation}
+  \ee\to ZH
+\end{equation}
+operates near the Higgsstrahlung cross-section maximum.  If the Z boson is reconstructed, for example through $Z\to\mu^+\mu^-$ or $Z\to e^+e^-$, the recoil mass is
+\begin{align}
+  m_{\rm recoil}^2&=(p_{e^+}+p_{e^-}-p_Z)^2 \\
+  &=s+m_Z^2-2\sqrt{s}E_Z,
+\end{align}
+where $E_Z$ is the reconstructed Z-boson energy.  The key point is that this observable does not require reconstructing the Higgs decay.  Therefore invisible, exotic or untagged Higgs decays still contribute to the inclusive $ZH$ peak.  The inclusive cross section scales as
+\begin{equation}
+  \sigma(ZH)\propto g_{HZZ}^2\equiv \kappa_Z^2(g_{HZZ}^{\rm SM})^2.
+\end{equation}
+This gives the absolute Higgs normalisation that is missing at hadron colliders.
+
+Exclusive Higgs decays then measure products of production and decay factors:
+\begin{equation}
+  \sigma(ZH)\,\br(H\to X)
+  \propto \frac{g_{HZZ}^2g_{HXX}^2}{\Gamma_H},
+\end{equation}
+while WW-fusion gives
+\begin{equation}
+  \sigma(\nu\bar\nu H)\,\br(H\to X)
+  \propto \frac{g_{HWW}^2g_{HXX}^2}{\Gamma_H}.
+\end{equation}
+Combining recoil, exclusive decays and vector-boson fusion gives direct access to absolute couplings and the total width $\Gamma_H$.
+
+\subsection{Exclusive Higgs decay channels}
+\begin{longtable}{p{0.20\textwidth}p{0.24\textwidth}p{0.42\textwidth}}
+\toprule
+Mode & Coupling information & Physics role \\
+\midrule
+$H\to b\bar b$ & bottom Yukawa $\kappa_b$ & Dominant Higgs decay; central for absolute coupling fits and flavour-tagging performance. \\
+$H\to c\bar c$ & charm Yukawa $\kappa_c$ & Direct second-generation quark coupling; requires charm tagging and control of $b/c/g$ separation. \\
+$H\to gg$ & effective $Hgg$ modifier $\kappa_g$ & Loop-induced in the SM; sensitive to top loops, QCD and possible coloured BSM states. \\
+$H\to \tau^+\tau^-$ & tau Yukawa $\kappa_\tau$ & Tests third-generation lepton mass generation and tau reconstruction. \\
+$H\to WW^*$ & $HWW$ coupling $\kappa_W$ & Important width handle; one W is off shell for a 125 GeV Higgs. \\
+$H\to ZZ^*$ & $HZZ$ coupling $\kappa_Z$ & Clean gauge-coupling channel and width handle. \\
+$H\to\gamma\gamma$ & effective $H\gamma\gamma$ modifier $\kappa_\gamma$ & Rare loop-induced mode; FCC-hh statistics strongly improve precision. \\
+$H\to Z\gamma$ & effective $HZ\gamma$ modifier $\kappa_{Z\gamma}$ & Rare loop-induced mode with strong BSM sensitivity. \\
+$H\to\mu^+\mu^-$ & muon Yukawa $\kappa_\mu$ & Second-generation lepton Yukawa; benefits strongly from FCC-hh. \\
+\bottomrule
+\end{longtable}
+
+\section{Higgs coupling modifiers and the $\kappa$-3 framework}
+In the coupling-modifier framework,
+\begin{equation}
+  \kappa_i=\frac{g_i}{g_i^{\rm SM}},
+\end{equation}
+for tree-level couplings, while loop-induced processes are assigned effective modifiers such as $\kappa_g$, $\kappa_\gamma$ and $\kappa_{Z\gamma}$.  A production-times-decay rate can be written as
+\begin{equation}
+  (\sigma\cdot \br)(i\to H\to f)=\sigma_i\frac{\Gamma_f}{\Gamma_H}.
+\end{equation}
+In the $\kappa$ framework,
+\begin{equation}
+  (\sigma\cdot \br)(i\to H\to f)
+  =\left(\sigma_i^{\rm SM}\kappa_i^2\right)
+  \frac{\Gamma_f^{\rm SM}\kappa_f^2}{\Gamma_H^{\rm SM}\kappa_H^2},
+\end{equation}
+so that the signal strength is
+\begin{equation}
+  \mu_i^f=\frac{(\sigma\cdot \br)}{(\sigma\cdot \br)_{\rm SM}}
+  =\frac{\kappa_i^2\kappa_f^2}{\kappa_H^2}.
+\end{equation}
+The total-width modifier is approximated by
+\begin{equation}
+  \kappa_H^2=\sum_j \kappa_j^2\br_j^{\rm SM},
+\end{equation}
+with the sum over all relevant SM decay modes.  If invisible or untagged modes are allowed, the $\kappa$-3 framework often uses
+\begin{equation}
+  \bar\kappa_H^2=\frac{\kappa_H^2}{1-B_{\rm inv}-B_{\rm und}},
+  \qquad
+  \Gamma_H=\bar\kappa_H^2\Gamma_H^{\rm SM}.
+\end{equation}
+The condition $\kappa_V\leq1$ is sometimes imposed in hadron-collider fits to stabilise the width interpretation.  At FCC-ee, inclusive $ZH$ recoil strongly reduces this degeneracy by directly measuring $\sigma(ZH)$.
+
+\begin{warningbox}
+The $\kappa$ framework is useful for explaining Higgs-rate measurements, but it is not a gauge-invariant EFT.  SMEFT is required when one wants to connect Higgs, electroweak, diboson and top observables consistently.
+\end{warningbox}
+
+\section{SMEFT interpretation of Higgs, EW and top data}
+The SMEFT operators most relevant for the motivation slides include bosonic operators and current operators.  Examples are
+\begin{align}
+  \mathcal O_{HWB}&=H^\dagger\sigma^aH W^a_{\mu\nu}B^{\mu\nu},\\
+  \mathcal O_{HD}&=\left|H^\dagger D_\mu H\right|^2,\\
+  \mathcal O_{H\ell}^{(1)}&=(H^\dagger i\overleftrightarrow D_\mu H)(\bar\ell\gamma^\mu\ell),\\
+  \mathcal O_{H\ell}^{(3)}&=(H^\dagger i\overleftrightarrow D_\mu^a H)(\bar\ell\sigma^a\gamma^\mu\ell),\\
+  \mathcal O_{He}&=(H^\dagger i\overleftrightarrow D_\mu H)(\bar e\gamma^\mu e).
+\end{align}
+These can shift $Zee$ couplings, affect $HZZ$ and $HZee$ contact interactions and correlate with diboson and Higgs production.  Bosonic operators such as $\mathcal O_{HW}$, $\mathcal O_{HB}$ and $\mathcal O_W$ affect gauge-boson kinetic/momentum structures and anomalous triple-gauge couplings.  This is the origin of the chords in the circos plot: the plot visualises correlations among fitted effective couplings, not independent measurements.
+
+\section{Top-quark precision at FCC-ee}
+The top threshold programme measures the final state
+\begin{equation}
+  \ee\to W^+bW^-\bar b,
+\end{equation}
+with resonant and non-resonant contributions.  The threshold line shape can be written schematically as
+\begin{equation}
+  \sigma_{WbWb}=\sigma_{WbWb}(\sqrt{s};m_t,\Gamma_t,\alpha_s,y_t).
+\end{equation}
+The horizontal position of the line shape is sensitive to the top mass, the width controls the sharpness, $\alpha_s$ affects the QCD potential, and the top Yukawa coupling produces smaller but relevant effects through Higgs exchange.  A threshold mass such as the potential-subtracted mass $m_t^{\rm PS}$ is used to avoid the pole-mass ambiguity.
+
+Above threshold, the process
+\begin{equation}
+  \ee\to \gamma^*,Z^*\to t\bar t
+\end{equation}
+probes the top electroweak vertex.  A compact notation is
+\begin{equation}
+  \mathcal L_{ttZ}=\frac{g}{2c_W}\bar t\gamma^\mu\left(g_V^t-g_A^t\gamma_5\right)tZ_\mu.
+\end{equation}
+Angular distributions and forward--backward asymmetries are essential to separate chiral structures.
+
+\section{FCNC in the Standard Model and beyond}
+Flavour-changing neutral currents (FCNCs) such as $t\to q\gamma$, $t\to qZ$, $t\to qH$ and $t\to qg$ are absent at tree level in the SM.  They appear only through loops and are strongly suppressed by the Glashow--Iliopoulos--Maiani mechanism.  The expected branching ratios are tiny, often around $10^{-12}$ or below depending on the channel.  Therefore any observable rate far above the SM expectation would strongly indicate BSM dynamics \cite{AguilarSaavedra2004}.
+
+The talk focuses on $tq\gamma$ and $tqZ$ because these interactions induce clean single-top production in $\ee$ collisions:
+\begin{equation}
+  \ee\to \gamma^*/Z^*\to t\bar q,\ \bar t q,
+  \qquad q=u,c.
+\end{equation}
+The produced top decays through the SM mode
+\begin{equation}
+  t\to Wb,
+\end{equation}
+which leads to semileptonic and fully hadronic signatures.
+
+\section{Effective Lagrangian for top-FCNC interactions}
+The anomalous-coupling framework used in the slides follows the common Aguilar-Saavedra normalisation \cite{AguilarSaavedra2009}.  The interaction is
+\begin{align}
+\mathcal L_{\rm FCNC}^{tqX}=\sum_{q=u,c}\Bigg[&
+\frac{g_s}{2m_t}\bar q\lambda^a\sigma^{\mu\nu}(\zeta^L_{qt}P_L+\zeta^R_{qt}P_R)tG^a_{\mu\nu}
+-\frac{1}{\sqrt2}\bar q(\eta^L_{qt}P_L+\eta^R_{qt}P_R)tH \\
+&-\frac{g_W}{2c_W}\bar q\gamma^\mu(X^L_{qt}P_L+X^R_{qt}P_R)tZ_\mu
++\frac{g_W}{4c_Wm_Z}\bar q\sigma^{\mu\nu}(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R)tZ_{\mu\nu}\\
+&+\frac{e}{2m_t}\bar q\sigma^{\mu\nu}(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R)tA_{\mu\nu}
+\Bigg]+{\rm h.c.}
+\label{eq:fcncLag}
+\end{align}
+Here $q=u,c$, $g_s$ is the strong coupling, $g_W$ the weak $SU(2)_L$ coupling, $e$ the electromagnetic coupling, $c_W=\cos\theta_W$, $\lambda^a$ are colour generators and $\sigma^{\mu\nu}=i[\gamma^\mu,\gamma^\nu]/2$.  The field strengths are $G^a_{\mu\nu}$, $Z_{\mu\nu}$ and $A_{\mu\nu}$.  The coefficients $\zeta$, $\eta$, $X$, $\kappa$ and $\lambda$ parameterise, respectively, $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ interactions.
+
+\begin{warningbox}
+The benchmark assumption $\lambda^L=\lambda^R$ or $\kappa^L=\kappa^R$ is a practical signal-generation choice.  It is not a model-independent statement.  Different BSM models can generate strongly chiral patterns.
+\end{warningbox}
+
+\section{Translation between anomalous couplings and branching ratios}
+The branching ratio is defined as
+\begin{equation}
+  \br(t\to qX)=\frac{\Gamma(t\to qX)}{\Gamma_t^{\rm SM}+\sum_X\Gamma(t\to qX)}
+  \simeq\frac{\Gamma(t\to qX)}{\Gamma_t^{\rm SM}},
+\end{equation}
+where the approximation holds for small FCNC widths.  In the convention of Eq.~\eqref{eq:fcncLag}, neglecting the light-quark mass, the photon-dipole partial width is commonly written as
+\begin{equation}
+  \Gamma(t\to q\gamma)=\frac{\alpha}{4}m_t\left(|\lambda^L_{qt}|^2+|\lambda^R_{qt}|^2\right).
+\end{equation}
+For the Z dipole, with $r_Z=m_Z^2/m_t^2$,
+\begin{equation}
+  \Gamma(t\to qZ)_\kappa=\frac{\alpha}{32s_W^2c_W^2}\frac{m_t^3}{m_Z^2}(1-r_Z)^2(2+r_Z)
+  \left(|\kappa^L_{qt}|^2+|\kappa^R_{qt}|^2\right).
+\end{equation}
+For the symmetric benchmark $\lambda^L=\lambda^R=\lambda$ and $\kappa^L=\kappa^R=\kappa$,
+\begin{align}
+  \br(t\to q\gamma)&\simeq\frac{\alpha m_t}{2\Gamma_t^{\rm SM}}|\lambda_{qt}|^2,\\
+  \br(t\to qZ)_\kappa&\simeq\frac{\alpha}{16s_W^2c_W^2}\frac{m_t^3}{m_Z^2\Gamma_t^{\rm SM}}(1-r_Z)^2(2+r_Z)|\kappa_{qt}|^2.
+\end{align}
+The numerical translation must use the same coupling normalisation as the UFO model used for event generation.
+
+\section{Signal processes at 240 and 365 GeV}
+The signal process is
+\begin{equation}
+  \ee\to t\bar q+\bar t q,
+\end{equation}
+mediated by the anomalous $tq\gamma$ and $tqZ$ couplings.  At 240 GeV, the stage is optimised for Higgs studies but also provides clean single-top kinematics.  At 365 GeV, there is more phase space and harder objects, but also genuine top backgrounds.  The benchmark luminosities used in the slides are $5\abinv$ at 240 GeV and $1.5\abinv$ at 365 GeV.
+
+\section{Semileptonic and fully hadronic final states}
+The semileptonic topology is
+\begin{equation}
+  \ee\to tq\to Wbq\to \ell\nu bq,
+\end{equation}
+with one isolated electron or muon, missing momentum from the neutrino, one $b$-tagged jet and one energetic light jet.  It is clean but has a smaller branching fraction.  The fully hadronic topology is
+\begin{equation}
+  \ee\to tq\to Wbq\to q\bar q' bq,
+\end{equation}
+with four exclusive jets.  It has a larger branching fraction but suffers from larger diboson backgrounds and combinatorics.  A typical assignment variable is
+\begin{equation}
+  \chi^2=\frac{(m_{jj}-m_W)^2}{\sigma_W^2}+\frac{(m_{bjj}-m_t)^2}{\sigma_t^2},
+\end{equation}
+where the jet combination minimising $\chi^2$ is chosen as the top candidate.
+
+\section{Backgrounds, jet clustering and flavour tagging}
+The dominant backgrounds are $WW$, $ZZ$, $ZH$, $e\gamma$ initiated processes, and at 365 GeV also $\ttbar$ and single-top-like final states.  The analysis adopts the ee-$k_T$ Durham algorithm in exclusive two-jet or four-jet modes.  E-scheme recombination means four-momenta are added directly.  The slides quote a flavour-tagging working point $\epsilon_b=80\%$ and $\epsilon_c=10\%$.  In the FCNC selection, $b$ tagging identifies the top decay, while light-jet rejection and charm/light separation control backgrounds.
+
+Discriminating variables include reconstructed masses $M_W$ and $M_{\rm top}$, the $b$-jet momentum $p_b$, the light-jet momentum $p_{\rm light}$, missing momentum, angular separations and event activity.  If $H_T$ is used, define it in the analysis note as the scalar sum of visible transverse momenta or the corresponding FCC-ee event-activity proxy:
+\begin{equation}
+  H_T=\sum_i p_{T,i}.
+\end{equation}
+The usual hadron-collider angular distance is
+\begin{equation}
+  \Delta R=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2},
+\end{equation}
+although in $\ee$ analyses ordinary opening angles are often equally transparent.
+
+\section{Statistical analysis and CL$_s$ extraction}
+A generic binned likelihood for the combined analysis is
+\begin{equation}
+  \mathcal L(\mu,\boldsymbol\theta)=\prod_{c,b}{\rm Pois}\left(n_{cb}\,\middle|\,\mu s_{cb}(\boldsymbol\theta)+b_{cb}(\boldsymbol\theta)\right)
+  \prod_k\pi_k(\theta_k),
+\end{equation}
+where $c$ labels channels, $b$ labels histogram bins, $n_{cb}$ are observed or Asimov counts, $s_{cb}$ and $b_{cb}$ are signal and background templates, $\mu$ is the signal-strength parameter, and $\theta_k$ are nuisance parameters.  The CL$_s$ ratio is conventionally
+\begin{equation}
+  CL_s=\frac{p_{s+b}}{1-p_b},
+\end{equation}
+with the exclusion set at $CL_s=0.05$ for a 95\% CL upper limit.  In projected studies the observed dataset is often an Asimov dataset, so the quoted limit is an expected sensitivity.
+
+\section{Interpretation of projected limits}
+The final tables quote limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$ rather than directly on $\lambda$ and $\kappa$.  This is useful for comparing with LHC results and with other future-collider projections.  The lepton channel gives the best sensitivity in the present benchmark because the final state is cleaner and the backgrounds are more controllable.  The hadronic channel still contributes because its branching fraction is larger and it probes a complementary topology.  The results should be described as study-level projections, subject to the stated luminosities, detector assumptions, signal model and systematic-treatment assumptions.
+
+\part{Slide-by-slide talk notes}
+\chapter{Detailed notes for all slides}
+\begin{talknotebox}
+Each slide note below is written for speaker preparation.  It is intentionally more detailed than what should be said aloud.  The speaker should select the relevant points depending on whether the talk is 45 or 60 minutes and depending on audience questions.
+\end{talknotebox}
+
+\clearpage
+\subsection*{Slide 1: Title: Top FCNC search at the FCC-ee}
+\begin{center}
+\fbox{\includegraphics[page=1,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Open the seminar, identify the speaker, and establish the two FCC feasibility studies connected with the AGH group.
+
+\paragraph{Main message.}
+The top-FCNC study is presented as part of a broader FCC-ee physics effort, not as an isolated benchmark.
+
+\paragraph{Suggested spoken explanation.}
+Open the seminar, identify the speaker, and establish the two FCC feasibility studies connected with the AGH group. The top-FCNC study is presented as part of a broader FCC-ee physics effort, not as an isolated benchmark. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+The two AGH-related topics probe complementary aspects of FCC-ee: one uses the enormous Z-pole sample for the long-standing $A_{
+m FB}^{0,b}$ question, while the other uses the clean $\ee$ environment to search for rare top interactions.
+
+\paragraph{Equations and definitions.}
+No derivation is needed.  If asked, define $A_{
+m FB}^{0,b}$ as a forward--backward asymmetry measured at the Z pole and remind the audience that FCNC stands for flavour-changing neutral current.
+
+\paragraph{Figures, plots and tables.}
+The title and institutional slides set the context.  Mention the FCC repository links only briefly unless the audience asks where the analysis notes can be found.
+
+\begin{questionbox}
+\textbf{Q:} Why mention the $A_{
+m FB}^{0,b}$ study in a top talk?\par
+\textbf{A:} Because it shows that the group effort is embedded in FCC-ee precision physics more broadly: electroweak precision and rare top searches are two examples of the same clean-collider strategy.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not spend more than two minutes here; the physics content starts on the next slide.
+
+\paragraph{Transition.}
+Move from local/group context to the global FCC physics motivation.
+
+\paragraph{Suggested timing.}
+0.5--1 min.
+
+
+\clearpage
+\subsection*{Slide 2: FCC-ee feasibility studies from our group}
+\begin{center}
+\fbox{\includegraphics[page=2,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Open the seminar, identify the speaker, and establish the two FCC feasibility studies connected with the AGH group.
+
+\paragraph{Main message.}
+The top-FCNC study is presented as part of a broader FCC-ee physics effort, not as an isolated benchmark.
+
+\paragraph{Suggested spoken explanation.}
+Open the seminar, identify the speaker, and establish the two FCC feasibility studies connected with the AGH group. The top-FCNC study is presented as part of a broader FCC-ee physics effort, not as an isolated benchmark. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+The two AGH-related topics probe complementary aspects of FCC-ee: one uses the enormous Z-pole sample for the long-standing $A_{
+m FB}^{0,b}$ question, while the other uses the clean $\ee$ environment to search for rare top interactions.
+
+\paragraph{Equations and definitions.}
+No derivation is needed.  If asked, define $A_{
+m FB}^{0,b}$ as a forward--backward asymmetry measured at the Z pole and remind the audience that FCNC stands for flavour-changing neutral current.
+
+\paragraph{Figures, plots and tables.}
+The title and institutional slides set the context.  Mention the FCC repository links only briefly unless the audience asks where the analysis notes can be found.
+
+\begin{questionbox}
+\textbf{Q:} Why mention the $A_{
+m FB}^{0,b}$ study in a top talk?\par
+\textbf{A:} Because it shows that the group effort is embedded in FCC-ee precision physics more broadly: electroweak precision and rare top searches are two examples of the same clean-collider strategy.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not spend more than two minutes here; the physics content starts on the next slide.
+
+\paragraph{Transition.}
+Move from local/group context to the global FCC physics motivation.
+
+\paragraph{Suggested timing.}
+0.5--1 min.
+
+
+\clearpage
+\subsection*{Slide 3: Why a future collider programme after the LHC?}
+\begin{center}
+\fbox{\includegraphics[page=3,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 4: The FCC integrated vision: FCC-ee to FCC-hh}
+\begin{center}
+\fbox{\includegraphics[page=4,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 5: FCC-ee running points: one collider, several precision laboratories}
+\begin{center}
+\fbox{\includegraphics[page=5,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 6: FCC-ee baseline operation model: luminosity, and event yields}
+\begin{center}
+\fbox{\includegraphics[page=6,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 7: FCC-ee precision mission: why the clean e+e- stage matters}
+\begin{center}
+\fbox{\includegraphics[page=7,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 8: FCC-ee: not only a Higgs factory}
+\begin{center}
+\fbox{\includegraphics[page=8,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 9: Why FCC-ee is unique: Higgs factory, EW, top, BSM search}
+\begin{center}
+\fbox{\includegraphics[page=9,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Build the FCC-ee precision narrative before introducing the rare-top case study.
+
+\paragraph{Main message.}
+FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together.
+
+\paragraph{Suggested spoken explanation.}
+Build the FCC-ee precision narrative before introducing the rare-top case study. FCC-ee is a sequence of precision laboratories for Z, W, Higgs and top physics, and its measurements are designed to be interpreted together. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Emphasise the run points: Z pole around 88, 91 and 94 GeV, WW threshold around 157 and 163 GeV, Higgsstrahlung at 240 GeV, top threshold around 340--350 GeV, and 365 GeV above threshold.  The four-IP baseline increases statistics and provides experimental redundancy.  The event samples in Slides 5--6 explain why the term precision factory is justified.
+
+\paragraph{Equations and definitions.}
+The main scaling is $\delta\mathcal O/\mathcal O_{
+m SM}\sim C_i v^2/\Lambda^2$ for low-energy precision shifts or $C_iE^2/\Lambda^2$ for high-energy amplitude growth.
+
+\paragraph{Figures, plots and tables.}
+For plots of the luminosity evolution and event-yield programme, explain that the x-axis is the FCC-ee running time or centre-of-mass energy and that each energy point targets a different physics sector.
+
+\begin{questionbox}
+\textbf{Q:} Is FCC-ee only a Higgs factory?\par
+\textbf{A:} No.  The Higgs programme is central, but Z-pole, WW-threshold, top-threshold, flavour, tau, QCD and BSM searches are all essential parts of the baseline physics case.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Use the word projected.  These numbers are baseline assumptions from official FCC studies, not measured quantities.
+
+\paragraph{Transition.}
+Having established the programme, focus on the electroweak measurements that provide the reference frame for Higgs and SMEFT fits.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 10: Tera-Z: the electroweak precision machine}
+\begin{center}
+\fbox{\includegraphics[page=10,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain why the Tera-Z run is the electroweak anchor of FCC-ee.
+
+\paragraph{Main message.}
+The Z-pole sample turns electroweak observables into high-precision inputs for Higgs, top and SMEFT interpretations.
+
+\paragraph{Suggested spoken explanation.}
+Explain why the Tera-Z run is the electroweak anchor of FCC-ee. The Z-pole sample turns electroweak observables into high-precision inputs for Higgs, top and SMEFT interpretations. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Define each table entry: $m_Z$ is the Z mass; $\Gamma_Z$ its total width; $\sin^2\theta_{
+m eff}^\ell$ the effective weak mixing angle; $R_b=\Gamma_{b\bar b}/\Gamma_{
+m had}$; $N_
+u$ the effective number of light neutrinos from the invisible width; $A_{
+m FB}^{b,0}$ the b-quark forward--backward asymmetry at the pole; and $\alpha_s(m_Z^2)$ the strong coupling extracted from Z observables.
+
+\paragraph{Equations and definitions.}
+Use $\sigma^0_{
+m had}=12\pi\Gamma_e\Gamma_{
+m had}/(m_Z^2\Gamma_Z^2)$, $R_b=\Gamma_{b\bar b}/\Gamma_{
+m had}$ and $A_{
+m FB}^{0,f}=3A_eA_f/4$.
+
+\paragraph{Figures, plots and tables.}
+The table compares present uncertainties to FCC-ee targets and gains.  Stress that the gain column is not only about statistics; it also assumes energy calibration and theory progress.
+
+\begin{questionbox}
+\textbf{Q:} Why does a top-FCNC talk need a Tera-Z slide?\par
+\textbf{A:} Because the rare-top analysis is embedded in a global precision programme.  Z-pole data constrain electroweak vertices and SMEFT directions that enter Higgs and top interpretations.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not imply every target is already guaranteed; several require matching theory and systematic control.
+
+\paragraph{Transition.}
+Move from observables to the chiral couplings they determine.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 11: From Z observables to electroweak couplings}
+\begin{center}
+\fbox{\includegraphics[page=11,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Connect measured Z-pole observables to left- and right-handed electroweak couplings.
+
+\paragraph{Main message.}
+Rates and asymmetries probe different combinations of $g_L^f$ and $g_R^f$, which is why Z data are powerful SMEFT inputs.
+
+\paragraph{Suggested spoken explanation.}
+Connect measured Z-pole observables to left- and right-handed electroweak couplings. Rates and asymmetries probe different combinations of $g_L^f$ and $g_R^f$, which is why Z data are powerful SMEFT inputs. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain that left-handed fermions are in $SU(2)_L$ doublets while right-handed fermions are singlets.  The projectors $P_L=(1-\gamma_5)/2$ and $P_R=(1+\gamma_5)/2$ define the chiral components.  Partial widths depend on the sum of squares, while asymmetries depend on the difference of squares.
+
+\paragraph{Equations and definitions.}
+Use $\Gamma_f\propto (g_L^f)^2+(g_R^f)^2$, $A_f=[(g_L^f)^2-(g_R^f)^2]/[(g_L^f)^2+(g_R^f)^2]$ and $A_{
+m FB}^{0,f}=3A_eA_f/4$.
+
+\paragraph{Figures, plots and tables.}
+The boxes on the slide summarise the extraction logic.  Point out that $Zee$ is especially important because the same initial-state vertex appears in $\ee\to ZH$.
+
+\begin{questionbox}
+\textbf{Q:} Can $\Gamma_f$ alone determine $g_L$ and $g_R$?\par
+\textbf{A:} No.  A width mainly fixes the sum of squares.  An asymmetry is needed to access the relative chiral imbalance.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Mention that normalisation conventions for $g_V,g_A,g_L,g_R$ differ by factors of two in the literature.
+
+\paragraph{Transition.}
+The next slide extends the same idea to the charged gauge sector and WW production.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 12: WW threshold: precision W physics and gauge structure}
+\begin{center}
+\fbox{\includegraphics[page=12,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Introduce the WW threshold as a precision W and gauge-structure measurement.
+
+\paragraph{Main message.}
+The WW programme constrains $m_W$, $\Gamma_W$ and anomalous triple-gauge couplings that correlate with Higgs interactions in SMEFT.
+
+\paragraph{Suggested spoken explanation.}
+Introduce the WW threshold as a precision W and gauge-structure measurement. The WW programme constrains $m_W$, $\Gamma_W$ and anomalous triple-gauge couplings that correlate with Higgs interactions in SMEFT. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At threshold, the cross section is very sensitive to the W mass and width.  Above threshold, angular distributions probe $WW\gamma$ and $WWZ$ vertices.  The aTGCs $\delta g_{1,Z}$, $\delta\kappa_\gamma$ and $\lambda_Z$ are deviations from SM tree-level gauge-coupling values.
+
+\paragraph{Equations and definitions.}
+Quote the anomalous $WWV$ Lagrangian if time permits; otherwise define $g_1^V$, $\kappa_V$ and $\lambda_V$ verbally.
+
+\paragraph{Figures, plots and tables.}
+The table lists present uncertainties, FCC-ee targets and gain factors.  The lower box emphasises that $\delta g_{1,Z}$, $\delta\kappa_\gamma$ and $\lambda_Z$ are SMEFT/gauge-structure parameters, not arbitrary fit labels.
+
+\begin{questionbox}
+\textbf{Q:} Why does $\delta\kappa_\gamma$ matter for Higgs physics?\par
+\textbf{A:} In SMEFT, the same gauge-invariant operators can shift diboson couplings and Higgs-gauge interactions such as $HWW$ and $HZZ$.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not describe aTGCs as independent of the Higgs sector in SMEFT.
+
+\paragraph{Transition.}
+Now show visually how these correlations propagate into Higgs precision.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 13: Why Higgs precision needs the Z and WW programmes}
+\begin{center}
+\fbox{\includegraphics[page=13,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the circos/global-fit correlation plot and motivate the need for Z and WW inputs in Higgs fits.
+
+\paragraph{Main message.}
+Higgs precision cannot be interpreted in isolation because the same SMEFT directions affect electroweak vertices, aTGCs and Higgs production.
+
+\paragraph{Suggested spoken explanation.}
+Explain the circos/global-fit correlation plot and motivate the need for Z and WW inputs in Higgs fits. Higgs precision cannot be interpreted in isolation because the same SMEFT directions affect electroweak vertices, aTGCs and Higgs production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+A circos plot encodes parameters around a circle and draws chords between highly correlated directions.  Outer bars show projected uncertainties or relative improvements; inner links show correlation strength.  The important visual message is the dense connection between Higgs effective couplings, $Zf\bar f$ couplings, W couplings and aTGCs.
+
+\paragraph{Equations and definitions.}
+Mention operators such as $\mathcal O_{HWB}$, $\mathcal O_{HD}$, $\mathcal O_{H\ell}^{(1,3)}$, $\mathcal O_{He}$, $\mathcal O_{HW}$ and $\mathcal O_{HB}$.
+
+\paragraph{Figures, plots and tables.}
+Walk slowly through the plot: outer labels are fit parameters; bar heights are uncertainties; chords are correlations.  Do not try to explain every chord individually.
+
+\begin{questionbox}
+\textbf{Q:} What does a chord mean?\par
+\textbf{A:} It indicates that two fitted coupling directions are correlated in the global fit.  Improving one measurement can reduce degeneracy in the other.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Avoid claiming the circos plot is itself a direct measurement; it is a fit-interpretation visualisation.
+
+\paragraph{Transition.}
+With the electroweak reference frame established, move to the Higgs standard candle at 240 GeV.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 14: The ZH stage at 240 GeV: the Higgs standard candle}
+\begin{center}
+\fbox{\includegraphics[page=14,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information.
+
+\paragraph{Main message.}
+Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers.
+
+\paragraph{Suggested spoken explanation.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information. Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At 240 GeV, $\ee\to ZH$ is near its maximum.  The recoil mass $m_{
+m recoil}^2=s+m_Z^2-2\sqrt{s}E_Z$ reconstructs the Higgs independent of its decay.  Exclusive modes such as $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$ and $\mu\mu$ map partial widths.  The $\kappa$ framework parameterises coupling modifiers and the $\kappa$-3 framework allows invisible and undetected branching fractions.
+
+\paragraph{Equations and definitions.}
+Use $\sigma(ZH)\propto \kappa_Z^2$, $\sigma(ZH)\br(H\to X)\propto \kappa_Z^2\kappa_X^2/\Gamma_H$, $\sigma(
+u\bar
+u H)\br(H\to X)\propto \kappa_W^2\kappa_X^2/\Gamma_H$, and $\mu_i^f=\kappa_i^2\kappa_f^2/\kappa_H^2$.
+
+\paragraph{Figures, plots and tables.}
+For the recoil plot, explain the Higgs peak near 125 GeV and the backgrounds.  For the precision table, define each $\kappa$ and explain FCC-ee versus FCC-ee+FCC-hh.  For the modifier plots, describe fermion, vector and loop modifiers separately.
+
+\begin{questionbox}
+\textbf{Q:} Why is the recoil measurement called model independent?\par
+\textbf{A:} Because it counts $ZH$ events from the reconstructed Z system without assuming a particular Higgs decay mode.
+\end{questionbox}
+
+\paragraph{Caveats.}
+The $\kappa$ framework is useful but not a complete EFT; for correlated new physics, SMEFT is needed.
+
+\paragraph{Transition.}
+The next block uses the top programme to connect precision top physics with rare FCNC searches.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 15: Higgs coupling and width extraction: the logic}
+\begin{center}
+\fbox{\includegraphics[page=15,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information.
+
+\paragraph{Main message.}
+Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers.
+
+\paragraph{Suggested spoken explanation.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information. Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At 240 GeV, $\ee\to ZH$ is near its maximum.  The recoil mass $m_{
+m recoil}^2=s+m_Z^2-2\sqrt{s}E_Z$ reconstructs the Higgs independent of its decay.  Exclusive modes such as $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$ and $\mu\mu$ map partial widths.  The $\kappa$ framework parameterises coupling modifiers and the $\kappa$-3 framework allows invisible and undetected branching fractions.
+
+\paragraph{Equations and definitions.}
+Use $\sigma(ZH)\propto \kappa_Z^2$, $\sigma(ZH)\br(H\to X)\propto \kappa_Z^2\kappa_X^2/\Gamma_H$, $\sigma(
+u\bar
+u H)\br(H\to X)\propto \kappa_W^2\kappa_X^2/\Gamma_H$, and $\mu_i^f=\kappa_i^2\kappa_f^2/\kappa_H^2$.
+
+\paragraph{Figures, plots and tables.}
+For the recoil plot, explain the Higgs peak near 125 GeV and the backgrounds.  For the precision table, define each $\kappa$ and explain FCC-ee versus FCC-ee+FCC-hh.  For the modifier plots, describe fermion, vector and loop modifiers separately.
+
+\begin{questionbox}
+\textbf{Q:} Why is the recoil measurement called model independent?\par
+\textbf{A:} Because it counts $ZH$ events from the reconstructed Z system without assuming a particular Higgs decay mode.
+\end{questionbox}
+
+\paragraph{Caveats.}
+The $\kappa$ framework is useful but not a complete EFT; for correlated new physics, SMEFT is needed.
+
+\paragraph{Transition.}
+The next block uses the top programme to connect precision top physics with rare FCNC searches.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 16: Projected Higgs precision and HL-LHC comparison}
+\begin{center}
+\fbox{\includegraphics[page=16,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information.
+
+\paragraph{Main message.}
+Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers.
+
+\paragraph{Suggested spoken explanation.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information. Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At 240 GeV, $\ee\to ZH$ is near its maximum.  The recoil mass $m_{
+m recoil}^2=s+m_Z^2-2\sqrt{s}E_Z$ reconstructs the Higgs independent of its decay.  Exclusive modes such as $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$ and $\mu\mu$ map partial widths.  The $\kappa$ framework parameterises coupling modifiers and the $\kappa$-3 framework allows invisible and undetected branching fractions.
+
+\paragraph{Equations and definitions.}
+Use $\sigma(ZH)\propto \kappa_Z^2$, $\sigma(ZH)\br(H\to X)\propto \kappa_Z^2\kappa_X^2/\Gamma_H$, $\sigma(
+u\bar
+u H)\br(H\to X)\propto \kappa_W^2\kappa_X^2/\Gamma_H$, and $\mu_i^f=\kappa_i^2\kappa_f^2/\kappa_H^2$.
+
+\paragraph{Figures, plots and tables.}
+For the recoil plot, explain the Higgs peak near 125 GeV and the backgrounds.  For the precision table, define each $\kappa$ and explain FCC-ee versus FCC-ee+FCC-hh.  For the modifier plots, describe fermion, vector and loop modifiers separately.
+
+\begin{questionbox}
+\textbf{Q:} Why is the recoil measurement called model independent?\par
+\textbf{A:} Because it counts $ZH$ events from the reconstructed Z system without assuming a particular Higgs decay mode.
+\end{questionbox}
+
+\paragraph{Caveats.}
+The $\kappa$ framework is useful but not a complete EFT; for correlated new physics, SMEFT is needed.
+
+\paragraph{Transition.}
+The next block uses the top programme to connect precision top physics with rare FCNC searches.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 17: Higgs precision in the kappa-3 framework}
+\begin{center}
+\fbox{\includegraphics[page=17,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information.
+
+\paragraph{Main message.}
+Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers.
+
+\paragraph{Suggested spoken explanation.}
+Explain how FCC-ee converts Higgs measurements into absolute coupling and width information. Inclusive $ZH$ recoil is the standard candle; exclusive decays and WW fusion then determine partial widths, total width and coupling modifiers. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At 240 GeV, $\ee\to ZH$ is near its maximum.  The recoil mass $m_{
+m recoil}^2=s+m_Z^2-2\sqrt{s}E_Z$ reconstructs the Higgs independent of its decay.  Exclusive modes such as $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$ and $\mu\mu$ map partial widths.  The $\kappa$ framework parameterises coupling modifiers and the $\kappa$-3 framework allows invisible and undetected branching fractions.
+
+\paragraph{Equations and definitions.}
+Use $\sigma(ZH)\propto \kappa_Z^2$, $\sigma(ZH)\br(H\to X)\propto \kappa_Z^2\kappa_X^2/\Gamma_H$, $\sigma(
+u\bar
+u H)\br(H\to X)\propto \kappa_W^2\kappa_X^2/\Gamma_H$, and $\mu_i^f=\kappa_i^2\kappa_f^2/\kappa_H^2$.
+
+\paragraph{Figures, plots and tables.}
+For the recoil plot, explain the Higgs peak near 125 GeV and the backgrounds.  For the precision table, define each $\kappa$ and explain FCC-ee versus FCC-ee+FCC-hh.  For the modifier plots, describe fermion, vector and loop modifiers separately.
+
+\begin{questionbox}
+\textbf{Q:} Why is the recoil measurement called model independent?\par
+\textbf{A:} Because it counts $ZH$ events from the reconstructed Z system without assuming a particular Higgs decay mode.
+\end{questionbox}
+
+\paragraph{Caveats.}
+The $\kappa$ framework is useful but not a complete EFT; for correlated new physics, SMEFT is needed.
+
+\paragraph{Transition.}
+The next block uses the top programme to connect precision top physics with rare FCNC searches.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 18: The top programme at FCC-ee}
+\begin{center}
+\fbox{\includegraphics[page=18,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Bridge from Higgs/EW precision to top precision and rare top observables.
+
+\paragraph{Main message.}
+Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement.
+
+\paragraph{Suggested spoken explanation.}
+Bridge from Higgs/EW precision to top precision and rare top observables. Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At threshold, the measured final state is $\ee\to W^+bW^-\bar b$, whose line shape depends on $m_t$, $\Gamma_t$, $\alpha_s$ and $y_t$.  Above threshold, angular distributions constrain $ttZ$ vector and axial couplings.  Higgs-top correlations arise because top loops affect Higgs observables and double-Higgs production.
+
+\paragraph{Equations and definitions.}
+Use $\sigma_{WbWb}=\sigma(\sqrt{s};m_t,\Gamma_t,\alpha_s,y_t)$ and $\mathcal L_{ttZ}=g/(2c_W)\bar t\gamma^\mu(g_V^t-g_A^t\gamma_5)tZ_\mu$.
+
+\paragraph{Figures, plots and tables.}
+For the ellipse plots, explain that smaller ellipses indicate reduced correlations and stronger constraints when FCC-ee inputs are included.
+
+\begin{questionbox}
+\textbf{Q:} Why is FCNC part of a precision programme?\par
+\textbf{A:} Because the SM prediction is tiny and the clean FCC-ee environment can turn small anomalous couplings into observable rate distortions.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not conflate top-threshold precision projections with FCNC branching-ratio sensitivities; they are different measurements.
+
+\paragraph{Transition.}
+Introduce FCNC in the SM and why a signal would be so significant.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 19: Higgs-top correlations and FCC precision synergy}
+\begin{center}
+\fbox{\includegraphics[page=19,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Bridge from Higgs/EW precision to top precision and rare top observables.
+
+\paragraph{Main message.}
+Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement.
+
+\paragraph{Suggested spoken explanation.}
+Bridge from Higgs/EW precision to top precision and rare top observables. Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At threshold, the measured final state is $\ee\to W^+bW^-\bar b$, whose line shape depends on $m_t$, $\Gamma_t$, $\alpha_s$ and $y_t$.  Above threshold, angular distributions constrain $ttZ$ vector and axial couplings.  Higgs-top correlations arise because top loops affect Higgs observables and double-Higgs production.
+
+\paragraph{Equations and definitions.}
+Use $\sigma_{WbWb}=\sigma(\sqrt{s};m_t,\Gamma_t,\alpha_s,y_t)$ and $\mathcal L_{ttZ}=g/(2c_W)\bar t\gamma^\mu(g_V^t-g_A^t\gamma_5)tZ_\mu$.
+
+\paragraph{Figures, plots and tables.}
+For the ellipse plots, explain that smaller ellipses indicate reduced correlations and stronger constraints when FCC-ee inputs are included.
+
+\begin{questionbox}
+\textbf{Q:} Why is FCNC part of a precision programme?\par
+\textbf{A:} Because the SM prediction is tiny and the clean FCC-ee environment can turn small anomalous couplings into observable rate distortions.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not conflate top-threshold precision projections with FCNC branching-ratio sensitivities; they are different measurements.
+
+\paragraph{Transition.}
+Introduce FCNC in the SM and why a signal would be so significant.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 20: Why top and Higgs precision sharpen indirect BSM sensitivity}
+\begin{center}
+\fbox{\includegraphics[page=20,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Bridge from Higgs/EW precision to top precision and rare top observables.
+
+\paragraph{Main message.}
+Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement.
+
+\paragraph{Suggested spoken explanation.}
+Bridge from Higgs/EW precision to top precision and rare top observables. Top threshold and 365 GeV data constrain $m_t$, $\Gamma_t$, top electroweak couplings and correlated Higgs-top SMEFT directions; FCNC searches are the rare-process complement. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+At threshold, the measured final state is $\ee\to W^+bW^-\bar b$, whose line shape depends on $m_t$, $\Gamma_t$, $\alpha_s$ and $y_t$.  Above threshold, angular distributions constrain $ttZ$ vector and axial couplings.  Higgs-top correlations arise because top loops affect Higgs observables and double-Higgs production.
+
+\paragraph{Equations and definitions.}
+Use $\sigma_{WbWb}=\sigma(\sqrt{s};m_t,\Gamma_t,\alpha_s,y_t)$ and $\mathcal L_{ttZ}=g/(2c_W)\bar t\gamma^\mu(g_V^t-g_A^t\gamma_5)tZ_\mu$.
+
+\paragraph{Figures, plots and tables.}
+For the ellipse plots, explain that smaller ellipses indicate reduced correlations and stronger constraints when FCC-ee inputs are included.
+
+\begin{questionbox}
+\textbf{Q:} Why is FCNC part of a precision programme?\par
+\textbf{A:} Because the SM prediction is tiny and the clean FCC-ee environment can turn small anomalous couplings into observable rate distortions.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not conflate top-threshold precision projections with FCNC branching-ratio sensitivities; they are different measurements.
+
+\paragraph{Transition.}
+Introduce FCNC in the SM and why a signal would be so significant.
+
+\paragraph{Suggested timing.}
+1--2 min.
+
+
+\clearpage
+\subsection*{Slide 21: FCNC in the Standard Model and beyond}
+\begin{center}
+\fbox{\includegraphics[page=21,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 22: Why top FCNC is a powerful BSM probe}
+\begin{center}
+\fbox{\includegraphics[page=22,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 23: Experimental status: LEP, LHC, and future prospects}
+\begin{center}
+\fbox{\includegraphics[page=23,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 24: Which FCNC modes matter for FCC-ee?}
+\begin{center}
+\fbox{\includegraphics[page=24,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 25: Effective-Lagrangian framework}
+\begin{center}
+\fbox{\includegraphics[page=25,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 26: Coupling choices, operator assumptions, and benchmark setup}
+\begin{center}
+\fbox{\includegraphics[page=26,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 27: FCC-ee working points for the top-FCNC study: 240 GeV and 365 GeV}
+\begin{center}
+\fbox{\includegraphics[page=27,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Define the top-FCNC theoretical framework and benchmark assumptions.
+
+\paragraph{Main message.}
+Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production.
+
+\paragraph{Suggested spoken explanation.}
+Define the top-FCNC theoretical framework and benchmark assumptions. Top FCNC interactions are loop-suppressed in the SM but can be enhanced by BSM physics; the study tests $tq\gamma$ and $tqZ$ through single-top production. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain the GIM suppression, why $q=u,c$, and why the talk reports limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$.  The Lagrangian includes $tqg$, $tqH$, vector $tqZ$, dipole $tqZ$ and dipole $tq\gamma$ terms.  The benchmark switches on one coupling at a time and uses symmetric chiral choices.
+
+\paragraph{Equations and definitions.}
+For Slide 25, define every term in Eq.~(FCNC): $g_s$, $g_W$, $e$, $c_W$, $m_t$, $m_Z$, $\sigma^{\mu
+u}$, $P_{L,R}$ and the anomalous couplings $\zeta,\eta,X,\kappa,\lambda$.  For Slide 26, emphasise $\lambda^L=\lambda^R$ and $\kappa^L=\kappa^R$ as assumptions.
+
+\paragraph{Figures, plots and tables.}
+The FCNC diagrams show neutral transitions between top and up/charm quarks.  The experimental-status plot compares many FCNC limits; it should be used qualitatively rather than as a detailed numerical review.
+
+\begin{questionbox}
+\textbf{Q:} Why not include $tqg$ or $tqH$ in the analysis?\par
+\textbf{A:} They probe important operators, but the FCC-ee single-top channel in this study is driven most cleanly by $tq\gamma$ and $tqZ$ production vertices.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Coupling-to-BR formulas are convention-dependent and must match the UFO implementation.
+
+\paragraph{Transition.}
+Having defined the signal hypothesis, move to how the events are generated and reconstructed.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 28: Signal process at FCC-ee: single-top production from tqgamma and tqZ}
+\begin{center}
+\fbox{\includegraphics[page=28,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 29: Detector and simulation framework: FCCSW/IDEA/signal samples}
+\begin{center}
+\fbox{\includegraphics[page=29,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 30: Event topology: semileptonic channel}
+\begin{center}
+\fbox{\includegraphics[page=30,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 31: Event topology: fully hadronic channel}
+\begin{center}
+\fbox{\includegraphics[page=31,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 32: Main background processes at 240 and 365 GeV}
+\begin{center}
+\fbox{\includegraphics[page=32,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 33: Jet clustering and reconstruction strategy}
+\begin{center}
+\fbox{\includegraphics[page=33,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 34: Semileptonic reconstruction and discriminating observables}
+\begin{center}
+\fbox{\includegraphics[page=34,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 35: Fully hadronic reconstruction and discriminating observables}
+\begin{center}
+\fbox{\includegraphics[page=35,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 36: Light-jet momentum as a discriminating observable}
+\begin{center}
+\fbox{\includegraphics[page=36,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 37: Event selection / cut-flow / category logic}
+\begin{center}
+\fbox{\includegraphics[page=37,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 38: Statistical procedure and limit extraction}
+\begin{center}
+\fbox{\includegraphics[page=38,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Explain the practical analysis chain from signal generation to statistical limits.
+
+\paragraph{Main message.}
+The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits.
+
+\paragraph{Suggested spoken explanation.}
+Explain the practical analysis chain from signal generation to statistical limits. The study propagates FCNC signal samples through the FCC analysis chain, reconstructs semileptonic and hadronic topologies, suppresses backgrounds and extracts CL$_s$ limits. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Describe FeynRules/UFO, MadGraph5\_aMC@NLO, FCCSW/EDM4HEP, IDEA detector response, ee-$k_T$ Durham clustering, selections, templates and Higgs Combine.  Semileptonic events have one lepton, missing momentum, a $b$ jet and a light jet.  Fully hadronic events have four jets and require combinatorial assignment.
+
+\paragraph{Equations and definitions.}
+Use $\chi^2=(m_{jj}-m_W)^2/\sigma_W^2+(m_{bjj}-m_t)^2/\sigma_t^2$ for hadronic assignment, and the likelihood $\mathcal L=\prod_{c,b}{
+m Pois}(n_{cb}|\mu s_{cb}+b_{cb})\prod_k\pi_k(\theta_k)$ for limit extraction.
+
+\paragraph{Figures, plots and tables.}
+For the reconstruction plots, define axes, normalisation, signal and background colours.  For the background table, explain why $WW$ dominates and why $\ttbar$ appears only at 365 GeV.  For the jet-clustering slide, explain why ee-Durham was selected.
+
+\begin{questionbox}
+\textbf{Q:} Why is the hadronic channel useful if the background is much larger?\par
+\textbf{A:} It has a larger branching fraction and a complementary topology; after topology-driven cuts it contributes additional information even if the semileptonic channel is cleaner.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Systematic uncertainties and multivariate optimisation are not fully exhausted; present the numbers as study-level projections.
+
+\paragraph{Transition.}
+After explaining the analysis pipeline, show the sensitivity tables and combined limits.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 39: Results at 240 GeV and 365 GeV}
+\begin{center}
+\fbox{\includegraphics[page=39,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Present the numerical sensitivity results and final physics message.
+
+\paragraph{Main message.}
+The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions.
+
+\paragraph{Suggested spoken explanation.}
+Present the numerical sensitivity results and final physics message. The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain that limits are obtained separately by channel and energy, then combined.  The semileptonic electron and muon channels differ slightly because efficiencies and backgrounds differ.  The hadronic channel is less clean but complementary.  Compare to HL-LHC projections only at the level of complementarity and systematics.
+
+\paragraph{Equations and definitions.}
+Use $\br(t\to qX)=\Gamma(t\to qX)/\Gamma_t$ and state that the quoted values are 95\% CL expected sensitivities.
+
+\paragraph{Figures, plots and tables.}
+The tables are the central result.  For each row, specify energy, luminosity and channel.  Highlight that 240 GeV and 365 GeV do not contribute identically because their phase space and backgrounds differ.
+
+\begin{questionbox}
+\textbf{Q:} Are these final FCC-ee limits?\par
+\textbf{A:} They are study-level projections in the official framework for the stated luminosities and assumptions.  Systematics, flavour-tagging refreshes and multivariate analyses can change the final reach.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Avoid saying the combined sensitivity is guaranteed.  Say projected sensitivity under the benchmark setup.
+
+\paragraph{Transition.}
+Close by returning to the broader FCC-ee precision message and next steps.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 40: Combined sensitivities and comparison with other experiments}
+\begin{center}
+\fbox{\includegraphics[page=40,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Present the numerical sensitivity results and final physics message.
+
+\paragraph{Main message.}
+The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions.
+
+\paragraph{Suggested spoken explanation.}
+Present the numerical sensitivity results and final physics message. The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain that limits are obtained separately by channel and energy, then combined.  The semileptonic electron and muon channels differ slightly because efficiencies and backgrounds differ.  The hadronic channel is less clean but complementary.  Compare to HL-LHC projections only at the level of complementarity and systematics.
+
+\paragraph{Equations and definitions.}
+Use $\br(t\to qX)=\Gamma(t\to qX)/\Gamma_t$ and state that the quoted values are 95\% CL expected sensitivities.
+
+\paragraph{Figures, plots and tables.}
+The tables are the central result.  For each row, specify energy, luminosity and channel.  Highlight that 240 GeV and 365 GeV do not contribute identically because their phase space and backgrounds differ.
+
+\begin{questionbox}
+\textbf{Q:} Are these final FCC-ee limits?\par
+\textbf{A:} They are study-level projections in the official framework for the stated luminosities and assumptions.  Systematics, flavour-tagging refreshes and multivariate analyses can change the final reach.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Avoid saying the combined sensitivity is guaranteed.  Say projected sensitivity under the benchmark setup.
+
+\paragraph{Transition.}
+Close by returning to the broader FCC-ee precision message and next steps.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 41: Main physics take-away}
+\begin{center}
+\fbox{\includegraphics[page=41,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Present the numerical sensitivity results and final physics message.
+
+\paragraph{Main message.}
+The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions.
+
+\paragraph{Suggested spoken explanation.}
+Present the numerical sensitivity results and final physics message. The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain that limits are obtained separately by channel and energy, then combined.  The semileptonic electron and muon channels differ slightly because efficiencies and backgrounds differ.  The hadronic channel is less clean but complementary.  Compare to HL-LHC projections only at the level of complementarity and systematics.
+
+\paragraph{Equations and definitions.}
+Use $\br(t\to qX)=\Gamma(t\to qX)/\Gamma_t$ and state that the quoted values are 95\% CL expected sensitivities.
+
+\paragraph{Figures, plots and tables.}
+The tables are the central result.  For each row, specify energy, luminosity and channel.  Highlight that 240 GeV and 365 GeV do not contribute identically because their phase space and backgrounds differ.
+
+\begin{questionbox}
+\textbf{Q:} Are these final FCC-ee limits?\par
+\textbf{A:} They are study-level projections in the official framework for the stated luminosities and assumptions.  Systematics, flavour-tagging refreshes and multivariate analyses can change the final reach.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Avoid saying the combined sensitivity is guaranteed.  Say projected sensitivity under the benchmark setup.
+
+\paragraph{Transition.}
+Close by returning to the broader FCC-ee precision message and next steps.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 42: Summary, physics message, and outlook}
+\begin{center}
+\fbox{\includegraphics[page=42,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Present the numerical sensitivity results and final physics message.
+
+\paragraph{Main message.}
+The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions.
+
+\paragraph{Suggested spoken explanation.}
+Present the numerical sensitivity results and final physics message. The combined semileptonic benchmark reaches $\br(t\to c\gamma)<1.99\times10^{-5}$ and $\br(t\to cZ)<8.19\times10^{-6}$ under the stated assumptions. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Explain that limits are obtained separately by channel and energy, then combined.  The semileptonic electron and muon channels differ slightly because efficiencies and backgrounds differ.  The hadronic channel is less clean but complementary.  Compare to HL-LHC projections only at the level of complementarity and systematics.
+
+\paragraph{Equations and definitions.}
+Use $\br(t\to qX)=\Gamma(t\to qX)/\Gamma_t$ and state that the quoted values are 95\% CL expected sensitivities.
+
+\paragraph{Figures, plots and tables.}
+The tables are the central result.  For each row, specify energy, luminosity and channel.  Highlight that 240 GeV and 365 GeV do not contribute identically because their phase space and backgrounds differ.
+
+\begin{questionbox}
+\textbf{Q:} Are these final FCC-ee limits?\par
+\textbf{A:} They are study-level projections in the official framework for the stated luminosities and assumptions.  Systematics, flavour-tagging refreshes and multivariate analyses can change the final reach.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Avoid saying the combined sensitivity is guaranteed.  Say projected sensitivity under the benchmark setup.
+
+\paragraph{Transition.}
+Close by returning to the broader FCC-ee precision message and next steps.
+
+\paragraph{Suggested timing.}
+1.5--2.5 min.
+
+
+\clearpage
+\subsection*{Slide 43: Thank You}
+\begin{center}
+\fbox{\includegraphics[page=43,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+End the main talk and invite discussion.
+
+\paragraph{Main message.}
+The main physics story is complete: FCC-ee precision enables strong rare-top sensitivity.
+
+\paragraph{Suggested spoken explanation.}
+End the main talk and invite discussion. The main physics story is complete: FCC-ee precision enables strong rare-top sensitivity. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+No technical detail is needed unless the audience asks for a backup slide.
+
+\paragraph{Equations and definitions.}
+None.
+
+\paragraph{Figures, plots and tables.}
+Thank-you image only.
+
+\begin{questionbox}
+\textbf{Q:} Which backup should I use first?\par
+\textbf{A:} Use Slide 45 for SMEFT questions, Slide 46 or 47 for detector questions, Slide 44 for Higgs/top synergy questions, and Slide 49 for AGH/FCC institutional questions.
+\end{questionbox}
+
+\paragraph{Caveats.}
+Do not continue into backups unless there is time or a question.
+
+\paragraph{Transition.}
+Invite questions.
+
+\paragraph{Suggested timing.}
+0.5--1 min.
+
+
+\clearpage
+\subsection*{Slide 44: Backup: Why the 365 GeV/top stage matters for Higgs precision}
+\begin{center}
+\fbox{\includegraphics[page=44,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+
+\clearpage
+\subsection*{Slide 45: Backup: SMEFT view - precision as a high-scale microscope}
+\begin{center}
+\fbox{\includegraphics[page=45,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+
+\clearpage
+\subsection*{Slide 46: Backup: IDEA detector concept for FCC-ee}
+\begin{center}
+\fbox{\includegraphics[page=46,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+
+\clearpage
+\subsection*{Slide 47: Backup: Why detector performance matters for top-FCNC}
+\begin{center}
+\fbox{\includegraphics[page=47,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+
+\clearpage
+\subsection*{Slide 48: Backup: FCC plan after the HL-LHC}
+\begin{center}
+\fbox{\includegraphics[page=48,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+
+\clearpage
+\subsection*{Slide 49: Backup: Polish participation in FCC and AGH visibility}
+\begin{center}
+\fbox{\includegraphics[page=49,width=0.78\textwidth]{Hamzeh_Khanpour_top_FCNC_FCCee.pdf}}
+\end{center}
+\paragraph{Purpose.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation.
+
+\paragraph{Main message.}
+The backup slides support the broader narrative and provide additional evidence for claims made in the main talk.
+
+\paragraph{Suggested spoken explanation.}
+Provide backup material for questions on Higgs synergy, SMEFT reach, detector performance, timeline and AGH participation. The backup slides support the broader narrative and provide additional evidence for claims made in the main talk. In the spoken version, start by naming the role of the slide in the narrative, then point to the one or two objects on the slide that the audience should focus on.  Avoid reading all bullets; instead, translate them into the physics logic described below.
+
+\paragraph{Technical background.}
+Slide 44 explains why 365 GeV is useful beyond top physics.  Slide 45 shows SMEFT effective-coupling reach.  Slide 46 introduces the IDEA detector.  Slide 47 connects detector performance to FCNC observables.  Slide 48 discusses the post-HL-LHC staged plan.  Slide 49 documents Polish/AGH visibility with an institutional caveat.
+
+\paragraph{Equations and definitions.}
+Use the same $\kappa_\lambda$, SMEFT and detector definitions introduced in the main note.  For detector questions, define $b$ tagging, charm mistagging, vertexing and particle-flow reconstruction.
+
+\paragraph{Figures, plots and tables.}
+Explain the backup figures only if they answer a specific question.  The IDEA diagram shows radial/longitudinal detector regions.  The FCC plan figure is a programme schematic, not a legally binding schedule.
+
+\begin{questionbox}
+\textbf{Q:} Which backup is most likely to be requested?\par
+\textbf{A:} For a phenomenology audience, the SMEFT and coupling-to-BR material is most likely.  For an experimental audience, the IDEA and reconstruction slides are most likely.
+\end{questionbox}
+
+\paragraph{Caveats.}
+For institutional material, keep the caveat: public pages and MoU-status documents should not be overinterpreted as a detailed commitment statement.
+
+\paragraph{Transition.}
+Return to the final message: precision first, rare-top sensitivity as a concrete BSM output.
+
+\paragraph{Suggested timing.}
+backup only.
+
+\part{Technical appendices}
+\appendix
+\chapter{Coupling and notation dictionary}
+\begin{longtable}{p{0.22\textwidth}p{0.68\textwidth}}
+\toprule
+Symbol & Meaning \\
+\midrule
+$\sqrt{s}$ & Centre-of-mass energy of the $\ee$ collision. \\
+$m_Z$, $\Gamma_Z$ & Z-boson mass and total width. \\
+$m_W$, $\Gamma_W$ & W-boson mass and total width. \\
+$\sin^2\theta_{\rm eff}^\ell$ & Effective weak mixing angle measured in leptonic asymmetries. \\
+$R_b$ & Ratio $\Gamma_{b\bar b}/\Gamma_{\rm had}$. \\
+$N_\nu$ & Effective number of light neutrino species inferred from invisible Z width. \\
+$A_{\rm FB}^{0,f}$ & Pole forward--backward asymmetry for fermion $f$. \\
+$P_L,P_R$ & Chiral projectors $(1\mp\gamma_5)/2$. \\
+$g_L^f,g_R^f$ & Left- and right-handed Z couplings to fermion $f$. \\
+$g_V^f,g_A^f$ & Vector and axial-vector Z couplings. \\
+$\delta g_{1,Z}$ & Deviation in the $WWZ$ triple-gauge coupling. \\
+$\delta\kappa_\gamma$ & Deviation in the $WW\gamma$ magnetic-dipole-like coupling. \\
+$\lambda_Z$ & Higher-derivative anomalous $WWZ$ coupling. \\
+$\kappa_Z,\kappa_W$ & Higgs coupling modifiers for $HZZ$ and $HWW$. \\
+$\kappa_b,\kappa_c,\kappa_t$ & Higgs Yukawa modifiers for bottom, charm and top. \\
+$\kappa_g,\kappa_\gamma,\kappa_{Z\gamma}$ & Effective loop-induced Higgs modifiers. \\
+$B_{\rm inv}$ & Invisible Higgs branching ratio. \\
+$B_{\rm und}$ or $B_{\rm unt}$ & Undetected/untagged Higgs branching ratio. \\
+$\Gamma_H$ & Total Higgs width. \\
+$m_t^{\rm PS}$ & Potential-subtracted top mass used for threshold fits. \\
+$\zeta_{qt}$ & Chromomagnetic $tqg$ FCNC coefficient. \\
+$\eta_{qt}$ & Scalar $tqH$ FCNC coefficient. \\
+$X_{qt}$ & Vector $tqZ$ FCNC coefficient. \\
+$\kappa_{qt}$ & Dipole $tqZ$ FCNC coefficient. \\
+$\lambda_{qt}$ & Dipole $tq\gamma$ FCNC coefficient. \\
+$\epsilon_b,\epsilon_c$ & $b$-tagging efficiency and charm-tagging/mistag working-point number as used in the analysis. \\
+$\CLs$ & Modified frequentist confidence-level ratio used for expected upper limits. \\
+\bottomrule
+\end{longtable}
+
+\chapter{Electroweak formula sheet}
+\begin{align}
+\sigma^0_{\rm had}&=\frac{12\pi}{m_Z^2}\frac{\Gamma_e\Gamma_{\rm had}}{\Gamma_Z^2},&
+R_\ell&=\frac{\Gamma_{\rm had}}{\Gamma_{\ell\ell}},&
+R_b&=\frac{\Gamma_{b\bar b}}{\Gamma_{\rm had}},\\
+A_f&=\frac{(g_L^f)^2-(g_R^f)^2}{(g_L^f)^2+(g_R^f)^2},&
+A_{\rm FB}^{0,f}&=\frac{3}{4}A_eA_f,&
+N_\nu&=\frac{\Gamma_{\rm inv}}{\Gamma_\nu^{\rm SM}}.
+\end{align}
+These formulae are sufficient for the oral discussion.  A full FCC electroweak fit also includes QED radiator functions, beam-energy calibration, luminosity theory and correlations among pseudo-observables.
+
+\chapter{Higgs recoil and coupling-extraction formula sheet}
+\begin{align}
+  m_{\rm recoil}^2&=s+m_Z^2-2\sqrt{s}E_Z,\\
+  \sigma(ZH)&\propto \kappa_Z^2,\\
+  \sigma(ZH)\br(H\to X)&\propto\frac{\kappa_Z^2\kappa_X^2}{\Gamma_H},\\
+  \sigma(\nu\bar\nu H)\br(H\to X)&\propto\frac{\kappa_W^2\kappa_X^2}{\Gamma_H},\\
+  \mu_i^f&=\frac{\kappa_i^2\kappa_f^2}{\kappa_H^2},\\
+  \bar\kappa_H^2&=\frac{\kappa_H^2}{1-B_{\rm inv}-B_{\rm und}}.
+\end{align}
+
+\chapter{SMEFT operator map}
+\begin{longtable}{p{0.25\textwidth}p{0.55\textwidth}p{0.15\textwidth}}
+\toprule
+Operator & Main effect & Slide relevance \\
+\midrule
+$\mathcal O_{HWB}$ & Shifts electroweak mixing and correlates EWPOs with Higgs-gauge couplings. & 13,45 \\
+$\mathcal O_{HD}$ & Affects custodial-sensitive electroweak observables and Higgs-gauge interactions. & 10--13 \\
+$\mathcal O_{H\ell}^{(1)}$, $\mathcal O_{H\ell}^{(3)}$ & Shift lepton electroweak currents, including $Zee$ and $We\nu$. & 11,13 \\
+$\mathcal O_{He}$ & Shifts right-handed electron coupling to the Z. & 11,13 \\
+$\mathcal O_{HW}$, $\mathcal O_{HB}$ & Modify Higgs-gauge and diboson interactions. & 12,13,45 \\
+$\mathcal O_W$ & Produces momentum-dependent triple-gauge-coupling deviations. & 12,45 \\
+Top dipoles and currents & Affect top EW couplings and loop-induced Higgs/top correlations. & 18--20 \\
+\bottomrule
+\end{longtable}
+
+\chapter{Top-FCNC branching-ratio formula sheet}
+For the convention used in the slides,
+\begin{align}
+\Gamma(t\to q\gamma)&=\frac{\alpha}{4}m_t(|\lambda^L_{qt}|^2+|\lambda^R_{qt}|^2),\\
+\Gamma(t\to qZ)_\kappa&=\frac{\alpha}{32s_W^2c_W^2}\frac{m_t^3}{m_Z^2}(1-r_Z)^2(2+r_Z)(|\kappa^L_{qt}|^2+|\kappa^R_{qt}|^2),\\
+\br(t\to qX)&\simeq\Gamma(t\to qX)/\Gamma_t^{\rm SM},\qquad r_Z=m_Z^2/m_t^2.
+\end{align}
+\begin{warningbox}
+These expressions must not be combined with a differently normalised FCNC Lagrangian.  If another UFO model is used, the conversion between coupling limits and branching ratios must be rederived or checked against the model documentation.
+\end{warningbox}
+
+\chapter{Analysis checklist}
+\begin{enumerate}
+\item Generate FCNC signal with one anomalous coupling switched on at a time.
+\item Simulate detector response in the official FCC chain or a documented Delphes/IDEA approximation.
+\item Reconstruct exclusive two-jet and four-jet topologies with the selected ee-Durham algorithm.
+\item Apply lepton, jet, angular and flavour-tagging selections.
+\item Build signal and background templates for discriminating variables.
+\item Construct channel-wise likelihoods and combine channels/energies.
+\item Translate signal-strength limits into branching-ratio limits using the same Lagrangian normalisation.
+\item Repeat with systematic uncertainties and possibly multivariate discriminants for a final public analysis.
+\end{enumerate}
+
+
+\chapter{Extended formula compendium}
+This appendix collects compact formulae that are useful during Q\&A.  They are intentionally redundant with the main text, because they provide a quick technical lookup while presenting.
+\section{Kinematics and event reconstruction}
+\begin{align}
+s&=(p_{e^+}+p_{e^-})^2, & E_{\rm beam}&=\sqrt{s}/2,\\
+p_{\rm miss}^\mu&=p_{e^+}^\mu+p_{e^-}^\mu-\sum_i p_i^\mu, & E_{\rm miss}&=p_{\rm miss}^0,\\
+m_{ij}^2&=(p_i+p_j)^2, & m_{bjj}^2&=(p_b+p_{j_1}+p_{j_2})^2,\\
+H_T&=\sum_i p_{T,i}, & \Delta R_{ij}&=\sqrt{(\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2},\\
+\cos\theta_{ij}&=\frac{\vec p_i\cdot\vec p_j}{|\vec p_i||\vec p_j|}, & \chi^2_W&=\frac{(m_{jj}-m_W)^2}{\sigma_W^2},\\
+\chi^2_t&=\frac{(m_{bjj}-m_t)^2}{\sigma_t^2}, & \chi^2_{\rm tot}&=\chi^2_W+\chi^2_t.
+\end{align}
+\section{Electroweak couplings}
+\begin{align}
+Q_e&=-1, & T_3^{e_L}&=-\frac12, & T_3^{\nu_L}&=+\frac12,\\
+g_L^f&=T_3^f-Q_f s_{\rm eff}^2, & g_R^f&=-Q_f s_{\rm eff}^2,\\
+g_V^f&=g_L^f+g_R^f, & g_A^f&=g_L^f-g_R^f,\\
+\Gamma_f&=N_c^f\frac{G_Fm_Z^3}{6\sqrt2\pi}\left[(g_V^f)^2+(g_A^f)^2\right](1+\delta_f),\\
+A_f&=\frac{2g_V^fg_A^f}{(g_V^f)^2+(g_A^f)^2}, & A_{\rm FB}^{0,f}&=\frac34 A_eA_f,\\
+R_b&=\Gamma_b/\Gamma_{\rm had}, & R_c&=\Gamma_c/\Gamma_{\rm had},\\
+\Gamma_Z&=\sum_f\Gamma_f+\Gamma_{\rm inv}, & \Gamma_{\rm inv}&=N_\nu\Gamma_\nu^{\rm SM}.
+\end{align}
+\section{Higgs rates}
+\begin{align}
+\sigma_{ZH}&=\kappa_Z^2\sigma_{ZH}^{\rm SM}, & \Gamma_X&=\kappa_X^2\Gamma_X^{\rm SM},\\
+\br_X&=\Gamma_X/\Gamma_H, & \mu_i^f&=\frac{\sigma_i\br_f}{(\sigma_i\br_f)_{\rm SM}},\\
+\mu_i^f&=\frac{\kappa_i^2\kappa_f^2}{\kappa_H^2}, & \kappa_H^2&=\sum_j\kappa_j^2\br_j^{\rm SM},\\
+\bar\kappa_H^2&=\frac{\kappa_H^2}{1-B_{\rm inv}-B_{\rm und}}, & \Gamma_H&=\bar\kappa_H^2\Gamma_H^{\rm SM},\\
+\sigma(ZH)\br_{b\bar b}&\propto\frac{\kappa_Z^2\kappa_b^2}{\Gamma_H}, & \sigma(ZH)\br_{ZZ^*}&\propto\frac{\kappa_Z^4}{\Gamma_H},\\
+\sigma(\nu\bar\nu H)\br_X&\propto\frac{\kappa_W^2\kappa_X^2}{\Gamma_H}, & m_{\rm recoil}^2&=s+m_Z^2-2\sqrt{s}E_Z.
+\end{align}
+\section{SMEFT expansion and fit structure}
+\begin{align}
+\mathcal L_{\rm SMEFT}&=\mathcal L_{\rm SM}+\sum_i\frac{C_i}{\Lambda^2}\mathcal O_i+\cdots,\\
+\mathcal A&=\mathcal A_{\rm SM}+\sum_i\frac{C_i}{\Lambda^2}\mathcal A_i,\\
+\sigma&=\sigma_{\rm SM}+\sum_i\frac{C_i}{\Lambda^2}\sigma_i^{\rm int}+\sum_{ij}\frac{C_iC_j}{\Lambda^4}\sigma_{ij}^{\rm quad},\\
+\chi^2(\vec C)&=(\vec O_{\rm exp}-\vec O_{\rm th}(\vec C))^TV^{-1}(\vec O_{\rm exp}-\vec O_{\rm th}(\vec C)),\\
+\delta_{\rm tot}^2&=\delta_{\rm stat}^2+\delta_{\rm syst}^2+\delta_{\rm th}^2+\delta_{\rm param}^2.
+\end{align}
+\section{Top FCNC partial widths and yields}
+\begin{align}
+N_S&=\sigma_S\mathcal L\epsilon_S, & N_B&=\sigma_B\mathcal L\epsilon_B,\\
+Z_A&=\sqrt{2\left[(S+B)\ln\left(1+\frac{S}{B}\right)-S\right]}, & Z_{S/\sqrt B}&\simeq S/\sqrt B,\\
+\Gamma(t\to q\gamma)&=\frac{\alpha}{4}m_t(|\lambda_L|^2+|\lambda_R|^2),\\
+\Gamma(t\to qZ)_\kappa&=\frac{\alpha}{32s_W^2c_W^2}\frac{m_t^3}{m_Z^2}(1-r_Z)^2(2+r_Z)(|\kappa_L|^2+|\kappa_R|^2),\\
+\br(t\to qX)&\simeq\Gamma(t\to qX)/\Gamma_t^{\rm SM}, & r_Z&=m_Z^2/m_t^2,\\
+\mathcal L(\mu,\theta)&=\prod_{c,b}{\rm Pois}(n_{cb}|\mu s_{cb}(\theta)+b_{cb}(\theta))\prod_k\pi_k(\theta_k),\\
+q_\mu&=-2\ln\frac{\mathcal L(\mu,\hat{\hat\theta}_\mu)}{\mathcal L(\hat\mu,\hat\theta)}, & CL_s&=\frac{p_{s+b}}{1-p_b}.
+\end{align}
+
+\part{Glossary and references}
+\chapter{Glossary}
+\begin{longtable}{p{0.18\textwidth}p{0.72\textwidth}}
+\toprule
+Term & Explanation \\
+\midrule
+FCC & Future Circular Collider. \\
+FCC-ee & Electron--positron stage of the FCC integrated programme. \\
+FCC-hh & Proton--proton stage of the FCC integrated programme. \\
+HL-LHC & High-Luminosity Large Hadron Collider. \\
+Tera-Z & FCC-ee Z-pole programme with about $10^{12}$ Z bosons. \\
+EWPO & Electroweak precision observable. \\
+SMEFT & Standard Model Effective Field Theory. \\
+EFT & Effective Field Theory. \\
+BSM & Beyond the Standard Model. \\
+FCNC & Flavour-changing neutral current. \\
+GIM & Glashow--Iliopoulos--Maiani suppression mechanism. \\
+Higgsstrahlung & Associated production $\ee\to ZH$. \\
+Recoil mass & Mass inferred from the system recoiling against the reconstructed Z boson. \\
+VBF & Vector-boson fusion. \\
+WW threshold & Energy region near $\ee\to W^+W^-$ threshold. \\
+aTGC & Anomalous triple-gauge coupling. \\
+IDEA & Innovative Detector for Electron-positron Accelerators. \\
+EDM4HEP & Event Data Model for High-Energy Physics. \\
+FCCSW & FCC software framework. \\
+FCCAnalyses & FCC analysis framework for processing EDM4HEP samples. \\
+UFO & Universal FeynRules Output model format. \\
+CL$_s$ & Modified frequentist method for exclusion limits. \\
+Asimov dataset & Representative dataset equal to the expectation, used for expected sensitivities. \\
+\bottomrule
+\end{longtable}
+
+\begin{thebibliography}{99}
+\bibitem{FCCFSR} FCC Collaboration, \emph{Future Circular Collider Feasibility Study Report Volume 1: Physics, Experiments, Detectors}, Eur. Phys. J. C 85 (2025) 1468, arXiv:2505.00272.
+\bibitem{FCCCDR} FCC Collaboration, \emph{FCC Physics Opportunities: Future Circular Collider Conceptual Design Report Volume 1}, Eur. Phys. J. C 79 (2019) 474.
+\bibitem{FCCManifesto} A. Blondel et al., \emph{The FCC integrated programme: a physics manifesto}, arXiv:2504.02634.
+\bibitem{ECFAHET} ECFA Higgs, Electroweak and Top Factory Study, CERN Yellow Report Monograph 5/2025, arXiv:2506.15390.
+\bibitem{PrecisionReach} T. Armadillo et al., \emph{New Physics Reach through Precision at Future Colliders: a Multi-Pronged Approach}, arXiv:2604.16596.
+\bibitem{TopThreshold} M. M. Defranchis, J. de Blas, A. Mehta, M. Selvaggi and M. Vos, \emph{A detailed study on the prospects for a $t\bar t$ threshold scan in $e^+e^-$ collisions}, JHEP 11 (2025) 020, arXiv:2503.18713.
+\bibitem{AguilarSaavedra2004} J. A. Aguilar-Saavedra, \emph{Top flavour-changing neutral interactions: Theoretical expectations and experimental detection}, Acta Phys. Polon. B35 (2004) 2695, hep-ph/0409342.
+\bibitem{AguilarSaavedra2009} J. A. Aguilar-Saavedra, \emph{A minimal set of top anomalous couplings}, Nucl. Phys. B812 (2009) 181, arXiv:0811.3842.
+\bibitem{FCCFCNCNote} P. Azzi, H. Khanpour, M. Mohammadi Najafabadi, E. Perez and S. Tizchang, \emph{Top quark FCNC anomalous couplings at the future collider FCC-ee}, FCC Physics and Experiments note, CERN repository record avxy7-mtz86.
+\bibitem{FCCAfbNote} M. Cobal et al., \emph{Bottom quark forward-backward asymmetry at the future electron-positron collider FCC-ee}, FCC Physics and Experiments note, CERN repository record g97j3-q0w73.
+\bibitem{IDEA} IDEA detector concept for FCC-ee, arXiv:2502.21223.
+\bibitem{FCCAnalyses} FCCAnalyses documentation, \url{https://hep-fcc.github.io/FCCAnalyses/}.
+\bibitem{Combine} CMS Higgs Combine Tool, \url{https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit}.
+\bibitem{ATLASProjection} ATLAS Collaboration, HL-LHC prospects for top FCNC, ATL-PHYS-PUB-2019-001.
+\bibitem{CMSProjection} CMS Collaboration, HL-LHC prospects for top FCNC, CMS-CR-2018-094.
+\end{thebibliography}
+\end{document}

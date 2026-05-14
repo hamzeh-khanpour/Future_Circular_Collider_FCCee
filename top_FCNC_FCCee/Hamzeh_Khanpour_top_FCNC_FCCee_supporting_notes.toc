@@ -1,0 +1,484 @@
+\contentsline {part}{I\hspace {1em}Executive slide review}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Overview, timing and review of the talk}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Talk strategy}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Slide-range timing plan}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Key conventions to keep consistent}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Suggested slide corrections for a future version}{6}{section.1.4}%
+\contentsline {part}{II\hspace {1em}Supporting lecture note}{7}{part.2}%
+\contentsline {chapter}{\numberline {2}Physics background and Precision Physics at the FCC-ee}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}FCC-ee as a precision machine}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Why Z, WW, Higgs and top measurements are correlated}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Electroweak pseudo-observables and $Zf\bar f$ couplings}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Chiral couplings}{9}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}WW threshold, gauge structure and aTGCs}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Higgs recoil method and absolute coupling extraction}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Exclusive Higgs decay channels}{11}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Higgs coupling modifiers and the $\kappa $-3 framework}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.7}SMEFT interpretation of Higgs, EW and top data}{12}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Top-quark precision at FCC-ee}{12}{section.2.8}%
+\contentsline {section}{\numberline {2.9}FCNC in the Standard Model and beyond}{12}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Effective Lagrangian for top-FCNC interactions}{13}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Translation between anomalous couplings and branching ratios}{13}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Signal processes at 240 and 365 GeV}{14}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Semileptonic and fully hadronic final states}{14}{section.2.13}%
+\contentsline {section}{\numberline {2.14}Backgrounds, jet clustering and flavour tagging}{14}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Statistical analysis and CL$_s$ extraction}{15}{section.2.15}%
+\contentsline {section}{\numberline {2.16}Interpretation of projected limits}{15}{section.2.16}%
+\contentsline {part}{III\hspace {1em}Slide-by-slide talk notes}{16}{part.3}%
+\contentsline {chapter}{\numberline {3}Detailed notes for all slides}{17}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{18}{chapter.3}%
+\contentsline {paragraph}{Main message.}{18}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{18}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{18}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{18}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{18}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{18}{chapter.3}%
+\contentsline {paragraph}{Transition.}{19}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{19}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{20}{chapter.3}%
+\contentsline {paragraph}{Main message.}{20}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{20}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{20}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{20}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{20}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{20}{chapter.3}%
+\contentsline {paragraph}{Transition.}{21}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{21}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{22}{chapter.3}%
+\contentsline {paragraph}{Main message.}{22}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{22}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{22}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{22}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{22}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{22}{chapter.3}%
+\contentsline {paragraph}{Transition.}{23}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{23}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{24}{chapter.3}%
+\contentsline {paragraph}{Main message.}{24}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{24}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{24}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{24}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{24}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{24}{chapter.3}%
+\contentsline {paragraph}{Transition.}{25}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{25}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{26}{chapter.3}%
+\contentsline {paragraph}{Main message.}{26}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{26}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{26}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{26}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{26}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{26}{chapter.3}%
+\contentsline {paragraph}{Transition.}{27}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{27}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{28}{chapter.3}%
+\contentsline {paragraph}{Main message.}{28}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{28}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{28}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{28}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{28}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{28}{chapter.3}%
+\contentsline {paragraph}{Transition.}{29}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{29}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{30}{chapter.3}%
+\contentsline {paragraph}{Main message.}{30}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{30}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{30}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{30}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{30}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{30}{chapter.3}%
+\contentsline {paragraph}{Transition.}{31}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{31}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{32}{chapter.3}%
+\contentsline {paragraph}{Main message.}{32}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{32}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{32}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{32}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{32}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{32}{chapter.3}%
+\contentsline {paragraph}{Transition.}{33}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{33}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{34}{chapter.3}%
+\contentsline {paragraph}{Main message.}{34}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{34}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{34}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{34}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{34}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{34}{chapter.3}%
+\contentsline {paragraph}{Transition.}{35}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{35}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{36}{chapter.3}%
+\contentsline {paragraph}{Main message.}{36}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{36}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{36}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{36}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{36}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{36}{chapter.3}%
+\contentsline {paragraph}{Transition.}{37}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{37}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{38}{chapter.3}%
+\contentsline {paragraph}{Main message.}{38}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{38}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{38}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{38}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{38}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{38}{chapter.3}%
+\contentsline {paragraph}{Transition.}{38}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{39}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{40}{chapter.3}%
+\contentsline {paragraph}{Main message.}{40}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{40}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{40}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{40}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{40}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{40}{chapter.3}%
+\contentsline {paragraph}{Transition.}{40}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{41}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{42}{chapter.3}%
+\contentsline {paragraph}{Main message.}{42}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{42}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{42}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{42}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{42}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{42}{chapter.3}%
+\contentsline {paragraph}{Transition.}{43}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{43}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{44}{chapter.3}%
+\contentsline {paragraph}{Main message.}{44}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{44}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{44}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{44}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{44}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{45}{chapter.3}%
+\contentsline {paragraph}{Transition.}{45}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{45}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{46}{chapter.3}%
+\contentsline {paragraph}{Main message.}{46}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{46}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{46}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{46}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{46}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{47}{chapter.3}%
+\contentsline {paragraph}{Transition.}{47}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{47}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{48}{chapter.3}%
+\contentsline {paragraph}{Main message.}{48}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{48}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{48}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{48}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{48}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{49}{chapter.3}%
+\contentsline {paragraph}{Transition.}{49}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{49}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{50}{chapter.3}%
+\contentsline {paragraph}{Main message.}{50}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{50}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{50}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{50}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{50}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{51}{chapter.3}%
+\contentsline {paragraph}{Transition.}{51}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{51}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{52}{chapter.3}%
+\contentsline {paragraph}{Main message.}{52}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{52}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{52}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{52}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{52}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{52}{chapter.3}%
+\contentsline {paragraph}{Transition.}{53}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{53}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{54}{chapter.3}%
+\contentsline {paragraph}{Main message.}{54}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{54}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{54}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{54}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{54}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{54}{chapter.3}%
+\contentsline {paragraph}{Transition.}{55}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{55}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{56}{chapter.3}%
+\contentsline {paragraph}{Main message.}{56}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{56}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{56}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{56}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{56}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{56}{chapter.3}%
+\contentsline {paragraph}{Transition.}{57}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{57}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{58}{chapter.3}%
+\contentsline {paragraph}{Main message.}{58}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{58}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{58}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{58}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{58}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{59}{chapter.3}%
+\contentsline {paragraph}{Transition.}{59}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{59}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{60}{chapter.3}%
+\contentsline {paragraph}{Main message.}{60}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{60}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{60}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{60}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{60}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{61}{chapter.3}%
+\contentsline {paragraph}{Transition.}{61}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{61}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{62}{chapter.3}%
+\contentsline {paragraph}{Main message.}{62}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{62}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{62}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{62}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{62}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{63}{chapter.3}%
+\contentsline {paragraph}{Transition.}{63}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{63}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{64}{chapter.3}%
+\contentsline {paragraph}{Main message.}{64}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{64}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{64}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{64}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{64}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{65}{chapter.3}%
+\contentsline {paragraph}{Transition.}{65}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{65}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{66}{chapter.3}%
+\contentsline {paragraph}{Main message.}{66}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{66}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{66}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{66}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{66}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{67}{chapter.3}%
+\contentsline {paragraph}{Transition.}{67}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{67}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{68}{chapter.3}%
+\contentsline {paragraph}{Main message.}{68}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{68}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{68}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{68}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{68}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{69}{chapter.3}%
+\contentsline {paragraph}{Transition.}{69}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{69}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{70}{chapter.3}%
+\contentsline {paragraph}{Main message.}{70}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{70}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{70}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{70}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{70}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{71}{chapter.3}%
+\contentsline {paragraph}{Transition.}{71}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{71}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{72}{chapter.3}%
+\contentsline {paragraph}{Main message.}{72}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{72}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{72}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{72}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{72}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{72}{chapter.3}%
+\contentsline {paragraph}{Transition.}{73}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{73}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{74}{chapter.3}%
+\contentsline {paragraph}{Main message.}{74}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{74}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{74}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{74}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{74}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{74}{chapter.3}%
+\contentsline {paragraph}{Transition.}{75}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{75}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{76}{chapter.3}%
+\contentsline {paragraph}{Main message.}{76}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{76}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{76}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{76}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{76}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{76}{chapter.3}%
+\contentsline {paragraph}{Transition.}{77}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{77}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{78}{chapter.3}%
+\contentsline {paragraph}{Main message.}{78}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{78}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{78}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{78}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{78}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{78}{chapter.3}%
+\contentsline {paragraph}{Transition.}{79}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{79}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{80}{chapter.3}%
+\contentsline {paragraph}{Main message.}{80}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{80}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{80}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{80}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{80}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{80}{chapter.3}%
+\contentsline {paragraph}{Transition.}{81}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{81}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{82}{chapter.3}%
+\contentsline {paragraph}{Main message.}{82}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{82}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{82}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{82}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{82}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{82}{chapter.3}%
+\contentsline {paragraph}{Transition.}{83}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{83}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{84}{chapter.3}%
+\contentsline {paragraph}{Main message.}{84}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{84}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{84}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{84}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{84}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{84}{chapter.3}%
+\contentsline {paragraph}{Transition.}{85}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{85}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{86}{chapter.3}%
+\contentsline {paragraph}{Main message.}{86}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{86}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{86}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{86}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{86}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{86}{chapter.3}%
+\contentsline {paragraph}{Transition.}{87}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{87}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{88}{chapter.3}%
+\contentsline {paragraph}{Main message.}{88}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{88}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{88}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{88}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{88}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{88}{chapter.3}%
+\contentsline {paragraph}{Transition.}{89}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{89}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{90}{chapter.3}%
+\contentsline {paragraph}{Main message.}{90}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{90}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{90}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{90}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{90}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{90}{chapter.3}%
+\contentsline {paragraph}{Transition.}{91}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{91}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{92}{chapter.3}%
+\contentsline {paragraph}{Main message.}{92}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{92}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{92}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{92}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{92}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{92}{chapter.3}%
+\contentsline {paragraph}{Transition.}{93}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{93}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{94}{chapter.3}%
+\contentsline {paragraph}{Main message.}{94}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{94}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{94}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{94}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{94}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{94}{chapter.3}%
+\contentsline {paragraph}{Transition.}{95}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{95}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{96}{chapter.3}%
+\contentsline {paragraph}{Main message.}{96}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{96}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{96}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{96}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{96}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{96}{chapter.3}%
+\contentsline {paragraph}{Transition.}{97}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{97}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{98}{chapter.3}%
+\contentsline {paragraph}{Main message.}{98}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{98}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{98}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{98}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{98}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{98}{chapter.3}%
+\contentsline {paragraph}{Transition.}{99}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{99}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{100}{chapter.3}%
+\contentsline {paragraph}{Main message.}{100}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{100}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{100}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{100}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{100}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{100}{chapter.3}%
+\contentsline {paragraph}{Transition.}{101}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{101}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{102}{chapter.3}%
+\contentsline {paragraph}{Main message.}{102}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{102}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{102}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{102}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{102}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{102}{chapter.3}%
+\contentsline {paragraph}{Transition.}{102}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{102}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{103}{chapter.3}%
+\contentsline {paragraph}{Main message.}{103}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{103}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{103}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{103}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{103}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{104}{chapter.3}%
+\contentsline {paragraph}{Transition.}{104}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{104}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{105}{chapter.3}%
+\contentsline {paragraph}{Main message.}{105}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{105}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{105}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{105}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{105}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{106}{chapter.3}%
+\contentsline {paragraph}{Transition.}{106}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{106}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{107}{chapter.3}%
+\contentsline {paragraph}{Main message.}{107}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{107}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{107}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{107}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{107}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{108}{chapter.3}%
+\contentsline {paragraph}{Transition.}{108}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{108}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{109}{chapter.3}%
+\contentsline {paragraph}{Main message.}{109}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{109}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{109}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{109}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{109}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{110}{chapter.3}%
+\contentsline {paragraph}{Transition.}{110}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{110}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{111}{chapter.3}%
+\contentsline {paragraph}{Main message.}{111}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{111}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{111}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{111}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{111}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{112}{chapter.3}%
+\contentsline {paragraph}{Transition.}{112}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{112}{chapter.3}%
+\contentsline {paragraph}{Purpose.}{113}{chapter.3}%
+\contentsline {paragraph}{Main message.}{113}{chapter.3}%
+\contentsline {paragraph}{Suggested spoken explanation.}{113}{chapter.3}%
+\contentsline {paragraph}{Technical background.}{113}{chapter.3}%
+\contentsline {paragraph}{Equations and definitions.}{113}{chapter.3}%
+\contentsline {paragraph}{Figures, plots and tables.}{113}{chapter.3}%
+\contentsline {paragraph}{Caveats.}{114}{chapter.3}%
+\contentsline {paragraph}{Transition.}{114}{chapter.3}%
+\contentsline {paragraph}{Suggested timing.}{114}{chapter.3}%
+\contentsline {part}{IV\hspace {1em}Technical appendices}{115}{part.4}%
+\contentsline {chapter}{\numberline {A}Coupling and notation dictionary}{116}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Electroweak formula sheet}{117}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Higgs recoil and coupling-extraction formula sheet}{118}{appendix.C}%
+\contentsline {chapter}{\numberline {D}SMEFT operator map}{119}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Top-FCNC branching-ratio formula sheet}{120}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Analysis checklist}{121}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Extended formula compendium}{122}{appendix.G}%
+\contentsline {section}{\numberline {G.1}Kinematics and event reconstruction}{122}{section.G.1}%
+\contentsline {section}{\numberline {G.2}Electroweak couplings}{122}{section.G.2}%
+\contentsline {section}{\numberline {G.3}Higgs rates}{123}{section.G.3}%
+\contentsline {section}{\numberline {G.4}SMEFT expansion and fit structure}{123}{section.G.4}%
+\contentsline {section}{\numberline {G.5}Top FCNC partial widths and yields}{123}{section.G.5}%
+\contentsline {part}{V\hspace {1em}Glossary and references}{124}{part.5}%
+\contentsline {chapter}{\numberline {H}Glossary}{125}{appendix.H}%
