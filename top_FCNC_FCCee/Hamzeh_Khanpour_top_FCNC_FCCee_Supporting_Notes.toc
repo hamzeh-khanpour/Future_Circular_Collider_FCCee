@@ -1,0 +1,40 @@
+\contentsline {part}{I\hspace {1em}Precision Physics at the FCC-ee}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Physics Background and Precision Physics at the FCC-ee}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}FCC-ee as a precision machine}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Why Z, WW, Higgs and top measurements are correlated}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Electroweak pseudo-observables and $Zf\bar f$ couplings}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Chiral couplings}{6}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}WW threshold, gauge structure and aTGCs}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Higgs recoil method and absolute coupling extraction}{7}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Exclusive Higgs decay channels}{7}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Higgs coupling modifiers and the $\kappa $-3 framework}{8}{section.1.6}%
+\contentsline {section}{\numberline {1.7}SMEFT interpretation of Higgs, EW and top data}{8}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Global Higgs--electroweak interpretation}{9}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Correlation structure of the FCC-ee Higgs and electroweak fit}{9}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Left- and right-handed electroweak couplings}{10}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Gauge-invariant origin of the correlations}{11}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Coupling modifiers and the \(\kappa \)-3 framework}{13}{subsection.1.8.4}%
+\contentsline {section}{\numberline {1.9}Top-quark precision at FCC-ee}{17}{section.1.9}%
+\contentsline {section}{\numberline {1.10}FCNC in the Standard Model and beyond}{17}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Effective Lagrangian for top-FCNC interactions}{17}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Translation between anomalous couplings and branching ratios}{18}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Signal processes at 240 and 365 GeV}{18}{section.1.13}%
+\contentsline {section}{\numberline {1.14}Semileptonic and fully hadronic final states}{18}{section.1.14}%
+\contentsline {section}{\numberline {1.15}Backgrounds, jet clustering and flavour tagging}{19}{section.1.15}%
+\contentsline {section}{\numberline {1.16}Statistical analysis and CL$_s$ extraction}{19}{section.1.16}%
+\contentsline {section}{\numberline {1.17}Interpretation of projected limits}{19}{section.1.17}%
+\contentsline {part}{II\hspace {1em}Technical appendices}{20}{part.2}%
+\contentsline {chapter}{\numberline {A}Coupling and notation dictionary}{21}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Electroweak formula sheet}{22}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Higgs recoil and coupling-extraction formula sheet}{23}{appendix.C}%
+\contentsline {chapter}{\numberline {D}SMEFT operator map}{24}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Top-FCNC branching-ratio formula sheet}{25}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Analysis checklist}{26}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Extended formula compendium}{27}{appendix.G}%
+\contentsline {section}{\numberline {G.1}Kinematics and event reconstruction}{27}{section.G.1}%
+\contentsline {section}{\numberline {G.2}Electroweak couplings}{27}{section.G.2}%
+\contentsline {section}{\numberline {G.3}Higgs rates}{28}{section.G.3}%
+\contentsline {section}{\numberline {G.4}SMEFT expansion and fit structure}{28}{section.G.4}%
+\contentsline {section}{\numberline {G.5}Top FCNC partial widths and yields}{28}{section.G.5}%
+\contentsline {part}{III\hspace {1em}Glossary and references}{29}{part.3}%
+\contentsline {chapter}{\numberline {H}Glossary}{30}{appendix.H}%
