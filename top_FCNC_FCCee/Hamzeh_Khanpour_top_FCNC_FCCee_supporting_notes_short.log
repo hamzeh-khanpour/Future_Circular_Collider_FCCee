@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -966,7 +966,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19
-3.
+4.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -979,24 +979,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.aux)
 \openout1 = `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 194.
+LaTeX Font Info:    ... okay on input line 194.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1032,19 +1032,19 @@ LaTeX Font Info:    ... okay on input line 193.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 193.
-Package microtype Info: Applying patch `item' on input line 193.
-Package microtype Info: Applying patch `toc' on input line 193.
-Package microtype Info: Applying patch `eqnum' on input line 193.
-Package microtype Info: Applying patch `footnote' on input line 193.
-Package microtype Info: Applying patch `verbatim' on input line 193.
+LaTeX Info: Redefining \microtypecontext on input line 194.
+Package microtype Info: Applying patch `item' on input line 194.
+Package microtype Info: Applying patch `toc' on input line 194.
+Package microtype Info: Applying patch `eqnum' on input line 194.
+Package microtype Info: Applying patch `footnote' on input line 194.
+Package microtype Info: Applying patch `verbatim' on input line 194.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 193.
+LaTeX Info: Redefining \showhyphens on input line 194.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1074,7 +1074,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 193.
+Package hyperref Info: Link coloring ON on input line 194.
 
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.out)
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.out)
@@ -1100,39 +1100,39 @@ Package caption Info: End \AtBeginDocument code.
 <AGH_logo.jpg, id=203, 184.69pt x 319.1925pt>
 File: AGH_logo.jpg Graphic file (type jpg)
 <use AGH_logo.jpg>
-Package pdftex.def Info: AGH_logo.jpg  used on input line 196.
+Package pdftex.def Info: AGH_logo.jpg  used on input line 197.
 (pdftex.def)             Requested size: 49.38788pt x 85.35826pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-96.
+97.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-96.
+97.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-196.
+197.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-196.
+197.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 196.
+(Font)              <10.95> on input line 197.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 196.
+(Font)              <8> on input line 197.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 196.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 196
+(Font)              <6> on input line 197.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 197
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1141,7 +1141,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 196
+LaTeX Font Info:    Trying to load font information for U+msb on input line 197
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1153,15 +1153,15 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <FCC.jpg, id=204, 637.38126pt x 282.05376pt>
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 196.
+Package pdftex.def Info: FCC.jpg  used on input line 197.
 (pdftex.def)             Requested size: 128.59244pt x 56.9055pt.
 
-Overfull \hbox (20.61624pt too wide) in paragraph at lines 196--196
+Overfull \hbox (20.61624pt too wide) in paragraph at lines 197--197
  [][]
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-96.
+97.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1187,7 +1187,7 @@ dvips/lm/lm-rm.enc}])
 \openout5 = `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.toc'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-05.
+06.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1202,58 +1202,58 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]
 Chapter 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 233.
+(Font)              <10> on input line 234.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 233.
+(Font)              <7> on input line 234.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 233.
+(Font)              <5> on input line 234.
 [4
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 364.
+(Font)              <14.4> on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 364.
+(hyperref)                removing `math shift' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 364.
+(hyperref)                removing `math shift' on input line 365.
 
 [5{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [6] [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
+(hyperref)                removing `math shift' on input line 492.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kappa' on input line 491.
+(hyperref)                removing `\kappa' on input line 492.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 491.
+(hyperref)                removing `math shift' on input line 492.
 
 [8]
 <Figs/circos_FCCee_nomargin_newFSR.pdf, id=348, 2619.7875pt x 2810.5pt>
 File: Figs/circos_FCCee_nomargin_newFSR.pdf Graphic file (type pdf)
 <use Figs/circos_FCCee_nomargin_newFSR.pdf>
 Package pdftex.def Info: Figs/circos_FCCee_nomargin_newFSR.pdf  used on input l
-ine 609.
+ine 610.
 (pdftex.def)             Requested size: 445.99553pt x 478.46484pt.
  [9] [10] [11] [12 <./Figs/circos_FCCee_nomargin_newFSR.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 825.
+(Font)              <12> on input line 826.
 <Figs/fermionmodifierHLLHC.pdf, id=390, 448.35826pt x 333.16472pt>
 File: Figs/fermionmodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/fermionmodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/fermionmodifierHLLHC.pdf  used on input line 911.
+Package pdftex.def Info: Figs/fermionmodifierHLLHC.pdf  used on input line 912.
 
 (pdftex.def)             Requested size: 445.99553pt x 331.4151pt.
 <Figs/vectormodifierHLLHC.pdf, id=394, 448.35826pt x 333.16472pt>
 File: Figs/vectormodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/vectormodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 950.
+Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 951.
 (pdftex.def)             Requested size: 445.99553pt x 331.4151pt.
  [13
 
@@ -1261,10 +1261,10 @@ Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 950.
 <Figs/loopmodifierHLLHC.pdf, id=414, 448.4219pt x 333.16472pt>
 File: Figs/loopmodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/loopmodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/loopmodifierHLLHC.pdf  used on input line 986.
+Package pdftex.def Info: Figs/loopmodifierHLLHC.pdf  used on input line 987.
 (pdftex.def)             Requested size: 445.99553pt x 331.36935pt.
  [14 <./Figs/fermionmodifierHLLHC.pdf>]
-Overfull \hbox (7.88782pt too wide) in paragraph at lines 1032--1070
+Overfull \hbox (7.88782pt too wide) in paragraph at lines 1033--1071
  [][] 
  []
 
@@ -1274,15 +1274,15 @@ Overfull \hbox (7.88782pt too wide) in paragraph at lines 1032--1070
 ] [18]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1205.
+(hyperref)                removing `math shift' on input line 1206.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1205.
+(hyperref)                removing `subscript' on input line 1206.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1205.
+(hyperref)                removing `math shift' on input line 1206.
 
 [19] [20
 
@@ -1321,7 +1321,7 @@ Appendix H.
 [30
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
 []\T1/lmr/m/n/10.95 (+20) CMS Higgs Com-bine Tool, [][]$\T1/lmtt/m/n/10.95 http
 s : / / github . com / cms-[]analysis /
  []
@@ -1368,7 +1368,7 @@ lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb>
 Output written on Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.pdf (32
- pages, 1883408 bytes).
+ pages, 1883396 bytes).
 PDF statistics:
  878 PDF objects out of 1000 (max. 8388607)
  717 compressed objects within 8 object streams
