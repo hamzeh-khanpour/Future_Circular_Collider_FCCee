@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,17 +1333,9 @@ s : / / github . com / cms-[]analysis /
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `Hamzeh_Khanpour_top_FCNC_FCCee_supporting
-_notes_short.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Hamzeh_Khanpour_top_FCNC_FCCee_supp
-orting_notes_short.out':
-(rerunfilecheck)             Before: CEEBF6269C8A70744D97AD5678BF345C;10004
-(rerunfilecheck)             After:  02F979F74B1051DAB1E790733617FC35;10004.
+Package rerunfilecheck Info: File `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_no
+tes_short.out' has not changed.
+(rerunfilecheck)             Checksum: 02F979F74B1051DAB1E790733617FC35;10004.
  ) 
 Here is how much of TeX's memory you used:
  34448 strings out of 474222
@@ -1376,7 +1368,7 @@ lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb>
 Output written on Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.pdf (32
- pages, 1883395 bytes).
+ pages, 1883408 bytes).
 PDF statistics:
  878 PDF objects out of 1000 (max. 8388607)
  717 compressed objects within 8 object streams

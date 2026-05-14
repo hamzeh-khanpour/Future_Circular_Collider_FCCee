@@ -381,15 +381,15 @@ yshift=-0.3cm
 		
 \begin{column}{0.60\textwidth}
 \scriptsize
-\renewcommand{\arraystretch}{1.16}
-\begin{tabularx}{\linewidth}{p{0.27\linewidth}p{0.23\linewidth}X}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{p{0.3\linewidth}p{0.23\linewidth}X}
 \toprule
 \textbf{Working point} & \textbf{Integrated lumi.} & \textbf{Baseline event sample}\\
 \midrule
-{\color{magenta}$Z$ pole} & $205~\mathrm{ab}^{-1}$ & $6\times10^{12}$ $Z$ bosons\\
-{\color{magenta}$WW$ threshold} & $19.2~\mathrm{ab}^{-1}$ & $2.4\times10^8$ $WW$ events \\
-{\color{magenta}$ZH$ stage} & $10.8~\mathrm{ab}^{-1}$ & $2.2\times10^6$ $ZH$ $+65\mathrm{k}$ $WW\to H$\\
-{\color{magenta}$t\bar t$/365~GeV} & $0.42+2.70~\mathrm{ab}^{-1}$ & $2\times10^6$ $t\bar t$ $+370\mathrm{k}$ $ZH$ $+92\mathrm{k}$ $WW\to H$\\
+{\color{magenta}$Z$ pole} & $205~\mathrm{ab}^{-1}$ & $6\times{\color{blue}10^{12}}$ $Z$ bosons\\
+{\color{magenta}$WW$ threshold} & $19.2~\mathrm{ab}^{-1}$ & $2.4\times{\color{blue}10^8}$ $WW$ events \\
+{\color{magenta}$ZH$ stage} & $10.8~\mathrm{ab}^{-1}$ & $2.2\times{\color{blue}10^6}$ $ZH$ $+65\mathrm{k}$ $WW\to H$\\
+{\color{magenta}$t\bar t$/365~GeV} & $0.42+2.70~\mathrm{ab}^{-1}$ & $2\times{\color{blue}10^6}$ $t\bar t$ $+370\mathrm{k}$ $ZH$ $+92\mathrm{k}$ $WW\to H$\\
 \bottomrule
 \end{tabularx}
 
@@ -435,7 +435,7 @@ yshift=-0.3cm
 	
 \begin{column}{0.50\textwidth}
 	
-\begin{block}{Machine-level advantages}
+\begin{alertblock}{Machine-level advantages}
 \begin{itemize}
 \justifying 
 \small 
@@ -444,7 +444,7 @@ yshift=-0.3cm
 %\item negligible pile-up and reduced QCD clutter,
 \item full-event reconstruction with excellent flavor tagging potential.
 \end{itemize}
-\end{block}
+\end{alertblock}
 			
 \begin{block}{Physics mission}
 \begin{itemize}
@@ -462,8 +462,8 @@ yshift=-0.3cm
 \begin{tcolorbox}[colback=green!4,colframe=green!45!black,title=What makes FCC-ee special?]
 \small
 \justifying
-FCC-ee combines \textbf{huge statistics}, \textbf{clean event reconstruction}, and 
-\textbf{precise beam-energy control}.  With four interaction points, the programme gains 
+FCC-ee combines \textbf{{\color{magenta}huge statistics}}, \textbf{{\color{magenta}clean event reconstruction}}, and 
+\textbf{{\color{magenta}precise beam-energy control}}.  With four interaction points, the programme gains 
 luminosity, detector redundancy, and stronger control of hidden systematic biases.
 \end{tcolorbox}
 	
@@ -472,10 +472,10 @@ luminosity, detector redundancy, and stronger control of hidden systematic biase
 \justifying
 
 \begin{itemize}\setlength\itemsep{0.25em}
-\item \textbf{Tera-Z:} $6\times10^{12}$ $Z$ bosons for EW precision, flavour, QCD and rare-$Z$ searches.
-\item \textbf{WW threshold:} sub-MeV access to $m_W$ and $\Gamma_W$, with gauge-sector constraints.
-\item \textbf{ZH at 240~GeV:} recoil method and absolute normalisation of Higgs couplings through $\sigma(ZH)$.
-\item \textbf{Top/365~GeV:} $m_t$, $\Gamma_t$, $t\bar t Z$ couplings and improved Higgs/EW global fits.
+\item \textbf{{\color{blue}Tera-Z}}: $6\times10^{12}$ $Z$ bosons for EW precision, flavour, QCD and rare-$Z$ searches.
+\item \textbf{{\color{blue}WW threshold}}: sub-MeV access to $m_W$ and $\Gamma_W$, with gauge-sector constraints.
+\item \textbf{{\color{blue}ZH at 240~GeV}}: recoil method and absolute normalisation of Higgs couplings through $\sigma(ZH)$.
+\item \textbf{{\color{blue}Top/365~GeV}}: $m_t$, $\Gamma_t$, $t\bar t Z$ couplings and improved Higgs/EW global fits.
 \end{itemize}
 
 \end{tcolorbox}
@@ -535,14 +535,6 @@ yshift=-0.3cm
 	
 \begin{columns}[T]
 		
-\begin{column}{0.32\textwidth}
-	
-\begin{exampleblock}{Higgs}
-\small
-\justifying
-Model-independent \(ZH\) recoil measurements provide absolute Higgs-coupling normalisation, total-width sensitivity, and direct access to invisible or exotic Higgs decays, and finally the global Higgs programme at the per-mille level.
-\end{exampleblock}
-\end{column}
 		
 \begin{column}{0.32\textwidth}
 \begin{block}{Electroweak}
@@ -552,14 +544,24 @@ Ultra-high statistics at the \(Z\) pole
 (\(\sim\!6\times10^{12}\ Z\)) and the
 \(WW\) threshold enable precision tests of the gauge structure, flavour observables, \(\alpha_{\rm QED}(m_Z)\), \(\alpha_s(m_Z)\), and electroweak vertices with unprecedented precision.
 \end{block}
+\end{column}		
+		
+		
+\begin{column}{0.32\textwidth}	
+\begin{exampleblock}{Higgs}
+\small
+\justifying
+Model-independent \(ZH\) recoil measurements provide absolute Higgs-coupling normalisation, total-width sensitivity, and direct access to invisible or exotic Higgs decays, and finally the global Higgs programme at the per-mille level.
+\end{exampleblock}
 \end{column}
+
 		
 \begin{column}{0.32\textwidth}
 \begin{alertblock}{Top}
 \small
 \justifying
 Threshold running around
-\(\sqrt{s}\!\sim\!340\text{--}350~\mathrm{GeV}\)
+\(\sqrt{s}\!\sim\!340\text{-}350~\mathrm{GeV}\)
 and above-threshold operation at
 \(365~\mathrm{GeV}\) provide precision access to
 \(m_t\), \(\Gamma_t\), top electroweak couplings,
@@ -598,7 +600,7 @@ arc=2mm]
 \justifying
 		
 The key FCC-ee idea is
-\textbf{precision with interpretation}:
+\textbf{precision}:
 huge \(Z\), \(W\), Higgs and top samples are combined with clean kinematics, beam-energy calibration, flavour tagging and full-event reconstruction to extract absolute couplings, widths and electroweak vertices, and to test correlated SMEFT deviations in a globally consistent framework.
 		
 \end{tcolorbox}
@@ -630,7 +632,7 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying
 \small
-\item The $Z$ line-shape scan and $6\times10^{12}$ $Z$ bosons provide an EW precision programme far beyond LEP/SLC.
+\item The $Z$ line-shape scan and {\color{magenta}$6\times10^{12}$ $Z$ bosons} provide an EW precision programme far beyond LEP/SLC.
 \item Central observables include $m_Z$, $\Gamma_Z$, $\sin^2\theta_{\rm eff}^W$, $R_\ell^Z$, $\sigma^0_{\rm had}$, $N_\nu$, $R_b$, heavy-flavour asymmetries and $\tau$ observables.
 \item Off-peak running around the $Z$ pole also gives direct handles on $\alpha_{\rm QED}(m_Z)$ and $\alpha_s(m_Z)$.
 \item The Tera-$Z$ dataset also enables precision flavour physics, rare/forbidden $Z$ decays, $\tau$ observables and dark-sector searches.
@@ -692,12 +694,19 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying
 \small
-\item FCC-ee determines left- and right-handed $Zf\bar f$ couplings from partial widths, cross-section ratios and asymmetries.
-\item For electrons, this is especially important because the $Zee$ vertex also enters $e^+e^-\to ZH$.
-\item In SMEFT, corrections to $Zee$, $HZZ$ and contact $HZee$ interactions arise from common gauge-invariant operators.
+\item FCC-ee determines left- and right-handed {\color{magenta}\(Zf\bar f\)} couplings from
+partial widths, cross-section ratios, and asymmetries.
+	
+\item The electron coupling is especially important for Higgsstrahlung,
+because the \(Zee\) vertex enters the initial-state amplitude of
+\(e^+e^-\to ZH\).
+	
+\item In SMEFT, the same gauge-invariant operators can modify the
+{\color{magenta}\(Zee\) coupling} and generate direct four-point \(HZee\) contact
+interactions, correlated with the extraction of the {\color{magenta}\(HZZ\) coupling}.
 \end{itemize}
 
-\vspace{0.2cm}
+%\vspace{0.2cm}
 
 
 \begin{alertblock}{Practical consequence}
@@ -771,10 +780,10 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying
 \small
-\item A scan near the $W^+W^-$ threshold gives a sub-MeV determination of $m_W$ and $\Gamma_W$. 
-\item Differential angular information constrains aTGCs: $\delta g_{1,Z}$, $\delta\kappa_\gamma$, $\lambda_Z$. 
-\item Above threshold, $e^+e^-\to W^+W^-$ probes the gauge-boson self-interactions and diboson angular structure. 
-\item In SMEFT, anomalous triple-gauge couplings such as $\delta g_{1,Z}$ and $\delta\kappa_\gamma$ are correlated with $HVV$ ($HZZ$ and $HWW$) interactions. 
+\item A scan near the $W^+W^-$ threshold gives a sub-MeV determination of $m_W$ and $\Gamma_W$.  
+\item Differential angular information constrains aTGCs: {\color{magenta}$\delta g_{1,Z}$}, {\color{magenta}$\delta\kappa_\gamma$}, {\color{magenta}$\lambda_Z$}.  
+\item Above threshold, $e^+e^-\to W^+W^-$ probes the gauge-boson self-interactions and diboson angular structure.  
+\item In SMEFT, anomalous triple-gauge couplings such as $\delta g_{1,Z}$ and $\delta\kappa_\gamma$ are correlated with $HVV$ ({\color{magenta}$HZZ$} and {\color{magenta}$HWW$}) interactions.  
 \end{itemize}
 
 \begin{exampleblock}{Message}
@@ -852,9 +861,9 @@ yshift=-0.3cm
 \justifying
 \small
 \item The same SMEFT operators contribute simultaneously to electroweak vertices, aTGCs and Higgs production amplitudes.
-\item Precision $Z$-pole observables reduce degeneracies between Higgs and electroweak SMEFT directions.
+\item {\color{magenta}Precision $Z$-pole observables}  reduce degeneracies between Higgs and electroweak SMEFT directions.
 \item With only LEP/SLC-level EW inputs, several FCC-ee Higgs-coupling precisions at 240~GeV would degrade by up to a factor of two.
-\item $WW$ and diboson measurements constrain gauge-sector directions correlated with $HZZ$ and $HWW$ interactions.
+\item $WW$ and diboson measurements constrain gauge-sector directions {\color{magenta}correlated} with $HZZ$ and $HWW$ interactions.
 \end{itemize}
 
 
@@ -893,16 +902,15 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying
 \small
-\item At $\sqrt{s}\simeq240~\mathrm{GeV}$, $e^+e^-\to ZH$ is close to its production maximum and defines the core FCC-ee Higgs programme.
+\item At $\sqrt{s}\simeq240~\mathrm{GeV}$, $e^+e^-\to ZH$ is close to its production maximum and defines the {\color{magenta}core FCC-ee Higgs programme}. 
 	
-\item Reconstructing the $Z$ boson gives the Higgs recoil mass independently of the Higgs decay mode:
+\item Reconstructing the $Z$ boson gives the {\color{magenta}Higgs recoil mass independently} of the Higgs decay mode: 
 	\[
 	m_{\rm recoil}^2=s+m_Z^2-2\sqrt{s}\,E_Z .
 	\]
+\item The inclusive $\sigma(ZH)$ measurement provides a {\color{magenta}model-independent} determination of the {\color{magenta}$HZZ$ coupling normalisation $\kappa_Z$}. 
 	
-\item The inclusive $\sigma(ZH)$ measurement provides a model-independent determination of the $HZZ$ coupling normalisation $\kappa_Z$.
-	
-\item This inclusive normalisation acts as the Higgs ``standard candle'' for the extraction of all other Higgs couplings and width combinations.
+\item This inclusive normalisation acts as the Higgs ``standard candle'' for the extraction of all other Higgs couplings and width combinations. 
 
 \end{itemize}
 
@@ -911,10 +919,10 @@ yshift=-0.3cm
 \begin{column}{0.50\textwidth}
 \includegraphics[width=1.1\linewidth]{Higgs_rec.jpg}
 \scriptsize \justifying
-Illustration of the recoil-mass spectrum in \(e^{+}e^{-}\to ZH\),
+Illustration of the {\color{magenta}recoil-mass spectrum}  in \(e^{+}e^{-}\to ZH\),
 with \(Z\to\mu^{+}\mu^{-}\), at \(\sqrt{s}=240~\mathrm{GeV}\).
-The Higgs peak near \(125~\mathrm{GeV}\) is reconstructed from the tagged
-\(Z\) system alone, enabling an inclusive, decay-independent measurement
+The Higgs peak near \(125~\mathrm{GeV}\) is reconstructed from the {\color{magenta}tagged
+\(Z\) system alone}, enabling an inclusive, decay-independent measurement
 of \(\sigma(ZH)\); the \(ZZ\), \(WW\), and other SM backgrounds are shown for comparison. 
 \end{column}
 
@@ -923,7 +931,7 @@ of \(\sigma(ZH)\); the \(ZZ\), \(WW\), and other SM backgrounds are shown for co
 \begin{exampleblock}{Foundation}
 \small
 \justifying
-The recoil measurement makes $\sigma(ZH)$ an inclusive and model-independent observable: the Higgs can be discovered and normalised without specifying how it decays.
+The recoil measurement makes {\color{magenta}$\sigma(ZH)$ an inclusive and model-independent observable}: the Higgs can be discovered and normalised without specifying how it decays.
 \end{exampleblock}
 
 \begin{tikzpicture}[remember picture,overlay]
@@ -996,7 +1004,7 @@ absolute couplings and $\Gamma_H$
 \item Exclusive decays map partial widths: $b\bar b$, $c\bar c$, $gg$, $\tau\tau$, $WW^*$, $ZZ^*$, $\gamma\gamma$, $Z\gamma$, $\mu\mu$.
 \item Combining $ZH$ and vector-boson-fusion information gives model-independent access to $\Gamma_H$.
 \item Invisible and untagged modes are constrained by recoil and global fits.
-\item FCC-ee converts inclusive recoil measurements into an absolute Higgs normalisation, allowing global extraction of couplings, width and invisible branching fractions. 
+\item FCC-ee converts {\color{magenta}inclusive recoil measurements} into an absolute Higgs normalisation, allowing {\color{magenta}global extraction} of couplings, width and invisible branching fractions. 
 \end{itemize}
 
 \end{column}
@@ -1196,7 +1204,7 @@ yshift=-0.3cm
 			
 \begin{alertblock}{\scriptsize Coupling-modifier interpretation}
 \vspace{-0.1cm}
-\tiny
+\scriptsize
 \begin{align*}
 (\sigma \!\cdot\! {\rm Br})(i\!\to\! H\!\to\! f)
 &=
@@ -1219,8 +1227,7 @@ yshift=-0.3cm
 \end{align*}
 \vspace{-0.1cm}
 \[
-\kappa_V \leq 1\quad (V=W,Z),
-\qquad
+\kappa_V \leq 1\quad (V=W,Z)\,,
 \{\kappa_i,\ {\rm Br}_{\rm inv},\ {\rm Br}_{\rm und}\}.
 \]
 \vspace{-0.1cm}
@@ -1263,7 +1270,7 @@ The condition \(\kappa_V \leq 1\) is imposed to stabilise the fit, [\textbf{{\co
 
 \item Above threshold, the 365~GeV stage enhances sensitivity to \alert{top electroweak couplings}, angular observables and SMEFT effects in the top sector.
 
-\item Differential observables and polar-angle distributions probe the chiral structure of the $ttZ$ vertex: $g_{ttZ}^{L,R},\qquad A_{\rm FB}^{t\bar t},\qquad \sigma_{t\bar t}.$
+\item Differential observables and polar-angle distributions probe the chiral structure of the $ttZ$ vertex: $g_{ttZ}^{L,R}\,, A_{\rm FB}^{t\bar t}\,,  \sigma_{t\bar t}.$
 
 \item The combination of threshold and continuum information improves indirect sensitivity to the \alert{top Yukawa coupling} and correlated Higgs/top SMEFT directions.
 
@@ -1322,7 +1329,7 @@ Observable & Present unc. & FCC-ee target & Gain \\
 m_t,\ \Gamma_t,\ \alpha_s,\ y_t
 \]
 
-Threshold line-shape information and above-threshold angular observables together define a precision top programme with strong SMEFT sensitivity. 
+Threshold line-shape information and above-threshold angular observables together define a precision top programme with strong SMEFT sensitivity [{\color{magenta} 2503.18713 [hep-ph]; JHEP 11 (2025) 020}]. 
 \end{exampleblock}
 
 \end{column}
@@ -1361,9 +1368,10 @@ yshift=-0.3cm
 \vspace{0.08cm}
 
 \scriptsize \justifying
-Illustration of the Higgs-top interplay in global FCC fits. 
-\textbf{Top:} correlation between the Higgs self-coupling and top Yukawa coupling.  
-\textbf{Bottom:} improvement in the top-Yukawa determination once FCC-ee precision inputs are included in the FCC-hh interpretation.
+Illustration of Higgs--top correlations in global FCC fits.
+\textbf{Top:} \(Htt\)--\(Ztt_L\) correlation.
+\textbf{Bottom:} \(Htt\)--Higgs-self-coupling correlation, showing the
+impact of adding FCC-ee precision inputs to the FCC-hh interpretation.
 
 \end{column}
 
@@ -1373,13 +1381,13 @@ Illustration of the Higgs-top interplay in global FCC fits.
 \justifying
 \small
 
-\item Higgs precision fixes the absolute normalisation of
+\item {\color{magenta}Higgs precision} fixes the absolute normalisation of
 $\kappa_Z$, $\kappa_W$, $\Gamma_H$ and invisible-width directions.
 
-\item Top-threshold and 365 GeV observables constrain
+\item {\color{magenta}Top-threshold} and 365 GeV observables constrain
 $m_t$, $\Gamma_t$, $g_{ttZ}^{L,R}$ and indirectly the top Yukawa coupling $y_t$.
 
-\item In global SMEFT fits, Higgs and top operators are strongly correlated:
+\item In global SMEFT fits, Higgs and top operators are {\color{magenta}strongly correlated}:
 top couplings affect loop-induced Higgs observables and double-Higgs production,
 while Higgs inputs constrain the interpretation of top observables.
 
@@ -1388,7 +1396,7 @@ in FCC-hh extractions of $y_t$ and the Higgs self-coupling $\kappa_\lambda$,
 as illustrated by the shrinking correlation ellipses.
 
 \item FCC-ee therefore acts as the precision calibration stage
-for the full FCC Higgs-top programme.
+for the full {\color{magenta}FCC Higgs-top programme}.
 \end{itemize}
 
 \end{column}
@@ -1491,7 +1499,7 @@ yshift=-0.3cm
 \justifying 
 \item In the SM, top FCNC interactions are \alert{absent at tree level} and strongly suppressed at one loop by the GIM mechanism.
 \item Expected branching ratios are extraordinarily small - many channels lie around \(10^{-12}\)or smaller, which places them far beyond the reach of current experiments and even most future collider programmes. 
-\item A measurable rate for \(t\to qV\) with \(X=\gamma,Z,H,g\) would therefore be a clear sign of physics beyond the Standard Model.
+\item A measurable rate for {\color{magenta}\(t\to qV\) with \(X=\gamma,Z,H,g\)} would therefore be a clear sign of physics beyond the Standard Model.
 \item Many BSM scenarios can enhance the top-FCNC rates to experimentally interesting levels.
 \end{itemize}
 \end{column}
@@ -1507,7 +1515,7 @@ yshift=-0.3cm
 SM: tiny rates\\
 BSM: potentially enhanced rates\\
 \centering
-\textbf{Any signal \(\Rightarrow\) new physics.}
+\textbf{{\color{magenta}Any signal \(\Rightarrow\) new physics}.}
 \end{tcolorbox}
 \end{column}
 \end{columns}
@@ -1545,10 +1553,10 @@ yshift=-0.3cm
 \begin{column}{0.57\textwidth}
 \begin{itemize}
 \justifying 
-\item The top quark is the heaviest SM fermion and has a particularly intimate connection to electroweak symmetry breaking.
+\item The {\color{magenta}top quark} is the {\color{magenta}heaviest SM fermion} and has a particularly intimate connection to electroweak symmetry breaking.
 \item New heavy dynamics can leave visible traces in the top sector even when no new state is produced on shell.
 \item FCNC processes probe flavor, chirality and gauge structure simultaneously.
-\item At FCC-ee the signal process is especially clean because the initial state is known and the dominant hadronic clutter of hadron colliders is absent.
+\item At FCC-ee the {\color{magenta}signal process is especially clean} because the initial state is known and the dominant hadronic clutter of hadron colliders is absent.
 \end{itemize}
 \end{column}
 
@@ -1588,8 +1596,8 @@ yshift=-0.3cm
 \begin{column}{0.50\textwidth}
 \begin{itemize}
 \justifying 
-\item LEP set the first direct limits on rare top interactions, but was far from the SM expectation.
-\item ATLAS and CMS have pushed several top-FCNC bounds into the \(10^{-5}\)-\(10^{-4}\) range, depending on the channel.
+\item LEP set the {\color{magenta}first direct limits on rare top interactions}, but was far from the SM expectation.
+\item {\color{magenta}ATLAS} and {\color{magenta}CMS} have pushed several top-FCNC bounds into the \(10^{-5}\)-\(10^{-4}\) range, depending on the channel.
 \item The strongest present limits are already testing interesting BSM territory, especially in \(t\to q\gamma\), \(t\to qZ\), and \(t\to qH\).
 \item FCC-ee probes the same physics with a completely different experimental environment and therefore a different systematics / background profile.
 \end{itemize}
@@ -1635,7 +1643,7 @@ yshift=-0.3cm
 \justifying 
 \item In the general anomalous-coupling picture one can write vertices \(tqg\), \(tq\gamma\), \(tqZ\), and \(tqH\).
 \item For this talk we concentrate on \alert{\(tq\gamma\)} and \alert{\(tqZ\)} because they induce a clean single-top production channel in \(e^+e^-\) collisions.
-\item The light quark is taken as \(q=u,c\), and the quoted study-level results are only presented in terms of the branching fractions \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
+\item The light quark is taken as \(q=u,c\), and the quoted study-level results are {\color{magenta}only}  presented in terms of the branching fractions {\color{magenta}\(\mathrm{Br}(t\to c\gamma)\)} and {\color{magenta}\(\mathrm{Br}(t\to cZ)\)}.
 \end{itemize}
 \end{column}
 
@@ -1645,11 +1653,10 @@ yshift=-0.3cm
 \end{column}
 \end{columns}
 %\refs{Internal draft note and local theory figures.}
-\begin{block}{Working focus of the presentation}
-\small 
+\begin{alertblock}{Working focus of the presentation}
 \justifying 
-Production-level FCNC in \(e^+e^-\to tq\) followed by standard top decay, analysed in semileptonic and fully hadronic final states.
-\end{block}
+Production-level FCNC in {\color{magenta}\(e^+e^-\to tq\)} followed by standard top decay, analysed in {\color{magenta}semileptonic} and {\color{magenta}fully hadronic} final states.
+\end{alertblock}
 
 \begin{tikzpicture}[remember picture,overlay]
 \node[
@@ -1768,8 +1775,8 @@ yshift=-0.3cm
 \toprule
 Benchmark & \(\sqrt{s}\) & \(\mathcal{L}_{\mathrm{int}}\) \\
 \midrule
-Higgs stage & 240 GeV & 5 ab$^{-1}$ \\
-Top / EW stage & 365 GeV & 1.5 ab$^{-1}$ \\
+Higgs stage & {\color{magenta}240 GeV} & {\color{blue}5 ab$^{-1}$} \\
+Top / EW stage & {\color{magenta}365 GeV} & {\color{blue}1.5 ab$^{-1}$} \\
 \bottomrule
 \end{tabular}
 \end{block}
@@ -1804,7 +1811,7 @@ yshift=-0.3cm
 
 
 %----------------------------------------------------------------------------------------
-\begin{frame}{FCC-ee working points for the top-FCNC study: 240 GeV and 365 GeV}
+\begin{frame}{FCC-ee working points for the top-FCNC study: 240 and 365 GeV}
 \vspace{-0.30cm}	
 
 \begin{columns}[T]%[T,totalwidth=\textwidth]
@@ -1815,7 +1822,7 @@ yshift=-0.3cm
 \small
 \justifying
 \item FCC-ee Higgs-stage working point used in the study.
-\item Clean environment for single-top FCNC searches with low hadronic activity.
+\item Clean environment for {\color{magenta}single-top FCNC searches} with {\color{magenta}low hadronic activity}.
 \item Event kinematics remain closer to threshold, so reconstructed masses, missing energy, and momentum-balance observables provide strong discrimination.
 \item Particularly useful for controlling backgrounds and exploiting precise event reconstruction.
 \end{itemize}
@@ -1829,7 +1836,7 @@ yshift=-0.3cm
 \justifying 
 \item FCC-ee top / electroweak working point used in the study.
 \item Larger phase space for \(e^+e^- \to tq\), with harder light-jet and reconstructed-top spectra.
-\item Stronger kinematic separation between signal and background in several observables.
+\item {\color{magenta}Stronger kinematic separation}  between signal and background in several observables.
 \item Directly connected to the broader FCC-ee top programme and rare-top sensitivity.
 \end{itemize} 
 \end{alertblock} 
@@ -1882,8 +1889,8 @@ yshift=-0.3cm
 \item Two analysis paths are considered:
 \begin{itemize}
 \justifying 
-\item semileptonic: \(\ell\nu b + j\),
-\item fully hadronic: \(jjb + j\).
+\item {\color{magenta}semileptonic: \(\ell\nu b + j\)},
+\item {\color{magenta}fully hadronic: \(jjb + j\)}.
 \end{itemize}
 \justifying 
 \item The light jet from the FCNC vertex is typically energetic and becomes a key discriminant. 
@@ -1951,10 +1958,10 @@ yshift=-0.3cm
 \begin{column}{0.56\textwidth}
 \begin{itemize}
 \justifying 
-\item The analysis is performed in the \alert{official FCC analysis framework} with Delphes-based IDEA detector response [{\color{blue}2502.21223 [physics.ins-det]}].
-\item Official signal samples are generated with \texttt{MadGraph5\_aMC@NLO} using the FCNC effective model implemented through \texttt{FeynRules}/UFO.
-\item Flavour-tagging WP: \(\epsilon_b=80\%\), \(\epsilon_c=10\%\).
-\item Jet reconstruction algorithm: ee-kT Durham + E-scheme recombination.
+\item The analysis is performed in the \alert{official FCC analysis framework} with Delphes-based {\color{magenta}IDEA detector response}  [{\color{blue}2502.21223 [physics.ins-det]}].
+\item {\color{magenta}Official signal samples} are generated with {\color{magenta}\texttt{MadGraph5\_aMC@NLO}} using the FCNC effective model implemented through {\color{blue}\texttt{FeynRules}/UFO}.
+\item Flavour-tagging WP: {\color{magenta}\(\epsilon_b=80\%\), \(\epsilon_c=10\%\)}.
+\item Jet reconstruction algorithm: {\color{magenta}ee-kT Durham} + {\color{blue}E-scheme recombination}.
 \end{itemize}
 \end{column}
 
@@ -2010,7 +2017,7 @@ center
 \begin{alertblock}{FCCAnalyses framework}
 \small
 \justifying
-\texttt{FCCAnalyses} is the standard FCC analysis environment for detector-level phenomenology studies. It allows one to process EDM4HEP samples, reconstruct physics objects, define observables and selections, and produce the histograms and reduced ntuples used in physics sensitivity projections.
+\texttt{{\color{magenta}FCCAnalyses}} is the standard FCC analysis environment for {\color{magenta}detector-level phenomenology} studies. It allows one to process EDM4HEP samples, reconstruct physics objects, define observables and selections, and produce the histograms and reduced ntuples used in physics sensitivity projections.
 \end{alertblock}
 
 \begin{tikzpicture}[remember picture,overlay]
@@ -2258,7 +2265,7 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying 
 \item The price of larger branching fraction is stronger combinatorics and a much larger \(WW\)-like background.
-\item The analysis therefore uses dedicated category logic, \(\chi^2\)-based assignment and fake-W rejection.
+\item The analysis therefore uses dedicated category logic, \(\chi^2\)-based assignment and {\color{magenta}fake-W rejection}.
 \end{itemize}
 %\refs{Internal note, fully hadronic analysis section; local hadronic topology figure.}
 
@@ -2376,7 +2383,7 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying 
 \item Several official jet algorithms were tested; the final analysis adopts the \alert{ee-kT Durham} clustering with the \alert{E-scheme} recombination.
-\item Exclusive \(N_{\mathrm{jet}}=2\) and \(N_{\mathrm{jet}}=4\) modes are used for the semileptonic and hadronic analyses, respectively.
+\item Exclusive {\color{magenta}\(N_{\mathrm{jet}}=2\)} and {\color{magenta}\(N_{\mathrm{jet}}=4\)} modes are used for the semileptonic and hadronic analyses, respectively.
 \item The choice is driven by reconstructed-top stability and by the behaviour of the b-jet candidate momentum.
 \end{itemize}
 %\refs{Internal jet-algorithm study and local comparison figures.}
@@ -2459,7 +2466,7 @@ yshift=-0.3cm
 \begin{itemize}
 \justifying 
 \item The hadronic analysis reconstructs the signal candidate with a \(\chi^2\)-type assignment to the \(W\) and top hypotheses.
-\item The fake-W mass, missing energy, angular separations and light-jet / b-jet momentum ratios are crucial for suppressing the overwhelming \(WW\) background.
+\item The {\color{magenta}fake-W mass}, missing energy, angular separations and light-jet / b-jet momentum ratios are crucial for suppressing the {\color{magenta}overwhelming \(WW\) background}. 
 \end{itemize}
 %\refs{Internal draft note, fully hadronic reconstruction figures.}
 
@@ -2499,8 +2506,8 @@ yshift=-0.3cm
 \vspace{0.2em}
 \begin{itemize}
 \justifying
-\item The light jet originates directly from the FCNC production vertex \(e^+e^- \to tq\), so it tends to be relatively energetic and carries useful kinematic information on the signal topology.
-\item Its momentum spectrum differs from the dominant Standard Model backgrounds, where jets are more often produced through diboson decays or other sources. 
+\item The light jet originates directly from the {\color{magenta}FCNC production vertex} \(e^+e^- \to tq\), so it tends to be relatively energetic and carries useful kinematic information on the signal topology.
+\item Its momentum spectrum {\color{magenta}differs} from the dominant Standard Model backgrounds, where jets are more often produced through diboson decays or other sources. 
 \end{itemize}
 %\refs{Internal draft note, fully hadronic reconstruction figures.}
 
@@ -2590,9 +2597,9 @@ yshift=-0.3cm
 \item Limits are first extracted channel by channel:
 \begin{itemize}
 \justifying
-\item electron and muon semileptonic channels,
-\item fully hadronic channel,
-\item 240 GeV and 365 GeV benchmarks.
+\item {\color{magenta}electron} and {\color{magenta}muon} semileptonic channels,
+\item {\color{magenta}fully hadronic} channel,
+\item {\color{blue}240 GeV} and {\color{blue}365 GeV} benchmarks.
 \end{itemize}
 \item The results are then statistically combined across energies and channels.
 \item Finally, the coupling limits are translated into limits on the branching ratios \(\mathrm{Br}(t\to c\gamma)\) and \(\mathrm{Br}(t\to cZ)\).
@@ -2793,10 +2800,10 @@ yshift=-0.3cm
 \begin{column}{0.50\textwidth}
 \begin{itemize}
 \justifying
-\item FCC-ee is a precision Higgs + electroweak + top machine, not merely a single-purpose Higgs factory.
-\item Top FCNC is one of the cleanest BSM probes in the top sector because the SM expectation is tiny and any visible signal would be genuinely new physics.
+\item FCC-ee is a {\color{blue}precision Higgs + electroweak + top machine}, not merely a single-purpose Higgs factory.
+\item Top FCNC is one of the {\color{magenta}cleanest BSM probes} in the top sector because the SM expectation is tiny and any visible signal would be genuinely new physics.
 \item In the present FCC-ee study, single-top production driven by \(tq\gamma\) and \(tqZ\) couplings can be tested in both semileptonic and fully hadronic final states within the official analysis framework.
-\item The combined semileptonic benchmark sensitivities reach the \(10^{-5}\) to \(10^{-6}\) level in branching ratio.
+\item The {\color{magenta}combined semileptonic benchmark}  sensitivities reach the \(10^{-5}\) to \(10^{-6}\) level in branching ratio.
 \end{itemize}
 \end{column}
 
@@ -3175,60 +3182,60 @@ yshift=-0.3cm
 \centering
 \includegraphics[width=1.0\linewidth]{FCC_plan.jpg}
 	
-	\begin{columns}[T]%[T,totalwidth=\textwidth]
+\begin{columns}[T]%[T,totalwidth=\textwidth]
 		
-		%------------------------------------------------
-		\begin{column}{0.55\textwidth}
-			\small
-			\justifying
+%------------------------------------------------
+\begin{column}{0.55\textwidth}
+\small
+\justifying
 			
-			\begin{alertblock}{Post-HL-LHC motivation}
-				\justifying
-				The HL-LHC will extend the LHC precision and discovery programme into the
-				2030s and towards the early 2040s.  After that, further progress requires a
-				new facility with both precision and energy-frontier reach.
-			\end{alertblock}
-			
-		\end{column}
+\begin{alertblock}{Post-HL-LHC motivation}
+\justifying
+The HL-LHC will extend the LHC precision and discovery programme into the
+2030s and towards the early 2040s.  After that, further progress requires a
+new facility with both precision and energy-frontier reach.
+\end{alertblock}
 		
-		%------------------------------------------------
-		\begin{column}{0.55\textwidth}
+\end{column}
+		
+%------------------------------------------------
+\begin{column}{0.55\textwidth}
 			
 			
-			\vspace{0.15cm}
+\vspace{0.15cm}
 			
-			\begin{exampleblock}{\small Staged physics logic}
-				\small
-				\justifying
-				\[
-				\text{HL-LHC}
-				\;\Longrightarrow\;
-				\text{FCC-ee precision}
-				\]
-				The FCC strategy is not a single machine but a staged programme:
-				absolute precision first, direct high-energy reach afterwards.
-			\end{exampleblock}
+\begin{exampleblock}{\small Staged physics logic}
+\small
+\justifying
+\[
+\text{HL-LHC}
+\;\Longrightarrow\;
+\text{FCC-ee precision}
+\]
+The FCC strategy is not a single machine but a staged programme:
+absolute precision first, direct high-energy reach afterwards.
+\end{exampleblock}
 			
-			\vspace{0.05cm}
+\vspace{0.05cm}
 			
-			{\scriptsize
-				Sources:
-				\href{https://home.cern/science/accelerators/future-circular-collider}
-				{CERN FCC overview},
-				\href{https://fcc.web.cern.ch/overview}{FCC Feasibility Study overview}.
-			}
+{\scriptsize
+Sources:
+\href{https://home.cern/science/accelerators/future-circular-collider}
+{CERN FCC overview},
+\href{https://fcc.web.cern.ch/overview}{FCC Feasibility Study overview}.
+}
 			
-		\end{column}
-	\end{columns}
+\end{column}
+\end{columns}
 	
-	\begin{tikzpicture}[remember picture,overlay]
-		\node[
-		anchor=north east,
-		xshift=-0.1cm,
-		yshift=-0.3cm
-		] at (current page.north east)
-		{\includegraphics[width=1.8cm]{FCC.jpg}};
-	\end{tikzpicture}
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
 	
 \end{frame}
 %----------------------------------------------------------------------------------------
@@ -3244,35 +3251,35 @@ yshift=-0.3cm
 	
 \begin{columns}[T]%[T,totalwidth=\textwidth]
 		
-		%------------------------------------------------
-		\begin{column}{0.55\textwidth}
-			\centering
+%------------------------------------------------
+\begin{column}{0.55\textwidth}
+\centering
 			
-			\includegraphics[width=0.96\linewidth]{FCC_Poland.jpg}
+\includegraphics[width=0.96\linewidth]{FCC_Poland.jpg}
 			
-			\vspace{0.15cm}
+\vspace{0.15cm}
 			
-			\includegraphics[width=0.96\linewidth]{AGH_FCC.jpg}
+\includegraphics[width=0.96\linewidth]{AGH_FCC.jpg}
+	
+\vspace{0.15cm}
 			
-			\vspace{0.15cm}
+\includegraphics[width=0.96\linewidth]{AGH_FCC_2.jpg}
 			
-			\includegraphics[width=0.96\linewidth]{AGH_FCC_2.jpg}
-			
-		\end{column}
+\end{column}
 		
-		%------------------------------------------------
-		\begin{column}{0.58\textwidth}
-			\small
-			\justifying
+%------------------------------------------------
+\begin{column}{0.58\textwidth}
+\small
+\justifying
 			
-			\begin{alertblock}{Polish institutes in the FCC ecosystem}
-				\justifying
-				The FCC study is organised as an open international collaboration with
-				participating institutes from many countries.  Poland appears in the public
-				FCC collaboration list, including several Krakow-based institutes.
-			\end{alertblock}
+\begin{alertblock}{Polish institutes in the FCC ecosystem}
+\justifying
+The FCC study is organised as an open international collaboration with
+participating institutes from many countries.  Poland appears in the public
+FCC collaboration list, including several Krakow-based institutes.
+\end{alertblock}
 			
-			\vspace{-0.05cm}
+\vspace{-0.05cm}
 			
 \begin{itemize}
 \justifying  \small
@@ -3285,229 +3292,40 @@ MoU-status documentation.
 \end{itemize}
 			
 \begin{exampleblock}{Institutional caveat}
-				\scriptsize \justifying
-				Public FCC material lists AGH University of Science and Technology among
-				participating institutes, and public FCC MoU-status documentation indicates
-				AGH participation in the FCC Feasibility Study.
-			\end{exampleblock}	
+\scriptsize \justifying
+Public FCC material lists AGH University of Science and Technology among
+participating institutes, and public FCC MoU-status documentation indicates
+AGH participation in the FCC Feasibility Study.
+\end{exampleblock}	
 			
-			{\scriptsize
-				FCC public sources:
-				\href{https://fcc.web.cern.ch/collaboration}{FCC collaboration page},
-				\href{https://fcc.web.cern.ch/agh-university-science-and-technology}{AGH page},
-				and
-				\href{https://indico.cern.ch/event/1249823/contributions/5251326/attachments/2587199/4464121/FCC-2303012200-JHA_FCC-MoUs-status_V0200.pdf}{FCC MoU-status document}.
-			}
+{\scriptsize
+FCC public sources:
+\href{https://fcc.web.cern.ch/collaboration}{FCC collaboration page},
+\href{https://fcc.web.cern.ch/agh-university-science-and-technology}{AGH page},
+and
+\href{https://indico.cern.ch/event/1249823/contributions/5251326/attachments/2587199/4464121/FCC-2303012200-JHA_FCC-MoUs-status_V0200.pdf}{FCC MoU-status document}.
+}
 			
-		\end{column}
+\end{column}
 		
-	\end{columns}
+\end{columns}
 	
 	
-	\begin{tikzpicture}[remember picture,overlay]
-		\node[
-		anchor=north east,
-		xshift=-0.1cm,
-		yshift=-0.3cm
-		] at (current page.north east)
-		{\includegraphics[width=1.8cm]{FCC.jpg}};
-	\end{tikzpicture}
+\begin{tikzpicture}[remember picture,overlay]
+\node[
+anchor=north east,
+xshift=-0.1cm,
+yshift=-0.3cm
+] at (current page.north east)
+{\includegraphics[width=1.8cm]{FCC.jpg}};
+\end{tikzpicture}
 	
 	
 \end{frame}
 %----------------------------------------------------------------------------------------
-
-
 
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%----------------------------------------------------------------------------------------
-\begin{frame}{Coupling-to-branching-ratio translation}
-	
-	\vspace{-0.15cm}
-	
-	\begin{columns}[T]%[T,totalwidth=\textwidth]
-		
-		%------------------------------------------------
-		\begin{column}{0.55\textwidth}
-			\begin{block}{Conventions used in the study}
-				\scriptsize
-				\justifying
-				For the relevant dipole interactions:
-				\[
-				\mathcal{L} \supset
-				\frac{g_W}{4c_W m_Z}\,
-				\bar q\,\sigma^{\mu\nu}
-				\left(\kappa^L_{qt}P_L+\kappa^R_{qt}P_R\right)t\,Z_{\mu\nu}
-				+
-				\frac{e}{2m_t}\,
-				\bar q\,\sigma^{\mu\nu}
-				\left(\lambda^L_{qt}P_L+\lambda^R_{qt}P_R\right)t\,A_{\mu\nu}
-				+\text{h.c.}
-				\]
-				
-				\vspace{-0.10cm}
-				
-				\[
-				q=u,c,\qquad
-				r_Z=\frac{m_Z^2}{m_t^2},\qquad
-				s_W=\sin\theta_W,\quad c_W=\cos\theta_W .
-				\]
-				
-				\vspace{-0.05cm}
-				
-				In the benchmark generation:
-				\[
-				\lambda^L_{qt}=\lambda^R_{qt}\equiv\lambda_{qt},
-				\qquad
-				\kappa^L_{qt}=\kappa^R_{qt}\equiv\kappa_{qt}.
-				\]
-				
-			\end{block}
-			
-			\vspace{-0.05cm}
-			
-			\begin{block}{Branching-ratio definition}
-				\scriptsize
-				\[
-				{\rm Br}(t\to qX)
-				=
-				\frac{\Gamma(t\to qX)}
-				{\Gamma_t^{\rm SM}+\sum_X\Gamma(t\to qX)}
-				\simeq
-				\frac{\Gamma(t\to qX)}{\Gamma_t^{\rm SM}},
-				\]
-				because the extracted FCNC limits correspond to very small branching ratios.
-				
-				\vspace{-0.05cm}
-				
-				\[
-				\Gamma_t^{\rm SM}\simeq \Gamma(t\to Wb)\simeq 1.33~{\rm GeV}.
-				\]
-			\end{block}
-			
-		\end{column}
-		
-		%------------------------------------------------
-		\begin{column}{0.55\textwidth}
-			\begin{block}{Partial widths for one structure at a time}
-				\scriptsize
-				\justifying
-				
-				Photon dipole:
-				\[
-				\Gamma(t\to q\gamma)
-				=
-				\frac{\alpha}{4}\,m_t
-				\left(
-				|\lambda^L_{qt}|^2+|\lambda^R_{qt}|^2
-				\right).
-				\]
-				
-				\vspace{-0.05cm}
-				
-				\(Z\)-dipole:
-				\[
-				\Gamma(t\to qZ)_{\kappa}
-				=
-				\frac{\alpha}{32s_W^2c_W^2}
-				\frac{m_t^3}{m_Z^2}
-				(1-r_Z)^2(2+r_Z)
-				\left(
-				|\kappa^L_{qt}|^2+|\kappa^R_{qt}|^2
-				\right).
-				\]
-				
-				\vspace{-0.05cm}
-				
-				If the vector \(tqZ\) coupling \(X_{qt}\) is switched on instead:
-				\[
-				\Gamma(t\to qZ)_{X}
-				=
-				\frac{\alpha}{32s_W^2c_W^2}
-				\frac{m_t^3}{m_Z^2}
-				(1-r_Z)^2(1+2r_Z)
-				\left(
-				|X^L_{qt}|^2+|X^R_{qt}|^2
-				\right).
-				\]
-				
-			\end{block}
-			
-			\vspace{-0.05cm}
-			
-			\begin{exampleblock}{Practical translation}
-				\scriptsize
-				For the benchmark choice
-				\(\lambda^L=\lambda^R=\lambda\) and
-				\(\kappa^L=\kappa^R=\kappa\),
-				\[
-				{\rm Br}(t\to q\gamma)
-				\simeq
-				\frac{\alpha m_t}{2\Gamma_t^{\rm SM}}|\lambda_{qt}|^2,
-				\]
-				\[
-				{\rm Br}(t\to qZ)_{\kappa}
-				\simeq
-				\frac{\alpha}{16s_W^2c_W^2}
-				\frac{m_t^3}{m_Z^2\Gamma_t^{\rm SM}}
-				(1-r_Z)^2(2+r_Z)|\kappa_{qt}|^2.
-				\]
-			\end{exampleblock}
-			
-		\end{column}
-		
-	\end{columns}
-	
-	\vspace{-0.08cm}
-	
-	\begin{center}
-		\setbeamercolor{refbox}{fg=black,bg=magenta!12}
-		\begin{beamercolorbox}[
-			rounded=true,
-			shadow=true,
-			wd=0.78\linewidth,
-			sep=0.06cm,
-			center
-			]{refbox}
-			{\scriptsize
-				Formulae follow the coupling normalisation of
-				Aguilar-Saavedra, \textit{Nucl. Phys. B} 812 (2009) 181.
-			}
-		\end{beamercolorbox}
-	\end{center}
-	
-\end{frame}
-%----------------------------------------------------------------------------------------
-
-
-
-
 
 
 

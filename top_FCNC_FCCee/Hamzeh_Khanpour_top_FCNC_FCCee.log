@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1409,10 +1409,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--426
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--426
-[]|$\T1/lmss/m/n/7 2\OML/lmm/m/it/7 :\T1/lmss/m/n/7 2 \OMS/lmsy/m/n/7 ^^B \T1/l
-mss/m/n/7 10[]$ $\T1/lmss/m/sl/7 ZH$ $\OT1/lmss/m/n/7 +\T1/lmss/m/n/7 65\T1/lmr
-/m/n/7 k$
+Underfull \hbox (badness 2865) in paragraph at lines 426--426
+[]|$\T1/lmss/m/n/7 2\OML/lmm/m/it/7 :\T1/lmss/m/n/7 2 \OMS/lmsy/m/n/7 ^^B [][]$
+ $\T1/lmss/m/sl/7 ZH$ $\OT1/lmss/m/n/7 +\T1/lmss/m/n/7 65\T1/lmr/m/n/7 k$
  []
 
 
@@ -1425,7 +1424,7 @@ File: FCC.jpg Graphic file (type jpg)
 Package pdftex.def Info: FCC.jpg  used on input line 426.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (8.38962pt too high) detected at line 426
+Overfull \vbox (10.43726pt too high) detected at line 426
  []
 
 [6
@@ -1470,143 +1469,143 @@ Package pdftex.def Info: FCC.jpg  used on input line 524.
  [8
 
  <./FCC_ee_2.png (PNG copy)>]
-Underfull \hbox (badness 1661) in paragraph at lines 615--615
+Underfull \hbox (badness 1661) in paragraph at lines 617--617
 []\T1/lmss/m/n/9 Ultra-high statis-tics at the
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 615--615
+Underfull \hbox (badness 2486) in paragraph at lines 617--617
 \T1/lmss/m/n/9 the $\T1/lmss/m/sl/9 WW$ \T1/lmss/m/n/9 thresh-old en-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 \T1/lmss/m/n/9 struc-ture, flavour ob-serv-
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 615--615
+Underfull \hbox (badness 1584) in paragraph at lines 617--617
 \T1/lmss/m/n/9 ables, $\OML/lmm/m/it/9 []\OT1/lmss/m/n/9 (\T1/lmss/m/sl/9 m[]\
 OT1/lmss/m/n/9 )$\T1/lmss/m/n/9 , $\OML/lmm/m/it/9 []\OT1/lmss/m/n/9 (\T1/lmss
 /m/sl/9 m[]\OT1/lmss/m/n/9 )$\T1/lmss/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 []\T1/lmss/m/n/9 Threshold run-ning around
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 615--615
+Underfull \hbox (badness 2443) in paragraph at lines 617--617
 []  \OMS/lmsy/m/n/9 ^^X  \T1/lmss/m/n/9 340[]350 []$ and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 \T1/lmss/m/n/9 above-threshold op-er-a-tion
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 615--615
+Underfull \hbox (badness 4686) in paragraph at lines 617--617
 \T1/lmss/m/n/9 elec-troweak cou-plings, the
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 615.
+Package pdftex.def Info: FCC.jpg  used on input line 617.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (22.67775pt too high) detected at line 615
+Overfull \vbox (22.67775pt too high) detected at line 617
  []
 
 [9
 
 ]
-Underfull \hbox (badness 2478) in paragraph at lines 680--680
+Underfull \hbox (badness 2478) in paragraph at lines 682--682
 []\T1/lmss/m/n/9 Central ob-serv-ables in-clude $\T1/lmss/m/sl/9 m[]$\T1/lmss/m
 /n/9 , $\OT1/lmss/m/n/9 ^^@[]$\T1/lmss/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 \T1/lmss/m/n/7 190\OMS/lmsy/m/n/7 ^^B$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\T1/lmss/m/n/7 1\OML/lmm/m/it/7 :\T1/lmss/m/n/7 2 \OMS/lmsy/m/n/7 ^^B \T1/l
 mss/m/n/7 10[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\T1/lmss/m/n/7 0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 25\OML/lmm/m/it/7 =\T1/lmss
 /m/n/7 0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 3 \OMS/lmsy/m/n/7 ^^B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\OML/lmm/m/it/7 >
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|$\T1/lmss/m/n/7 0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 09\OML/lmm/m/it/7 =\T1/lmss
 /m/n/7 0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 12 \OMS/lmsy/m/n/7 ^^B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 []|\T1/lmss/m/n/7 stat.
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 680--680
+Underfull \hbox (badness 2600) in paragraph at lines 682--682
 \T1/lmss/m/n/7 0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 04 \OMS/lmsy/m/n/7 ^^B \T1/lmss
 /m/n/7 10[]$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--680
+Underfull \hbox (badness 10000) in paragraph at lines 682--682
 \T1/lmss/m/n/7 syst.
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 680--680
+Underfull \hbox (badness 1675) in paragraph at lines 682--682
 []|\T1/lmss/m/n/7 stat. $0\OML/lmm/m/it/7 :\T1/lmss/m/n/7 1 \OMS/lmsy/m/n/7 ^^B
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 680.
+(Font)              <12> on input line 682.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 680.
+(Font)              <8> on input line 682.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 680.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 682.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 680.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 682.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 680.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 682.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 680.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 682.
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 680.
+Package pdftex.def Info: FCC.jpg  used on input line 682.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (14.57999pt too high) detected at line 680
+Overfull \vbox (14.57999pt too high) detected at line 682
  []
 
 [10
@@ -1614,54 +1613,58 @@ Overfull \vbox (14.57999pt too high) detected at line 680
 ]
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 760.
+Package pdftex.def Info: FCC.jpg  used on input line 769.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
- [11
+
+Overfull \vbox (0.34027pt too high) detected at line 769
+ []
+
+[11
 
 ]
-Underfull \hbox (badness 4846) in paragraph at lines 833--833
+Underfull \hbox (badness 4846) in paragraph at lines 842--842
 []\T1/lmss/m/n/9 Differential an-gu-lar in-for-ma-tion con-
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 833--833
+Underfull \hbox (badness 1642) in paragraph at lines 842--842
 []\T1/lmss/m/n/9 Above thresh-old, $\T1/lmss/m/sl/9 e[]e[] \OMS/lmsy/m/n/9 ! \T
 1/lmss/m/sl/9 W[]W[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--833
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--833
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 833--833
+Underfull \hbox (badness 1038) in paragraph at lines 842--842
 []|\T1/lmss/m/n/7 stat. $2 \OMS/lmsy/m/n/7 ^^B \T1/lmss/m/n/7 10[]$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--833
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--833
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|$\OMS/lmsy/m/n/7 ^^X
  []
 
 
-Overfull \hbox (0.55656pt too wide) in paragraph at lines 833--833
+Overfull \hbox (0.55656pt too wide) in paragraph at lines 842--842
 \T1/lmss/m/n/7 100\OMS/lmsy/m/n/7 ^^B$| 
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 833.
+Package pdftex.def Info: FCC.jpg  used on input line 842.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [12
 
@@ -1670,21 +1673,21 @@ Package pdftex.def Info: FCC.jpg  used on input line 833.
 File: Figs/circos_FCCee_nomargin_newFSR.pdf Graphic file (type pdf)
 <use Figs/circos_FCCee_nomargin_newFSR.pdf>
 Package pdftex.def Info: Figs/circos_FCCee_nomargin_newFSR.pdf  used on input l
-ine 880.
+ine 889.
 (pdftex.def)             Requested size: 214.9398pt x 230.54826pt.
 
-Overfull \hbox (19.54106pt too wide) in paragraph at lines 880--880
+Overfull \hbox (19.54106pt too wide) in paragraph at lines 889--889
  [][] 
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 880--880
+Underfull \hbox (badness 4303) in paragraph at lines 889--889
 \T1/lmss/m/n/9 gen-era-cies be-tween Higgs and elec-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 880.
+Package pdftex.def Info: FCC.jpg  used on input line 889.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [13
 
@@ -1692,19 +1695,19 @@ Package pdftex.def Info: FCC.jpg  used on input line 880.
 <Higgs_rec.jpg, id=421, 1282.7925pt x 843.15pt>
 File: Higgs_rec.jpg Graphic file (type jpg)
 <use Higgs_rec.jpg>
-Package pdftex.def Info: Higgs_rec.jpg  used on input line 938.
+Package pdftex.def Info: Higgs_rec.jpg  used on input line 946.
 (pdftex.def)             Requested size: 195.39874pt x 128.42258pt.
 
-Overfull \hbox (17.7645pt too wide) in paragraph at lines 938--938
+Overfull \hbox (17.7645pt too wide) in paragraph at lines 946--946
 [][]
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 938.
+Package pdftex.def Info: FCC.jpg  used on input line 946.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (14.79063pt too high) detected at line 938
+Overfull \vbox (14.79063pt too high) detected at line 946
  []
 
 [14
@@ -1712,45 +1715,45 @@ Overfull \vbox (14.79063pt too high) detected at line 938
  <./Higgs_rec.jpg>]
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1031.
+Package pdftex.def Info: FCC.jpg  used on input line 1039.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (0.83359pt too high) detected at line 1031
+Overfull \vbox (0.83359pt too high) detected at line 1039
  []
 
 [15
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1186
 []|\T1/lmss/m/n/7 FCC-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1186
 \T1/lmss/m/n/7 ee+FCC-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1186
 []|$\T1/lmss/m/n/7 2\OML/lmm/m/it/7 :\T1/lmss/m/n/7 3 \OMS/lmsy/m/n/7 ^^B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1186
 []|$\T1/lmss/m/n/7 6\OML/lmm/m/it/7 :\T1/lmss/m/n/7 7 \OMS/lmsy/m/n/7 ^^B
  []
 
 
-Overfull \hbox (8.20609pt too wide) detected at line 1178
+Overfull \hbox (8.20609pt too wide) detected at line 1186
 []  \OT1/lmss/m/n/9 =[]\OMS/lmsy/m/n/9 )  []\OML/lmm/m/it/9 :
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1178.
+Package pdftex.def Info: FCC.jpg  used on input line 1186.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (15.52652pt too high) detected at line 1178
+Overfull \vbox (15.52652pt too high) detected at line 1186
  []
 
 [16
@@ -1759,55 +1762,63 @@ Overfull \vbox (15.52652pt too high) detected at line 1178
 <Figs/fermionmodifierHLLHC.pdf, id=486, 448.35826pt x 333.16472pt>
 File: Figs/fermionmodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/fermionmodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/fermionmodifierHLLHC.pdf  used on input line 1246
+Package pdftex.def Info: Figs/fermionmodifierHLLHC.pdf  used on input line 1253
 .
 (pdftex.def)             Requested size: 142.15718pt x 105.63176pt.
+
+Overfull \hbox (1.0209pt too wide) detected at line 1253
+\OML/lmm/m/it/7 ^^T[] \OMS/lmsy/m/n/7 ^^T \T1/lmss/m/n/7 1 \OT1/lmss/m/n/7 (\T1
+/lmss/m/sl/7 V \OT1/lmss/m/n/7 = \T1/lmss/m/sl/7 W\OML/lmm/m/it/7 ; \T1/lmss/m/
+sl/7 Z\OT1/lmss/m/n/7 ) \OML/lmm/m/it/7 ; \OMS/lmsy/m/n/7 f\OML/lmm/m/it/7 ^^T[
+];  [][];  [][]\OMS/lmsy/m/n/7 g\OML/lmm/m/it/7 :
+ []
+
 <Figs/vectormodifierHLLHC.pdf, id=499, 448.35826pt x 333.16472pt>
 File: Figs/vectormodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/vectormodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 1246.
+Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 1253.
 
 (pdftex.def)             Requested size: 142.15718pt x 105.63176pt.
 <Figs/loopmodifierHLLHC.pdf, id=500, 448.4219pt x 333.16472pt>
 File: Figs/loopmodifierHLLHC.pdf Graphic file (type pdf)
 <use Figs/loopmodifierHLLHC.pdf>
-Package pdftex.def Info: Figs/loopmodifierHLLHC.pdf  used on input line 1246.
+Package pdftex.def Info: Figs/loopmodifierHLLHC.pdf  used on input line 1253.
 (pdftex.def)             Requested size: 142.17735pt x 105.63176pt.
 
-Overfull \vbox (0.27614pt too high) detected at line 1246
+Overfull \vbox (0.27614pt too high) detected at line 1253
  []
 
 [17
 
  <./Figs/fermionmodifierHLLHC.pdf> <./Figs/vectormodifierHLLHC.pdf> <./Figs/loo
 pmodifierHLLHC.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1348
 []|\T1/lmss/m/n/7 stat.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1348
 \T1/lmss/m/n/7 4\OML/lmm/m/it/7 :\T1/lmss/m/n/7 2 []$,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1348
 \T1/lmss/m/n/7 syst.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1348
 []|\T1/lmss/m/n/7 order-
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 1341--1341
+Underfull \hbox (badness 5050) in paragraph at lines 1348--1348
 []\T1/lmss/m/n/9 Threshold line-shape in-for-ma-tion and above-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1341.
+Package pdftex.def Info: FCC.jpg  used on input line 1348.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [18
 
@@ -1815,43 +1826,39 @@ Package pdftex.def Info: FCC.jpg  used on input line 1341.
 <Figs/ZttHttplot_FCCee.pdf, id=643, 361.35pt x 245.91875pt>
 File: Figs/ZttHttplot_FCCee.pdf Graphic file (type pdf)
 <use Figs/ZttHttplot_FCCee.pdf>
-Package pdftex.def Info: Figs/ZttHttplot_FCCee.pdf  used on input line 1407.
+Package pdftex.def Info: Figs/ZttHttplot_FCCee.pdf  used on input line 1415.
 (pdftex.def)             Requested size: 136.77852pt x 93.0861pt.
 <Figs/H3Httplot_FCCee_noHL.pdf, id=644, 361.35pt x 248.93pt>
 File: Figs/H3Httplot_FCCee_noHL.pdf Graphic file (type pdf)
 <use Figs/H3Httplot_FCCee_noHL.pdf>
-Package pdftex.def Info: Figs/H3Httplot_FCCee_noHL.pdf  used on input line 1407
+Package pdftex.def Info: Figs/H3Httplot_FCCee_noHL.pdf  used on input line 1415
 .
 (pdftex.def)             Requested size: 136.77852pt x 94.22594pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1407.
+Package pdftex.def Info: FCC.jpg  used on input line 1415.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
-
-Overfull \vbox (5.73978pt too high) detected at line 1407
- []
-
-[19
+ [19
 
  <./Figs/ZttHttplot_FCCee.pdf> <./Figs/H3Httplot_FCCee_noHL.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figs/H3Httplot_FCCee_noHL.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (29.28993pt too wide) in paragraph at lines 1473--1473
+Overfull \hbox (29.28993pt too wide) in paragraph at lines 1481--1481
 [][]  
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1473.
+Package pdftex.def Info: FCC.jpg  used on input line 1481.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [20
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 1481.
+(hyperref)                removing `\color' on input line 1489.
 
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png, id=736, 641.396
 26pt x 612.2875pt>
@@ -1859,7 +1866,7 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png Graphic fil
 e (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM.png  used on input line 1533.
+_SM.png  used on input line 1541.
 (pdftex.def)             Requested size: 49.55922pt x 47.3023pt.
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png, id=737, 62
 9.35126pt x 592.2125pt>
@@ -1867,7 +1874,7 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png Graphi
 c file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_loop.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_loop.png  used on input line 1533.
+_SM_loop.png  used on input line 1541.
 (pdftex.def)             Requested size: 49.55922pt x 46.62793pt.
 <Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png, id=738, 551
 .05875pt x 575.14874pt>
@@ -1875,11 +1882,11 @@ File: Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png Graphic
  file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/FCNC_SM_pin.png>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/FCNC
-_SM_pin.png  used on input line 1533.
+_SM_pin.png  used on input line 1541.
 (pdftex.def)             Requested size: 49.55922pt x 51.71727pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1533.
+Package pdftex.def Info: FCC.jpg  used on input line 1541.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [21
 
@@ -1889,11 +1896,11 @@ s_performance_meeting19marc_2024/FCNC_SM_pin.png>]
 <FCNC.jpg, id=749, 334.24875pt x 281.33679pt>
 File: FCNC.jpg Graphic file (type jpg)
 <use FCNC.jpg>
-Package pdftex.def Info: FCNC.jpg  used on input line 1576.
+Package pdftex.def Info: FCNC.jpg  used on input line 1584.
 (pdftex.def)             Requested size: 142.10522pt x 119.61162pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1576.
+Package pdftex.def Info: FCC.jpg  used on input line 1584.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [22
 
@@ -1905,16 +1912,16 @@ ng Graphic file (type png)
 <use Presentation_Higgs_performance_meeting19marc_2024/fcnc_summarybsm_nov23.pn
 g>
 Package pdftex.def Info: Presentation_Higgs_performance_meeting19marc_2024/fcnc
-_summarybsm_nov23.png  used on input line 1620.
+_summarybsm_nov23.png  used on input line 1628.
 (pdftex.def)             Requested size: 166.97662pt x 149.3799pt.
 
-Underfull \hbox (badness 1337) in paragraph at lines 1620--1620
+Underfull \hbox (badness 1337) in paragraph at lines 1628--1628
 []\T1/lmss/m/n/10 Several top-FCNC chan-nels are con-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1620.
+Package pdftex.def Info: FCC.jpg  used on input line 1628.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [23
 
@@ -1923,11 +1930,11 @@ Package pdftex.def Info: FCC.jpg  used on input line 1620.
 <tqgamma.jpg, id=795, 166.90929pt x 175.08267pt>
 File: tqgamma.jpg Graphic file (type jpg)
 <use tqgamma.jpg>
-Package pdftex.def Info: tqgamma.jpg  used on input line 1664.
+Package pdftex.def Info: tqgamma.jpg  used on input line 1671.
 (pdftex.def)             Requested size: 93.79234pt x 98.3849pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1664.
+Package pdftex.def Info: FCC.jpg  used on input line 1671.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [24
 
@@ -1935,71 +1942,71 @@ Package pdftex.def Info: FCC.jpg  used on input line 1664.
 <fcnc1.jpg, id=817, 197.02179pt x 221.11179pt>
 File: fcnc1.jpg Graphic file (type jpg)
 <use fcnc1.jpg>
-Package pdftex.def Info: fcnc1.jpg  used on input line 1735.
+Package pdftex.def Info: fcnc1.jpg  used on input line 1742.
 (pdftex.def)             Requested size: 51.21504pt x 57.47758pt.
 <fcnc2.jpg, id=818, 199.17268pt x 212.07803pt>
 File: fcnc2.jpg Graphic file (type jpg)
 <use fcnc2.jpg>
-Package pdftex.def Info: fcnc2.jpg  used on input line 1735.
+Package pdftex.def Info: fcnc2.jpg  used on input line 1742.
 (pdftex.def)             Requested size: 51.21504pt x 54.5306pt.
 <fcnc3.jpg, id=819, 204.765pt x 217.24017pt>
 File: fcnc3.jpg Graphic file (type jpg)
 <use fcnc3.jpg>
-Package pdftex.def Info: fcnc3.jpg  used on input line 1735.
+Package pdftex.def Info: fcnc3.jpg  used on input line 1742.
 (pdftex.def)             Requested size: 51.21504pt x 54.3331pt.
 <fcnc4.jpg, id=820, 204.765pt x 217.24017pt>
 File: fcnc4.jpg Graphic file (type jpg)
 <use fcnc4.jpg>
-Package pdftex.def Info: fcnc4.jpg  used on input line 1735.
+Package pdftex.def Info: fcnc4.jpg  used on input line 1742.
 (pdftex.def)             Requested size: 51.21504pt x 54.3331pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1735.
+Package pdftex.def Info: FCC.jpg  used on input line 1742.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [25
 
  <./fcnc1.jpg> <./fcnc2.jpg> <./fcnc3.jpg> <./fcnc4.jpg>]
-Overfull \hbox (6.86754pt too wide) in paragraph at lines 1798--1798
+Overfull \hbox (6.86754pt too wide) in paragraph at lines 1805--1805
  [][] 
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 1798--1798
+Underfull \hbox (badness 2134) in paragraph at lines 1805--1805
 []\T1/lmss/m/n/9 Quoted sen-si-tiv-i-ties are ob-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1798.
+Package pdftex.def Info: FCC.jpg  used on input line 1805.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [26
 
 ]
-Underfull \hbox (badness 3281) in paragraph at lines 1860--1860
+Underfull \hbox (badness 3281) in paragraph at lines 1867--1867
 []\T1/lmss/m/n/9 Event kine-mat-ics re-main closer to
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1860--1860
+Underfull \hbox (badness 2253) in paragraph at lines 1867--1867
 \T1/lmss/m/n/9 thresh-old, so re-con-structed masses,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1860--1860
+Underfull \hbox (badness 10000) in paragraph at lines 1867--1867
 \T1/lmss/m/n/9 miss-ing en-ergy, and momentum-
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 1860--1860
+Underfull \hbox (badness 5036) in paragraph at lines 1867--1867
 \T1/lmss/m/n/9 balance ob-serv-ables pro-vide strong
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1860.
+Package pdftex.def Info: FCC.jpg  used on input line 1867.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (10.06433pt too high) detected at line 1860
+Overfull \vbox (10.06433pt too high) detected at line 1867
  []
 
 [27
@@ -2007,104 +2014,104 @@ Overfull \vbox (10.06433pt too high) detected at line 1860
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 1869.
+(hyperref)                removing `\color' on input line 1876.
 
 
-Overfull \hbox (21.90207pt too wide) in paragraph at lines 1941--1941
+Overfull \hbox (21.90207pt too wide) in paragraph at lines 1948--1948
  []\T1/lmss/m/n/9 MadGraph5_aMC@NLO 
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 1941.
+Package pdftex.def Info: FCC.jpg  used on input line 1948.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (1.44737pt too high) detected at line 1941
+Overfull \vbox (1.44737pt too high) detected at line 1948
  []
 
 [28
 
 ]
-Underfull \hbox (badness 1590) in paragraph at lines 2025--2025
+Underfull \hbox (badness 1590) in paragraph at lines 2032--2032
 []\T1/lmss/m/n/10 The anal-y-sis is per-formed in the []of-fi-
  []
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-025.
+032.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 6063) in paragraph at lines 2025--2025
-\T1/lmtt/m/n/10 MadGraph5_aMC@NLO \T1/lmss/m/n/10 us-ing the FCNC
+Underfull \hbox (badness 6063) in paragraph at lines 2032--2032
+[]\T1/lmtt/m/n/10 MadGraph5_aMC@NLO[] \T1/lmss/m/n/10 us-ing the FCNC
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2025
+Underfull \hbox (badness 10000) in paragraph at lines 2032--2032
 \T1/lmss/m/n/10 ef-fec-tive model im-ple-mented through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2025
-[]\T1/lmss/m/n/10 Jet re-con-struc-tion al-go-rithm: ee-kT
+Underfull \hbox (badness 10000) in paragraph at lines 2032--2032
+[]\T1/lmss/m/n/10 Jet re-con-struc-tion al-go-rithm: []ee-kT
  []
 
 <FCCanalysis.jpg, id=928, 790.23804pt x 246.06215pt>
 File: FCCanalysis.jpg Graphic file (type jpg)
 <use FCCanalysis.jpg>
-Package pdftex.def Info: FCCanalysis.jpg  used on input line 2025.
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 2032.
 (pdftex.def)             Requested size: 138.55449pt x 43.14037pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2025.
+Package pdftex.def Info: FCC.jpg  used on input line 2032.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (13.36765pt too high) detected at line 2025
+Overfull \vbox (13.36765pt too high) detected at line 2032
  []
 
 [29
 
  <./FCCanalysis.jpg>]
-Overfull \hbox (22.66983pt too wide) in paragraph at lines 2150--2150
+Overfull \hbox (22.66983pt too wide) in paragraph at lines 2157--2157
 [][]  
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 2150--2150
+Underfull \hbox (badness 1077) in paragraph at lines 2157--2157
 []\T1/lmss/m/n/10 Baseline se-lec-tion: $\T1/lmss/m/sl/10 p[] \OML/lmm/m/it/10 
 >
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2150.
+Package pdftex.def Info: FCC.jpg  used on input line 2157.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [30
 
 ]
-Overfull \hbox (22.66983pt too wide) in paragraph at lines 2274--2274
+Overfull \hbox (22.66983pt too wide) in paragraph at lines 2281--2281
 [][]  
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 2274--2274
+Underfull \hbox (badness 2547) in paragraph at lines 2281--2281
 []\T1/lmss/m/n/10 Baseline se-lec-tion: $\T1/lmss/m/sl/10 p[] \OML/lmm/m/it/10 
 >
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2274.
+Package pdftex.def Info: FCC.jpg  used on input line 2281.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [31
 
 ]
-Underfull \hbox (badness 1990) in paragraph at lines 2351--2351
+Underfull \hbox (badness 1990) in paragraph at lines 2358--2358
 []\T1/lmss/m/n/9 The dom-i-nant ir-re-ducible back-ground is
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2351.
+Package pdftex.def Info: FCC.jpg  used on input line 2358.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [32
 
@@ -2112,16 +2119,16 @@ Package pdftex.def Info: FCC.jpg  used on input line 2351.
 <algorithms_1.jpg, id=1073, 572.56767pt x 419.85428pt>
 File: algorithms_1.jpg Graphic file (type jpg)
 <use algorithms_1.jpg>
-Package pdftex.def Info: algorithms_1.jpg  used on input line 2394.
+Package pdftex.def Info: algorithms_1.jpg  used on input line 2401.
 (pdftex.def)             Requested size: 177.63425pt x 130.25598pt.
 <algorithms_2.jpg, id=1074, 576.43929pt x 410.82054pt>
 File: algorithms_2.jpg Graphic file (type jpg)
 <use algorithms_2.jpg>
-Package pdftex.def Info: algorithms_2.jpg  used on input line 2394.
+Package pdftex.def Info: algorithms_2.jpg  used on input line 2401.
 (pdftex.def)             Requested size: 177.63425pt x 126.59454pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2394.
+Package pdftex.def Info: FCC.jpg  used on input line 2401.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [33
 
@@ -2129,16 +2136,16 @@ Package pdftex.def Info: FCC.jpg  used on input line 2394.
 <Wmass-240GeV-leptonic.jpg, id=1084, 647.84892pt x 461.15143pt>
 File: Wmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use Wmass-240GeV-leptonic.jpg>
-Package pdftex.def Info: Wmass-240GeV-leptonic.jpg  used on input line 2434.
+Package pdftex.def Info: Wmass-240GeV-leptonic.jpg  used on input line 2441.
 (pdftex.def)             Requested size: 177.63425pt x 126.44057pt.
 <topmass-240GeV-leptonic.jpg, id=1085, 646.5584pt x 464.16267pt>
 File: topmass-240GeV-leptonic.jpg Graphic file (type jpg)
 <use topmass-240GeV-leptonic.jpg>
-Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 2434.
+Package pdftex.def Info: topmass-240GeV-leptonic.jpg  used on input line 2441.
 (pdftex.def)             Requested size: 177.63425pt x 127.52118pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2434.
+Package pdftex.def Info: FCC.jpg  used on input line 2441.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [34
 
@@ -2146,16 +2153,16 @@ Package pdftex.def Info: FCC.jpg  used on input line 2434.
 <Wmass-full-240GeV.jpg, id=1095, 646.5584pt x 465.02304pt>
 File: Wmass-full-240GeV.jpg Graphic file (type jpg)
 <use Wmass-full-240GeV.jpg>
-Package pdftex.def Info: Wmass-full-240GeV.jpg  used on input line 2475.
+Package pdftex.def Info: Wmass-full-240GeV.jpg  used on input line 2482.
 (pdftex.def)             Requested size: 177.63425pt x 127.75755pt.
 <topmass-full-240GeV.jpg, id=1096, 644.83768pt x 456.84964pt>
 File: topmass-full-240GeV.jpg Graphic file (type jpg)
 <use topmass-full-240GeV.jpg>
-Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 2475.
+Package pdftex.def Info: topmass-full-240GeV.jpg  used on input line 2482.
 (pdftex.def)             Requested size: 177.63425pt x 125.84665pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2475.
+Package pdftex.def Info: FCC.jpg  used on input line 2482.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [35
 
@@ -2163,154 +2170,154 @@ Package pdftex.def Info: FCC.jpg  used on input line 2475.
 <plightjet-240GeV-leptonic.jpg, id=1106, 638.81519pt x 467.17393pt>
 File: plightjet-240GeV-leptonic.jpg Graphic file (type jpg)
 <use plightjet-240GeV-leptonic.jpg>
-Package pdftex.def Info: plightjet-240GeV-leptonic.jpg  used on input line 2516
+Package pdftex.def Info: plightjet-240GeV-leptonic.jpg  used on input line 2523
 .
 (pdftex.def)             Requested size: 177.63425pt x 129.90248pt.
 <plightjet-full-240GeV.jpg, id=1107, 640.53589pt x 468.03429pt>
 File: plightjet-full-240GeV.jpg Graphic file (type jpg)
 <use plightjet-full-240GeV.jpg>
-Package pdftex.def Info: plightjet-full-240GeV.jpg  used on input line 2516.
+Package pdftex.def Info: plightjet-full-240GeV.jpg  used on input line 2523.
 (pdftex.def)             Requested size: 177.63425pt x 129.79178pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2516.
+Package pdftex.def Info: FCC.jpg  used on input line 2523.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [36
 
  <./plightjet-240GeV-leptonic.jpg> <./plightjet-full-240GeV.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 2574--2574
+Underfull \hbox (badness 10000) in paragraph at lines 2581--2581
 []\T1/lmss/bx/n/9 Hadronic 240&365 GeV: \T1/lmss/m/n/9 category-
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 2574--2574
+Underfull \hbox (badness 1675) in paragraph at lines 2581--2581
 \T1/lmss/m/n/9 chan-nel starts from a harsher
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 2574--2574
+Underfull \hbox (badness 4036) in paragraph at lines 2581--2581
 \T1/lmss/m/n/9 pro-vides use-ful com-ple-men-tary
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 2574--2574
+Underfull \hbox (badness 1430) in paragraph at lines 2581--2581
 \T1/lmss/m/n/9 sen-si-tiv-ity once topology-driven
  []
 
 
-Overfull \hbox (9.41797pt too wide) in paragraph at lines 2574--2574
+Overfull \hbox (9.41797pt too wide) in paragraph at lines 2581--2581
 [][] 
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2574.
+Package pdftex.def Info: FCC.jpg  used on input line 2581.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [37
 
 ]
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2640.
+Package pdftex.def Info: FCC.jpg  used on input line 2647.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [38
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 2648.
+(hyperref)                removing `\color' on input line 2655.
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 2718--2718
+Underfull \hbox (badness 3078) in paragraph at lines 2725--2725
 []\T1/lmss/m/n/9 Best single-channel sen-si-tiv-ity in
  []
 
 
-Underfull \hbox (badness 6510) in paragraph at lines 2718--2718
+Underfull \hbox (badness 6510) in paragraph at lines 2725--2725
 \T1/lmss/m/n/9 the cur-rent study comes from
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2718.
+Package pdftex.def Info: FCC.jpg  used on input line 2725.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [39
 
 ]
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2779.
+Package pdftex.def Info: FCC.jpg  used on input line 2786.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
  [40
 
 ]
-Underfull \hbox (badness 1472) in paragraph at lines 2844--2844
-[]\T1/lmss/m/n/10 The com-bined semilep-tonic bench-
+Underfull \hbox (badness 1472) in paragraph at lines 2851--2851
+[]\T1/lmss/m/n/10 The []com-bined semilep-tonic bench-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2844.
+Package pdftex.def Info: FCC.jpg  used on input line 2851.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [41
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 2849.
+(hyperref)                removing `\color' on input line 2856.
 
 
-Overfull \hbox (1.38077pt too wide) in paragraph at lines 2885--2885
+Overfull \hbox (1.38077pt too wide) in paragraph at lines 2892--2892
 []\T1/lmss/m/n/10 The clean $\T1/lmss/m/sl/10 e[]e[]$ \T1/lmss/m/n/10 en-vi-ron
 -ment makes FCC-ee highly com-pet-i-tive for prob-ing anoma-
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2885.
+Package pdftex.def Info: FCC.jpg  used on input line 2892.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [42
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 2891.
+(hyperref)                removing `\color' on input line 2898.
 
 <Thank_You_2.jpg, id=1260, 911.54839pt x 577.29964pt>
 File: Thank_You_2.jpg Graphic file (type jpg)
 <use Thank_You_2.jpg>
-Package pdftex.def Info: Thank_You_2.jpg  used on input line 2910.
+Package pdftex.def Info: Thank_You_2.jpg  used on input line 2917.
 (pdftex.def)             Requested size: 381.87407pt x 241.84756pt.
 
-Overfull \hbox (26.60558pt too wide) in paragraph at lines 2910--2910
+Overfull \hbox (26.60558pt too wide) in paragraph at lines 2917--2917
  [][] 
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2910.
+Package pdftex.def Info: FCC.jpg  used on input line 2917.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [43
 
  <./Thank_You_2.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 2916.
+(hyperref)                removing `\color' on input line 2923.
 
 <Figs/Hselfcoupling-precision-1b.pdf, id=1271, 961.70314pt x 540.60239pt>
 File: Figs/Hselfcoupling-precision-1b.pdf Graphic file (type pdf)
 <use Figs/Hselfcoupling-precision-1b.pdf>
 Package pdftex.def Info: Figs/Hselfcoupling-precision-1b.pdf  used on input lin
-e 2959.
+e 2966.
 (pdftex.def)             Requested size: 175.85768pt x 98.85503pt.
 
-Overfull \hbox (15.98795pt too wide) in paragraph at lines 2959--2959
+Overfull \hbox (15.98795pt too wide) in paragraph at lines 2966--2966
  [][] 
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 2959.
+Package pdftex.def Info: FCC.jpg  used on input line 2966.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [44
 
@@ -2323,21 +2330,21 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf Graphic file (type pdf)
 <use Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf>
 Package pdftex.def Info: Figs/barplotsnow-xo1-smpar_newFSR-CL.pdf  used on inpu
-t line 3000.
+t line 3007.
 (pdftex.def)             Requested size: 234.48087pt x 182.0755pt.
 
-Overfull \hbox (21.31761pt too wide) in paragraph at lines 3000--3000
+Overfull \hbox (21.31761pt too wide) in paragraph at lines 3007--3007
  [][] 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 3000--3000
+Underfull \hbox (badness 1383) in paragraph at lines 3007--3007
 []\T1/lmss/m/n/9 SMEFT pa-ram-e-terises heavy new
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3000.
+Package pdftex.def Info: FCC.jpg  used on input line 3007.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [45
 
@@ -2352,36 +2359,36 @@ File: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf Graphic file (type pd
 f)
 <use Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>
 Package pdftex.def Info: Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf  u
-sed on input line 3080.
+sed on input line 3087.
 (pdftex.def)             Requested size: 193.44582pt x 147.93054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3080--3080
+Underfull \hbox (badness 10000) in paragraph at lines 3087--3087
 [][]
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3080.
+Package pdftex.def Info: FCC.jpg  used on input line 3087.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (18.06943pt too high) detected at line 3080
+Overfull \vbox (18.06943pt too high) detected at line 3087
  []
 
 [46
 
  <./Figs/IDEA_baseline_radial_evelope_07_01_2025-v2.pdf>]
-Underfull \hbox (badness 1297) in paragraph at lines 3164--3164
+Underfull \hbox (badness 1297) in paragraph at lines 3171--3171
 []\T1/lmss/m/n/9 Study-level re-con-struc-tion choices: $\OML/lmm/m/it/9 ^^O[] 
 \OT1/lmss/m/n/9 =
  []
 
 File: FCCanalysis.jpg Graphic file (type jpg)
 <use FCCanalysis.jpg>
-Package pdftex.def Info: FCCanalysis.jpg  used on input line 3164.
+Package pdftex.def Info: FCCanalysis.jpg  used on input line 3171.
 (pdftex.def)             Requested size: 156.31958pt x 48.67088pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3164.
+Package pdftex.def Info: FCC.jpg  used on input line 3171.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 [47
 
@@ -2389,14 +2396,14 @@ Package pdftex.def Info: FCC.jpg  used on input line 3164.
 <FCC_plan.jpg, id=2604, 2292.565pt x 917.4275pt>
 File: FCC_plan.jpg Graphic file (type jpg)
 <use FCC_plan.jpg>
-Package pdftex.def Info: FCC_plan.jpg  used on input line 3233.
+Package pdftex.def Info: FCC_plan.jpg  used on input line 3240.
 (pdftex.def)             Requested size: 355.2685pt x 142.15779pt.
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3233.
+Package pdftex.def Info: FCC.jpg  used on input line 3240.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (29.2722pt too high) detected at line 3233
+Overfull \vbox (29.2722pt too high) detected at line 3240
  []
 
 [48
@@ -2405,29 +2412,29 @@ Overfull \vbox (29.2722pt too high) detected at line 3233
 <FCC_Poland.jpg, id=2640, 2467.2175pt x 790.955pt>
 File: FCC_Poland.jpg Graphic file (type jpg)
 <use FCC_Poland.jpg>
-Package pdftex.def Info: FCC_Poland.jpg  used on input line 3317.
+Package pdftex.def Info: FCC_Poland.jpg  used on input line 3324.
 (pdftex.def)             Requested size: 187.58409pt x 60.12769pt.
 <AGH_FCC.jpg, id=2641, 2549.525pt x 1266.7325pt>
 File: AGH_FCC.jpg Graphic file (type jpg)
 <use AGH_FCC.jpg>
-Package pdftex.def Info: AGH_FCC.jpg  used on input line 3317.
+Package pdftex.def Info: AGH_FCC.jpg  used on input line 3324.
 (pdftex.def)             Requested size: 187.58409pt x 93.18393pt.
 <AGH_FCC_2.jpg, id=2642, 1925.1925pt x 1092.08pt>
 File: AGH_FCC_2.jpg Graphic file (type jpg)
 <use AGH_FCC_2.jpg>
-Package pdftex.def Info: AGH_FCC_2.jpg  used on input line 3317.
+Package pdftex.def Info: AGH_FCC_2.jpg  used on input line 3324.
 (pdftex.def)             Requested size: 187.58409pt x 106.39821pt.
 
-Underfull \hbox (badness 1490) in paragraph at lines 3317--3317
+Underfull \hbox (badness 1490) in paragraph at lines 3324--3324
 []\T1/lmss/m/n/9 AGH Uni-ver-sity of Krakow ap-pears pub-licly
  []
 
 File: FCC.jpg Graphic file (type jpg)
 <use FCC.jpg>
-Package pdftex.def Info: FCC.jpg  used on input line 3317.
+Package pdftex.def Info: FCC.jpg  used on input line 3324.
 (pdftex.def)             Requested size: 51.21504pt x 22.65944pt.
 
-Overfull \vbox (36.35335pt too high) detected at line 3317
+Overfull \vbox (36.35335pt too high) detected at line 3324
  []
 
 [49
@@ -2454,7 +2461,7 @@ changed.
  ) 
 Here is how much of TeX's memory you used:
  32210 strings out of 474222
- 671253 string characters out of 5748732
+ 671247 string characters out of 5748732
  1963975 words of memory out of 5000000
  53703 multiletter control sequences out of 15000+600000
  724012 words of font info for 142 fonts, out of 8000000 for 9000
@@ -2486,7 +2493,7 @@ onts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (49 pages, 8909915 bytes).
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee.pdf (49 pages, 8910118 bytes).
 
 PDF statistics:
  2849 PDF objects out of 2984 (max. 8388607)
