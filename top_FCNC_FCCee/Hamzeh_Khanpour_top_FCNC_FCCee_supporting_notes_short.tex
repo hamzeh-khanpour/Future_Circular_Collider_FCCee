@@ -22,6 +22,16 @@
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+
 \graphicspath{{./}{Figs/}{Presentation_Higgs_performance_meeting19marc_2024/}}
 
 \hypersetup{colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!60!black}
@@ -51,25 +61,129 @@
 \newcommand{\fb}{\,\mathrm{fb}}
 \newcommand{\ord}{\mathcal{O}}
 
-
 \setlength{\headheight}{14pt}
-
 \pagestyle{fancy}
-
 
 \fancyhf{}
 
-\lhead{Precision Physics at the FCC-ee}
 
-\rhead{Hamzeh Khanpour}
 
-\cfoot{\thepage}
+%------------------------------------------------------------
+% Header / footer
+%------------------------------------------------------------
+\definecolor{fccblue}{RGB}{39,35,125}
+\definecolor{aghgreen}{RGB}{0,104,55}
+\definecolor{aghred}{RGB}{170,30,55}
+\definecolor{softgray}{RGB}{245,245,245}
 
-\title{\bfseries Precision Physics at the FCC-ee\\[0.4em] Top FCNC Search at the FCC-ee}
+\lhead{\textcolor{fccblue}{\sffamily Precision Physics at the FCC-ee}}
+\rhead{\textcolor{aghgreen}{\sffamily Hamzeh Khanpour}}
+\cfoot{\textcolor{gray}{\thepage}}
 
-\author{Hamzeh Khanpour \\ \\ (hamzeh.khanpour@agh.edu.pl) \\ \\ Faculty of Physics and Applied Computer Science \\ AGH University of Krakow}
+%------------------------------------------------------------
+% Title metadata
+%------------------------------------------------------------
+\title{\bfseries Precision Physics at the FCC-ee}
+
+\author{
+	Hamzeh Khanpour \\[0.25cm]
+	\texttt{hamzeh.khanpour@agh.edu.pl} \\[0.35cm]
+	Faculty of Physics and Applied Computer Science \\
+	AGH University of Krakow
+}
 
 \date{Seminarium HEP Bialasowka; 15 May 2026}
+
+%------------------------------------------------------------
+% Custom cover page
+%------------------------------------------------------------
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{titlepage}
+\thispagestyle{empty}
+		
+\begin{center}
+			
+\vspace*{-0.4cm}
+			
+% Logos
+\begin{minipage}{0.23\textwidth}
+\raggedright
+\includegraphics[height=3.0cm]{AGH_logo.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}{0.50\textwidth}
+\centering
+{\Large\bfseries\textcolor{fccblue}{Future Circular Collider}}\\[0.12cm]
+{\normalsize\textcolor{gray}{Precision physics programme}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.23\textwidth}
+\raggedleft
+\includegraphics[height=2.0cm]{FCC.jpg}
+\end{minipage}
+			
+\vspace{3.0cm}
+			
+% Main title box
+\noindent
+\colorbox{fccblue!8}{
+\begin{minipage}{0.92\textwidth}
+\centering
+\vspace{0.55cm}
+{\Huge\bfseries\textcolor{fccblue}{Precision Physics}} 
+{\Huge\bfseries\textcolor{fccblue}{at the FCC-ee}}\\[0.30cm]
+%					{\large\textcolor{gray}{Supporting lecture note and detailed talk notes}}
+\vspace{0.55cm}
+\end{minipage}
+}
+			
+\vspace{1.3cm}
+			
+% Decorative rule
+\noindent
+{\color{aghgreen}\rule{0.28\textwidth}{1.2pt}}
+\hspace{0.03\textwidth}
+{\color{fccblue}\rule{0.28\textwidth}{1.2pt}}
+\hspace{0.03\textwidth}
+{\color{aghred}\rule{0.28\textwidth}{1.2pt}}
+			
+\vspace{1.2cm}
+			
+% Author box
+\fcolorbox{fccblue!60}{softgray}{
+\begin{minipage}{0.72\textwidth}
+\centering
+\vspace{0.35cm}
+{\Large\bfseries Hamzeh Khanpour}\\[0.25cm]
+{\normalsize \texttt{{\color{magenta} hamzeh.khanpour@agh.edu.pl}}}\\[0.35cm]
+{\normalsize Faculty of Physics and Applied Computer Science}\\
+{\normalsize {\color{blue}AGH University of Krakow}}
+\vspace{0.35cm}
+\end{minipage}
+}
+			
+\vfill
+			
+% Date / event box
+\colorbox{aghgreen!10}{
+\begin{minipage}{0.50\textwidth}
+\centering
+\vspace{0.25cm}
+{\large\bfseries\textcolor{aghgreen}{Seminarium HEP Bialasowka}}\\[0.12cm]
+{\large 15 May 2026}
+\vspace{0.25cm}
+\end{minipage}
+}
+			
+\vspace*{0.8cm}
+	
+\end{center}
+\end{titlepage}
+}
+\makeatother
+
+
 
 
 \begin{document}
@@ -96,6 +210,118 @@
 \section{FCC-ee as a precision machine}
 
 The Future Circular Collider programme is designed as an integrated precision-plus-energy-frontier strategy.  The electron--positron stage, FCC-ee, would operate at several centre-of-mass energies chosen to maximise sensitivity to different sectors of the Standard Model: the Z pole, the WW threshold, the $ZH$ Higgs stage, the $\ttbar$ threshold and a high-energy 365 GeV stage.  The hadron stage, FCC-hh, then uses the same infrastructure to extend direct reach and high-energy precision.  The relevant point for this talk is that rare top searches at FCC-ee are not disconnected from the rest of the programme: they exploit the same clean event reconstruction, vertexing, flavour tagging and global interpretation logic that define the Higgs and electroweak programmes \cite{FCCFSR,FCCManifesto,FCCCDR}.
+
+
+
+
+
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.25}
+\caption{Assumed running scenarios for representative future-collider options. 
+The entries summarise the initial state, geometry, beam polarisation assumptions, 
+centre-of-mass energies and integrated luminosities used for comparison studies.}
+
+\label{tab:future-collider-options}
+
+\begin{tabular}{llclcc}
+\toprule
+\textbf{Collider} &
+\textbf{Initial state} &
+\textbf{Geometry, \# IPs} &
+\textbf{Beam polarisation} &
+\textbf{$\sqrt{s}$} &
+\textbf{$\mathcal{L}_{\rm int}$} \\
+\midrule
+		
+\multirow{3}{*}{LEP3}
+& \multirow{3}{*}{$e^+e^-$}
+& \multirow{3}{*}{Circular, 2 IPs}
+& \multirow{3}{*}{Unpolarised}
+& $91.2~{\rm GeV}$  & $48~{\rm ab}^{-1}$ \\
+& & & & $160~{\rm GeV}$ & $5.6~{\rm ab}^{-1}$ \\
+& & & & $230~{\rm GeV}$ & $2.304~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+\multirow{4}{*}{FCC-ee}
+& \multirow{4}{*}{$e^+e^-$}
+& \multirow{4}{*}{Circular, 4 IPs}
+& \multirow{4}{*}{Unpolarised}
+& $91.2~{\rm GeV}$ & $205~{\rm ab}^{-1}$ \\
+& & & & $161~{\rm GeV}$  & $19.2~{\rm ab}^{-1}$ \\
+& & & & $240~{\rm GeV}$  & $10.8~{\rm ab}^{-1}$ \\
+& & & & $365~{\rm GeV}$  & $3.12~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+\multirow{5}{*}{LCF}
+& \multirow{5}{*}{$e^+e^-$}
+& \multirow{5}{*}{Linear, 1 IP}
+& \multirow{4}{*}{$(\mp80\%, \pm30\%)$}
+& $91.2~{\rm GeV}$  & $0.1~{\rm ab}^{-1}$ \\
+& & & & $250~{\rm GeV}$  & $3~{\rm ab}^{-1}$ \\
+& & & & $350~{\rm GeV}$  & $0.2~{\rm ab}^{-1}$ \\
+& & & & $550~{\rm GeV}$  & $4~(8)~{\rm ab}^{-1}$ \\
+& & & $(\mp80\%, \pm20\%)$
+& $1000~{\rm GeV}$ & $8~(0)~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+FCC-hh$^{(*)}$
+& $pp$
+& Circular, 4 IP
+& Unpolarised
+& $84~{\rm TeV}$
+& $30~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+MuCol3$^{(*)}$
+& $\mu^+\mu^-$
+& Circular, 2 IP
+& Unpolarised
+& $3~{\rm TeV}$
+& $1~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+MuCol10$^{(*)}$
+& $\mu^+\mu^-$
+& Circular, 2 IP
+& Unpolarised
+& $10~{\rm TeV}$
+& $10~{\rm ab}^{-1}$ \\
+		
+\midrule
+		
+LHeC$^{(*)}$
+& $e^-p$
+& Hybrid, 1 IP
+& Unpolarised
+& $1.2~{\rm TeV}$
+& $1~{\rm ab}^{-1}$ \\
+		
+\bottomrule
+\end{tabular}
+
+\vspace{0.15cm}
+	
+\begin{minipage}{0.94\textwidth}
+\footnotesize
+\textit{Notes:} IP denotes interaction point. 
+The starred entries are included as broader future-collider comparison scenarios. 
+The FCC-ee luminosities correspond to the four-IP baseline comparison assumptions shown in the source table. 
+For the linear-collider option, the two luminosities shown in parentheses denote alternative running assumptions at the corresponding energy.
+\end{minipage}
+\end{table}
+
+
+
+
+
 
 \begin{definitionbox}
 	
@@ -130,7 +356,9 @@ The FCC-ee programme is best understood as a network of measurements.  The Z pol
 \end{equation}
 A single-operator interpretation of one Higgs rate is usually too naive, because electroweak data may constrain the same direction.  Conversely, Higgs rates can help interpret electroweak and top deviations.  This is the reason for Slide 13: Higgs precision needs the Z and WW programmes.
 
+
 \section{Electroweak pseudo-observables and $Zf\bar f$ couplings}
+
 At the Z pole, the collider scans the resonance line shape and measures partial widths and asymmetries.  The most important pseudo-observables include
 \begin{equation}
   m_Z,\quad \Gamma_Z,\quad \sigma^0_{\rm had},\quad R_\ell,\quad R_b,\quad R_c,
@@ -152,7 +380,9 @@ remove some common systematics and isolate flavour-dependent electroweak couplin
 \end{equation}
 where $\Gamma_{\rm inv}$ is the invisible Z width after subtracting the visible partial widths.  Deviations in $N_\nu$ may arise from new invisible particles or modified neutrino couplings, but precision interpretation requires careful control of the full Z-width fit.
 
+
 \subsection{Chiral couplings}
+
 The Z boson couples differently to left- and right-handed fermions.  Define the chirality projectors
 \begin{equation}
   P_L=\frac{1-\gamma_5}{2},\qquad P_R=\frac{1+\gamma_5}{2},
@@ -186,7 +416,9 @@ up to global normalisation conventions.  Partial widths and asymmetries probe di
 \end{equation}
 This is why rates, line-shape information and asymmetries together separate left- and right-handed shifts.
 
+
 \section{WW threshold, gauge structure and aTGCs}
+
 Near the WW threshold the cross section $\ee\to W^+W^-$ is very sensitive to $m_W$ and $\Gamma_W$.  Above threshold, differential angular distributions are sensitive to the non-Abelian electroweak gauge structure.  A common anomalous triple-gauge-coupling parameterisation is
 \begin{align}
   \mathcal L_{WWV}=&-i g_{WWV}\Big[
@@ -204,7 +436,9 @@ At tree level in the SM,
 \end{equation}
 The slide uses $\delta g_{1,Z}$, $\delta\kappa_\gamma$ and $\lambda_Z$ as the key deviations.  Here $\delta g_{1,Z}$ modifies the overall $WWZ$ structure, $\delta\kappa_\gamma$ acts like an anomalous magnetic-dipole contribution to $WW\gamma$, and $\lambda_Z$ is a momentum-dependent higher-derivative interaction.  In SMEFT, these parameters are correlated with Higgs-gauge interactions such as $HZZ$ and $HWW$.
 
+
 \section{Higgs recoil method and absolute coupling extraction}
+
 At $\sqrt{s}\simeq240\GeV$, the process
 \begin{equation}
   \ee\to ZH
@@ -233,6 +467,7 @@ while WW-fusion gives
 Combining recoil, exclusive decays and vector-boson fusion gives direct access to absolute couplings and the total width $\Gamma_H$.
 
 \subsection{Exclusive Higgs decay channels}
+
 \begin{longtable}{p{0.20\textwidth}p{0.24\textwidth}p{0.42\textwidth}}
 \toprule
 Mode & Coupling information & Physics role \\
@@ -250,6 +485,7 @@ $H\to\mu^+\mu^-$ & muon Yukawa $\kappa_\mu$ & Second-generation lepton Yukawa; b
 \end{longtable}
 
 \section{Higgs coupling modifiers and the $\kappa$-3 framework}
+
 In the coupling-modifier framework,
 \begin{equation}
   \kappa_i=\frac{g_i}{g_i^{\rm SM}},
@@ -286,6 +522,7 @@ The $\kappa$ framework is useful for explaining Higgs-rate measurements, but it 
 \end{warningbox}
 
 \section{SMEFT interpretation of Higgs, EW and top data}
+
 The SMEFT operators most relevant for the motivation slides include bosonic operators and current operators.  Examples are
 \begin{align}
   \mathcal O_{HWB}&=H^\dagger\sigma^aH W^a_{\mu\nu}B^{\mu\nu},\\
@@ -296,7 +533,555 @@ The SMEFT operators most relevant for the motivation slides include bosonic oper
 \end{align}
 These can shift $Zee$ couplings, affect $HZZ$ and $HZee$ contact interactions and correlate with diboson and Higgs production.  Bosonic operators such as $\mathcal O_{HW}$, $\mathcal O_{HB}$ and $\mathcal O_W$ affect gauge-boson kinetic/momentum structures and anomalous triple-gauge couplings.  This is the origin of the chords in the circos plot: the plot visualises correlations among fitted effective couplings, not independent measurements.
 
+
+
+%------------------------------------------------------------
+\section{Global Higgs--electroweak interpretation before the top programme}
+\label{sec:global-higgs-ew-before-top}
+%------------------------------------------------------------
+
+Before moving to top-quark precision, it is useful to make explicit why the
+Higgs programme at FCC-ee cannot be interpreted as an isolated set of Higgs
+rate measurements.  The same electroweak gauge structure that determines
+\(Z\)-pole observables and \(W^+W^-\) production also controls the
+\(e^+e^-\to ZH\), \(e^+e^-\to \nu\bar\nu H\), and diboson amplitudes.
+Therefore, precision Higgs measurements, electroweak pseudo-observables and
+triple-gauge-coupling measurements must be combined in a common fit.
+
+In an effective-field-theory language, this statement follows from gauge
+invariance.  The Standard Model Effective Field Theory (SMEFT) expands the
+low-energy Lagrangian as
+\begin{equation}
+	\mathcal L_{\rm SMEFT}
+	=
+	\mathcal L_{\rm SM}
+	+
+	\sum_i
+	\frac{C_i^{(6)}}{\Lambda^2}
+	\mathcal O_i^{(6)}
+	+
+	\sum_i
+	\frac{C_i^{(8)}}{\Lambda^4}
+	\mathcal O_i^{(8)}
+	+\cdots ,
+	\label{eq:smeft-expansion-global-ew-higgs}
+\end{equation}
+where \(C_i^{(d)}\) are Wilson coefficients and \(\Lambda\) is the
+characteristic scale of the heavy new dynamics.  A single dimension-six
+operator can shift several apparently different interactions at once.  For
+example, operators modifying the \(Zee\) coupling also affect the extraction
+of the \(HZZ\) coupling in \(e^+e^-\to ZH\), and bosonic operators that affect
+\(HZZ\) or \(HWW\) interactions can also contribute to anomalous triple-gauge
+couplings in \(e^+e^-\to W^+W^-\).
+
+\begin{definitionbox}
+	\textbf{Global Higgs--electroweak interpretation.}
+	A global interpretation is a fit in which Higgs rates, electroweak
+	pseudo-observables, diboson observables and, where relevant, top observables
+	are fitted simultaneously.  The purpose is to account for correlations induced
+	by gauge invariance, common systematic/theory inputs and shared SMEFT
+	operators.  In such a fit, the extracted quantity is not just an isolated
+	``Higgs coupling'', but a correlated set of effective couplings or Wilson
+	coefficients.
+\end{definitionbox}
+
+%------------------------------------------------------------
+\subsection{Correlation structure of the FCC-ee Higgs and electroweak fit}
+\label{subsec:circos-global-fit}
+%------------------------------------------------------------
+
+Figure~\ref{fig:circos-fccee-global-fit} illustrates the correlation structure
+among the fitted effective couplings in a global FCC-ee Higgs/electroweak
+analysis.  The plot is a \emph{circos-style} correlation diagram.  The labels
+around the circle denote effective couplings or coupling shifts.  The bars
+outside the circle indicate the projected sensitivity to each coupling, while
+the chords inside the circle indicate correlations between fitted quantities.
+A thick chord represents a stronger correlation.
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{Figs/circos_FCCee_nomargin_newFSR.pdf}
+\caption{
+Correlation structure in a global FCC-ee Higgs/electroweak fit.
+The outer bars show the projected sensitivity to effective couplings, while
+the inner chords show correlations among fitted quantities.  The comparison
+between fits with current electroweak inputs and fits including the FCC-ee
+\(Z\)-pole programme demonstrates why the \(Z\) and \(WW\) stages are
+essential for a robust Higgs interpretation.  Source: FCC Feasibility Study
+Report Vol.~1~\cite{FCCFSR}; adapted from the SMEFT global-fit studies
+discussed therein.
+}
+\label{fig:circos-fccee-global-fit}
+\end{figure}
+
+
+
+The figure should be read in three layers.
+
+First, the outer labels denote effective couplings.  These include Higgs
+couplings, electroweak fermion couplings and anomalous gauge couplings.  A
+typical notation is
+\[
+\delta g^H_{ZZ},\quad
+\delta g^H_{WW},\quad
+\delta g^H_{\gamma\gamma},\quad
+\delta g^H_{Z\gamma},
+\]
+for effective Higgs interactions with electroweak gauge bosons, together with
+fermionic \(Zf\bar f\) couplings such as
+\[
+\delta g^{Ze}_{L},\quad
+\delta g^{Ze}_{R},\quad
+\delta g^{Z\mu}_{L},\quad
+\delta g^{Z\mu}_{R},\quad
+\delta g^{Zb}_{L},\quad
+\delta g^{Zb}_{R},
+\]
+and anomalous triple-gauge couplings such as
+\[
+\delta g_{1,Z},\qquad
+\delta\kappa_\gamma,\qquad
+\lambda_Z .
+\]
+The precise label convention depends on the basis used in the global fit, but
+the physics message is basis independent: Higgs, electroweak and diboson
+couplings are correlated.
+
+Second, the bars show the expected precision with different collider inputs.
+The grey reference bars correspond to the HL-LHC baseline, while the
+FCC-ee-enhanced bars show the improvement from adding precision FCC-ee
+measurements.  The comparison highlights the role of the \(Z\)-pole programme:
+without very precise \(Zf\bar f\) information, the Higgs-coupling fit remains
+partly limited by uncertainties in electroweak vertices.
+
+Third, the chords show correlations.  A chord between two couplings means that
+the fit cannot determine them independently: a shift in one can be partly
+compensated by a shift in another.  The important message is not the existence
+of one particular chord, but the global pattern.  FCC-ee \(Z\)-pole and
+\(WW\)-threshold data remove or reduce several degeneracies that would
+otherwise weaken Higgs-coupling extraction.
+
+
+
+\begin{keymessagebox}
+The Higgs programme needs the \(Z\) and \(WW\) programmes because the same
+gauge-invariant SMEFT operators modify \(Zf\bar f\), \(HZZ\), \(HWW\),
+\(HZee\), \(WWZ\) and \(WW\gamma\) interactions.  Precision \(Z\)-pole and
+diboson measurements therefore turn FCC-ee Higgs measurements into a
+well-constrained global electroweak fit, rather than a set of isolated rate
+measurements.
+\end{keymessagebox}
+
+
+
+\subsection{Left- and right-handed electroweak couplings}
+\label{subsec:left-right-ew-couplings-global}
+
+A central class of quantities appearing in
+Fig.~\ref{fig:circos-fccee-global-fit} is the set of left- and right-handed
+\(Zf\bar f\) couplings.  These are important because the \(Z\) boson couples
+differently to left- and right-handed fermions.  The chirality projectors are
+\begin{equation}
+P_L = \frac{1-\gamma_5}{2},
+\qquad
+P_R = \frac{1+\gamma_5}{2}.
+\label{eq:chirality-projectors-global}
+\end{equation}
+The interaction of the \(Z\) boson with a fermion \(f\) can be written as
+\begin{equation}
+\mathcal L_{Zff}
+=
+\frac{g}{c_W}
+Z_\mu\,
+\bar f\gamma^\mu
+\left(
+g_L^f P_L + g_R^f P_R
+\right) f ,
+\label{eq:zff-left-right-couplings-global}
+\end{equation}
+where \(g\) is the weak \(SU(2)_L\) coupling and
+\(c_W=\cos\theta_W\).  In a common normalisation,
+\begin{equation}
+g_L^f
+=
+T_3^f - Q_f\sin^2\theta_{\rm eff}^f,
+\qquad
+g_R^f
+=
+-Q_f\sin^2\theta_{\rm eff}^f .
+\label{eq:gL-gR-definitions-global}
+\end{equation}
+Here \(T_3^f\) is the weak isospin of the left-handed fermion and \(Q_f\) is
+its electric charge.  Right-handed Standard-Model fermions are \(SU(2)_L\)
+singlets, so they have \(T_3=0\); left-handed fermions belong to \(SU(2)_L\)
+doublets and have \(T_3=\pm 1/2\).
+
+It is also common to use vector and axial-vector couplings,
+\begin{equation}
+	g_V^f = g_L^f + g_R^f,
+	\qquad
+	g_A^f = g_L^f - g_R^f,
+	\label{eq:gV-gA-from-gL-gR}
+\end{equation}
+up to convention-dependent overall normalisations.  The partial width and the
+asymmetry parameter probe different combinations:
+\begin{equation}
+	\Gamma_f
+	\propto
+	(g_L^f)^2+(g_R^f)^2,
+	\label{eq:gamma-f-gL-gR}
+\end{equation}
+whereas
+\begin{equation}
+	A_f
+	=
+	\frac{(g_L^f)^2-(g_R^f)^2}
+	{(g_L^f)^2+(g_R^f)^2}.
+	\label{eq:Af-gL-gR}
+\end{equation}
+At the \(Z\) pole, the forward--backward asymmetry is approximately
+\begin{equation}
+	A_{\rm FB}^{0,f}
+	=
+	\frac{3}{4}A_e A_f .
+	\label{eq:AFB-Ae-Af-global}
+\end{equation}
+Thus, line-shape measurements constrain the sum of squared chiral couplings,
+while asymmetries constrain their relative difference.  Combining rates,
+asymmetries and, where available, polarisation information gives separate
+sensitivity to \(g_L^f\) and \(g_R^f\).
+
+\begin{warningbox}
+The notation for effective couplings is convention dependent.  In a global
+fit, symbols such as \(\delta g^{Zf}_{L,R}\) denote deviations from the
+Standard-Model values in a specified normalisation.  One should not compare
+numerical values of \(\delta g\) between papers unless the coupling convention
+and input-parameter scheme are the same.
+\end{warningbox}
+
+\subsection{Gauge-invariant origin of the correlations}
+\label{subsec:gauge-invariant-origin-correlations}
+
+The common origin of the correlations in the circos plot can be understood from
+representative dimension-six SMEFT operators.  For example,
+\begin{align}
+	\mathcal O_{HWB}
+	&=
+	H^\dagger \sigma^a H\,W_{\mu\nu}^a B^{\mu\nu},
+	\label{eq:OHWB-global}
+	\\
+	\mathcal O_{HD}
+	&=
+	\left|H^\dagger D_\mu H\right|^2,
+	\label{eq:OHD-global}
+	\\
+	\mathcal O_{H\ell}^{(1)}
+	&=
+	\left(H^\dagger i\overleftrightarrow D_\mu H\right)
+	\left(\bar\ell\gamma^\mu\ell\right),
+	\label{eq:OHl1-global}
+	\\
+	\mathcal O_{H\ell}^{(3)}
+	&=
+	\left(H^\dagger i\overleftrightarrow D_\mu^a H\right)
+	\left(\bar\ell\sigma^a\gamma^\mu\ell\right),
+	\label{eq:OHl3-global}
+	\\
+	\mathcal O_{He}
+	&=
+	\left(H^\dagger i\overleftrightarrow D_\mu H\right)
+	\left(\bar e\gamma^\mu e\right).
+	\label{eq:OHe-global}
+\end{align}
+The operators \(\mathcal O_{H\ell}^{(1)}\), \(\mathcal O_{H\ell}^{(3)}\) and
+\(\mathcal O_{He}\) shift the \(Z\)-boson couplings to leptons after
+electroweak symmetry breaking.  Since the initial state in
+\(\ee\to ZH\) is an electron--positron pair, such shifts also affect the
+interpretation of Higgsstrahlung.  Bosonic operators such as
+\begin{equation}
+	\mathcal O_{HW},\qquad
+	\mathcal O_{HB},\qquad
+	\mathcal O_W
+	\label{eq:bosonic-operators-global}
+\end{equation}
+modify gauge-boson kinetic structures, momentum-dependent \(HVV\) couplings
+and anomalous triple-gauge couplings.  Therefore, \(Z\)-pole, \(WW\), Higgs
+and diboson measurements are not separate theoretical problems: they are
+different projections of the same gauge-invariant EFT parameter space.
+
+
+
+\clearpage
+
+
+
+%------------------------------------------------------------
+\subsection{Coupling modifiers and the \texorpdfstring{\(\kappa\)-3}{kappa-3} framework}
+\label{subsec:kappa3-framework-before-top}
+%------------------------------------------------------------
+
+The coupling-modifier or \(\kappa\)-framework provides a simple way to express
+projected Higgs precision.  For a coupling \(g_i\), one defines
+\begin{equation}
+	\kappa_i
+	=
+	\frac{g_i}{g_i^{\rm SM}},
+	\label{eq:kappa-definition-global}
+\end{equation}
+or, for loop-induced modes, an effective modifier multiplying the Standard
+Model amplitude or rate.  A production-times-decay rate can be written as
+\begin{equation}
+	(\sigma\cdot{\rm BR})(i\to H\to f)
+	=
+	\sigma_i\,
+	\frac{\Gamma_f}{\Gamma_H}.
+	\label{eq:sigma-br-basic-global}
+\end{equation}
+In the \(\kappa\)-framework this becomes
+\begin{equation}
+	(\sigma\cdot{\rm BR})(i\to H\to f)
+	=
+	\left(\sigma_i^{\rm SM}\kappa_i^2\right)
+	\frac{\Gamma_f^{\rm SM}\kappa_f^2}
+	{\Gamma_H^{\rm SM}\kappa_H^2}.
+	\label{eq:sigma-br-kappa-global}
+\end{equation}
+The corresponding signal strength is
+\begin{equation}
+	\mu_i^f
+	\equiv
+	\frac{(\sigma\cdot{\rm BR})(i\to H\to f)}
+	{(\sigma\cdot{\rm BR})_{\rm SM}(i\to H\to f)}
+	=
+	\frac{\kappa_i^2\kappa_f^2}{\kappa_H^2}.
+	\label{eq:mu-kappa-global}
+\end{equation}
+If only Standard-Model decay modes are allowed, the total-width modifier is
+approximately
+\begin{equation}
+	\kappa_H^2
+	=
+	\sum_j
+	\kappa_j^2\,{\rm BR}^{\rm SM}_j .
+	\label{eq:kappaH-sum-global}
+\end{equation}
+In the \(\kappa\)-3 framework used in the comparison plots, invisible and
+undetected or untagged Higgs decays are also allowed.  One then defines
+\begin{equation}
+	\bar\kappa_H^2
+	=
+	\frac{\kappa_H^2}
+	{1-B_{\rm inv}-B_{\rm und}},
+	\qquad
+	\Gamma_H
+	=
+	\bar\kappa_H^2\,\Gamma_H^{\rm SM}.
+	\label{eq:kappa3-total-width-global}
+\end{equation}
+Here \(B_{\rm inv}\) is the invisible Higgs branching fraction and
+\(B_{\rm und}\), sometimes also written \(B_{\rm unt}\), denotes an
+undetected or untagged branching fraction.
+
+\begin{definitionbox}
+\textbf{The \(\kappa\)-3 framework.}
+The \(\kappa\)-3 setup is a coupling-modifier fit in which Higgs coupling
+modifiers, an invisible branching fraction and an undetected/untagged branching
+fraction are fitted simultaneously.  In the version shown here, the condition
+\(\kappa_V\le 1\) for \(V=W,Z\) is imposed to stabilise the fit.  This
+condition is motivated by a broad class of models in which Higgs coupling to
+massive vector bosons is not enhanced above the Standard Model value, but it
+should still be understood as an assumption.
+\end{definitionbox}
+
+
+The following three figures show projected uncertainties in this framework.
+They separate the fitted quantities into fermion modifiers, vector and BSM
+modifiers, and loop-induced modifiers.
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{fermionmodifierHLLHC.pdf}
+\caption{
+Projected uncertainties for fermion Higgs coupling modifiers in the
+\(\kappa\)-3 framework with a common HL-LHC baseline and the condition
+\(\kappa_V\le 1\).  The fitted fermion modifiers are
+\(\kappa_c\), \(\kappa_t\), \(\kappa_b\), \(\kappa_\mu\) and
+\(\kappa_\tau\).  Source: Ref.~\cite{PrecisionReach}.
+}
+\label{fig:kappa3-fermion-modifiers}
+\end{figure}
+
+
+
+Figure~\ref{fig:kappa3-fermion-modifiers} collects the fermionic Higgs
+coupling modifiers:
+\begin{align}
+\kappa_b &: \text{bottom Yukawa modifier, probed mainly by } H\to b\bar b,
+\\
+\kappa_c &: \text{charm Yukawa modifier, probed by } H\to c\bar c,
+\\
+\kappa_\tau &: \text{tau Yukawa modifier, probed by } H\to\tau^+\tau^-,
+\\
+\kappa_\mu &: \text{muon Yukawa modifier, probed by } H\to\mu^+\mu^-,
+\\
+\kappa_t &: \text{top Yukawa modifier, entering mainly through top-associated
+production, and loops.}
+\end{align}
+
+The vertical axis is the projected relative uncertainty in percent.  The
+different colours correspond to different future-collider scenarios or
+combinations.  The main qualitative point is that FCC-ee provides strong
+sub-percent or percent-level access to several Yukawa couplings through clean
+exclusive Higgs decays, while FCC-hh or other high-energy stages are important
+for \(\kappa_t\) and very rare modes.
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{vectormodifierHLLHC.pdf}
+\caption{
+Projected uncertainties for vector-boson Higgs modifiers and additional BSM
+branching fractions in the \(\kappa\)-3 framework.  The fitted quantities
+include \(\kappa_W\), \(\kappa_Z\), \(B_{\rm inv}\) and \(B_{\rm und}\).
+Source: Ref.~\cite{PrecisionReach}.
+}
+\label{fig:kappa3-vector-modifiers}
+\end{figure}
+
+
+
+
+Figure~\ref{fig:kappa3-vector-modifiers} focuses on the vector-boson and
+non-standard branching-fraction part of the fit:
+\begin{align}
+\kappa_W &: \text{modifier of the } HWW \text{ coupling},\\
+\kappa_Z &: \text{modifier of the } HZZ \text{ coupling},\\
+B_{\rm inv} &: \text{invisible Higgs branching fraction},\\
+B_{\rm und} &: \text{undetected or untagged Higgs branching fraction}.
+\end{align}
+The most important FCC-ee ingredient here is the inclusive recoil measurement
+of \(\sigma(ZH)\), which gives direct access to the absolute \(HZZ\)
+normalisation.  Combined with \(WW\)-fusion information,
+\[
+\ee\to \nu\bar\nu H,
+\]
+it provides a handle on \(\Gamma_H\) and separates \(\kappa_Z\), \(\kappa_W\)
+and the total width.  This is the reason why FCC-ee can perform a more
+model-independent Higgs coupling extraction than hadron-collider rate fits
+alone.
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{loopmodifierHLLHC.pdf}
+\caption{
+Projected uncertainties for loop-induced Higgs modifiers in the
+\(\kappa\)-3 framework.  The fitted quantities are
+\(\kappa_g\), \(\kappa_\gamma\) and \(\kappa_{Z\gamma}\).  Source:
+Ref.~\cite{PrecisionReach}.
+}
+\label{fig:kappa3-loop-modifiers}
+\end{figure}
+
+
+
+Figure~\ref{fig:kappa3-loop-modifiers} shows the loop-induced or effective
+Higgs modifiers:
+
+\begin{align}
+\kappa_g &: \text{effective } Hgg \text{ modifier},\\
+\kappa_\gamma &: \text{effective } H\gamma\gamma \text{ modifier},\\
+\kappa_{Z\gamma} &: \text{effective } HZ\gamma \text{ modifier}.
+\end{align}
+
+These are not simple tree-level Yukawa or gauge couplings.  In the Standard
+Model they arise first through loops.  For example, \(H\to gg\) is dominated
+by heavy-quark loops, while \(H\to\gamma\gamma\) receives important
+contributions from both \(W\)-boson and top-quark loops.  As a result, these
+channels are sensitive not only to Standard-Model coupling modifications but
+also to possible new heavy coloured or electrically charged particles running
+in the loop.  FCC-ee provides a clean normalisation and excellent flavour
+separation, while FCC-hh can strongly improve rare loop-induced modes through
+large Higgs statistics.
+
+\begin{keymessagebox}
+The \(\kappa\)-framework gives a useful experimental language for Higgs
+precision, while the SMEFT gives the gauge-invariant language needed to connect
+Higgs, electroweak, diboson and top observables.  For the present talk, the
+important point is that the rare-top FCNC analysis is embedded in this broader
+precision programme: the same collider environment that gives absolute Higgs
+normalisation also enables clean top and rare-process measurements.
+\end{keymessagebox}
+
+\begin{table}[t]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\caption{Summary of the main coupling symbols introduced before the top-precision section.}
+\label{tab:coupling-dictionary-before-top}
+\begin{tabular}{lll}
+\toprule
+\textbf{Symbol} & \textbf{Meaning} & \textbf{Main FCC-ee handle} \\
+\midrule
+		\(\delta g_{L,R}^{Zf}\) & Shift in left/right \(Zf\bar f\) coupling
+		& Z-pole line shape and asymmetries \\
+		\(\delta g^H_{ZZ}\) & Effective shift in \(HZZ\) interaction
+		& Inclusive \(ZH\) recoil measurement \\
+		\(\delta g^H_{WW}\) & Effective shift in \(HWW\) interaction
+		& \(WW\)-fusion, \(H\to WW^*\) \\
+		\(\delta g^H_{\gamma\gamma}\) & Effective \(H\gamma\gamma\) shift
+		& \(H\to\gamma\gamma\), loop sensitivity \\
+		\(\delta g^H_{Z\gamma}\) & Effective \(HZ\gamma\) shift
+		& \(H\to Z\gamma\), loop sensitivity \\
+		\(\delta g_{1,Z}\) & Anomalous \(WWZ\) coupling shift
+		& \(e^+e^-\to W^+W^-\) angular data \\
+		\(\delta\kappa_\gamma\) & Anomalous \(WW\gamma\) dipole-like shift
+		& \(W^+W^-\) production \\
+		\(\lambda_Z\) & Momentum-dependent \(WWZ\) coupling
+		& Diboson angular distributions \\
+		\(\kappa_Z\) & \(HZZ\) coupling modifier
+		& \(ZH\) recoil standard candle \\
+		\(\kappa_W\) & \(HWW\) coupling modifier
+		& \(WW\)-fusion and \(H\to WW^*\) \\
+		\(\kappa_b,\kappa_c,\kappa_\tau,\kappa_\mu\)
+		& Yukawa coupling modifiers
+		& Exclusive Higgs decays with flavour/PID \\
+		\(\kappa_t\) & Top Yukawa modifier
+		& Top/Higgs loops and FCC-hh input \\
+		\(\kappa_g,\kappa_\gamma,\kappa_{Z\gamma}\)
+		& Loop-induced Higgs modifiers
+		& Rare Higgs decays and global fits \\
+		\(B_{\rm inv}\) & Invisible Higgs branching fraction
+		& Recoil missing-rate analysis \\
+		\(B_{\rm und}\) or \(B_{\rm unt}\) & Undetected/untagged Higgs branching fraction
+		& Inclusive recoil plus global fit \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+This completes the Higgs--electroweak bridge.  We can now move to the top
+programme.  The logic is analogous: top-threshold and above-threshold
+measurements are not isolated top measurements, but part of the same global
+precision programme.  They constrain \(m_t\), \(\Gamma_t\), \(t\bar t Z\)
+couplings, the top Yukawa interaction and SMEFT directions that are correlated
+with the Higgs and electroweak sectors.
+
+
+
+
+
+\clearpage
+
+
+
 \section{Top-quark precision at FCC-ee}
+
 The top threshold programme measures the final state
 \begin{equation}
   \ee\to W^+bW^-\bar b,
@@ -318,6 +1103,7 @@ probes the top electroweak vertex.  A compact notation is
 Angular distributions and forward--backward asymmetries are essential to separate chiral structures.
 
 \section{FCNC in the Standard Model and beyond}
+
 Flavour-changing neutral currents (FCNCs) such as $t\to q\gamma$, $t\to qZ$, $t\to qH$ and $t\to qg$ are absent at tree level in the SM.  They appear only through loops and are strongly suppressed by the Glashow--Iliopoulos--Maiani mechanism.  The expected branching ratios are tiny, often around $10^{-12}$ or below depending on the channel.  Therefore any observable rate far above the SM expectation would strongly indicate BSM dynamics \cite{AguilarSaavedra2004}.
 
 The talk focuses on $tq\gamma$ and $tqZ$ because these interactions induce clean single-top production in $\ee$ collisions:
@@ -332,6 +1118,7 @@ The produced top decays through the SM mode
 which leads to semileptonic and fully hadronic signatures.
 
 \section{Effective Lagrangian for top-FCNC interactions}
+
 The anomalous-coupling framework used in the slides follows the common Aguilar-Saavedra normalisation \cite{AguilarSaavedra2009}.  The interaction is
 \begin{align}
 \mathcal L_{\rm FCNC}^{tqX}=\sum_{q=u,c}\Bigg[&
@@ -350,6 +1137,7 @@ The benchmark assumption $\lambda^L=\lambda^R$ or $\kappa^L=\kappa^R$ is a pract
 \end{warningbox}
 
 \section{Translation between anomalous couplings and branching ratios}
+
 The branching ratio is defined as
 \begin{equation}
   \br(t\to qX)=\frac{\Gamma(t\to qX)}{\Gamma_t^{\rm SM}+\sum_X\Gamma(t\to qX)}
@@ -372,6 +1160,7 @@ For the symmetric benchmark $\lambda^L=\lambda^R=\lambda$ and $\kappa^L=\kappa^R
 The numerical translation must use the same coupling normalisation as the UFO model used for event generation.
 
 \section{Signal processes at 240 and 365 GeV}
+
 The signal process is
 \begin{equation}
   \ee\to t\bar q+\bar t q,
@@ -379,6 +1168,7 @@ The signal process is
 mediated by the anomalous $tq\gamma$ and $tqZ$ couplings.  At 240 GeV, the stage is optimised for Higgs studies but also provides clean single-top kinematics.  At 365 GeV, there is more phase space and harder objects, but also genuine top backgrounds.  The benchmark luminosities used in the slides are $5\abinv$ at 240 GeV and $1.5\abinv$ at 365 GeV.
 
 \section{Semileptonic and fully hadronic final states}
+
 The semileptonic topology is
 \begin{equation}
   \ee\to tq\to Wbq\to \ell\nu bq,
@@ -394,6 +1184,7 @@ with four exclusive jets.  It has a larger branching fraction but suffers from l
 where the jet combination minimising $\chi^2$ is chosen as the top candidate.
 
 \section{Backgrounds, jet clustering and flavour tagging}
+
 The dominant backgrounds are $WW$, $ZZ$, $ZH$, $e\gamma$ initiated processes, and at 365 GeV also $\ttbar$ and single-top-like final states.  The analysis adopts the ee-$k_T$ Durham algorithm in exclusive two-jet or four-jet modes.  E-scheme recombination means four-momenta are added directly.  The slides quote a flavour-tagging working point $\epsilon_b=80\%$ and $\epsilon_c=10\%$.  In the FCNC selection, $b$ tagging identifies the top decay, while light-jet rejection and charm/light separation control backgrounds.
 
 Discriminating variables include reconstructed masses $M_W$ and $M_{\rm top}$, the $b$-jet momentum $p_b$, the light-jet momentum $p_{\rm light}$, missing momentum, angular separations and event activity.  If $H_T$ is used, define it in the analysis note as the scalar sum of visible transverse momenta or the corresponding FCC-ee event-activity proxy:
@@ -408,6 +1199,7 @@ although in $\ee$ analyses ordinary opening angles are often equally transparent
 
 
 \section{Statistical analysis and CL$_s$ extraction}
+
 A generic binned likelihood for the combined analysis is
 \begin{equation}
   \mathcal L(\mu,\boldsymbol\theta)=\prod_{c,b}{\rm Pois}\left(n_{cb}\,\middle|\,\mu s_{cb}(\boldsymbol\theta)+b_{cb}(\boldsymbol\theta)\right)
@@ -423,6 +1215,7 @@ with the exclusion set at $CL_s=0.05$ for a 95\% CL upper limit.  In projected s
 
 
 \section{Interpretation of projected limits}
+
 The final tables quote limits on $\br(t\to c\gamma)$ and $\br(t\to cZ)$ rather than directly on $\lambda$ and $\kappa$.  This is useful for comparing with LHC results and with other future-collider projections.  The lepton channel gives the best sensitivity in the present benchmark because the final state is cleaner and the backgrounds are more controllable.  The hadronic channel still contributes because its branching fraction is larger and it probes a complementary topology.  The results should be described as study-level projections, subject to the stated luminosities, detector assumptions, signal model and systematic-treatment assumptions.
 
 

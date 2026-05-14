@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.27)  14 MAY 2026 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,39 +958,45 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen328
 \titlewidthfirst=\dimen329
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
-.
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen330
+\c@nlinenum=\count351
+\TeXr@lab=\toks51
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 18
+9.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count351
+\l__color_backend_stack_int=\count352
 \l__pdf_internal_box=\box92
 )
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.aux)
 \openout1 = `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1026,19 +1032,19 @@ LaTeX Font Info:    ... okay on input line 75.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Applying patch `item' on input line 75.
-Package microtype Info: Applying patch `toc' on input line 75.
-Package microtype Info: Applying patch `eqnum' on input line 75.
-Package microtype Info: Applying patch `footnote' on input line 75.
-Package microtype Info: Applying patch `verbatim' on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 189.
+Package microtype Info: Applying patch `item' on input line 189.
+Package microtype Info: Applying patch `toc' on input line 189.
+Package microtype Info: Applying patch `eqnum' on input line 189.
+Package microtype Info: Applying patch `footnote' on input line 189.
+Package microtype Info: Applying patch `verbatim' on input line 189.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 75.
+LaTeX Info: Redefining \showhyphens on input line 189.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1048,17 +1054,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen330
+\scratchcounter=\count353
+\scratchdimen=\dimen331
 \scratchbox=\box93
-\nofMPsegments=\count353
-\nofMParguments=\count354
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen331
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
-\everyMPtoPDFconversion=\toks52
+\nofMPsegments=\count354
+\nofMParguments=\count355
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen332
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
+\everyMPtoPDFconversion=\toks53
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1068,14 +1074,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 189.
 
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.out)
 (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.out)
 \@outlinefile=\write4
 \openout4 = `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.out'.
 
-\c@lstlisting=\count358
+\c@lstlisting=\count359
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1091,38 +1097,43 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-9.
+<AGH_logo.jpg, id=203, 184.69pt x 319.1925pt>
+File: AGH_logo.jpg Graphic file (type jpg)
+<use AGH_logo.jpg>
+Package pdftex.def Info: AGH_logo.jpg  used on input line 192.
+(pdftex.def)             Requested size: 49.38788pt x 85.35826pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+92.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-9.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+92.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-79.
+192.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-79.
+192.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 79.
+(Font)              <10.95> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 79.
+(Font)              <8> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 79.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
-
+(Font)              <6> on input line 192.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1130,27 +1141,44 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
+)
+<FCC.jpg, id=204, 637.38126pt x 282.05376pt>
+File: FCC.jpg Graphic file (type jpg)
+<use FCC.jpg>
+Package pdftex.def Info: FCC.jpg  used on input line 192.
+(pdftex.def)             Requested size: 128.59244pt x 56.9055pt.
+
+Overfull \hbox (20.61624pt too wide) in paragraph at lines 192--192
+ [][]
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+92.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-ec.enc}] (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.t
-oc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 3.
-
+dvips/lm/lm-ec.enc} <./AGH_logo.jpg> <./FCC.jpg>] (./Hamzeh_Khanpour_top_FCNC_F
+CCee_supporting_notes_short.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...}{\numberline {H}Glossary}{22}{appendix.H}
+l.36 ...berline {G.3}Higgs rates}{28}{section.G.3}
                                                   % [1
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/
@@ -1158,109 +1186,147 @@ dvips/lm/lm-rm.enc}])
 \tf@toc=\write5
 \openout5 = `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.toc'.
 
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+01.
 
-[2] [3
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [2] [3
 
 
 ]
 Chapter 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 229.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 229.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 229.
 [4
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 133.
+(Font)              <14.4> on input line 360.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 360.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 360.
+
+[5{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [6] [7]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 487.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\kappa' on input line 487.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 487.
+
+[8]
+<Figs/circos_FCCee_nomargin_newFSR.pdf, id=348, 2619.7875pt x 2810.5pt>
+File: Figs/circos_FCCee_nomargin_newFSR.pdf Graphic file (type pdf)
+<use Figs/circos_FCCee_nomargin_newFSR.pdf>
+Package pdftex.def Info: Figs/circos_FCCee_nomargin_newFSR.pdf  used on input l
+ine 605.
+(pdftex.def)             Requested size: 445.99553pt x 478.46484pt.
+ [9] [10] [11] [12 <./Figs/circos_FCCee_nomargin_newFSR.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 133.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 133.
+(Font)              <12> on input line 821.
+<Figs/fermionmodifierHLLHC.pdf, id=390, 448.35826pt x 333.16472pt>
+File: Figs/fermionmodifierHLLHC.pdf Graphic file (type pdf)
+<use Figs/fermionmodifierHLLHC.pdf>
+Package pdftex.def Info: Figs/fermionmodifierHLLHC.pdf  used on input line 907.
+
+(pdftex.def)             Requested size: 445.99553pt x 331.4151pt.
+<Figs/vectormodifierHLLHC.pdf, id=394, 448.35826pt x 333.16472pt>
+File: Figs/vectormodifierHLLHC.pdf Graphic file (type pdf)
+<use Figs/vectormodifierHLLHC.pdf>
+Package pdftex.def Info: Figs/vectormodifierHLLHC.pdf  used on input line 946.
+(pdftex.def)             Requested size: 445.99553pt x 331.4151pt.
+ [13
+
+]
+<Figs/loopmodifierHLLHC.pdf, id=414, 448.4219pt x 333.16472pt>
+File: Figs/loopmodifierHLLHC.pdf Graphic file (type pdf)
+<use Figs/loopmodifierHLLHC.pdf>
+Package pdftex.def Info: Figs/loopmodifierHLLHC.pdf  used on input line 982.
+(pdftex.def)             Requested size: 445.99553pt x 331.36935pt.
+ [14 <./Figs/fermionmodifierHLLHC.pdf>]
+Overfull \hbox (7.88782pt too wide) in paragraph at lines 1028--1066
+ [][] 
+ []
+
+[15 <./Figs/vectormodifierHLLHC.pdf>] [16 <./Figs/loopmodifierHLLHC.pdf>]
+[17
+
+] [18]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 133.
+(hyperref)                removing `subscript' on input line 1201.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 133.
+(hyperref)                removing `math shift' on input line 1201.
 
-[5{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kappa' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-[7] [8] [9]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 410.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 410.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 410.
-
-[10] [11] [12
+[19] [20
 
 ]
 Appendix A.
-[13
+[21
 
 ]
 Appendix B.
-[14
-
-]
-Appendix C.
-[15
-
-]
-Appendix D.
-[16
-
-]
-Appendix E.
-[17
-
-]
-Appendix F.
-[18
-
-]
-Appendix G.
-[19
-
-] [20] [21
-
-]
-Appendix H.
 [22
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-20.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+Appendix C.
+[23
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+]
+Appendix D.
+[24
+
+]
+Appendix E.
+[25
+
+]
+Appendix F.
+[26
+
+]
+Appendix G.
+[27
+
+] [28] [29
+
+]
+Appendix H.
+[30
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1414--1415
 []\T1/lmr/m/n/10.95 (+20) CMS Higgs Com-bine Tool, [][]$\T1/lmtt/m/n/10.95 http
 s : / / github . com / cms-[]analysis /
  []
 
-[23
+[31
 
 ] (./Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.aux)
  ***********
@@ -1269,32 +1335,43 @@ L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Hamzeh_Khanpour_top_FCNC_FCCee_supporting_no
 tes_short.out' has not changed.
-(rerunfilecheck)             Checksum: FA49B9BB8BC800C2BFF092131570FD5D;8341.
+(rerunfilecheck)             Checksum: CEEBF6269C8A70744D97AD5678BF345C;10004.
  ) 
 Here is how much of TeX's memory you used:
- 33991 strings out of 474222
- 665008 string characters out of 5748732
+ 34448 strings out of 474222
+ 672494 string characters out of 5748732
  1952975 words of memory out of 5000000
- 55325 multiletter control sequences out of 15000+600000
- 661013 words of font info for 195 fonts, out of 8000000 for 9000
+ 55653 multiletter control sequences out of 15000+600000
+ 687080 words of font info for 237 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,20n,99p,1050b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.pdf (24
- pages, 352750 bytes).
+ 93i,21n,99p,1050b,912s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmmib10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
+0.pfb>
+Output written on Hamzeh_Khanpour_top_FCNC_FCCee_supporting_notes_short.pdf (32
+ pages, 1882928 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 185 named destinations out of 1000 (max. 500000)
- 56245 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 717 compressed objects within 8 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 70651 words of extra memory for PDF output out of 74296 (max. 10000000)
 
