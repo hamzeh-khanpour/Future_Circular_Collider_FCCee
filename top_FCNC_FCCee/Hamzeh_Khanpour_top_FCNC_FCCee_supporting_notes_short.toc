@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.5.1}Exclusive Higgs decay channels}{7}{subsection.1.5.1}%
 \contentsline {section}{\numberline {1.6}Higgs coupling modifiers and the $\kappa $-3 framework}{8}{section.1.6}%
 \contentsline {section}{\numberline {1.7}SMEFT interpretation of Higgs, EW and top data}{8}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Global Higgs--electroweak interpretation before the top programme}{9}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Global Higgs--electroweak interpretation}{9}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}Correlation structure of the FCC-ee Higgs and electroweak fit}{9}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Left- and right-handed electroweak couplings}{10}{subsection.1.8.2}%
 \contentsline {subsection}{\numberline {1.8.3}Gauge-invariant origin of the correlations}{11}{subsection.1.8.3}%
